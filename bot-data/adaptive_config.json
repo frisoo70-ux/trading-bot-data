@@ -1,11 +1,45 @@
 {
   "enabled": true,
-  "mode_multipliers": {},
-  "pattern_multipliers": {},
-  "token_multipliers": {},
-  "mode_stats": {},
-  "pattern_stats": {},
-  "token_stats": {},
+  "mode_multipliers": {
+    "MODE_E_EARLY_MOMENTUM": 1.0
+  },
+  "pattern_multipliers": {
+    "nan": 1.0
+  },
+  "token_multipliers": {
+    "SOL": 1.0
+  },
+  "mode_stats": {
+    "MODE_E_EARLY_MOMENTUM": {
+      "trades": 1,
+      "wins": 0,
+      "winrate": 0.0,
+      "pnl": -0.07,
+      "avg": -0.07,
+      "multiplier": 1.0
+    }
+  },
+  "pattern_stats": {
+    "nan": {
+      "trades": 1,
+      "wins": 0,
+      "winrate": 0.0,
+      "pnl": -0.07,
+      "avg": -0.07,
+      "multiplier": 1.0,
+      "label": "nan"
+    }
+  },
+  "token_stats": {
+    "SOL": {
+      "trades": 1,
+      "wins": 0,
+      "winrate": 0.0,
+      "pnl": -0.07,
+      "avg": -0.07,
+      "multiplier": 1.0
+    }
+  },
   "smart_exit": {
     "enabled": true,
     "auto_apply": true,
@@ -23,24 +57,25 @@
     "threshold_bonus": 0,
     "health_bonus": 0,
     "tighten_bonus": 0,
-    "last_updated": "2026-07-13 06:43:15",
+    "last_updated": "2026-07-13 07:04:01",
     "neutre": 0
   },
   "auto_learning": {
     "enabled": true,
     "auto_apply": true,
-    "sample_size": 0,
-    "recommendation": "PAS_ASSEZ_DE_DONNEES",
+    "sample_size": 1,
+    "recommendation": "MODE_DEFENSIF",
     "mode_multipliers": {},
     "pattern_multipliers": {},
     "token_multipliers": {},
     "blocked_modes": [],
     "blocked_patterns": [],
     "blocked_tokens": [],
-    "notes": [
-      "Aucun trade disponible."
-    ],
-    "last_updated": "2026-07-13 06:43:15"
+    "notes": [],
+    "last_updated": "2026-07-13 07:04:01",
+    "window": 80,
+    "pnl_total": -0.07,
+    "winrate": 0.0
   },
-  "last_updated": null
+  "last_updated": "2026-07-13 07:04:01"
 }
