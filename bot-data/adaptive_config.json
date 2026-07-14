@@ -2,6 +2,7 @@
   "enabled": true,
   "mode_multipliers": {
     "MODE_A_CLASSIQUE": 1.0,
+    "MODE_B_PATTERN": 1.0,
     "MODE_D_EMA_PULLBACK": 0.952,
     "MODE_E_EARLY_MOMENTUM": 1.0
   },
@@ -9,6 +10,7 @@
     "bullish_engulfing": 0.888,
     "morning_star": 1.0,
     "nan": 1.033,
+    "three_white_soldiers": 1.0,
     "tweezer_bottom": 1.0
   },
   "token_multipliers": {
@@ -23,6 +25,14 @@
       "winrate": 100.0,
       "pnl": 0.3,
       "avg": 0.3,
+      "multiplier": 1.0
+    },
+    "MODE_B_PATTERN": {
+      "trades": 1,
+      "wins": 0,
+      "winrate": 0.0,
+      "pnl": -0.25,
+      "avg": -0.25,
       "multiplier": 1.0
     },
     "MODE_D_EMA_PULLBACK": {
@@ -70,6 +80,15 @@
       "multiplier": 1.033,
       "label": "nan"
     },
+    "three_white_soldiers": {
+      "trades": 1,
+      "wins": 0,
+      "winrate": 0.0,
+      "pnl": -0.25,
+      "avg": -0.25,
+      "multiplier": 1.0,
+      "label": "Three White Soldiers"
+    },
     "tweezer_bottom": {
       "trades": 1,
       "wins": 0,
@@ -98,11 +117,11 @@
       "multiplier": 1.0
     },
     "kSHIB": {
-      "trades": 1,
+      "trades": 2,
       "wins": 0,
       "winrate": 0.0,
-      "pnl": -0.2,
-      "avg": -0.2,
+      "pnl": -0.45,
+      "avg": -0.225,
       "multiplier": 1.0
     }
   },
@@ -123,13 +142,13 @@
     "threshold_bonus": 0.0,
     "health_bonus": 0,
     "tighten_bonus": 0.0,
-    "last_updated": "2026-07-14 18:12:00",
+    "last_updated": "2026-07-14 18:40:04",
     "neutre": 0
   },
   "auto_learning": {
     "enabled": true,
     "auto_apply": true,
-    "sample_size": 8,
+    "sample_size": 9,
     "recommendation": "MODE_DEFENSIF",
     "mode_multipliers": {},
     "pattern_multipliers": {},
@@ -146,10 +165,10 @@
     "blocked_patterns": [],
     "blocked_tokens": [],
     "notes": [],
-    "last_updated": "2026-07-14 18:12:00",
+    "last_updated": "2026-07-14 18:40:04",
     "window": 80,
-    "pnl_total": -0.16,
-    "winrate": 25.0
+    "pnl_total": -0.41,
+    "winrate": 22.2
   },
-  "last_updated": "2026-07-14 18:12:00"
+  "last_updated": "2026-07-14 18:40:04"
 }
