@@ -1,21 +1,30 @@
 {
   "enabled": true,
   "mode_multipliers": {
+    "MODE_A_CLASSIQUE": 1.0,
     "MODE_D_EMA_PULLBACK": 0.952,
     "MODE_E_EARLY_MOMENTUM": 1.0
   },
   "pattern_multipliers": {
     "bullish_engulfing": 0.888,
     "morning_star": 1.0,
-    "nan": 0.962,
+    "nan": 1.033,
     "tweezer_bottom": 1.0
   },
   "token_multipliers": {
-    "SOL": 0.943,
+    "SOL": 1.008,
     "XRP": 1.0,
     "kSHIB": 1.0
   },
   "mode_stats": {
+    "MODE_A_CLASSIQUE": {
+      "trades": 1,
+      "wins": 1,
+      "winrate": 100.0,
+      "pnl": 0.3,
+      "avg": 0.3,
+      "multiplier": 1.0
+    },
     "MODE_D_EMA_PULLBACK": {
       "trades": 4,
       "wins": 1,
@@ -53,12 +62,12 @@
       "label": "Morning Star"
     },
     "nan": {
-      "trades": 4,
-      "wins": 1,
-      "winrate": 25.0,
-      "pnl": -0.15,
-      "avg": -0.0375,
-      "multiplier": 0.962,
+      "trades": 5,
+      "wins": 2,
+      "winrate": 40.0,
+      "pnl": 0.15,
+      "avg": 0.03,
+      "multiplier": 1.033,
       "label": "nan"
     },
     "tweezer_bottom": {
@@ -73,12 +82,12 @@
   },
   "token_stats": {
     "SOL": {
-      "trades": 5,
-      "wins": 1,
-      "winrate": 20.0,
-      "pnl": -0.26,
-      "avg": -0.052,
-      "multiplier": 0.943
+      "trades": 6,
+      "wins": 2,
+      "winrate": 33.33,
+      "pnl": 0.04,
+      "avg": 0.0067,
+      "multiplier": 1.008
     },
     "XRP": {
       "trades": 1,
@@ -114,25 +123,33 @@
     "threshold_bonus": 0.0,
     "health_bonus": 0,
     "tighten_bonus": 0.0,
-    "last_updated": "2026-07-14 13:24:45",
+    "last_updated": "2026-07-14 13:52:16",
     "neutre": 0
   },
   "auto_learning": {
     "enabled": true,
     "auto_apply": true,
-    "sample_size": 7,
+    "sample_size": 8,
     "recommendation": "MODE_DEFENSIF",
     "mode_multipliers": {},
     "pattern_multipliers": {},
-    "token_multipliers": {},
+    "token_multipliers": {
+      "SOL": {
+        "trades": 6,
+        "winrate": 33.3,
+        "avg_pnl": 0.0067,
+        "total_pnl": 0.04,
+        "multiplier": 1.0
+      }
+    },
     "blocked_modes": [],
     "blocked_patterns": [],
     "blocked_tokens": [],
     "notes": [],
-    "last_updated": "2026-07-14 13:24:45",
+    "last_updated": "2026-07-14 13:52:16",
     "window": 80,
-    "pnl_total": -0.46,
-    "winrate": 14.3
+    "pnl_total": -0.16,
+    "winrate": 25.0
   },
-  "last_updated": "2026-07-14 13:24:45"
+  "last_updated": "2026-07-14 13:52:16"
 }
