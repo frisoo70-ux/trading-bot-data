@@ -1,21 +1,5 @@
 [
   {
-    "id": "kSHIB_1784120760061",
-    "date": "2026-07-15 13:06:00",
-    "symbol": "kSHIB",
-    "mode": "MODE_B_PATTERN",
-    "exit_reason": "TRAILING_STOP",
-    "entry": 0.004254,
-    "exit": 0.004327,
-    "real_pnl_usdc": 0.3,
-    "pnl_at_exit_pct": 1.716,
-    "exit_time_ms": 1784120760061,
-    "horizons": {},
-    "max_price": 0.004327,
-    "min_price": 0.004327,
-    "status": "PENDING"
-  },
-  {
     "id": "XRP_1784123150533",
     "date": "2026-07-15 13:45:50",
     "symbol": "XRP",
@@ -26,10 +10,16 @@
     "real_pnl_usdc": 0.05,
     "pnl_at_exit_pct": 0.1514,
     "exit_time_ms": 1784123150533,
-    "horizons": {},
+    "horizons": {
+      "15m": -0.2667,
+      "30m": -0.1689,
+      "1h": -0.0978,
+      "2h": -0.5779
+    },
     "max_price": 1.1248,
     "min_price": 1.1248,
-    "status": "PENDING"
+    "status": "PENDING_HISTORY",
+    "missing_reason": "horizon 4h pas encore disponible"
   },
   {
     "id": "XRP_1784126353631",
