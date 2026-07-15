@@ -3,18 +3,21 @@
   "mode_multipliers": {
     "MODE_A_CLASSIQUE": 1.0,
     "MODE_B_PATTERN": 1.0,
-    "MODE_D_EMA_PULLBACK": 0.952,
-    "MODE_E_EARLY_MOMENTUM": 1.0
+    "MODE_D_EMA_PULLBACK": 0.958,
+    "MODE_E_EARLY_MOMENTUM": 1.0,
+    "MODE_F_CANDLE_REVERSAL": 1.0
   },
   "pattern_multipliers": {
     "bullish_engulfing": 0.888,
+    "bullish_harami": 1.0,
+    "inside_bar_breakout": 1.0,
     "morning_star": 1.0,
     "nan": 1.033,
-    "three_white_soldiers": 0.953,
+    "three_white_soldiers": 1.006,
     "tweezer_bottom": 1.0
   },
   "token_multipliers": {
-    "SOL": 1.008,
+    "SOL": 1.028,
     "XRP": 1.0,
     "kSHIB": 1.0
   },
@@ -36,12 +39,12 @@
       "multiplier": 1.0
     },
     "MODE_D_EMA_PULLBACK": {
-      "trades": 4,
+      "trades": 5,
       "wins": 1,
-      "winrate": 25.0,
+      "winrate": 20.0,
       "pnl": -0.19,
-      "avg": -0.0475,
-      "multiplier": 0.952
+      "avg": -0.038,
+      "multiplier": 0.958
     },
     "MODE_E_EARLY_MOMENTUM": {
       "trades": 2,
@@ -49,6 +52,14 @@
       "winrate": 0.0,
       "pnl": -0.27,
       "avg": -0.135,
+      "multiplier": 1.0
+    },
+    "MODE_F_CANDLE_REVERSAL": {
+      "trades": 1,
+      "wins": 1,
+      "winrate": 100.0,
+      "pnl": 0.13,
+      "avg": 0.13,
       "multiplier": 1.0
     }
   },
@@ -61,6 +72,24 @@
       "avg": -0.13,
       "multiplier": 0.888,
       "label": "Englobante haussière"
+    },
+    "bullish_harami": {
+      "trades": 1,
+      "wins": 0,
+      "winrate": 0.0,
+      "pnl": 0.0,
+      "avg": 0.0,
+      "multiplier": 1.0,
+      "label": "Bullish Harami"
+    },
+    "inside_bar_breakout": {
+      "trades": 1,
+      "wins": 1,
+      "winrate": 100.0,
+      "pnl": 0.13,
+      "avg": 0.13,
+      "multiplier": 1.0,
+      "label": "Inside Bar Breakout"
     },
     "morning_star": {
       "trades": 1,
@@ -81,12 +110,12 @@
       "label": "nan"
     },
     "three_white_soldiers": {
-      "trades": 2,
-      "wins": 1,
-      "winrate": 50.0,
-      "pnl": -0.11,
-      "avg": -0.055,
-      "multiplier": 0.953,
+      "trades": 3,
+      "wins": 2,
+      "winrate": 66.67,
+      "pnl": 0.02,
+      "avg": 0.0067,
+      "multiplier": 1.006,
       "label": "Three White Soldiers"
     },
     "tweezer_bottom": {
@@ -101,12 +130,12 @@
   },
   "token_stats": {
     "SOL": {
-      "trades": 6,
-      "wins": 2,
-      "winrate": 33.33,
-      "pnl": 0.04,
-      "avg": 0.0067,
-      "multiplier": 1.008
+      "trades": 8,
+      "wins": 3,
+      "winrate": 37.5,
+      "pnl": 0.17,
+      "avg": 0.0212,
+      "multiplier": 1.028
     },
     "XRP": {
       "trades": 2,
@@ -130,34 +159,34 @@
     "auto_apply": true,
     "level": 0,
     "recommendation": "NEUTRE",
-    "sample_size": 6,
+    "sample_size": 7,
     "sortie_trop_tot": 2,
     "sortie_acceptable": 0,
-    "bonne_sortie": 4,
+    "bonne_sortie": 5,
     "tres_bonne_sortie": 0,
     "excellente_sortie": 0,
     "score_moyen": 0,
-    "too_early_ratio": 33.3,
-    "good_ratio": 66.7,
+    "too_early_ratio": 28.6,
+    "good_ratio": 71.4,
     "threshold_bonus": 0.0,
     "health_bonus": 0,
     "tighten_bonus": 0.0,
-    "last_updated": "2026-07-14 22:09:37",
+    "last_updated": "2026-07-15 03:49:03",
     "neutre": 0
   },
   "auto_learning": {
     "enabled": true,
     "auto_apply": true,
-    "sample_size": 10,
+    "sample_size": 12,
     "recommendation": "MODE_DEFENSIF",
     "mode_multipliers": {},
     "pattern_multipliers": {},
     "token_multipliers": {
       "SOL": {
-        "trades": 6,
-        "winrate": 33.3,
-        "avg_pnl": 0.0067,
-        "total_pnl": 0.04,
+        "trades": 8,
+        "winrate": 37.5,
+        "avg_pnl": 0.0212,
+        "total_pnl": 0.17,
         "multiplier": 1.0
       }
     },
@@ -165,10 +194,10 @@
     "blocked_patterns": [],
     "blocked_tokens": [],
     "notes": [],
-    "last_updated": "2026-07-14 22:09:37",
+    "last_updated": "2026-07-15 03:49:03",
     "window": 80,
-    "pnl_total": -0.27,
-    "winrate": 30.0
+    "pnl_total": -0.14,
+    "winrate": 33.3
   },
-  "last_updated": "2026-07-14 22:09:37"
+  "last_updated": "2026-07-15 03:49:03"
 }
