@@ -3,7 +3,7 @@
   "mode_multipliers": {
     "MODE_A_CLASSIQUE": 1.0,
     "MODE_B_PATTERN": 1.0,
-    "MODE_D_EMA_PULLBACK": 0.995,
+    "MODE_D_EMA_PULLBACK": 0.998,
     "MODE_E_EARLY_MOMENTUM": 1.0,
     "MODE_F_CANDLE_REVERSAL": 1.0
   },
@@ -18,7 +18,7 @@
   },
   "token_multipliers": {
     "SOL": 1.033,
-    "XRP": 1.0,
+    "XRP": 1.05,
     "kSHIB": 0.928
   },
   "mode_stats": {
@@ -39,12 +39,12 @@
       "multiplier": 1.0
     },
     "MODE_D_EMA_PULLBACK": {
-      "trades": 7,
-      "wins": 2,
-      "winrate": 28.57,
-      "pnl": -0.03,
-      "avg": -0.0043,
-      "multiplier": 0.995
+      "trades": 8,
+      "wins": 3,
+      "winrate": 37.5,
+      "pnl": -0.01,
+      "avg": -0.0013,
+      "multiplier": 0.998
     },
     "MODE_E_EARLY_MOMENTUM": {
       "trades": 2,
@@ -110,11 +110,11 @@
       "label": "nan"
     },
     "three_white_soldiers": {
-      "trades": 4,
-      "wins": 3,
-      "winrate": 75.0,
-      "pnl": 0.13,
-      "avg": 0.0325,
+      "trades": 5,
+      "wins": 4,
+      "winrate": 80.0,
+      "pnl": 0.15,
+      "avg": 0.03,
       "multiplier": 1.033,
       "label": "Three White Soldiers"
     },
@@ -138,12 +138,12 @@
       "multiplier": 1.033
     },
     "XRP": {
-      "trades": 2,
-      "wins": 1,
-      "winrate": 50.0,
-      "pnl": 0.14,
-      "avg": 0.07,
-      "multiplier": 1.0
+      "trades": 3,
+      "wins": 2,
+      "winrate": 66.67,
+      "pnl": 0.16,
+      "avg": 0.0533,
+      "multiplier": 1.05
     },
     "kSHIB": {
       "trades": 3,
@@ -171,15 +171,23 @@
     "threshold_bonus": 0.0,
     "health_bonus": 0,
     "tighten_bonus": 0.0,
-    "last_updated": "2026-07-15 09:30:03",
+    "last_updated": "2026-07-15 09:58:18",
     "neutre": 0
   },
   "auto_learning": {
     "enabled": true,
     "auto_apply": true,
-    "sample_size": 15,
+    "sample_size": 16,
     "recommendation": "NEUTRE",
-    "mode_multipliers": {},
+    "mode_multipliers": {
+      "MODE_D_EMA_PULLBACK": {
+        "trades": 8,
+        "winrate": 37.5,
+        "avg_pnl": -0.0013,
+        "total_pnl": -0.01,
+        "multiplier": 0.7
+      }
+    },
     "pattern_multipliers": {},
     "token_multipliers": {
       "SOL": {
@@ -194,10 +202,10 @@
     "blocked_patterns": [],
     "blocked_tokens": [],
     "notes": [],
-    "last_updated": "2026-07-15 09:30:03",
+    "last_updated": "2026-07-15 09:58:18",
     "window": 80,
-    "pnl_total": 0.13,
-    "winrate": 40.0
+    "pnl_total": 0.15,
+    "winrate": 43.8
   },
-  "last_updated": "2026-07-15 09:30:03"
+  "last_updated": "2026-07-15 09:58:18"
 }
