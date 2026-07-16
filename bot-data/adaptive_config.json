@@ -3,12 +3,12 @@
   "mode_multipliers": {
     "MODE_A_CLASSIQUE": 1.04,
     "MODE_B_PATTERN": 1.05,
-    "MODE_D_EMA_PULLBACK": 0.94,
+    "MODE_D_EMA_PULLBACK": 0.936,
     "MODE_E_EARLY_MOMENTUM": 0.909,
     "MODE_F_CANDLE_REVERSAL": 1.0
   },
   "pattern_multipliers": {
-    "bullish_engulfing": 0.888,
+    "bullish_engulfing": 0.892,
     "bullish_harami": 1.047,
     "inside_bar_breakout": 1.022,
     "morning_star": 0.915,
@@ -18,7 +18,7 @@
   },
   "token_multipliers": {
     "SOL": 1.011,
-    "XRP": 0.947,
+    "XRP": 0.942,
     "kSHIB": 0.998
   },
   "mode_stats": {
@@ -39,12 +39,12 @@
       "multiplier": 1.05
     },
     "MODE_D_EMA_PULLBACK": {
-      "trades": 15,
+      "trades": 16,
       "wins": 3,
-      "winrate": 20.0,
-      "pnl": -0.47,
-      "avg": -0.0313,
-      "multiplier": 0.94
+      "winrate": 18.75,
+      "pnl": -0.52,
+      "avg": -0.0325,
+      "multiplier": 0.936
     },
     "MODE_E_EARLY_MOMENTUM": {
       "trades": 3,
@@ -65,12 +65,12 @@
   },
   "pattern_stats": {
     "bullish_engulfing": {
-      "trades": 4,
+      "trades": 5,
       "wins": 0,
       "winrate": 0.0,
-      "pnl": -0.44,
-      "avg": -0.11,
-      "multiplier": 0.888,
+      "pnl": -0.49,
+      "avg": -0.098,
+      "multiplier": 0.892,
       "label": "Englobante haussière"
     },
     "bullish_harami": {
@@ -138,12 +138,12 @@
       "multiplier": 1.011
     },
     "XRP": {
-      "trades": 12,
+      "trades": 13,
       "wins": 3,
-      "winrate": 25.0,
-      "pnl": -0.38,
-      "avg": -0.0317,
-      "multiplier": 0.947
+      "winrate": 23.08,
+      "pnl": -0.43,
+      "avg": -0.0331,
+      "multiplier": 0.942
     },
     "kSHIB": {
       "trades": 5,
@@ -159,36 +159,43 @@
     "auto_apply": true,
     "level": 0,
     "recommendation": "SMART_EXIT_CORRECT",
-    "sample_size": 20,
+    "sample_size": 21,
     "sortie_trop_tot": 5,
     "sortie_acceptable": 0,
-    "bonne_sortie": 15,
+    "bonne_sortie": 16,
     "tres_bonne_sortie": 0,
     "excellente_sortie": 0,
     "score_moyen": 0,
-    "too_early_ratio": 25.0,
-    "good_ratio": 75.0,
+    "too_early_ratio": 23.8,
+    "good_ratio": 76.2,
     "threshold_bonus": 0.0,
     "health_bonus": 0,
     "tighten_bonus": 0.0,
-    "last_updated": "2026-07-16 11:22:00",
+    "last_updated": "2026-07-16 12:18:45",
     "neutre": 0
   },
   "auto_learning": {
     "enabled": true,
     "auto_apply": true,
-    "sample_size": 29,
-    "recommendation": "MODE_DEFENSIF",
+    "sample_size": 30,
+    "recommendation": "FILTRAGE_RECOMMANDE",
     "mode_multipliers": {
       "MODE_D_EMA_PULLBACK": {
-        "trades": 15,
-        "winrate": 20.0,
-        "avg_pnl": -0.0313,
-        "total_pnl": -0.47,
+        "trades": 16,
+        "winrate": 18.8,
+        "avg_pnl": -0.0325,
+        "total_pnl": -0.52,
         "multiplier": 0.7
       }
     },
     "pattern_multipliers": {
+      "bullish_engulfing": {
+        "trades": 5,
+        "winrate": 0.0,
+        "avg_pnl": -0.098,
+        "total_pnl": -0.49,
+        "multiplier": 0.45
+      },
       "three_white_soldiers": {
         "trades": 6,
         "winrate": 66.7,
@@ -206,21 +213,25 @@
         "multiplier": 1.0
       },
       "XRP": {
-        "trades": 12,
-        "winrate": 25.0,
-        "avg_pnl": -0.0317,
-        "total_pnl": -0.38,
+        "trades": 13,
+        "winrate": 23.1,
+        "avg_pnl": -0.0331,
+        "total_pnl": -0.43,
         "multiplier": 0.7
       }
     },
     "blocked_modes": [],
-    "blocked_patterns": [],
+    "blocked_patterns": [
+      "bullish_engulfing"
+    ],
     "blocked_tokens": [],
-    "notes": [],
-    "last_updated": "2026-07-16 11:22:00",
+    "notes": [
+      "Patterns à bloquer: bullish_engulfing"
+    ],
+    "last_updated": "2026-07-16 12:18:45",
     "window": 80,
-    "pnl_total": -0.31,
-    "winrate": 31.0
+    "pnl_total": -0.36,
+    "winrate": 30.0
   },
-  "last_updated": "2026-07-16 11:22:00"
+  "last_updated": "2026-07-16 12:18:45"
 }
