@@ -3,8 +3,8 @@
   "mode_multipliers": {
     "MODE_A_CLASSIQUE": 1.04,
     "MODE_B_PATTERN": 1.05,
-    "MODE_D_EMA_PULLBACK": 0.886,
-    "MODE_E_EARLY_MOMENTUM": 0.909,
+    "MODE_D_EMA_PULLBACK": 0.884,
+    "MODE_E_EARLY_MOMENTUM": 0.908,
     "MODE_F_CANDLE_REVERSAL": 0.994
   },
   "pattern_multipliers": {
@@ -12,14 +12,14 @@
     "bullish_harami": 1.047,
     "inside_bar_breakout": 0.956,
     "morning_star": 0.87,
-    "nan": 1.017,
-    "three_white_soldiers": 1.002,
+    "nan": 1.01,
+    "three_white_soldiers": 0.991,
     "tweezer_bottom": 0.997
   },
   "token_multipliers": {
-    "SOL": 0.969,
+    "SOL": 0.961,
     "XRP": 0.925,
-    "kSHIB": 0.973
+    "kSHIB": 0.97
   },
   "mode_stats": {
     "MODE_A_CLASSIQUE": {
@@ -39,20 +39,20 @@
       "multiplier": 1.05
     },
     "MODE_D_EMA_PULLBACK": {
-      "trades": 21,
+      "trades": 23,
       "wins": 3,
-      "winrate": 14.29,
-      "pnl": -1.01,
-      "avg": -0.0481,
-      "multiplier": 0.886
+      "winrate": 13.04,
+      "pnl": -1.05,
+      "avg": -0.0457,
+      "multiplier": 0.884
     },
     "MODE_E_EARLY_MOMENTUM": {
-      "trades": 3,
+      "trades": 4,
       "wins": 0,
       "winrate": 0.0,
-      "pnl": -0.29,
-      "avg": -0.0967,
-      "multiplier": 0.909
+      "pnl": -0.36,
+      "avg": -0.09,
+      "multiplier": 0.908
     },
     "MODE_F_CANDLE_REVERSAL": {
       "trades": 3,
@@ -101,21 +101,21 @@
       "label": "Morning Star"
     },
     "nan": {
-      "trades": 12,
+      "trades": 14,
       "wins": 3,
-      "winrate": 25.0,
-      "pnl": 0.12,
-      "avg": 0.01,
-      "multiplier": 1.017,
+      "winrate": 21.43,
+      "pnl": 0.08,
+      "avg": 0.0057,
+      "multiplier": 1.01,
       "label": "nan"
     },
     "three_white_soldiers": {
-      "trades": 8,
+      "trades": 9,
       "wins": 5,
-      "winrate": 62.5,
-      "pnl": 0.01,
-      "avg": 0.0013,
-      "multiplier": 1.002,
+      "winrate": 55.56,
+      "pnl": -0.06,
+      "avg": -0.0067,
+      "multiplier": 0.991,
       "label": "Three White Soldiers"
     },
     "tweezer_bottom": {
@@ -130,12 +130,12 @@
   },
   "token_stats": {
     "SOL": {
-      "trades": 14,
+      "trades": 15,
       "wins": 4,
-      "winrate": 28.57,
-      "pnl": -0.24,
-      "avg": -0.0171,
-      "multiplier": 0.969
+      "winrate": 26.67,
+      "pnl": -0.31,
+      "avg": -0.0207,
+      "multiplier": 0.961
     },
     "XRP": {
       "trades": 15,
@@ -146,12 +146,12 @@
       "multiplier": 0.925
     },
     "kSHIB": {
-      "trades": 7,
+      "trades": 9,
       "wins": 2,
-      "winrate": 28.57,
-      "pnl": -0.15,
-      "avg": -0.0214,
-      "multiplier": 0.973
+      "winrate": 22.22,
+      "pnl": -0.19,
+      "avg": -0.0211,
+      "multiplier": 0.97
     }
   },
   "smart_exit": {
@@ -159,32 +159,32 @@
     "auto_apply": true,
     "level": 0,
     "recommendation": "SMART_EXIT_CORRECT",
-    "sample_size": 26,
+    "sample_size": 29,
     "sortie_trop_tot": 5,
     "sortie_acceptable": 0,
-    "bonne_sortie": 18,
+    "bonne_sortie": 21,
     "tres_bonne_sortie": 0,
     "excellente_sortie": 0,
     "score_moyen": 0,
-    "too_early_ratio": 19.2,
-    "good_ratio": 69.2,
+    "too_early_ratio": 17.2,
+    "good_ratio": 72.4,
     "threshold_bonus": 0.0,
     "health_bonus": 0,
     "tighten_bonus": 0.0,
-    "last_updated": "2026-07-16 22:32:58",
+    "last_updated": "2026-07-17 03:49:06",
     "neutre": 3
   },
   "auto_learning": {
     "enabled": true,
     "auto_apply": true,
-    "sample_size": 36,
+    "sample_size": 39,
     "recommendation": "FILTRAGE_RECOMMANDE",
     "mode_multipliers": {
       "MODE_D_EMA_PULLBACK": {
-        "trades": 21,
-        "winrate": 14.3,
-        "avg_pnl": -0.0481,
-        "total_pnl": -1.01,
+        "trades": 23,
+        "winrate": 13.0,
+        "avg_pnl": -0.0457,
+        "total_pnl": -1.05,
         "multiplier": 0.7
       }
     },
@@ -197,19 +197,19 @@
         "multiplier": 0.45
       },
       "three_white_soldiers": {
-        "trades": 7,
-        "winrate": 57.1,
-        "avg_pnl": -0.0171,
-        "total_pnl": -0.12,
+        "trades": 8,
+        "winrate": 50.0,
+        "avg_pnl": -0.0238,
+        "total_pnl": -0.19,
         "multiplier": 1.0
       }
     },
     "token_multipliers": {
       "SOL": {
-        "trades": 14,
-        "winrate": 28.6,
-        "avg_pnl": -0.0171,
-        "total_pnl": -0.24,
+        "trades": 15,
+        "winrate": 26.7,
+        "avg_pnl": -0.0207,
+        "total_pnl": -0.31,
         "multiplier": 0.7
       },
       "XRP": {
@@ -220,10 +220,10 @@
         "multiplier": 0.7
       },
       "kSHIB": {
-        "trades": 7,
-        "winrate": 28.6,
-        "avg_pnl": -0.0214,
-        "total_pnl": -0.15,
+        "trades": 9,
+        "winrate": 22.2,
+        "avg_pnl": -0.0211,
+        "total_pnl": -0.19,
         "multiplier": 0.7
       }
     },
@@ -235,10 +235,10 @@
     "notes": [
       "Patterns à bloquer: bullish_engulfing"
     ],
-    "last_updated": "2026-07-16 22:32:58",
+    "last_updated": "2026-07-17 03:49:06",
     "window": 80,
-    "pnl_total": -0.98,
-    "winrate": 25.0
+    "pnl_total": -1.09,
+    "winrate": 23.1
   },
-  "last_updated": "2026-07-16 22:32:58"
+  "last_updated": "2026-07-17 03:49:06"
 }
