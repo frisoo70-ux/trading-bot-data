@@ -1,37 +1,5 @@
 [
   {
-    "id": "SOL_1784350806685",
-    "date": "2026-07-18 05:00:06",
-    "symbol": "SOL",
-    "mode": "MODE_B_PATTERN",
-    "exit_reason": "EMA20_2_CLOSES",
-    "entry": 75.342,
-    "exit": 75.064,
-    "real_pnl_usdc": -0.13,
-    "pnl_at_exit_pct": -0.369,
-    "exit_time_ms": 1784350806685,
-    "horizons": {},
-    "max_price": 75.064,
-    "min_price": 75.064,
-    "status": "PENDING"
-  },
-  {
-    "id": "XRP_1784358933143",
-    "date": "2026-07-18 07:15:33",
-    "symbol": "XRP",
-    "mode": "MODE_D_EMA_PULLBACK",
-    "exit_reason": "SMART_EXIT_UNIFIED_CRITICAL",
-    "entry": 1.0887,
-    "exit": 1.0879,
-    "real_pnl_usdc": -0.05,
-    "pnl_at_exit_pct": -0.0735,
-    "exit_time_ms": 1784358933143,
-    "horizons": {},
-    "max_price": 1.0879,
-    "min_price": 1.0879,
-    "status": "PENDING"
-  },
-  {
     "id": "XRP_1784366176046",
     "date": "2026-07-18 09:16:16",
     "symbol": "XRP",
@@ -42,10 +10,16 @@
     "real_pnl_usdc": -0.08,
     "pnl_at_exit_pct": -0.2294,
     "exit_time_ms": 1784366176046,
-    "horizons": {},
+    "horizons": {
+      "15m": -0.1471,
+      "30m": -0.0736,
+      "1h": -0.0552,
+      "2h": -0.0184
+    },
     "max_price": 1.0874,
     "min_price": 1.0874,
-    "status": "PENDING"
+    "status": "PENDING_HISTORY",
+    "missing_reason": "horizon 4h pas encore disponible"
   },
   {
     "id": "XRP_1784377806447",
