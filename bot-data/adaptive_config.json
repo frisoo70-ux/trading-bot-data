@@ -180,103 +180,135 @@
     "threshold_bonus": 0.0,
     "health_bonus": 0,
     "tighten_bonus": 0.0,
-    "last_updated": "2026-11-16 16:16:32",
+    "last_updated": "2026-11-16 16:17:58",
     "neutre": 10
   },
   "auto_learning": {
     "enabled": true,
     "auto_apply": true,
     "sample_size": 80,
-    "recommendation": "MODE_DEFENSIF",
+    "recommendation": "FILTRAGE_RECOMMANDE",
     "mode_multipliers": {
       "MODE_A_CLASSIQUE": {
-        "trades": 23,
-        "winrate": 34.8,
-        "avg_pnl": -0.1848,
-        "total_pnl": -4.25,
-        "multiplier": 0.7
+        "trades": 19,
+        "winrate": 47.4,
+        "avg_pnl": -0.0789,
+        "total_pnl": -1.5,
+        "multiplier": 0.8
       },
       "MODE_B_PATTERN": {
-        "trades": 18,
+        "trades": 14,
+        "winrate": 42.9,
+        "avg_pnl": -0.0464,
+        "total_pnl": -0.65,
+        "multiplier": 1.0
+      },
+      "MODE_D_EMA_PULLBACK": {
+        "trades": 8,
         "winrate": 50.0,
-        "avg_pnl": 0.05,
-        "total_pnl": 0.9,
+        "avg_pnl": 0.095,
+        "total_pnl": 0.76,
         "multiplier": 1.1
       },
       "MODE_E_EARLY_MOMENTUM": {
-        "trades": 20,
-        "winrate": 30.0,
-        "avg_pnl": 0.041,
-        "total_pnl": 0.82,
-        "multiplier": 1.0
+        "trades": 23,
+        "winrate": 13.0,
+        "avg_pnl": -0.0461,
+        "total_pnl": -1.06,
+        "multiplier": 0.7
       },
       "MODE_F_CANDLE_REVERSAL": {
-        "trades": 8,
-        "winrate": 12.5,
-        "avg_pnl": -0.0562,
-        "total_pnl": -0.45,
+        "trades": 12,
+        "winrate": 33.3,
+        "avg_pnl": -0.0467,
+        "total_pnl": -0.56,
         "multiplier": 0.7
       }
     },
     "pattern_multipliers": {
       "bullish_engulfing": {
-        "trades": 12,
-        "winrate": 33.3,
-        "avg_pnl": 0.0633,
-        "total_pnl": 0.76,
-        "multiplier": 1.0
+        "trades": 9,
+        "winrate": 11.1,
+        "avg_pnl": -0.1333,
+        "total_pnl": -1.2,
+        "multiplier": 0.45
       },
       "inside_bar_breakout": {
-        "trades": 14,
-        "winrate": 35.7,
-        "avg_pnl": 0.0107,
-        "total_pnl": 0.15,
-        "multiplier": 1.0
+        "trades": 11,
+        "winrate": 9.1,
+        "avg_pnl": -0.1091,
+        "total_pnl": -1.2,
+        "multiplier": 0.45
+      },
+      "morning_star": {
+        "trades": 10,
+        "winrate": 60.0,
+        "avg_pnl": 0.002,
+        "total_pnl": 0.02,
+        "multiplier": 1.1
       },
       "three_white_soldiers": {
-        "trades": 17,
-        "winrate": 41.2,
-        "avg_pnl": -0.1853,
-        "total_pnl": -3.15,
-        "multiplier": 0.8
+        "trades": 21,
+        "winrate": 42.9,
+        "avg_pnl": -0.021,
+        "total_pnl": -0.44,
+        "multiplier": 1.0
       }
     },
     "token_multipliers": {
       "SOL": {
-        "trades": 29,
-        "winrate": 31.0,
-        "avg_pnl": 0.0045,
-        "total_pnl": 0.13,
+        "trades": 25,
+        "winrate": 40.0,
+        "avg_pnl": 0.014,
+        "total_pnl": 0.35,
         "multiplier": 1.0
       },
       "XRP": {
-        "trades": 31,
-        "winrate": 45.2,
-        "avg_pnl": 0.0171,
-        "total_pnl": 0.53,
-        "multiplier": 1.0
+        "trades": 25,
+        "winrate": 28.0,
+        "avg_pnl": -0.0648,
+        "total_pnl": -1.62,
+        "multiplier": 0.7
       },
       "kSHIB": {
-        "trades": 20,
-        "winrate": 35.0,
-        "avg_pnl": -0.124,
-        "total_pnl": -2.48,
+        "trades": 30,
+        "winrate": 36.7,
+        "avg_pnl": -0.0613,
+        "total_pnl": -1.84,
         "multiplier": 0.7
       }
     },
     "blocked_modes": [],
-    "blocked_patterns": [],
+    "blocked_patterns": [
+      "bullish_engulfing",
+      "inside_bar_breakout"
+    ],
     "blocked_tokens": [],
     "notes": [
-      "Smart Exit trop rapide: 51.2% sorties trop tôt."
+      "Patterns en quarantaine temporaire: bullish_engulfing, inside_bar_breakout"
     ],
-    "last_updated": "2026-08-27 13:34:11",
+    "last_updated": "2026-11-16 16:17:48",
     "window": 80,
-    "pnl_total": -1.82,
-    "winrate": 37.5,
+    "pnl_total": -3.11,
+    "winrate": 35.0,
     "temporary_blocks": {
       "modes": {},
-      "patterns": {},
+      "patterns": {
+        "bullish_engulfing": {
+          "status": "blocked",
+          "blocked_at": "2026-11-16T16:17:34",
+          "blocked_until": "2026-11-17T04:17:34",
+          "last_seen_trades": 9,
+          "reason": "performance_insuffisante"
+        },
+        "inside_bar_breakout": {
+          "status": "blocked",
+          "blocked_at": "2026-11-16T16:17:34",
+          "blocked_until": "2026-11-17T04:17:34",
+          "last_seen_trades": 11,
+          "reason": "performance_insuffisante"
+        }
+      },
       "tokens": {}
     },
     "retesting_modes": [],
@@ -285,5 +317,5 @@
     "block_duration_hours": 12,
     "retest_trade_count": 3
   },
-  "last_updated": "2026-11-16 16:16:32"
+  "last_updated": "2026-11-16 16:17:58"
 }
