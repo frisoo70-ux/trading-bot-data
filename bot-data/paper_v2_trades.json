@@ -1,42 +1,8 @@
 {
   "engine_version": "2.1-paper",
   "initial_balance": 1000.0,
-  "realized_pnl": -9.378806788446148,
+  "realized_pnl": -10.912978995653814,
   "positions": [
-    {
-      "position_id": "V2-XRP-LIQUIDITY_SWEEP_RECLAIM-1795108500000",
-      "symbol": "XRP",
-      "strategy_id": "LIQUIDITY_SWEEP_RECLAIM",
-      "strategy_version": "2.0-shadow",
-      "side": "LONG",
-      "entry_time": "2026-11-19 19:30:07",
-      "entry_candle_time": 1795108500000,
-      "last_processed_candle_time": 1795118400000,
-      "entry_price": 0.97313,
-      "entry_reference_price": 0.97388,
-      "last_price": 0.96139,
-      "qty": 102.76119326297616,
-      "remaining_qty": 102.76119326297616,
-      "notional": 100.0,
-      "margin": 100.0,
-      "leverage": 1.0,
-      "entry_fee": 0.045,
-      "entry_fee_rate": 0.00045,
-      "entry_fee_source": "HYPERLIQUID_USER_FEES_TAKER",
-      "entry_slippage_rate": 0.0007701154146300127,
-      "entry_slippage_source": "L2_ORDERBOOK_VWAP",
-      "entry_book_status": "OK",
-      "stop": 0.9589468214,
-      "target": 0.99731,
-      "setup_score": 74.25,
-      "risk_reward_gross": 1.569,
-      "regime": "TREND_DOWN",
-      "reason_codes": [
-        "PRIOR_30_LOW_SWEPT",
-        "CLOSE_RECLAIMED_PRIOR_LOW",
-        "CLOSED_CANDLE"
-      ]
-    },
     {
       "position_id": "V2-kSHIB-LIQUIDITY_SWEEP_RECLAIM-1795108500000",
       "symbol": "kSHIB",
@@ -45,10 +11,10 @@
       "side": "LONG",
       "entry_time": "2026-11-19 19:31:18",
       "entry_candle_time": 1795108500000,
-      "last_processed_candle_time": 1795118400000,
+      "last_processed_candle_time": 1795119300000,
       "entry_price": 0.003826,
       "entry_reference_price": 0.003827,
-      "last_price": 0.003802,
+      "last_price": 0.00379,
       "qty": 26136.957658128595,
       "remaining_qty": 26136.957658128595,
       "notional": 100.0,
@@ -428,14 +394,49 @@
         "CLOSE_RECLAIMED_PRIOR_LOW",
         "CLOSED_CANDLE"
       ]
+    },
+    {
+      "date": "2026-11-19 22:30:28",
+      "symbol": "XRP",
+      "strategy_id": "LIQUIDITY_SWEEP_RECLAIM",
+      "side": "LONG",
+      "entry": 0.97313,
+      "exit": 0.95907,
+      "qty": 102.76119326297616,
+      "notional": 100.0,
+      "leverage": 1.0,
+      "stop": 0.9589468214,
+      "target": 0.99731,
+      "exit_reason": "V2_PAPER_STOP",
+      "entry_candle_time": 1795108500000,
+      "exit_candle_time": 1795119300000,
+      "gross_pnl": -1.44482238,
+      "fees": 0.08934983,
+      "entry_fee_rate": 0.00045,
+      "exit_fee_rate": 0.00045,
+      "entry_slippage_rate": 0.0007701154146300127,
+      "exit_slippage_rate": 0.0001284519613091728,
+      "fee_source": "HYPERLIQUID_USER_FEES_TAKER",
+      "exit_slippage_source": "L2_ORDERBOOK_VWAP",
+      "exit_book_status": "OK",
+      "net_pnl": -1.53417221,
+      "pnl_pct": -1.53417,
+      "setup_score": 74.25,
+      "risk_reward_gross": 1.569,
+      "regime": "TREND_DOWN",
+      "reason_codes": [
+        "PRIOR_30_LOW_SWEPT",
+        "CLOSE_RECLAIMED_PRIOR_LOW",
+        "CLOSED_CANDLE"
+      ]
     }
   ],
   "last_evaluated_candle_by_symbol": {
-    "SOL": "1795118400000",
+    "SOL": "1795119300000",
     "XRP": "1795108500000",
     "kSHIB": "1795108500000",
-    "HYPE": "1795118400000",
-    "ZEC": "1795118400000"
+    "HYPE": "1795119300000",
+    "ZEC": "1795119300000"
   },
-  "updated_at": "2026-11-19 22:29:23"
+  "updated_at": "2026-11-19 22:30:32"
 }
