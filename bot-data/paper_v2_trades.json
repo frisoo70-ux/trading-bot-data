@@ -1,7 +1,7 @@
 {
   "engine_version": "2.1-paper",
   "initial_balance": 1000.0,
-  "realized_pnl": -15.924448252524561,
+  "realized_pnl": -16.296743043577674,
   "positions": [
     {
       "position_id": "V2-XRP-LIQUIDITY_SWEEP_RECLAIM-1795123800000",
@@ -11,10 +11,10 @@
       "side": "LONG",
       "entry_time": "2026-11-19 23:45:24",
       "entry_candle_time": 1795123800000,
-      "last_processed_candle_time": 1795123800000,
+      "last_processed_candle_time": 1795124700000,
       "entry_price": 0.95697,
       "entry_reference_price": 0.95553,
-      "last_price": 0.95329,
+      "last_price": 0.95271,
       "qty": 104.49648369332373,
       "remaining_qty": 104.49648369332373,
       "notional": 100.0,
@@ -38,40 +38,6 @@
       ]
     },
     {
-      "position_id": "V2-HYPE-LIQUIDITY_SWEEP_RECLAIM-1795123800000",
-      "symbol": "HYPE",
-      "strategy_id": "LIQUIDITY_SWEEP_RECLAIM",
-      "strategy_version": "2.0-shadow",
-      "side": "LONG",
-      "entry_time": "2026-11-19 23:46:36",
-      "entry_candle_time": 1795123800000,
-      "last_processed_candle_time": 1795123800000,
-      "entry_price": 66.213,
-      "entry_reference_price": 66.454,
-      "last_price": 65.988,
-      "qty": 1.5102774379653543,
-      "remaining_qty": 1.5102774379653543,
-      "notional": 100.0,
-      "margin": 100.0,
-      "leverage": 1.0,
-      "entry_fee": 0.045,
-      "entry_fee_rate": 0.00045,
-      "entry_fee_source": "HYPERLIQUID_USER_FEES_TAKER",
-      "entry_slippage_rate": 0.0036265687543263203,
-      "entry_slippage_source": "L2_ORDERBOOK_VWAP",
-      "entry_book_status": "OK",
-      "stop": 65.92695,
-      "target": 70.161,
-      "setup_score": 59.27,
-      "risk_reward_gross": 7.033,
-      "regime": "TREND_DOWN",
-      "reason_codes": [
-        "PRIOR_30_LOW_SWEPT",
-        "CLOSE_RECLAIMED_PRIOR_LOW",
-        "CLOSED_CANDLE"
-      ]
-    },
-    {
       "position_id": "V2-ZEC-LIQUIDITY_SWEEP_RECLAIM-1795123800000",
       "symbol": "ZEC",
       "strategy_id": "LIQUIDITY_SWEEP_RECLAIM",
@@ -79,10 +45,10 @@
       "side": "LONG",
       "entry_time": "2026-11-19 23:46:37",
       "entry_candle_time": 1795123800000,
-      "last_processed_candle_time": 1795123800000,
+      "last_processed_candle_time": 1795124700000,
       "entry_price": 884.38,
       "entry_reference_price": 886.39,
-      "last_price": 879.85,
+      "last_price": 880.85,
       "qty": 0.1130735656618196,
       "remaining_qty": 0.1130735656618196,
       "notional": 100.0,
@@ -707,14 +673,49 @@
         "CLOSE_RECLAIMED_PRIOR_LOW",
         "CLOSED_CANDLE"
       ]
+    },
+    {
+      "date": "2026-11-20 00:00:42",
+      "symbol": "HYPE",
+      "strategy_id": "LIQUIDITY_SWEEP_RECLAIM",
+      "side": "LONG",
+      "entry": 66.213,
+      "exit": 66.026,
+      "qty": 1.5102774379653543,
+      "notional": 100.0,
+      "leverage": 1.0,
+      "stop": 65.92695,
+      "target": 70.161,
+      "exit_reason": "V2_PAPER_STOP",
+      "entry_candle_time": 1795123800000,
+      "exit_candle_time": 1795124700000,
+      "gross_pnl": -0.28242188,
+      "fees": 0.08987291,
+      "entry_fee_rate": 0.00045,
+      "exit_fee_rate": 0.00045,
+      "entry_slippage_rate": 0.0036265687543263203,
+      "exit_slippage_rate": 0.0015024204820637266,
+      "fee_source": "HYPERLIQUID_USER_FEES_TAKER",
+      "exit_slippage_source": "L2_ORDERBOOK_VWAP",
+      "exit_book_status": "OK",
+      "net_pnl": -0.37229479,
+      "pnl_pct": -0.37229,
+      "setup_score": 59.27,
+      "risk_reward_gross": 7.033,
+      "regime": "TREND_DOWN",
+      "reason_codes": [
+        "PRIOR_30_LOW_SWEPT",
+        "CLOSE_RECLAIMED_PRIOR_LOW",
+        "CLOSED_CANDLE"
+      ]
     }
   ],
   "last_evaluated_candle_by_symbol": {
-    "SOL": "1795123800000",
+    "SOL": "1795124700000",
     "XRP": "1795123800000",
-    "kSHIB": "1795123800000",
+    "kSHIB": "1795124700000",
     "HYPE": "1795123800000",
     "ZEC": "1795123800000"
   },
-  "updated_at": "2026-11-19 23:59:33"
+  "updated_at": "2026-11-20 00:00:43"
 }
