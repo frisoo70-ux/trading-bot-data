@@ -1,7 +1,7 @@
 {
   "engine_version": "2.1-paper",
   "initial_balance": 1000.0,
-  "realized_pnl": -4.593115553694767,
+  "realized_pnl": -4.423559594203725,
   "positions": [
     {
       "position_id": "V2-SOL-LIQUIDITY_SWEEP_RECLAIM-1795071600000",
@@ -14,7 +14,7 @@
       "last_processed_candle_time": 1795086300000,
       "entry_price": 74.933,
       "entry_reference_price": 74.918,
-      "last_price": 74.429,
+      "last_price": 74.442,
       "qty": 1.3345255094551132,
       "remaining_qty": 1.3345255094551132,
       "notional": 100.0,
@@ -48,7 +48,7 @@
       "last_processed_candle_time": 1795086300000,
       "entry_price": 68.628,
       "entry_reference_price": 68.585,
-      "last_price": 68.303,
+      "last_price": 68.325,
       "qty": 1.4571312000932564,
       "remaining_qty": 1.4571312000932564,
       "notional": 100.0,
@@ -82,7 +82,7 @@
       "last_processed_candle_time": 1795086300000,
       "entry_price": 0.98638,
       "entry_reference_price": 0.98603,
-      "last_price": 0.9815,
+      "last_price": 0.98149,
       "qty": 101.38080658569719,
       "remaining_qty": 101.38080658569719,
       "notional": 100.0,
@@ -106,42 +106,6 @@
       ]
     },
     {
-      "position_id": "V2-kSHIB-EMA_PULLBACK-1795083300000",
-      "symbol": "kSHIB",
-      "strategy_id": "EMA_PULLBACK",
-      "strategy_version": "2.0-shadow",
-      "side": "LONG",
-      "entry_time": "2026-11-19 12:21:21",
-      "entry_candle_time": 1795083300000,
-      "last_processed_candle_time": 1795086000000,
-      "entry_price": 0.003851,
-      "entry_reference_price": 0.003851,
-      "last_price": 0.003862,
-      "qty": 25967.281225655675,
-      "remaining_qty": 25967.281225655675,
-      "notional": 100.0,
-      "margin": 100.0,
-      "leverage": 1.0,
-      "entry_fee": 0.045,
-      "entry_fee_rate": 0.00045,
-      "entry_fee_source": "HYPERLIQUID_USER_FEES_TAKER",
-      "entry_slippage_rate": 0.0,
-      "entry_slippage_source": "L2_ORDERBOOK_VWAP",
-      "entry_book_status": "OK",
-      "stop": 0.0038459857,
-      "target": 0.003859,
-      "setup_score": 75.93,
-      "risk_reward_gross": 1.595,
-      "regime": "TREND_UP",
-      "reason_codes": [
-        "HTF_TREND_UP",
-        "EMA20_PULLBACK_TOUCHED",
-        "CLOSE_RECLAIM_EMA20",
-        "OBV_CONFIRMATION",
-        "CLOSED_CANDLE"
-      ]
-    },
-    {
       "position_id": "V2-ZEC-LIQUIDITY_SWEEP_RECLAIM-1795085400000",
       "symbol": "ZEC",
       "strategy_id": "LIQUIDITY_SWEEP_RECLAIM",
@@ -152,7 +116,7 @@
       "last_processed_candle_time": 1795086300000,
       "entry_price": 953.12,
       "entry_reference_price": 953.22,
-      "last_price": 947.53,
+      "last_price": 948.5,
       "qty": 0.10491858317945274,
       "remaining_qty": 0.10491858317945274,
       "notional": 100.0,
@@ -853,6 +817,43 @@
         "CLOSE_RECLAIMED_PRIOR_HIGH",
         "CLOSED_CANDLE"
       ]
+    },
+    {
+      "date": "2026-11-19 13:11:58",
+      "symbol": "kSHIB",
+      "strategy_id": "EMA_PULLBACK",
+      "side": "LONG",
+      "entry": 0.003851,
+      "exit": 0.003861,
+      "qty": 25967.281225655675,
+      "notional": 100.0,
+      "leverage": 1.0,
+      "stop": 0.0038459857,
+      "target": 0.003859,
+      "exit_reason": "V2_PAPER_TARGET",
+      "entry_candle_time": 1795083300000,
+      "exit_candle_time": 1795086300000,
+      "gross_pnl": 0.25967281,
+      "fees": 0.09011685,
+      "entry_fee_rate": 0.00045,
+      "exit_fee_rate": 0.00045,
+      "entry_slippage_rate": 0.0,
+      "exit_slippage_rate": 0.0005182689816014552,
+      "fee_source": "HYPERLIQUID_USER_FEES_TAKER",
+      "exit_slippage_source": "L2_ORDERBOOK_VWAP",
+      "exit_book_status": "OK",
+      "net_pnl": 0.16955596,
+      "pnl_pct": 0.16956,
+      "setup_score": 75.93,
+      "risk_reward_gross": 1.595,
+      "regime": "TREND_UP",
+      "reason_codes": [
+        "HTF_TREND_UP",
+        "EMA20_PULLBACK_TOUCHED",
+        "CLOSE_RECLAIM_EMA20",
+        "OBV_CONFIRMATION",
+        "CLOSED_CANDLE"
+      ]
     }
   ],
   "last_evaluated_candle_by_symbol": {
@@ -862,5 +863,5 @@
     "HYPE": "1795081200000",
     "ZEC": "1795085400000"
   },
-  "updated_at": "2026-11-19 13:10:52"
+  "updated_at": "2026-11-19 13:11:58"
 }
