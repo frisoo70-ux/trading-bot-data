@@ -1,7 +1,7 @@
 {
   "engine_version": "2.1-paper",
   "initial_balance": 1000.0,
-  "realized_pnl": -6.3976104742000555,
+  "realized_pnl": -6.359364387466665,
   "positions": [
     {
       "position_id": "V2-SOL-LIQUIDITY_SWEEP_RECLAIM-1795071600000",
@@ -11,10 +11,10 @@
       "side": "SHORT",
       "entry_time": "2026-11-19 09:15:06",
       "entry_candle_time": 1795071600000,
-      "last_processed_candle_time": 1795092000000,
+      "last_processed_candle_time": 1795092300000,
       "entry_price": 74.933,
       "entry_reference_price": 74.918,
-      "last_price": 74.76,
+      "last_price": 74.797,
       "qty": 1.3345255094551132,
       "remaining_qty": 1.3345255094551132,
       "notional": 100.0,
@@ -45,10 +45,10 @@
       "side": "LONG",
       "entry_time": "2026-11-19 14:30:06",
       "entry_candle_time": 1795091100000,
-      "last_processed_candle_time": 1795092000000,
+      "last_processed_candle_time": 1795092300000,
       "entry_price": 0.98111,
       "entry_reference_price": 0.98156,
-      "last_price": 0.98629,
+      "last_price": 0.98626,
       "qty": 101.92537024390742,
       "remaining_qty": 101.92537024390742,
       "notional": 100.0,
@@ -68,42 +68,6 @@
       "reason_codes": [
         "PRIOR_30_LOW_SWEPT",
         "CLOSE_RECLAIMED_PRIOR_LOW",
-        "CLOSED_CANDLE"
-      ]
-    },
-    {
-      "position_id": "V2-kSHIB-TREND_BREAKOUT_RETEST-1795091400000",
-      "symbol": "kSHIB",
-      "strategy_id": "TREND_BREAKOUT_RETEST",
-      "strategy_version": "2.0-shadow",
-      "side": "LONG",
-      "entry_time": "2026-11-19 14:36:45",
-      "entry_candle_time": 1795091400000,
-      "last_processed_candle_time": 1795092000000,
-      "entry_price": 0.003897,
-      "entry_reference_price": 0.003892,
-      "last_price": 0.003905,
-      "qty": 25660.764690787786,
-      "remaining_qty": 25660.764690787786,
-      "notional": 100.0,
-      "margin": 100.0,
-      "leverage": 1.0,
-      "entry_fee": 0.045,
-      "entry_fee_rate": 0.00045,
-      "entry_fee_source": "HYPERLIQUID_USER_FEES_TAKER",
-      "entry_slippage_rate": 0.001284686536485058,
-      "entry_slippage_source": "L2_ORDERBOOK_VWAP",
-      "entry_book_status": "OK",
-      "stop": 0.003884,
-      "target": 0.0039101429,
-      "setup_score": 74.83,
-      "risk_reward_gross": 2.268,
-      "regime": "TREND_UP",
-      "reason_codes": [
-        "HTF_TREND_UP",
-        "CLOSE_ABOVE_PRIOR_20_HIGH",
-        "RETEST_RECLAIM",
-        "OBV_CONFIRMATION",
         "CLOSED_CANDLE"
       ]
     }
@@ -1108,14 +1072,51 @@
         "OBV_CONFIRMATION",
         "CLOSED_CANDLE"
       ]
+    },
+    {
+      "date": "2026-11-19 14:50:48",
+      "symbol": "kSHIB",
+      "strategy_id": "TREND_BREAKOUT_RETEST",
+      "side": "LONG",
+      "entry": 0.003897,
+      "exit": 0.003902,
+      "qty": 25660.764690787786,
+      "notional": 100.0,
+      "leverage": 1.0,
+      "stop": 0.003884,
+      "target": 0.0039101429,
+      "exit_reason": "V2_PAPER_TARGET",
+      "entry_candle_time": 1795091400000,
+      "exit_candle_time": 1795092300000,
+      "gross_pnl": 0.12830382,
+      "fees": 0.09005774,
+      "entry_fee_rate": 0.00045,
+      "exit_fee_rate": 0.00045,
+      "entry_slippage_rate": 0.001284686536485058,
+      "exit_slippage_rate": 0.0020825070101657683,
+      "fee_source": "HYPERLIQUID_USER_FEES_TAKER",
+      "exit_slippage_source": "L2_ORDERBOOK_VWAP",
+      "exit_book_status": "OK",
+      "net_pnl": 0.03824609,
+      "pnl_pct": 0.03825,
+      "setup_score": 74.83,
+      "risk_reward_gross": 2.268,
+      "regime": "TREND_UP",
+      "reason_codes": [
+        "HTF_TREND_UP",
+        "CLOSE_ABOVE_PRIOR_20_HIGH",
+        "RETEST_RECLAIM",
+        "OBV_CONFIRMATION",
+        "CLOSED_CANDLE"
+      ]
     }
   ],
   "last_evaluated_candle_by_symbol": {
     "SOL": "1795071600000",
     "XRP": "1795091100000",
     "kSHIB": "1795091400000",
-    "HYPE": "1795092000000",
-    "ZEC": "1795092000000"
+    "HYPE": "1795092300000",
+    "ZEC": "1795092300000"
   },
-  "updated_at": "2026-11-19 14:49:41"
+  "updated_at": "2026-11-19 14:50:51"
 }
