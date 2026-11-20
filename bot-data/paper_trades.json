@@ -1,7 +1,207 @@
 {
   "initial_balance": 1000.0,
   "realized_pnl": -9.485480607669338,
-  "position": null,
+  "position": {
+    "symbol": "ZEC",
+    "mode": "MODE_C_CAPITULATION",
+    "side": "LONG",
+    "score": 8.0204,
+    "entry_time": "2026-11-20 18:01:13",
+    "entry_price": 775.2,
+    "market_entry_price": 775.76,
+    "qty": 0.12899896800825592,
+    "remaining_qty": 0.12899896800825592,
+    "notional": 100.0,
+    "margin": 100.0,
+    "leverage": 1.0,
+    "entry_fee": 0.04499999999999999,
+    "entry_fee_rate": 0.00045,
+    "fees_paid": 0.04499999999999999,
+    "fee_source": "HYPERLIQUID_USER_FEES_TAKER",
+    "entry_slippage_rate": 0.0007218727441475892,
+    "entry_slippage_source": "L2_ORDERBOOK_VWAP",
+    "entry_book_status": "OK",
+    "realized_partial_pnl": 0.0,
+    "realized_partial_gross": 0.0,
+    "entry_atr": 12.387857142857131,
+    "stop": 740.5140000000001,
+    "tp1": 786.3490714285715,
+    "target": null,
+    "mode_l_rr": null,
+    "entry_diagnostics": {
+      "trend_score": 0,
+      "trend_ok": false,
+      "trend_missing": "ema20_above_ema50,close_above_ema20,ema20_rising,ema50_rising,higher_low,obv_above_ma5",
+      "rsi_ok": false,
+      "vwap_ok": false,
+      "obv_rising": false,
+      "breakout_ok": false,
+      "green_candle": true,
+      "pattern_score": 0,
+      "mode_a_ok": false,
+      "mode_b_ok": false,
+      "mode_c_ok": true,
+      "mode_d_ok": false,
+      "mode_e_ok": false,
+      "mode_e_intrabar": false,
+      "mode_e_intrabar_move_pct": null,
+      "mode_e_volume_ratio": 2.37,
+      "mode_e_body_ratio": 0.04,
+      "mode_e_intrabar_distance_ema20_pct": null,
+      "mode_c_drop_pct": 7.62,
+      "mode_c_volume_ok": true,
+      "mode_c_wick_ok": true,
+      "adaptive_multiplier": 1.0,
+      "score_before_adaptive": 8.020354033327568,
+      "auto_learning_multiplier": 1.0,
+      "auto_learning_reasons": "applied_once_in_symbol_scan",
+      "mode_l": {
+        "valid": false,
+        "side": null,
+        "pools_high": [],
+        "pools_low": [
+          800.46
+        ],
+        "reason": "aucun sweep confirmé"
+      },
+      "candle": {
+        "close": 774.67,
+        "open": 773.89,
+        "high": 779.53,
+        "low": 761.25,
+        "volume": 18201.41,
+        "ema20": 808.5679381058986,
+        "ema50": 831.6961444042339,
+        "rsi": 28.630288413224775,
+        "atr": 12.387857142857131,
+        "vwap": 882.9725644146303,
+        "obv": -132331.30000000002,
+        "obv_ma5": -121269.82200000001
+      },
+      "market_regime": {
+        "status": "OK",
+        "trend_alignment": "BEARISH",
+        "ema20_slope_3_candles_pct": -1.2833114333327122,
+        "ema20_ema50_spread_pct": -2.985555952642451,
+        "atr_pct_of_price": 1.5991140928210892,
+        "price_vs_vwap_pct": -12.265677188557934
+      },
+      "signal_mode": "MODE_C_CAPITULATION",
+      "final_score": 8.0204,
+      "btc_context": {
+        "15m": {
+          "status": "OK",
+          "candle_time": 1795190400000,
+          "close": 59205.0,
+          "ema20": 60988.33183925604,
+          "ema50": 61487.027597440654,
+          "rsi": 21.722488038277504,
+          "atr": 459.5,
+          "vwap": 61937.67482664991,
+          "obv": -33735.411239999994,
+          "trend": "BEARISH"
+        },
+        "1h": {
+          "status": "OK",
+          "candle_time": 1795190400000,
+          "close": 59205.0,
+          "ema20": 61541.737589485594,
+          "ema50": 62405.085148472775,
+          "rsi": 22.598566308243733,
+          "atr": 696.0714285714286,
+          "vwap": 63384.793137773675,
+          "obv": -81956.58915,
+          "trend": "BEARISH"
+        },
+        "4h": {
+          "status": "OK",
+          "candle_time": 1795190400000,
+          "close": 59205.0,
+          "ema20": 62608.329494849684,
+          "ema50": 65352.16432829912,
+          "rsi": 17.7918062355063,
+          "atr": 1114.857142857143,
+          "vwap": 69584.70085280536,
+          "obv": -259916.84576000005,
+          "trend": "BEARISH"
+        }
+      },
+      "market_microstructure": {
+        "timestamp": "2026-11-20 18:01:12",
+        "status": "PARTIAL",
+        "derivatives_data_age_seconds": 5.56,
+        "derivatives": {
+          "funding": "0.0000125",
+          "openInterest": "332510.4999999997",
+          "dayNtlVlm": "318834466.3104002476",
+          "prevDayPx": "922.69",
+          "markPx": "775.83",
+          "oraclePx": "775.92",
+          "midPx": "775.49",
+          "premium": "-0.00032774"
+        },
+        "derivatives_status": "OK",
+        "order_book_data_age_seconds": 2.53,
+        "order_book": {
+          "status": "OK",
+          "best_bid": 775.31,
+          "best_ask": 775.32,
+          "spread_pct": 0.0012897983400430265,
+          "bid_depth_top5_qty": 18.32,
+          "ask_depth_top5_qty": 11.74,
+          "bid_depth_top5_usd": 14201.938,
+          "ask_depth_top5_usd": 9102.880000000001,
+          "imbalance_top5": 0.21889554224883565
+        }
+      },
+      "entry_candle_time": 1795189500000
+    },
+    "market_microstructure_captured_at_ms": 1795190473279,
+    "market_microstructure_history": [
+      {
+        "timestamp_ms": 1795190473279,
+        "snapshot": {
+          "timestamp": "2026-11-20 18:01:12",
+          "status": "PARTIAL",
+          "derivatives_data_age_seconds": 5.56,
+          "derivatives": {
+            "funding": "0.0000125",
+            "openInterest": "332510.4999999997",
+            "dayNtlVlm": "318834466.3104002476",
+            "prevDayPx": "922.69",
+            "markPx": "775.83",
+            "oraclePx": "775.92",
+            "midPx": "775.49",
+            "premium": "-0.00032774"
+          },
+          "derivatives_status": "OK",
+          "order_book_data_age_seconds": 2.53,
+          "order_book": {
+            "status": "OK",
+            "best_bid": 775.31,
+            "best_ask": 775.32,
+            "spread_pct": 0.0012897983400430265,
+            "bid_depth_top5_qty": 18.32,
+            "ask_depth_top5_qty": 11.74,
+            "bid_depth_top5_usd": 14201.938,
+            "ask_depth_top5_usd": 9102.880000000001,
+            "imbalance_top5": 0.21889554224883565
+          }
+        }
+      }
+    ],
+    "entry_candle_time": 1795189500000,
+    "favorable_extreme_price": 775.2,
+    "adverse_extreme_price": 775.2,
+    "mfe_pct": 0.0,
+    "mae_pct": 0.0,
+    "mfe_usd": 0.0,
+    "mae_usd": 0.0,
+    "last_market_snapshot": null,
+    "tp1_done": false,
+    "highest_price": 775.2,
+    "last_price": 775.76
+  },
   "trades": [
     {
       "date": "2026-11-19 17:30:22",
@@ -7093,8 +7293,610 @@
       "pnl_pct": 0.4409
     }
   ],
-  "updated_at": "2026-11-20 17:46:07",
-  "positions": [],
+  "updated_at": "2026-11-20 18:01:14",
+  "positions": [
+    {
+      "symbol": "ZEC",
+      "mode": "MODE_C_CAPITULATION",
+      "side": "LONG",
+      "score": 8.0204,
+      "entry_time": "2026-11-20 18:01:13",
+      "entry_price": 775.2,
+      "market_entry_price": 775.76,
+      "qty": 0.12899896800825592,
+      "remaining_qty": 0.12899896800825592,
+      "notional": 100.0,
+      "margin": 100.0,
+      "leverage": 1.0,
+      "entry_fee": 0.04499999999999999,
+      "entry_fee_rate": 0.00045,
+      "fees_paid": 0.04499999999999999,
+      "fee_source": "HYPERLIQUID_USER_FEES_TAKER",
+      "entry_slippage_rate": 0.0007218727441475892,
+      "entry_slippage_source": "L2_ORDERBOOK_VWAP",
+      "entry_book_status": "OK",
+      "realized_partial_pnl": 0.0,
+      "realized_partial_gross": 0.0,
+      "entry_atr": 12.387857142857131,
+      "stop": 740.5140000000001,
+      "tp1": 786.3490714285715,
+      "target": null,
+      "mode_l_rr": null,
+      "entry_diagnostics": {
+        "trend_score": 0,
+        "trend_ok": false,
+        "trend_missing": "ema20_above_ema50,close_above_ema20,ema20_rising,ema50_rising,higher_low,obv_above_ma5",
+        "rsi_ok": false,
+        "vwap_ok": false,
+        "obv_rising": false,
+        "breakout_ok": false,
+        "green_candle": true,
+        "pattern_score": 0,
+        "mode_a_ok": false,
+        "mode_b_ok": false,
+        "mode_c_ok": true,
+        "mode_d_ok": false,
+        "mode_e_ok": false,
+        "mode_e_intrabar": false,
+        "mode_e_intrabar_move_pct": null,
+        "mode_e_volume_ratio": 2.37,
+        "mode_e_body_ratio": 0.04,
+        "mode_e_intrabar_distance_ema20_pct": null,
+        "mode_c_drop_pct": 7.62,
+        "mode_c_volume_ok": true,
+        "mode_c_wick_ok": true,
+        "adaptive_multiplier": 1.0,
+        "score_before_adaptive": 8.020354033327568,
+        "auto_learning_multiplier": 1.0,
+        "auto_learning_reasons": "applied_once_in_symbol_scan",
+        "mode_l": {
+          "valid": false,
+          "side": null,
+          "pools_high": [],
+          "pools_low": [
+            800.46
+          ],
+          "reason": "aucun sweep confirmé"
+        },
+        "candle": {
+          "close": 774.67,
+          "open": 773.89,
+          "high": 779.53,
+          "low": 761.25,
+          "volume": 18201.41,
+          "ema20": 808.5679381058986,
+          "ema50": 831.6961444042339,
+          "rsi": 28.630288413224775,
+          "atr": 12.387857142857131,
+          "vwap": 882.9725644146303,
+          "obv": -132331.30000000002,
+          "obv_ma5": -121269.82200000001
+        },
+        "market_regime": {
+          "status": "OK",
+          "trend_alignment": "BEARISH",
+          "ema20_slope_3_candles_pct": -1.2833114333327122,
+          "ema20_ema50_spread_pct": -2.985555952642451,
+          "atr_pct_of_price": 1.5991140928210892,
+          "price_vs_vwap_pct": -12.265677188557934
+        },
+        "signal_mode": "MODE_C_CAPITULATION",
+        "final_score": 8.0204,
+        "btc_context": {
+          "15m": {
+            "status": "OK",
+            "candle_time": 1795190400000,
+            "close": 59205.0,
+            "ema20": 60988.33183925604,
+            "ema50": 61487.027597440654,
+            "rsi": 21.722488038277504,
+            "atr": 459.5,
+            "vwap": 61937.67482664991,
+            "obv": -33735.411239999994,
+            "trend": "BEARISH"
+          },
+          "1h": {
+            "status": "OK",
+            "candle_time": 1795190400000,
+            "close": 59205.0,
+            "ema20": 61541.737589485594,
+            "ema50": 62405.085148472775,
+            "rsi": 22.598566308243733,
+            "atr": 696.0714285714286,
+            "vwap": 63384.793137773675,
+            "obv": -81956.58915,
+            "trend": "BEARISH"
+          },
+          "4h": {
+            "status": "OK",
+            "candle_time": 1795190400000,
+            "close": 59205.0,
+            "ema20": 62608.329494849684,
+            "ema50": 65352.16432829912,
+            "rsi": 17.7918062355063,
+            "atr": 1114.857142857143,
+            "vwap": 69584.70085280536,
+            "obv": -259916.84576000005,
+            "trend": "BEARISH"
+          }
+        },
+        "market_microstructure": {
+          "timestamp": "2026-11-20 18:01:12",
+          "status": "PARTIAL",
+          "derivatives_data_age_seconds": 5.56,
+          "derivatives": {
+            "funding": "0.0000125",
+            "openInterest": "332510.4999999997",
+            "dayNtlVlm": "318834466.3104002476",
+            "prevDayPx": "922.69",
+            "markPx": "775.83",
+            "oraclePx": "775.92",
+            "midPx": "775.49",
+            "premium": "-0.00032774"
+          },
+          "derivatives_status": "OK",
+          "order_book_data_age_seconds": 2.53,
+          "order_book": {
+            "status": "OK",
+            "best_bid": 775.31,
+            "best_ask": 775.32,
+            "spread_pct": 0.0012897983400430265,
+            "bid_depth_top5_qty": 18.32,
+            "ask_depth_top5_qty": 11.74,
+            "bid_depth_top5_usd": 14201.938,
+            "ask_depth_top5_usd": 9102.880000000001,
+            "imbalance_top5": 0.21889554224883565
+          }
+        },
+        "entry_candle_time": 1795189500000
+      },
+      "market_microstructure_captured_at_ms": 1795190473279,
+      "market_microstructure_history": [
+        {
+          "timestamp_ms": 1795190473279,
+          "snapshot": {
+            "timestamp": "2026-11-20 18:01:12",
+            "status": "PARTIAL",
+            "derivatives_data_age_seconds": 5.56,
+            "derivatives": {
+              "funding": "0.0000125",
+              "openInterest": "332510.4999999997",
+              "dayNtlVlm": "318834466.3104002476",
+              "prevDayPx": "922.69",
+              "markPx": "775.83",
+              "oraclePx": "775.92",
+              "midPx": "775.49",
+              "premium": "-0.00032774"
+            },
+            "derivatives_status": "OK",
+            "order_book_data_age_seconds": 2.53,
+            "order_book": {
+              "status": "OK",
+              "best_bid": 775.31,
+              "best_ask": 775.32,
+              "spread_pct": 0.0012897983400430265,
+              "bid_depth_top5_qty": 18.32,
+              "ask_depth_top5_qty": 11.74,
+              "bid_depth_top5_usd": 14201.938,
+              "ask_depth_top5_usd": 9102.880000000001,
+              "imbalance_top5": 0.21889554224883565
+            }
+          }
+        }
+      ],
+      "entry_candle_time": 1795189500000,
+      "favorable_extreme_price": 775.2,
+      "adverse_extreme_price": 775.2,
+      "mfe_pct": 0.0,
+      "mae_pct": 0.0,
+      "mfe_usd": 0.0,
+      "mae_usd": 0.0,
+      "last_market_snapshot": null,
+      "tp1_done": false,
+      "highest_price": 775.2,
+      "last_price": 775.76
+    },
+    {
+      "symbol": "SOL",
+      "mode": "MODE_C_CAPITULATION",
+      "side": "LONG",
+      "score": 7.0587,
+      "entry_time": "2026-11-20 18:01:14",
+      "entry_price": 68.185,
+      "market_entry_price": 68.316,
+      "qty": 1.4665982254161471,
+      "remaining_qty": 1.4665982254161471,
+      "notional": 100.0,
+      "margin": 100.0,
+      "leverage": 1.0,
+      "entry_fee": 0.045,
+      "entry_fee_rate": 0.00045,
+      "fees_paid": 0.045,
+      "fee_source": "HYPERLIQUID_USER_FEES_TAKER",
+      "entry_slippage_rate": 0.0019175595760876352,
+      "entry_slippage_source": "L2_ORDERBOOK_VWAP",
+      "entry_book_status": "OK",
+      "realized_partial_pnl": 0.0,
+      "realized_partial_gross": 0.0,
+      "entry_atr": 0.6456428571428573,
+      "stop": 66.3772,
+      "tp1": 68.76607857142858,
+      "target": null,
+      "mode_l_rr": null,
+      "entry_diagnostics": {
+        "trend_score": 0,
+        "trend_ok": false,
+        "trend_missing": "ema20_above_ema50,close_above_ema20,ema20_rising,ema50_rising,higher_low,obv_above_ma5",
+        "rsi_ok": false,
+        "vwap_ok": false,
+        "obv_rising": false,
+        "breakout_ok": false,
+        "green_candle": true,
+        "pattern_score": 0,
+        "mode_a_ok": false,
+        "mode_b_ok": false,
+        "mode_c_ok": true,
+        "mode_d_ok": false,
+        "mode_e_ok": false,
+        "mode_e_intrabar": false,
+        "mode_e_intrabar_move_pct": null,
+        "mode_e_volume_ratio": 2.39,
+        "mode_e_body_ratio": 0.1,
+        "mode_e_intrabar_distance_ema20_pct": null,
+        "mode_c_drop_pct": 5.34,
+        "mode_c_volume_ok": true,
+        "mode_c_wick_ok": true,
+        "adaptive_multiplier": 0.969,
+        "score_before_adaptive": 7.284501238473378,
+        "auto_learning_multiplier": 1.0,
+        "auto_learning_reasons": "applied_once_in_symbol_scan",
+        "mode_l": {
+          "valid": false,
+          "side": null,
+          "pools_high": [
+            72.769
+          ],
+          "pools_low": [],
+          "reason": "aucun sweep confirmé"
+        },
+        "candle": {
+          "close": 68.337,
+          "open": 68.272,
+          "high": 68.498,
+          "low": 67.874,
+          "volume": 139066.51,
+          "ema20": 70.55816985761162,
+          "ema50": 71.5091840818867,
+          "rsi": 23.564283067802947,
+          "atr": 0.6456428571428573,
+          "vwap": 72.84308594037927,
+          "obv": -1228981.4699999997,
+          "obv_ma5": -1125569.3619999997
+        },
+        "market_regime": {
+          "status": "OK",
+          "trend_alignment": "BEARISH",
+          "ema20_slope_3_candles_pct": -0.9934842698084201,
+          "ema20_ema50_spread_pct": -1.3916534589974459,
+          "atr_pct_of_price": 0.9447925093914823,
+          "price_vs_vwap_pct": -6.186017358006235
+        },
+        "signal_mode": "MODE_C_CAPITULATION",
+        "final_score": 7.0587,
+        "btc_context": {
+          "15m": {
+            "status": "OK",
+            "candle_time": 1795190400000,
+            "close": 59205.0,
+            "ema20": 60988.33183925604,
+            "ema50": 61487.027597440654,
+            "rsi": 21.722488038277504,
+            "atr": 459.5,
+            "vwap": 61937.67482664991,
+            "obv": -33735.411239999994,
+            "trend": "BEARISH"
+          },
+          "1h": {
+            "status": "OK",
+            "candle_time": 1795190400000,
+            "close": 59205.0,
+            "ema20": 61541.737589485594,
+            "ema50": 62405.085148472775,
+            "rsi": 22.598566308243733,
+            "atr": 696.0714285714286,
+            "vwap": 63384.793137773675,
+            "obv": -81956.58915,
+            "trend": "BEARISH"
+          },
+          "4h": {
+            "status": "OK",
+            "candle_time": 1795190400000,
+            "close": 59205.0,
+            "ema20": 62608.329494849684,
+            "ema50": 65352.16432829912,
+            "rsi": 17.7918062355063,
+            "atr": 1114.857142857143,
+            "vwap": 69584.70085280536,
+            "obv": -259916.84576000005,
+            "trend": "BEARISH"
+          }
+        },
+        "market_microstructure": {
+          "timestamp": "2026-11-20 18:01:13",
+          "status": "PARTIAL",
+          "derivatives_data_age_seconds": 6.55,
+          "derivatives": {
+            "funding": "-0.0000026024",
+            "openInterest": "4143560.3999999999",
+            "dayNtlVlm": "226859477.9517099261",
+            "prevDayPx": "73.516",
+            "markPx": "68.256",
+            "oraclePx": "68.2958",
+            "midPx": "68.2305",
+            "premium": "-0.0009195295"
+          },
+          "derivatives_status": "OK",
+          "order_book_data_age_seconds": 6.19,
+          "order_book": {
+            "status": "OK",
+            "best_bid": 68.203,
+            "best_ask": 68.207,
+            "spread_pct": 0.005864672677942494,
+            "bid_depth_top5_qty": 505.73,
+            "ask_depth_top5_qty": 196.83,
+            "bid_depth_top5_usd": 34490.39013,
+            "ask_depth_top5_usd": 13426.592809999998,
+            "imbalance_top5": 0.4396777499430653
+          }
+        },
+        "entry_candle_time": 1795189500000
+      },
+      "market_microstructure_captured_at_ms": 1795190474186,
+      "market_microstructure_history": [
+        {
+          "timestamp_ms": 1795190474186,
+          "snapshot": {
+            "timestamp": "2026-11-20 18:01:13",
+            "status": "PARTIAL",
+            "derivatives_data_age_seconds": 6.55,
+            "derivatives": {
+              "funding": "-0.0000026024",
+              "openInterest": "4143560.3999999999",
+              "dayNtlVlm": "226859477.9517099261",
+              "prevDayPx": "73.516",
+              "markPx": "68.256",
+              "oraclePx": "68.2958",
+              "midPx": "68.2305",
+              "premium": "-0.0009195295"
+            },
+            "derivatives_status": "OK",
+            "order_book_data_age_seconds": 6.19,
+            "order_book": {
+              "status": "OK",
+              "best_bid": 68.203,
+              "best_ask": 68.207,
+              "spread_pct": 0.005864672677942494,
+              "bid_depth_top5_qty": 505.73,
+              "ask_depth_top5_qty": 196.83,
+              "bid_depth_top5_usd": 34490.39013,
+              "ask_depth_top5_usd": 13426.592809999998,
+              "imbalance_top5": 0.4396777499430653
+            }
+          }
+        }
+      ],
+      "entry_candle_time": 1795189500000,
+      "favorable_extreme_price": 68.185,
+      "adverse_extreme_price": 68.185,
+      "mfe_pct": 0.0,
+      "mae_pct": 0.0,
+      "mfe_usd": 0.0,
+      "mae_usd": 0.0,
+      "last_market_snapshot": null,
+      "tp1_done": false,
+      "highest_price": 68.185,
+      "last_price": 68.316
+    },
+    {
+      "symbol": "HYPE",
+      "mode": "MODE_C_CAPITULATION",
+      "side": "LONG",
+      "score": 6.707,
+      "entry_time": "2026-11-20 18:01:14",
+      "entry_price": 61.466,
+      "market_entry_price": 61.58,
+      "qty": 1.6269156932287767,
+      "remaining_qty": 1.6269156932287767,
+      "notional": 100.0,
+      "margin": 100.0,
+      "leverage": 1.0,
+      "entry_fee": 0.045,
+      "entry_fee_rate": 0.00045,
+      "fees_paid": 0.045,
+      "fee_source": "HYPERLIQUID_USER_FEES_TAKER",
+      "entry_slippage_rate": 0.0018512504059757795,
+      "entry_slippage_source": "L2_ORDERBOOK_VWAP",
+      "entry_book_status": "OK",
+      "realized_partial_pnl": 0.0,
+      "realized_partial_gross": 0.0,
+      "entry_atr": 0.7740714285714289,
+      "stop": 59.29860000000001,
+      "tp1": 62.16266428571429,
+      "target": null,
+      "mode_l_rr": null,
+      "entry_diagnostics": {
+        "trend_score": 0,
+        "trend_ok": false,
+        "trend_missing": "ema20_above_ema50,close_above_ema20,ema20_rising,ema50_rising,higher_low,obv_above_ma5",
+        "rsi_ok": false,
+        "vwap_ok": false,
+        "obv_rising": false,
+        "breakout_ok": false,
+        "green_candle": true,
+        "pattern_score": 0,
+        "mode_a_ok": false,
+        "mode_b_ok": false,
+        "mode_c_ok": true,
+        "mode_d_ok": false,
+        "mode_e_ok": false,
+        "mode_e_intrabar": false,
+        "mode_e_intrabar_move_pct": null,
+        "mode_e_volume_ratio": 1.78,
+        "mode_e_body_ratio": 0.54,
+        "mode_e_intrabar_distance_ema20_pct": null,
+        "mode_c_drop_pct": 4.68,
+        "mode_c_volume_ok": true,
+        "mode_c_wick_ok": false,
+        "adaptive_multiplier": 1.0,
+        "score_before_adaptive": 6.707024493938751,
+        "auto_learning_multiplier": 1.0,
+        "auto_learning_reasons": "applied_once_in_symbol_scan",
+        "mode_l": {
+          "valid": false,
+          "side": null,
+          "pools_high": [],
+          "pools_low": [],
+          "reason": "aucun sweep confirmé"
+        },
+        "candle": {
+          "close": 61.507,
+          "open": 60.971,
+          "high": 61.675,
+          "low": 60.686,
+          "volume": 296186.47,
+          "ema20": 63.00318836295329,
+          "ema50": 64.20218297674599,
+          "rsi": 35.271262052093775,
+          "atr": 0.7740714285714289,
+          "vwap": 66.35443263679164,
+          "obv": -4137161.87,
+          "obv_ma5": -3991714.054
+        },
+        "market_regime": {
+          "status": "OK",
+          "trend_alignment": "BEARISH",
+          "ema20_slope_3_candles_pct": -0.8529955796118482,
+          "ema20_ema50_spread_pct": -1.9493628591748895,
+          "atr_pct_of_price": 1.2585094844024727,
+          "price_vs_vwap_pct": -7.30536370241508
+        },
+        "signal_mode": "MODE_C_CAPITULATION",
+        "final_score": 6.707,
+        "btc_context": {
+          "15m": {
+            "status": "OK",
+            "candle_time": 1795190400000,
+            "close": 59205.0,
+            "ema20": 60988.33183925604,
+            "ema50": 61487.027597440654,
+            "rsi": 21.722488038277504,
+            "atr": 459.5,
+            "vwap": 61937.67482664991,
+            "obv": -33735.411239999994,
+            "trend": "BEARISH"
+          },
+          "1h": {
+            "status": "OK",
+            "candle_time": 1795190400000,
+            "close": 59205.0,
+            "ema20": 61541.737589485594,
+            "ema50": 62405.085148472775,
+            "rsi": 22.598566308243733,
+            "atr": 696.0714285714286,
+            "vwap": 63384.793137773675,
+            "obv": -81956.58915,
+            "trend": "BEARISH"
+          },
+          "4h": {
+            "status": "OK",
+            "candle_time": 1795190400000,
+            "close": 59205.0,
+            "ema20": 62608.329494849684,
+            "ema50": 65352.16432829912,
+            "rsi": 17.7918062355063,
+            "atr": 1114.857142857143,
+            "vwap": 69584.70085280536,
+            "obv": -259916.84576000005,
+            "trend": "BEARISH"
+          }
+        },
+        "market_microstructure": {
+          "timestamp": "2026-11-20 18:01:14",
+          "status": "PARTIAL",
+          "derivatives_data_age_seconds": 7.36,
+          "derivatives": {
+            "funding": "0.0000125",
+            "openInterest": "18610915.1600000113",
+            "dayNtlVlm": "831823049.5185297728",
+            "prevDayPx": "67.854",
+            "markPx": "61.531",
+            "oraclePx": "61.5835",
+            "midPx": "61.4915",
+            "premium": "-0.0014549352"
+          },
+          "derivatives_status": "OK",
+          "order_book_data_age_seconds": 5.01,
+          "order_book": {
+            "status": "OK",
+            "best_bid": 61.491,
+            "best_ask": 61.492,
+            "spread_pct": 0.001626241025178552,
+            "bid_depth_top5_qty": 428.15999999999997,
+            "ask_depth_top5_qty": 405.67,
+            "bid_depth_top5_usd": 26326.74712,
+            "ask_depth_top5_usd": 24949.453690000002,
+            "imbalance_top5": 0.02697192473285916
+          }
+        },
+        "entry_candle_time": 1795189500000
+      },
+      "market_microstructure_captured_at_ms": 1795190474981,
+      "market_microstructure_history": [
+        {
+          "timestamp_ms": 1795190474981,
+          "snapshot": {
+            "timestamp": "2026-11-20 18:01:14",
+            "status": "PARTIAL",
+            "derivatives_data_age_seconds": 7.36,
+            "derivatives": {
+              "funding": "0.0000125",
+              "openInterest": "18610915.1600000113",
+              "dayNtlVlm": "831823049.5185297728",
+              "prevDayPx": "67.854",
+              "markPx": "61.531",
+              "oraclePx": "61.5835",
+              "midPx": "61.4915",
+              "premium": "-0.0014549352"
+            },
+            "derivatives_status": "OK",
+            "order_book_data_age_seconds": 5.01,
+            "order_book": {
+              "status": "OK",
+              "best_bid": 61.491,
+              "best_ask": 61.492,
+              "spread_pct": 0.001626241025178552,
+              "bid_depth_top5_qty": 428.15999999999997,
+              "ask_depth_top5_qty": 405.67,
+              "bid_depth_top5_usd": 26326.74712,
+              "ask_depth_top5_usd": 24949.453690000002,
+              "imbalance_top5": 0.02697192473285916
+            }
+          }
+        }
+      ],
+      "entry_candle_time": 1795189500000,
+      "favorable_extreme_price": 61.46600000000001,
+      "adverse_extreme_price": 61.46600000000001,
+      "mfe_pct": 0.0,
+      "mae_pct": 0.0,
+      "mfe_usd": 0.0,
+      "mae_usd": 0.0,
+      "last_market_snapshot": null,
+      "tp1_done": false,
+      "highest_price": 61.46600000000001,
+      "last_price": 61.58
+    }
+  ],
   "signal_diagnostics": [
     {
       "timestamp": "2026-11-19 15:56:45",
@@ -73094,6 +73896,934 @@
           "bid_depth_top5_usd": 37755.025200000004,
           "ask_depth_top5_usd": 43837.145599999996,
           "imbalance_top5": -0.07449802964909
+        }
+      }
+    },
+    {
+      "timestamp": "2026-11-20 18:01:06",
+      "timestamp_ms": 1795190466776,
+      "symbol": "SOL",
+      "candle_time": 1795189500000,
+      "current_price": 68.316,
+      "status": "ACCEPTED_CANDIDATE",
+      "mode": "MODE_C_CAPITULATION",
+      "score": 7.0587,
+      "flags": {
+        "trend_ok": false,
+        "trend_score": 0,
+        "trend_missing": "ema20_above_ema50,close_above_ema20,ema20_rising,ema50_rising,higher_low,obv_above_ma5",
+        "rsi_ok": false,
+        "vwap_ok": false,
+        "obv_rising": false,
+        "breakout_ok": false,
+        "green_candle": true,
+        "mode_a_ok": false,
+        "mode_b_ok": false,
+        "mode_c_ok": true,
+        "mode_d_ok": false,
+        "mode_e_ok": false,
+        "mode_f_ok": false,
+        "mode_l_ok": false,
+        "pattern_score": 0,
+        "mode_e_volume_ratio": 2.39,
+        "mode_e_body_ratio": 0.1,
+        "mode_e_intrabar": false,
+        "mode_c_drop_pct": 5.34,
+        "mode_c_volume_ok": true,
+        "mode_c_wick_ok": true,
+        "adaptive_multiplier": 0.969,
+        "adaptive_info": {
+          "enabled": true,
+          "mode_mult": 1.0,
+          "token_mult": 0.969,
+          "pattern_mult": 1.0,
+          "final_mult": 0.969
+        },
+        "auto_learning_multiplier": 1.0,
+        "auto_learning_reasons": "applied_once_in_symbol_scan",
+        "mode_l": {
+          "valid": false,
+          "side": null,
+          "pools_high": [
+            72.769
+          ],
+          "pools_low": [],
+          "reason": "aucun sweep confirmé"
+        }
+      },
+      "indicators": {
+        "open": 68.272,
+        "high": 68.498,
+        "low": 67.874,
+        "close": 68.337,
+        "volume": 139066.51,
+        "ema20": 70.55816985761162,
+        "ema50": 71.5091840818867,
+        "rsi": 23.564283067802947,
+        "atr": 0.6456428571428573,
+        "vwap": 72.84308594037927,
+        "obv": -1228981.4699999997,
+        "obv_ma5": -1125569.3619999997
+      },
+      "rejection_reasons": [],
+      "strategy_v2_shadow": {
+        "engine_version": "2.0-shadow",
+        "status": "OK",
+        "symbol": "SOL",
+        "timeframe": "15m",
+        "source_candle_time": "1795189500000",
+        "regime": "TREND_DOWN",
+        "candidates": [
+          {
+            "strategy_id": "LIQUIDITY_SWEEP_RECLAIM",
+            "strategy_version": "2.0-shadow",
+            "symbol": "SOL",
+            "side": "LONG",
+            "timeframe": "15m",
+            "source_candle_time": "1795189500000",
+            "data_freshness": "CLOSED_CANDLE_ONLY",
+            "entry_reference": 68.337,
+            "invalidation_price": 67.7771535714,
+            "target_price": 72.721,
+            "setup_score": 72.83,
+            "regime": "TREND_DOWN",
+            "risk_reward_gross": 7.831,
+            "risk_valid": true,
+            "reason_codes": [
+              "PRIOR_30_LOW_SWEPT",
+              "CLOSE_RECLAIMED_PRIOR_LOW",
+              "CLOSED_CANDLE"
+            ],
+            "rejection_reasons": [],
+            "swept_level": 68.182,
+            "sweep_extreme": 67.874
+          }
+        ],
+        "ranked_candidates": [
+          {
+            "strategy_id": "LIQUIDITY_SWEEP_RECLAIM",
+            "strategy_version": "2.0-shadow",
+            "symbol": "SOL",
+            "side": "LONG",
+            "timeframe": "15m",
+            "source_candle_time": "1795189500000",
+            "data_freshness": "CLOSED_CANDLE_ONLY",
+            "entry_reference": 68.337,
+            "invalidation_price": 67.7771535714,
+            "target_price": 72.721,
+            "setup_score": 72.83,
+            "regime": "TREND_DOWN",
+            "risk_reward_gross": 7.831,
+            "risk_valid": true,
+            "reason_codes": [
+              "PRIOR_30_LOW_SWEPT",
+              "CLOSE_RECLAIMED_PRIOR_LOW",
+              "CLOSED_CANDLE"
+            ],
+            "rejection_reasons": [],
+            "swept_level": 68.182,
+            "sweep_extreme": 67.874
+          }
+        ],
+        "top_candidate": {
+          "strategy_id": "LIQUIDITY_SWEEP_RECLAIM",
+          "strategy_version": "2.0-shadow",
+          "symbol": "SOL",
+          "side": "LONG",
+          "timeframe": "15m",
+          "source_candle_time": "1795189500000",
+          "data_freshness": "CLOSED_CANDLE_ONLY",
+          "entry_reference": 68.337,
+          "invalidation_price": 67.7771535714,
+          "target_price": 72.721,
+          "setup_score": 72.83,
+          "regime": "TREND_DOWN",
+          "risk_reward_gross": 7.831,
+          "risk_valid": true,
+          "reason_codes": [
+            "PRIOR_30_LOW_SWEPT",
+            "CLOSE_RECLAIMED_PRIOR_LOW",
+            "CLOSED_CANDLE"
+          ],
+          "rejection_reasons": [],
+          "swept_level": 68.182,
+          "sweep_extreme": 67.874
+        },
+        "execution_allowed": false,
+        "notes": [
+          "SHADOW_ONLY",
+          "NO_ORDERS",
+          "GROSS_RR_ONLY_COSTS_NOT_MODELED"
+        ]
+      },
+      "mode_details": {
+        "mode_c_reversal": true,
+        "mode_c_drop_pct": 5.34,
+        "mode_e_intrabar_move_pct": null,
+        "mode_e_intrabar_distance_ema20_pct": null,
+        "mode_f_pattern": "bullish_harami,long_lower_wick_volume",
+        "mode_f_score": 4.3,
+        "mode_l": {
+          "valid": false,
+          "side": null,
+          "pools_high": [
+            72.769
+          ],
+          "pools_low": [],
+          "reason": "aucun sweep confirmé"
+        }
+      },
+      "market_microstructure": {
+        "timestamp": "2026-11-20 18:01:06",
+        "status": "PARTIAL",
+        "derivatives_data_age_seconds": 0.0,
+        "derivatives": {
+          "funding": "-0.0000026024",
+          "openInterest": "4143560.3999999999",
+          "dayNtlVlm": "226859477.9517099261",
+          "prevDayPx": "73.516",
+          "markPx": "68.256",
+          "oraclePx": "68.2958",
+          "midPx": "68.2305",
+          "premium": "-0.0009195295"
+        },
+        "derivatives_status": "OK",
+        "order_book_data_age_seconds": 0.0,
+        "order_book": {
+          "status": "OK",
+          "best_bid": 68.203,
+          "best_ask": 68.207,
+          "spread_pct": 0.005864672677942494,
+          "bid_depth_top5_qty": 505.73,
+          "ask_depth_top5_qty": 196.83,
+          "bid_depth_top5_usd": 34490.39013,
+          "ask_depth_top5_usd": 13426.592809999998,
+          "imbalance_top5": 0.4396777499430653
+        }
+      }
+    },
+    {
+      "timestamp": "2026-11-20 18:01:07",
+      "timestamp_ms": 1795190467824,
+      "symbol": "XRP",
+      "candle_time": 1795189500000,
+      "current_price": 0.91057,
+      "status": "REJECTED_BASE_SIGNAL",
+      "mode": null,
+      "score": 0.0,
+      "flags": {
+        "trend_ok": false,
+        "trend_score": 0,
+        "trend_missing": "ema20_above_ema50,close_above_ema20,ema20_rising,ema50_rising,higher_close,higher_low,obv_above_ma5",
+        "rsi_ok": false,
+        "vwap_ok": false,
+        "obv_rising": false,
+        "breakout_ok": false,
+        "green_candle": false,
+        "mode_a_ok": false,
+        "mode_b_ok": false,
+        "mode_c_ok": false,
+        "mode_d_ok": false,
+        "mode_e_ok": false,
+        "mode_f_ok": false,
+        "mode_l_ok": false,
+        "pattern_score": 0,
+        "mode_e_volume_ratio": 2.69,
+        "mode_e_body_ratio": 0.06,
+        "mode_e_intrabar": false,
+        "mode_c_drop_pct": 5.17,
+        "mode_c_volume_ok": true,
+        "mode_c_wick_ok": true,
+        "auto_learning_multiplier": 1.0,
+        "auto_learning_reasons": "applied_once_in_symbol_scan",
+        "mode_l": {
+          "valid": false,
+          "side": null,
+          "pools_high": [
+            0.96762
+          ],
+          "pools_low": [],
+          "reason": "aucun sweep confirmé"
+        }
+      },
+      "indicators": {
+        "open": 0.91002,
+        "high": 0.91061,
+        "low": 0.90342,
+        "close": 0.90956,
+        "volume": 3057459.0,
+        "ema20": 0.9377403221513448,
+        "ema50": 0.9493023729983697,
+        "rsi": 24.738219895287983,
+        "atr": 0.00874642857142859,
+        "vwap": 0.9667404227831008,
+        "obv": -29930977.0,
+        "obv_ma5": -23741307.2
+      },
+      "rejection_reasons": [
+        "BASE_SIGNAL_NOT_VALIDATED",
+        "TREND_OK_FALSE"
+      ],
+      "strategy_v2_shadow": {
+        "engine_version": "2.0-shadow",
+        "status": "OK",
+        "symbol": "XRP",
+        "timeframe": "15m",
+        "source_candle_time": "1795189500000",
+        "regime": "TREND_DOWN",
+        "candidates": [
+          {
+            "strategy_id": "LIQUIDITY_SWEEP_RECLAIM",
+            "strategy_version": "2.0-shadow",
+            "symbol": "XRP",
+            "side": "LONG",
+            "timeframe": "15m",
+            "source_candle_time": "1795189500000",
+            "data_freshness": "CLOSED_CANDLE_ONLY",
+            "entry_reference": 0.90956,
+            "invalidation_price": 0.9021080357,
+            "target_price": 0.96724,
+            "setup_score": 64.51,
+            "regime": "TREND_DOWN",
+            "risk_reward_gross": 7.74,
+            "risk_valid": true,
+            "reason_codes": [
+              "PRIOR_30_LOW_SWEPT",
+              "CLOSE_RECLAIMED_PRIOR_LOW",
+              "CLOSED_CANDLE"
+            ],
+            "rejection_reasons": [],
+            "swept_level": 0.90863,
+            "sweep_extreme": 0.90342
+          }
+        ],
+        "ranked_candidates": [
+          {
+            "strategy_id": "LIQUIDITY_SWEEP_RECLAIM",
+            "strategy_version": "2.0-shadow",
+            "symbol": "XRP",
+            "side": "LONG",
+            "timeframe": "15m",
+            "source_candle_time": "1795189500000",
+            "data_freshness": "CLOSED_CANDLE_ONLY",
+            "entry_reference": 0.90956,
+            "invalidation_price": 0.9021080357,
+            "target_price": 0.96724,
+            "setup_score": 64.51,
+            "regime": "TREND_DOWN",
+            "risk_reward_gross": 7.74,
+            "risk_valid": true,
+            "reason_codes": [
+              "PRIOR_30_LOW_SWEPT",
+              "CLOSE_RECLAIMED_PRIOR_LOW",
+              "CLOSED_CANDLE"
+            ],
+            "rejection_reasons": [],
+            "swept_level": 0.90863,
+            "sweep_extreme": 0.90342
+          }
+        ],
+        "top_candidate": {
+          "strategy_id": "LIQUIDITY_SWEEP_RECLAIM",
+          "strategy_version": "2.0-shadow",
+          "symbol": "XRP",
+          "side": "LONG",
+          "timeframe": "15m",
+          "source_candle_time": "1795189500000",
+          "data_freshness": "CLOSED_CANDLE_ONLY",
+          "entry_reference": 0.90956,
+          "invalidation_price": 0.9021080357,
+          "target_price": 0.96724,
+          "setup_score": 64.51,
+          "regime": "TREND_DOWN",
+          "risk_reward_gross": 7.74,
+          "risk_valid": true,
+          "reason_codes": [
+            "PRIOR_30_LOW_SWEPT",
+            "CLOSE_RECLAIMED_PRIOR_LOW",
+            "CLOSED_CANDLE"
+          ],
+          "rejection_reasons": [],
+          "swept_level": 0.90863,
+          "sweep_extreme": 0.90342
+        },
+        "execution_allowed": false,
+        "notes": [
+          "SHADOW_ONLY",
+          "NO_ORDERS",
+          "GROSS_RR_ONLY_COSTS_NOT_MODELED"
+        ]
+      },
+      "mode_details": {
+        "mode_c_reversal": false,
+        "mode_c_drop_pct": 5.17,
+        "mode_e_intrabar_move_pct": null,
+        "mode_e_intrabar_distance_ema20_pct": null,
+        "mode_f_pattern": "",
+        "mode_f_score": 0.5,
+        "mode_l": {
+          "valid": false,
+          "side": null,
+          "pools_high": [
+            0.96762
+          ],
+          "pools_low": [],
+          "reason": "aucun sweep confirmé"
+        }
+      },
+      "market_microstructure": {
+        "timestamp": "2026-11-20 18:01:07",
+        "status": "PARTIAL",
+        "derivatives_data_age_seconds": 0.6,
+        "derivatives": {
+          "funding": "-0.0000073938",
+          "openInterest": "63287428.0",
+          "dayNtlVlm": "54310203.2472300082",
+          "prevDayPx": "0.96905",
+          "markPx": "0.90967",
+          "oraclePx": "0.909899",
+          "midPx": "0.90911",
+          "premium": "-0.000713266"
+        },
+        "derivatives_status": "OK",
+        "order_book_data_age_seconds": 0.0,
+        "order_book": {
+          "status": "OK",
+          "best_bid": 0.90861,
+          "best_ask": 0.90864,
+          "spread_pct": 0.0033016921172072627,
+          "bid_depth_top5_qty": 18140.0,
+          "ask_depth_top5_qty": 3222.0,
+          "bid_depth_top5_usd": 16481.436810000003,
+          "ask_depth_top5_usd": 2927.71326,
+          "imbalance_top5": 0.6983428517929033
+        }
+      }
+    },
+    {
+      "timestamp": "2026-11-20 18:01:08",
+      "timestamp_ms": 1795190468569,
+      "symbol": "kSHIB",
+      "candle_time": 1795189500000,
+      "current_price": 0.003542,
+      "status": "REJECTED_BASE_SIGNAL",
+      "mode": null,
+      "score": 0.0,
+      "flags": {
+        "trend_ok": false,
+        "trend_score": 0,
+        "trend_missing": "ema20_above_ema50,close_above_ema20,ema20_rising,ema50_rising,higher_close,higher_low,obv_above_ma5",
+        "rsi_ok": false,
+        "vwap_ok": false,
+        "obv_rising": false,
+        "breakout_ok": false,
+        "green_candle": false,
+        "mode_a_ok": false,
+        "mode_b_ok": false,
+        "mode_c_ok": false,
+        "mode_d_ok": false,
+        "mode_e_ok": false,
+        "mode_f_ok": false,
+        "mode_l_ok": false,
+        "pattern_score": 0,
+        "mode_e_volume_ratio": 1.73,
+        "mode_e_body_ratio": 0.32,
+        "mode_e_intrabar": false,
+        "mode_c_drop_pct": 4.96,
+        "mode_c_volume_ok": true,
+        "mode_c_wick_ok": true,
+        "auto_learning_multiplier": 1.0,
+        "auto_learning_reasons": "applied_once_in_symbol_scan",
+        "mode_l": {
+          "valid": false,
+          "side": null,
+          "pools_high": [],
+          "pools_low": [
+            0.0036595
+          ],
+          "reason": "aucun sweep confirmé"
+        }
+      },
+      "indicators": {
+        "open": 0.003557,
+        "high": 0.003559,
+        "low": 0.003522,
+        "close": 0.003545,
+        "volume": 20230782.0,
+        "ema20": 0.003651562168596078,
+        "ema50": 0.0036959691800358767,
+        "rsi": 24.632352941176507,
+        "atr": 3.164285714285716e-05,
+        "vwap": 0.0037326286713839714,
+        "obv": -235438209.0,
+        "obv_ma5": -165102733.6
+      },
+      "rejection_reasons": [
+        "BASE_SIGNAL_NOT_VALIDATED",
+        "TREND_OK_FALSE"
+      ],
+      "strategy_v2_shadow": {
+        "engine_version": "2.0-shadow",
+        "status": "OK",
+        "symbol": "kSHIB",
+        "timeframe": "15m",
+        "source_candle_time": "1795189500000",
+        "regime": "TREND_DOWN",
+        "candidates": [],
+        "ranked_candidates": [],
+        "top_candidate": null,
+        "execution_allowed": false,
+        "notes": [
+          "SHADOW_ONLY",
+          "NO_ORDERS",
+          "GROSS_RR_ONLY_COSTS_NOT_MODELED"
+        ]
+      },
+      "mode_details": {
+        "mode_c_reversal": false,
+        "mode_c_drop_pct": 4.96,
+        "mode_e_intrabar_move_pct": null,
+        "mode_e_intrabar_distance_ema20_pct": null,
+        "mode_f_pattern": "",
+        "mode_f_score": 0.5,
+        "mode_l": {
+          "valid": false,
+          "side": null,
+          "pools_high": [],
+          "pools_low": [
+            0.0036595
+          ],
+          "reason": "aucun sweep confirmé"
+        }
+      },
+      "market_microstructure": {
+        "timestamp": "2026-11-20 18:01:08",
+        "status": "PARTIAL",
+        "derivatives_data_age_seconds": 1.35,
+        "derivatives": {
+          "funding": "-0.0000055182",
+          "openInterest": "1163806030.0",
+          "dayNtlVlm": "1402651.3179250008",
+          "prevDayPx": "0.003833",
+          "markPx": "0.003537",
+          "oraclePx": "0.00354",
+          "midPx": "0.003535",
+          "premium": "-0.0011299435"
+        },
+        "derivatives_status": "OK",
+        "order_book_data_age_seconds": 0.0,
+        "order_book": {
+          "status": "OK",
+          "best_bid": 0.003533,
+          "best_ask": 0.003535,
+          "spread_pct": 0.05659309564232688,
+          "bid_depth_top5_qty": 21212210.0,
+          "ask_depth_top5_qty": 27101138.0,
+          "bid_depth_top5_usd": 74881.64331399999,
+          "ask_depth_top5_usd": 95860.270619,
+          "imbalance_top5": -0.12189029002916543
+        }
+      }
+    },
+    {
+      "timestamp": "2026-11-20 18:01:09",
+      "timestamp_ms": 1795190469202,
+      "symbol": "HYPE",
+      "candle_time": 1795189500000,
+      "current_price": 61.58,
+      "status": "ACCEPTED_CANDIDATE",
+      "mode": "MODE_C_CAPITULATION",
+      "score": 6.707,
+      "flags": {
+        "trend_ok": false,
+        "trend_score": 0,
+        "trend_missing": "ema20_above_ema50,close_above_ema20,ema20_rising,ema50_rising,higher_low,obv_above_ma5",
+        "rsi_ok": false,
+        "vwap_ok": false,
+        "obv_rising": false,
+        "breakout_ok": false,
+        "green_candle": true,
+        "mode_a_ok": false,
+        "mode_b_ok": false,
+        "mode_c_ok": true,
+        "mode_d_ok": false,
+        "mode_e_ok": false,
+        "mode_f_ok": false,
+        "mode_l_ok": false,
+        "pattern_score": 0,
+        "mode_e_volume_ratio": 1.78,
+        "mode_e_body_ratio": 0.54,
+        "mode_e_intrabar": false,
+        "mode_c_drop_pct": 4.68,
+        "mode_c_volume_ok": true,
+        "mode_c_wick_ok": false,
+        "adaptive_multiplier": 1.0,
+        "adaptive_info": {
+          "enabled": true,
+          "mode_mult": 1.0,
+          "token_mult": 1.0,
+          "pattern_mult": 1.0,
+          "final_mult": 1.0
+        },
+        "auto_learning_multiplier": 1.0,
+        "auto_learning_reasons": "applied_once_in_symbol_scan",
+        "mode_l": {
+          "valid": false,
+          "side": null,
+          "pools_high": [],
+          "pools_low": [],
+          "reason": "aucun sweep confirmé"
+        }
+      },
+      "indicators": {
+        "open": 60.971,
+        "high": 61.675,
+        "low": 60.686,
+        "close": 61.507,
+        "volume": 296186.47,
+        "ema20": 63.00318836295329,
+        "ema50": 64.20218297674599,
+        "rsi": 35.271262052093775,
+        "atr": 0.7740714285714289,
+        "vwap": 66.35443263679164,
+        "obv": -4137161.87,
+        "obv_ma5": -3991714.054
+      },
+      "rejection_reasons": [],
+      "strategy_v2_shadow": {
+        "engine_version": "2.0-shadow",
+        "status": "OK",
+        "symbol": "HYPE",
+        "timeframe": "15m",
+        "source_candle_time": "1795189500000",
+        "regime": "TREND_DOWN",
+        "candidates": [
+          {
+            "strategy_id": "LIQUIDITY_SWEEP_RECLAIM",
+            "strategy_version": "2.0-shadow",
+            "symbol": "HYPE",
+            "side": "LONG",
+            "timeframe": "15m",
+            "source_candle_time": "1795189500000",
+            "data_freshness": "CLOSED_CANDLE_ONLY",
+            "entry_reference": 61.507,
+            "invalidation_price": 60.5698892857,
+            "target_price": 65.354,
+            "setup_score": 75.97,
+            "regime": "TREND_DOWN",
+            "risk_reward_gross": 4.105,
+            "risk_valid": true,
+            "reason_codes": [
+              "PRIOR_30_LOW_SWEPT",
+              "CLOSE_RECLAIMED_PRIOR_LOW",
+              "CLOSED_CANDLE"
+            ],
+            "rejection_reasons": [],
+            "swept_level": 60.829,
+            "sweep_extreme": 60.686
+          }
+        ],
+        "ranked_candidates": [
+          {
+            "strategy_id": "LIQUIDITY_SWEEP_RECLAIM",
+            "strategy_version": "2.0-shadow",
+            "symbol": "HYPE",
+            "side": "LONG",
+            "timeframe": "15m",
+            "source_candle_time": "1795189500000",
+            "data_freshness": "CLOSED_CANDLE_ONLY",
+            "entry_reference": 61.507,
+            "invalidation_price": 60.5698892857,
+            "target_price": 65.354,
+            "setup_score": 75.97,
+            "regime": "TREND_DOWN",
+            "risk_reward_gross": 4.105,
+            "risk_valid": true,
+            "reason_codes": [
+              "PRIOR_30_LOW_SWEPT",
+              "CLOSE_RECLAIMED_PRIOR_LOW",
+              "CLOSED_CANDLE"
+            ],
+            "rejection_reasons": [],
+            "swept_level": 60.829,
+            "sweep_extreme": 60.686
+          }
+        ],
+        "top_candidate": {
+          "strategy_id": "LIQUIDITY_SWEEP_RECLAIM",
+          "strategy_version": "2.0-shadow",
+          "symbol": "HYPE",
+          "side": "LONG",
+          "timeframe": "15m",
+          "source_candle_time": "1795189500000",
+          "data_freshness": "CLOSED_CANDLE_ONLY",
+          "entry_reference": 61.507,
+          "invalidation_price": 60.5698892857,
+          "target_price": 65.354,
+          "setup_score": 75.97,
+          "regime": "TREND_DOWN",
+          "risk_reward_gross": 4.105,
+          "risk_valid": true,
+          "reason_codes": [
+            "PRIOR_30_LOW_SWEPT",
+            "CLOSE_RECLAIMED_PRIOR_LOW",
+            "CLOSED_CANDLE"
+          ],
+          "rejection_reasons": [],
+          "swept_level": 60.829,
+          "sweep_extreme": 60.686
+        },
+        "execution_allowed": false,
+        "notes": [
+          "SHADOW_ONLY",
+          "NO_ORDERS",
+          "GROSS_RR_ONLY_COSTS_NOT_MODELED"
+        ]
+      },
+      "mode_details": {
+        "mode_c_reversal": true,
+        "mode_c_drop_pct": 4.68,
+        "mode_e_intrabar_move_pct": null,
+        "mode_e_intrabar_distance_ema20_pct": null,
+        "mode_f_pattern": "",
+        "mode_f_score": 0.5,
+        "mode_l": {
+          "valid": false,
+          "side": null,
+          "pools_high": [],
+          "pools_low": [],
+          "reason": "aucun sweep confirmé"
+        }
+      },
+      "market_microstructure": {
+        "timestamp": "2026-11-20 18:01:09",
+        "status": "PARTIAL",
+        "derivatives_data_age_seconds": 1.98,
+        "derivatives": {
+          "funding": "0.0000125",
+          "openInterest": "18610915.1600000113",
+          "dayNtlVlm": "831823049.5185297728",
+          "prevDayPx": "67.854",
+          "markPx": "61.531",
+          "oraclePx": "61.5835",
+          "midPx": "61.4915",
+          "premium": "-0.0014549352"
+        },
+        "derivatives_status": "OK",
+        "order_book_data_age_seconds": 0.0,
+        "order_book": {
+          "status": "OK",
+          "best_bid": 61.491,
+          "best_ask": 61.492,
+          "spread_pct": 0.001626241025178552,
+          "bid_depth_top5_qty": 428.15999999999997,
+          "ask_depth_top5_qty": 405.67,
+          "bid_depth_top5_usd": 26326.74712,
+          "ask_depth_top5_usd": 24949.453690000002,
+          "imbalance_top5": 0.02697192473285916
+        }
+      }
+    },
+    {
+      "timestamp": "2026-11-20 18:01:09",
+      "timestamp_ms": 1795190469772,
+      "symbol": "ZEC",
+      "candle_time": 1795189500000,
+      "current_price": 775.76,
+      "status": "ACCEPTED_CANDIDATE",
+      "mode": "MODE_C_CAPITULATION",
+      "score": 8.0204,
+      "flags": {
+        "trend_ok": false,
+        "trend_score": 0,
+        "trend_missing": "ema20_above_ema50,close_above_ema20,ema20_rising,ema50_rising,higher_low,obv_above_ma5",
+        "rsi_ok": false,
+        "vwap_ok": false,
+        "obv_rising": false,
+        "breakout_ok": false,
+        "green_candle": true,
+        "mode_a_ok": false,
+        "mode_b_ok": false,
+        "mode_c_ok": true,
+        "mode_d_ok": false,
+        "mode_e_ok": false,
+        "mode_f_ok": false,
+        "mode_l_ok": false,
+        "pattern_score": 0,
+        "mode_e_volume_ratio": 2.37,
+        "mode_e_body_ratio": 0.04,
+        "mode_e_intrabar": false,
+        "mode_c_drop_pct": 7.62,
+        "mode_c_volume_ok": true,
+        "mode_c_wick_ok": true,
+        "adaptive_multiplier": 1.0,
+        "adaptive_info": {
+          "enabled": true,
+          "mode_mult": 1.0,
+          "token_mult": 1.0,
+          "pattern_mult": 1.0,
+          "final_mult": 1.0
+        },
+        "auto_learning_multiplier": 1.0,
+        "auto_learning_reasons": "applied_once_in_symbol_scan",
+        "mode_l": {
+          "valid": false,
+          "side": null,
+          "pools_high": [],
+          "pools_low": [
+            800.46
+          ],
+          "reason": "aucun sweep confirmé"
+        }
+      },
+      "indicators": {
+        "open": 773.89,
+        "high": 779.53,
+        "low": 761.25,
+        "close": 774.67,
+        "volume": 18201.41,
+        "ema20": 808.5679381058986,
+        "ema50": 831.6961444042339,
+        "rsi": 28.630288413224775,
+        "atr": 12.387857142857131,
+        "vwap": 882.9725644146303,
+        "obv": -132331.30000000002,
+        "obv_ma5": -121269.82200000001
+      },
+      "rejection_reasons": [],
+      "strategy_v2_shadow": {
+        "engine_version": "2.0-shadow",
+        "status": "OK",
+        "symbol": "ZEC",
+        "timeframe": "15m",
+        "source_candle_time": "1795189500000",
+        "regime": "TREND_DOWN",
+        "candidates": [
+          {
+            "strategy_id": "LIQUIDITY_SWEEP_RECLAIM",
+            "strategy_version": "2.0-shadow",
+            "symbol": "ZEC",
+            "side": "LONG",
+            "timeframe": "15m",
+            "source_candle_time": "1795189500000",
+            "data_freshness": "CLOSED_CANDLE_ONLY",
+            "entry_reference": 774.67,
+            "invalidation_price": 759.3918214286,
+            "target_price": 843.2,
+            "setup_score": 72.34,
+            "regime": "TREND_DOWN",
+            "risk_reward_gross": 4.485,
+            "risk_valid": true,
+            "reason_codes": [
+              "PRIOR_30_LOW_SWEPT",
+              "CLOSE_RECLAIMED_PRIOR_LOW",
+              "CLOSED_CANDLE"
+            ],
+            "rejection_reasons": [],
+            "swept_level": 770.0,
+            "sweep_extreme": 761.25
+          }
+        ],
+        "ranked_candidates": [
+          {
+            "strategy_id": "LIQUIDITY_SWEEP_RECLAIM",
+            "strategy_version": "2.0-shadow",
+            "symbol": "ZEC",
+            "side": "LONG",
+            "timeframe": "15m",
+            "source_candle_time": "1795189500000",
+            "data_freshness": "CLOSED_CANDLE_ONLY",
+            "entry_reference": 774.67,
+            "invalidation_price": 759.3918214286,
+            "target_price": 843.2,
+            "setup_score": 72.34,
+            "regime": "TREND_DOWN",
+            "risk_reward_gross": 4.485,
+            "risk_valid": true,
+            "reason_codes": [
+              "PRIOR_30_LOW_SWEPT",
+              "CLOSE_RECLAIMED_PRIOR_LOW",
+              "CLOSED_CANDLE"
+            ],
+            "rejection_reasons": [],
+            "swept_level": 770.0,
+            "sweep_extreme": 761.25
+          }
+        ],
+        "top_candidate": {
+          "strategy_id": "LIQUIDITY_SWEEP_RECLAIM",
+          "strategy_version": "2.0-shadow",
+          "symbol": "ZEC",
+          "side": "LONG",
+          "timeframe": "15m",
+          "source_candle_time": "1795189500000",
+          "data_freshness": "CLOSED_CANDLE_ONLY",
+          "entry_reference": 774.67,
+          "invalidation_price": 759.3918214286,
+          "target_price": 843.2,
+          "setup_score": 72.34,
+          "regime": "TREND_DOWN",
+          "risk_reward_gross": 4.485,
+          "risk_valid": true,
+          "reason_codes": [
+            "PRIOR_30_LOW_SWEPT",
+            "CLOSE_RECLAIMED_PRIOR_LOW",
+            "CLOSED_CANDLE"
+          ],
+          "rejection_reasons": [],
+          "swept_level": 770.0,
+          "sweep_extreme": 761.25
+        },
+        "execution_allowed": false,
+        "notes": [
+          "SHADOW_ONLY",
+          "NO_ORDERS",
+          "GROSS_RR_ONLY_COSTS_NOT_MODELED"
+        ]
+      },
+      "mode_details": {
+        "mode_c_reversal": true,
+        "mode_c_drop_pct": 7.62,
+        "mode_e_intrabar_move_pct": null,
+        "mode_e_intrabar_distance_ema20_pct": null,
+        "mode_f_pattern": "bullish_harami,long_lower_wick_volume",
+        "mode_f_score": 4.3,
+        "mode_l": {
+          "valid": false,
+          "side": null,
+          "pools_high": [],
+          "pools_low": [
+            800.46
+          ],
+          "reason": "aucun sweep confirmé"
+        }
+      },
+      "market_microstructure": {
+        "timestamp": "2026-11-20 18:01:09",
+        "status": "PARTIAL",
+        "derivatives_data_age_seconds": 2.55,
+        "derivatives": {
+          "funding": "0.0000125",
+          "openInterest": "332510.4999999997",
+          "dayNtlVlm": "318834466.3104002476",
+          "prevDayPx": "922.69",
+          "markPx": "775.83",
+          "oraclePx": "775.92",
+          "midPx": "775.49",
+          "premium": "-0.00032774"
+        },
+        "derivatives_status": "OK",
+        "order_book_data_age_seconds": 0.0,
+        "order_book": {
+          "status": "OK",
+          "best_bid": 775.31,
+          "best_ask": 775.32,
+          "spread_pct": 0.0012897983400430265,
+          "bid_depth_top5_qty": 18.32,
+          "ask_depth_top5_qty": 11.74,
+          "bid_depth_top5_usd": 14201.938,
+          "ask_depth_top5_usd": 9102.880000000001,
+          "imbalance_top5": 0.21889554224883565
         }
       }
     }
