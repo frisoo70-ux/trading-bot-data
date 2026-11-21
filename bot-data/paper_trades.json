@@ -27438,7 +27438,7 @@
       "pnl_pct": 1.019
     }
   ],
-  "updated_at": "2026-11-21 17:00:40",
+  "updated_at": "2026-11-21 17:01:45",
   "positions": [],
   "signal_diagnostics": [
     {
@@ -135260,6 +135260,126 @@
           "bid_depth_top5_usd": 16787.6676,
           "ask_depth_top5_usd": 4566.735000000001,
           "imbalance_top5": 0.5723830734966593
+        }
+      }
+    },
+    {
+      "timestamp": "2026-11-21 17:01:44",
+      "timestamp_ms": 1795273304893,
+      "symbol": "kSHIB",
+      "candle_time": 1795272300000,
+      "current_price": 0.003631,
+      "status": "REJECTED_BASE_SIGNAL",
+      "mode": null,
+      "score": 1.5542570738535297,
+      "flags": {
+        "trend_ok": true,
+        "trend_score": 6,
+        "trend_missing": "higher_close,obv_above_ma5",
+        "rsi_ok": false,
+        "vwap_ok": true,
+        "obv_rising": false,
+        "breakout_ok": false,
+        "green_candle": false,
+        "mode_a_ok": false,
+        "mode_b_ok": false,
+        "mode_c_ok": false,
+        "mode_d_ok": false,
+        "mode_e_ok": false,
+        "mode_f_ok": false,
+        "mode_l_ok": false,
+        "pattern_score": 0,
+        "mode_e_volume_ratio": 0.05,
+        "mode_e_body_ratio": 0.63,
+        "mode_e_intrabar": false,
+        "mode_c_drop_pct": 2.61,
+        "mode_c_volume_ok": false,
+        "mode_c_wick_ok": false,
+        "auto_learning_multiplier": 1.0,
+        "auto_learning_reasons": "applied_once_in_symbol_scan",
+        "mode_l": {
+          "valid": false,
+          "side": null,
+          "pools_high": [],
+          "pools_low": [],
+          "reason": "aucun sweep confirmé"
+        }
+      },
+      "indicators": {
+        "open": 0.003637,
+        "high": 0.003637,
+        "low": 0.003629,
+        "close": 0.003632,
+        "volume": 190076.0,
+        "ema20": 0.0035737672244425885,
+        "ema50": 0.0035448708045668397,
+        "rsi": 81.46067415730332,
+        "atr": 2.2714285714285757e-05,
+        "vwap": 0.0036124001736987125,
+        "obv": -230554201.0,
+        "obv_ma5": -230445391.2
+      },
+      "rejection_reasons": [
+        "BASE_SIGNAL_NOT_VALIDATED"
+      ],
+      "strategy_v2_shadow": {
+        "engine_version": "2.0-shadow",
+        "status": "OK",
+        "symbol": "kSHIB",
+        "timeframe": "15m",
+        "source_candle_time": "1795272300000",
+        "regime": "TREND_UP",
+        "candidates": [],
+        "ranked_candidates": [],
+        "top_candidate": null,
+        "execution_allowed": false,
+        "notes": [
+          "SHADOW_ONLY",
+          "NO_ORDERS",
+          "GROSS_RR_ONLY_COSTS_NOT_MODELED"
+        ]
+      },
+      "mode_details": {
+        "mode_c_reversal": false,
+        "mode_c_drop_pct": 2.61,
+        "mode_e_intrabar_move_pct": null,
+        "mode_e_intrabar_distance_ema20_pct": null,
+        "mode_f_pattern": "",
+        "mode_f_score": 0.5,
+        "mode_l": {
+          "valid": false,
+          "side": null,
+          "pools_high": [],
+          "pools_low": [],
+          "reason": "aucun sweep confirmé"
+        }
+      },
+      "market_microstructure": {
+        "timestamp": "2026-11-21 17:01:44",
+        "status": "PARTIAL",
+        "derivatives_data_age_seconds": 67.38,
+        "derivatives": {
+          "funding": "0.0000065936",
+          "openInterest": "1259060484.0",
+          "dayNtlVlm": "1762473.6070249998",
+          "prevDayPx": "0.003686",
+          "markPx": "0.003631",
+          "oraclePx": "0.003633",
+          "midPx": "0.00363",
+          "premium": "-0.0005505092"
+        },
+        "derivatives_status": "OK",
+        "order_book_data_age_seconds": 0.0,
+        "order_book": {
+          "status": "OK",
+          "best_bid": 0.003629,
+          "best_ask": 0.00363,
+          "spread_pct": 0.027552004408324365,
+          "bid_depth_top5_qty": 32143131.0,
+          "ask_depth_top5_qty": 28315937.0,
+          "bid_depth_top5_usd": 116581.13629000001,
+          "ask_depth_top5_usd": 102869.505386,
+          "imbalance_top5": 0.06330223284288802
         }
       }
     }
