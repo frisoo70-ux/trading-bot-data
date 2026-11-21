@@ -1,7 +1,7 @@
 {
   "engine_version": "2.1-paper",
   "initial_balance": 1000.0,
-  "realized_pnl": -18.325200178830176,
+  "realized_pnl": -18.483165953988838,
   "positions": [
     {
       "position_id": "V2-ZEC-EMA_PULLBACK-1795289400000",
@@ -14,7 +14,7 @@
       "last_processed_candle_time": 1795293900000,
       "entry_price": 791.0,
       "entry_reference_price": 792.16,
-      "last_price": 793.55,
+      "last_price": 793.92,
       "qty": 0.1264222503160556,
       "remaining_qty": 0.1264222503160556,
       "notional": 100.0,
@@ -47,10 +47,10 @@
       "side": "LONG",
       "entry_time": "2026-11-21 21:46:50",
       "entry_candle_time": 1795289400000,
-      "last_processed_candle_time": 1795293000000,
+      "last_processed_candle_time": 1795293900000,
       "entry_price": 0.003626,
       "entry_reference_price": 0.003625,
-      "last_price": 0.00362,
+      "last_price": 0.003622,
       "qty": 27578.599007170433,
       "remaining_qty": 27578.599007170433,
       "notional": 100.0,
@@ -76,42 +76,6 @@
       ]
     },
     {
-      "position_id": "V2-SOL-EMA_PULLBACK-1795292100000",
-      "symbol": "SOL",
-      "strategy_id": "EMA_PULLBACK",
-      "strategy_version": "2.0-shadow",
-      "side": "LONG",
-      "entry_time": "2026-11-21 22:30:42",
-      "entry_candle_time": 1795292100000,
-      "last_processed_candle_time": 1795293000000,
-      "entry_price": 70.592,
-      "entry_reference_price": 70.614,
-      "last_price": 70.521,
-      "qty": 1.416591115140526,
-      "remaining_qty": 1.416591115140526,
-      "notional": 100.0,
-      "margin": 100.0,
-      "leverage": 1.0,
-      "entry_fee": 0.045,
-      "entry_fee_rate": 0.00045,
-      "entry_fee_source": "HYPERLIQUID_USER_FEES_TAKER",
-      "entry_slippage_rate": 0.0003115529498400882,
-      "entry_slippage_source": "L2_ORDERBOOK_VWAP",
-      "entry_book_status": "OK",
-      "stop": 70.3900142857,
-      "target": 70.921,
-      "setup_score": 73.87,
-      "risk_reward_gross": 1.371,
-      "regime": "TREND_UP",
-      "reason_codes": [
-        "HTF_TREND_UP",
-        "EMA20_PULLBACK_TOUCHED",
-        "CLOSE_RECLAIM_EMA20",
-        "OBV_CONFIRMATION",
-        "CLOSED_CANDLE"
-      ]
-    },
-    {
       "position_id": "V2-HYPE-TREND_BREAKOUT_RETEST-1795293000000",
       "symbol": "HYPE",
       "strategy_id": "TREND_BREAKOUT_RETEST",
@@ -122,7 +86,7 @@
       "last_processed_candle_time": 1795293900000,
       "entry_price": 61.602,
       "entry_reference_price": 61.554,
-      "last_price": 61.8,
+      "last_price": 61.7,
       "qty": 1.6233239180546086,
       "remaining_qty": 1.6233239180546086,
       "notional": 100.0,
@@ -963,14 +927,51 @@
         "OBV_CONFIRMATION",
         "CLOSED_CANDLE"
       ]
+    },
+    {
+      "date": "2026-11-21 23:01:13",
+      "symbol": "SOL",
+      "strategy_id": "EMA_PULLBACK",
+      "side": "LONG",
+      "entry": 70.592,
+      "exit": 70.544,
+      "qty": 1.416591115140526,
+      "notional": 100.0,
+      "leverage": 1.0,
+      "stop": 70.3900142857,
+      "target": 70.921,
+      "exit_reason": "V2_PAPER_STOP",
+      "entry_candle_time": 1795292100000,
+      "exit_candle_time": 1795293900000,
+      "gross_pnl": -0.06799637,
+      "fees": 0.0899694,
+      "entry_fee_rate": 0.00045,
+      "exit_fee_rate": 0.00045,
+      "entry_slippage_rate": 0.0003115529498400882,
+      "exit_slippage_rate": 0.0021876073738953394,
+      "fee_source": "HYPERLIQUID_USER_FEES_TAKER",
+      "exit_slippage_source": "L2_ORDERBOOK_VWAP",
+      "exit_book_status": "OK",
+      "net_pnl": -0.15796578,
+      "pnl_pct": -0.15797,
+      "setup_score": 73.87,
+      "risk_reward_gross": 1.371,
+      "regime": "TREND_UP",
+      "reason_codes": [
+        "HTF_TREND_UP",
+        "EMA20_PULLBACK_TOUCHED",
+        "CLOSE_RECLAIM_EMA20",
+        "OBV_CONFIRMATION",
+        "CLOSED_CANDLE"
+      ]
     }
   ],
   "last_evaluated_candle_by_symbol": {
     "SOL": "1795292100000",
-    "XRP": "1795293000000",
+    "XRP": "1795293900000",
     "kSHIB": "1795289400000",
     "HYPE": "1795293000000",
     "ZEC": "1795289400000"
   },
-  "updated_at": "2026-11-21 23:00:05"
+  "updated_at": "2026-11-21 23:01:16"
 }
