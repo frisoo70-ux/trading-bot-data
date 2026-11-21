@@ -1,45 +1,8 @@
 {
   "engine_version": "2.1-paper",
   "initial_balance": 1000.0,
-  "realized_pnl": -18.75639472609761,
-  "positions": [
-    {
-      "position_id": "V2-kSHIB-TREND_BREAKOUT_RETEST-1795266900000",
-      "symbol": "kSHIB",
-      "strategy_id": "TREND_BREAKOUT_RETEST",
-      "strategy_version": "2.0-shadow",
-      "side": "LONG",
-      "entry_time": "2026-11-21 15:31:24",
-      "entry_candle_time": 1795266900000,
-      "last_processed_candle_time": 1795266900000,
-      "entry_price": 0.003577,
-      "entry_reference_price": 0.00358,
-      "last_price": 0.003614,
-      "qty": 27956.38803466592,
-      "remaining_qty": 27956.38803466592,
-      "notional": 100.0,
-      "margin": 100.0,
-      "leverage": 1.0,
-      "entry_fee": 0.045,
-      "entry_fee_rate": 0.00045,
-      "entry_fee_source": "HYPERLIQUID_USER_FEES_TAKER",
-      "entry_slippage_rate": 0.0008379888268156277,
-      "entry_slippage_source": "L2_ORDERBOOK_VWAP",
-      "entry_book_status": "OK",
-      "stop": 0.00356425,
-      "target": 0.003619,
-      "setup_score": 74.69,
-      "risk_reward_gross": 2.476,
-      "regime": "TREND_UP",
-      "reason_codes": [
-        "HTF_TREND_UP",
-        "CLOSE_ABOVE_PRIOR_20_HIGH",
-        "RETEST_RECLAIM",
-        "OBV_CONFIRMATION",
-        "CLOSED_CANDLE"
-      ]
-    }
-  ],
+  "realized_pnl": -17.700698612035527,
+  "positions": [],
   "trades": [
     {
       "date": "2026-11-19 17:00:44",
@@ -781,14 +744,51 @@
         "CLOSE_RECLAIMED_PRIOR_LOW",
         "CLOSED_CANDLE"
       ]
+    },
+    {
+      "date": "2026-11-21 15:45:46",
+      "symbol": "kSHIB",
+      "strategy_id": "TREND_BREAKOUT_RETEST",
+      "side": "LONG",
+      "entry": 0.003577,
+      "exit": 0.003618,
+      "qty": 27956.38803466592,
+      "notional": 100.0,
+      "leverage": 1.0,
+      "stop": 0.00356425,
+      "target": 0.003619,
+      "exit_reason": "V2_PAPER_TARGET",
+      "entry_candle_time": 1795266900000,
+      "exit_candle_time": 1795267800000,
+      "gross_pnl": 1.14621191,
+      "fees": 0.0905158,
+      "entry_fee_rate": 0.00045,
+      "exit_fee_rate": 0.00045,
+      "entry_slippage_rate": 0.0008379888268156277,
+      "exit_slippage_rate": 0.0002763194252554113,
+      "fee_source": "HYPERLIQUID_USER_FEES_TAKER",
+      "exit_slippage_source": "L2_ORDERBOOK_VWAP",
+      "exit_book_status": "OK",
+      "net_pnl": 1.05569611,
+      "pnl_pct": 1.0557,
+      "setup_score": 74.69,
+      "risk_reward_gross": 2.476,
+      "regime": "TREND_UP",
+      "reason_codes": [
+        "HTF_TREND_UP",
+        "CLOSE_ABOVE_PRIOR_20_HIGH",
+        "RETEST_RECLAIM",
+        "OBV_CONFIRMATION",
+        "CLOSED_CANDLE"
+      ]
     }
   ],
   "last_evaluated_candle_by_symbol": {
-    "SOL": "1795266900000",
-    "XRP": "1795266900000",
+    "SOL": "1795267800000",
+    "XRP": "1795267800000",
     "kSHIB": "1795266900000",
-    "HYPE": "1795266900000",
-    "ZEC": "1795266900000"
+    "HYPE": "1795267800000",
+    "ZEC": "1795267800000"
   },
-  "updated_at": "2026-11-21 15:44:35"
+  "updated_at": "2026-11-21 15:45:49"
 }
