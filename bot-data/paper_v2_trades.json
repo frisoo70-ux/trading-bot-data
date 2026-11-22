@@ -1,44 +1,8 @@
 {
   "engine_version": "2.1-paper",
   "initial_balance": 1000.0,
-  "realized_pnl": -28.457585143838443,
+  "realized_pnl": -29.367952153430966,
   "positions": [
-    {
-      "position_id": "V2-SOL-EMA_PULLBACK-1795364100000",
-      "symbol": "SOL",
-      "strategy_id": "EMA_PULLBACK",
-      "strategy_version": "2.0-shadow",
-      "side": "LONG",
-      "entry_time": "2026-11-22 18:30:38",
-      "entry_candle_time": 1795364100000,
-      "last_processed_candle_time": 1795377600000,
-      "entry_price": 70.548013182,
-      "entry_reference_price": 70.487,
-      "last_price": 69.928,
-      "qty": 1.4174743623469546,
-      "remaining_qty": 1.4174743623469546,
-      "notional": 100.0,
-      "margin": 100.0,
-      "leverage": 1.0,
-      "entry_fee": 0.045,
-      "entry_fee_rate": 0.00045,
-      "entry_fee_source": "HYPERLIQUID_USER_FEES_TAKER",
-      "entry_slippage_rate": 0.000865594818902915,
-      "entry_slippage_source": "L2_ORDERBOOK_VWAP",
-      "entry_book_status": "OK",
-      "stop": 70.0348,
-      "target": 71.376,
-      "setup_score": 81.12,
-      "risk_reward_gross": 1.966,
-      "regime": "TREND_UP",
-      "reason_codes": [
-        "HTF_TREND_UP",
-        "EMA20_PULLBACK_TOUCHED",
-        "CLOSE_RECLAIM_EMA20",
-        "OBV_CONFIRMATION",
-        "CLOSED_CANDLE"
-      ]
-    },
     {
       "position_id": "V2-XRP-EMA_PULLBACK-1795364100000",
       "symbol": "XRP",
@@ -47,10 +11,10 @@
       "side": "LONG",
       "entry_time": "2026-11-22 18:30:40",
       "entry_candle_time": 1795364100000,
-      "last_processed_candle_time": 1795377600000,
+      "last_processed_candle_time": 1795378500000,
       "entry_price": 0.92917,
       "entry_reference_price": 0.92803,
-      "last_price": 0.923,
+      "last_price": 0.92377,
       "qty": 107.62293229441329,
       "remaining_qty": 107.62293229441329,
       "notional": 100.0,
@@ -1574,14 +1538,51 @@
         "OBV_CONFIRMATION",
         "CLOSED_CANDLE"
       ]
+    },
+    {
+      "date": "2026-11-22 22:30:49",
+      "symbol": "SOL",
+      "strategy_id": "EMA_PULLBACK",
+      "side": "LONG",
+      "entry": 70.548013182,
+      "exit": 69.969,
+      "qty": 1.4174743623469546,
+      "notional": 100.0,
+      "leverage": 1.0,
+      "stop": 70.0348,
+      "target": 71.376,
+      "exit_reason": "V2_PAPER_STOP",
+      "entry_candle_time": 1795364100000,
+      "exit_candle_time": 1795378500000,
+      "gross_pnl": -0.82073634,
+      "fees": 0.08963067,
+      "entry_fee_rate": 0.00045,
+      "exit_fee_rate": 0.00045,
+      "entry_slippage_rate": 0.000865594818902915,
+      "exit_slippage_rate": 0.0009395329179209266,
+      "fee_source": "HYPERLIQUID_USER_FEES_TAKER",
+      "exit_slippage_source": "L2_ORDERBOOK_VWAP",
+      "exit_book_status": "OK",
+      "net_pnl": -0.91036701,
+      "pnl_pct": -0.91037,
+      "setup_score": 81.12,
+      "risk_reward_gross": 1.966,
+      "regime": "TREND_UP",
+      "reason_codes": [
+        "HTF_TREND_UP",
+        "EMA20_PULLBACK_TOUCHED",
+        "CLOSE_RECLAIM_EMA20",
+        "OBV_CONFIRMATION",
+        "CLOSED_CANDLE"
+      ]
     }
   ],
   "last_evaluated_candle_by_symbol": {
     "SOL": "1795364100000",
     "XRP": "1795364100000",
-    "kSHIB": "1795377600000",
-    "HYPE": "1795377600000",
-    "ZEC": "1795377600000"
+    "kSHIB": "1795378500000",
+    "HYPE": "1795378500000",
+    "ZEC": "1795378500000"
   },
-  "updated_at": "2026-11-22 22:29:45"
+  "updated_at": "2026-11-22 22:30:55"
 }
