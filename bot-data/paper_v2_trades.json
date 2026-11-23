@@ -1,45 +1,8 @@
 {
   "engine_version": "2.1-paper",
   "initial_balance": 1000.0,
-  "realized_pnl": -23.377183941539766,
-  "positions": [
-    {
-      "position_id": "V2-kSHIB-EMA_PULLBACK-1795450500000",
-      "symbol": "kSHIB",
-      "strategy_id": "EMA_PULLBACK",
-      "strategy_version": "2.0-shadow",
-      "side": "LONG",
-      "entry_time": "2026-11-23 18:30:13",
-      "entry_candle_time": 1795450500000,
-      "last_processed_candle_time": 1795451400000,
-      "entry_price": 0.0037600011,
-      "entry_reference_price": 0.003755,
-      "last_price": 0.003732,
-      "qty": 26595.736936257344,
-      "remaining_qty": 26595.736936257344,
-      "notional": 100.0,
-      "margin": 100.0,
-      "leverage": 1.0,
-      "entry_fee": 0.045,
-      "entry_fee_rate": 0.00045,
-      "entry_fee_source": "HYPERLIQUID_USER_FEES_TAKER",
-      "entry_slippage_rate": 0.001331849507323568,
-      "entry_slippage_source": "L2_ORDERBOOK_VWAP",
-      "entry_book_status": "OK",
-      "stop": 0.0037155159,
-      "target": 0.003853,
-      "setup_score": 79.19,
-      "risk_reward_gross": 2.482,
-      "regime": "TREND_UP",
-      "reason_codes": [
-        "HTF_TREND_UP",
-        "EMA20_PULLBACK_TOUCHED",
-        "CLOSE_RECLAIM_EMA20",
-        "OBV_CONFIRMATION",
-        "CLOSED_CANDLE"
-      ]
-    }
-  ],
+  "realized_pnl": -24.34447755594953,
+  "positions": [],
   "trades": [
     {
       "date": "2026-11-19 17:00:44",
@@ -1943,14 +1906,51 @@
         "OBV_CONFIRMATION",
         "CLOSED_CANDLE"
       ]
+    },
+    {
+      "date": "2026-11-23 19:00:21",
+      "symbol": "kSHIB",
+      "strategy_id": "EMA_PULLBACK",
+      "side": "LONG",
+      "entry": 0.0037600011,
+      "exit": 0.003727,
+      "qty": 26595.736936257344,
+      "notional": 100.0,
+      "leverage": 1.0,
+      "stop": 0.0037155159,
+      "target": 0.003853,
+      "exit_reason": "V2_PAPER_STOP",
+      "entry_candle_time": 1795450500000,
+      "exit_candle_time": 1795452300000,
+      "gross_pnl": -0.87768857,
+      "fees": 0.08960504,
+      "entry_fee_rate": 0.00045,
+      "exit_fee_rate": 0.00045,
+      "entry_slippage_rate": 0.001331849507323568,
+      "exit_slippage_rate": 0.0030908493757220157,
+      "fee_source": "HYPERLIQUID_USER_FEES_TAKER",
+      "exit_slippage_source": "L2_ORDERBOOK_VWAP",
+      "exit_book_status": "OK",
+      "net_pnl": -0.96729361,
+      "pnl_pct": -0.96729,
+      "setup_score": 79.19,
+      "risk_reward_gross": 2.482,
+      "regime": "TREND_UP",
+      "reason_codes": [
+        "HTF_TREND_UP",
+        "EMA20_PULLBACK_TOUCHED",
+        "CLOSE_RECLAIM_EMA20",
+        "OBV_CONFIRMATION",
+        "CLOSED_CANDLE"
+      ]
     }
   ],
   "last_evaluated_candle_by_symbol": {
-    "SOL": "1795451400000",
-    "XRP": "1795451400000",
+    "SOL": "1795452300000",
+    "XRP": "1795452300000",
     "kSHIB": "1795450500000",
-    "HYPE": "1795451400000",
-    "ZEC": "1795451400000"
+    "HYPE": "1795452300000",
+    "ZEC": "1795452300000"
   },
-  "updated_at": "2026-11-23 18:59:14"
+  "updated_at": "2026-11-23 19:00:24"
 }
