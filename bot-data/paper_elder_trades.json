@@ -11,10 +11,10 @@
       "side": "LONG",
       "entry_time": "2026-11-23 23:09:09",
       "entry_candle_time": 1795468080000,
-      "last_processed_candle_time": 1795474740000,
+      "last_processed_candle_time": 1795474800000,
       "entry_price": 0.9373364359,
       "entry_reference_price": 0.9354535359999999,
-      "last_price": 0.93889,
+      "last_price": 0.94007,
       "qty": 106.68527987120423,
       "remaining_qty": 106.68527987120423,
       "notional": 100.0,
@@ -47,10 +47,10 @@
       "side": "LONG",
       "entry_time": "2026-11-24 00:55:07",
       "entry_candle_time": 1795474380000,
-      "last_processed_candle_time": 1795474740000,
+      "last_processed_candle_time": 1795474800000,
       "entry_price": 0.003618,
       "entry_reference_price": 0.0036143614,
-      "last_price": 0.003624,
+      "last_price": 0.003629,
       "qty": 27639.57987838585,
       "remaining_qty": 27639.57987838585,
       "notional": 100.0,
@@ -475,19 +475,19 @@
     }
   ],
   "last_evaluated_candle_by_symbol": {
-    "SOL": 1795474740000,
+    "SOL": 1795474800000,
     "XRP": 1795468080000,
     "kSHIB": 1795474380000,
-    "HYPE": 1795474740000,
-    "ZEC": 1795474740000
+    "HYPE": 1795474800000,
+    "ZEC": 1795474800000
   },
-  "updated_at": "2026-11-24 01:00:43",
+  "updated_at": "2026-11-24 01:01:54",
   "pending_entries": {
-    "SOL": {
-      "trigger_price": 71.917191,
-      "stop": 71.83005714285714,
-      "hourly_candle_time": 1795467600000,
-      "created_at_minute": 1795474740000
+    "ZEC": {
+      "trigger_price": 776.347627,
+      "stop": 763.107,
+      "hourly_candle_time": 1795471200000,
+      "created_at_minute": 1795474800000
     }
   },
   "last_screen_by_symbol": {
@@ -540,7 +540,7 @@
       "updated_at": "2026-11-24 00:55:07"
     },
     "HYPE": {
-      "status": "INVALID_STOP",
+      "status": "HOURLY_PULLBACK_NOT_READY",
       "daily": {
         "ready": true,
         "bullish": true,
@@ -551,20 +551,20 @@
       },
       "hourly": {
         "ready": true,
-        "pullback": true,
-        "force_index_ema2": -53874.7351131504,
-        "previous_force_index_ema2": -141511.97883944734,
-        "reason": "FORCE_INDEX_PULLBACK_TURNING_UP",
-        "candle_time": 1795467600000,
-        "pullback_low": 63.867,
-        "atr": 1.336000000000001,
-        "invalidation_price": 63.733399999999996
+        "pullback": false,
+        "force_index_ema2": -221736.33053771596,
+        "previous_force_index_ema2": -53874.7351131504,
+        "reason": "FORCE_INDEX_PULLBACK_NOT_READY",
+        "candle_time": 1795471200000,
+        "pullback_low": 63.302,
+        "atr": 1.3640000000000019,
+        "invalidation_price": 63.1656
       },
-      "minute_candle_time": 1795474740000,
-      "updated_at": "2026-11-24 01:00:41"
+      "minute_candle_time": 1795474800000,
+      "updated_at": "2026-11-24 01:01:53"
     },
     "ZEC": {
-      "status": "HOURLY_PULLBACK_NOT_READY",
+      "status": "SETUP_READY",
       "daily": {
         "ready": true,
         "bullish": true,
@@ -575,20 +575,20 @@
       },
       "hourly": {
         "ready": true,
-        "pullback": false,
-        "force_index_ema2": -314192.52893586503,
-        "previous_force_index_ema2": -186387.16280759592,
-        "reason": "FORCE_INDEX_PULLBACK_NOT_READY",
-        "candle_time": 1795467600000,
-        "pullback_low": 771.58,
-        "atr": 26.291428571428582,
-        "invalidation_price": 768.9508571428572
+        "pullback": true,
+        "force_index_ema2": -128565.99177862216,
+        "previous_force_index_ema2": -314192.52893586503,
+        "reason": "FORCE_INDEX_PULLBACK_TURNING_UP",
+        "candle_time": 1795471200000,
+        "pullback_low": 765.75,
+        "atr": 26.430000000000014,
+        "invalidation_price": 763.107
       },
-      "minute_candle_time": 1795474740000,
-      "updated_at": "2026-11-24 01:00:43"
+      "minute_candle_time": 1795474800000,
+      "updated_at": "2026-11-24 01:01:54"
     },
     "SOL": {
-      "status": "SETUP_READY",
+      "status": "HOURLY_PULLBACK_NOT_READY",
       "daily": {
         "ready": true,
         "bullish": true,
@@ -599,17 +599,17 @@
       },
       "hourly": {
         "ready": true,
-        "pullback": true,
-        "force_index_ema2": -47246.990992734696,
-        "previous_force_index_ema2": -60168.110698202014,
-        "reason": "FORCE_INDEX_PULLBACK_TURNING_UP",
-        "candle_time": 1795467600000,
-        "pullback_low": 71.973,
-        "atr": 1.4294285714285715,
-        "invalidation_price": 71.83005714285714
+        "pullback": false,
+        "force_index_ema2": -54747.65091757756,
+        "previous_force_index_ema2": -47246.990992734696,
+        "reason": "FORCE_INDEX_PULLBACK_NOT_READY",
+        "candle_time": 1795471200000,
+        "pullback_low": 71.583,
+        "atr": 1.446785714285715,
+        "invalidation_price": 71.43832142857143
       },
-      "minute_candle_time": 1795474740000,
-      "updated_at": "2026-11-24 01:00:36"
+      "minute_candle_time": 1795474800000,
+      "updated_at": "2026-11-24 01:01:49"
     }
   }
 }
