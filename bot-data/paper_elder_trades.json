@@ -1,7 +1,7 @@
 {
   "engine_version": "2.1-paper",
   "initial_balance": 1000.0,
-  "realized_pnl": -11.344460443548119,
+  "realized_pnl": -11.540915461716265,
   "positions": [
     {
       "position_id": "ELDER-kSHIB-1795464720000",
@@ -47,10 +47,10 @@
       "side": "LONG",
       "entry_time": "2026-11-23 23:09:09",
       "entry_candle_time": 1795468080000,
-      "last_processed_candle_time": 1795472700000,
+      "last_processed_candle_time": 1795472760000,
       "entry_price": 0.9373364359,
       "entry_reference_price": 0.9354535359999999,
-      "last_price": 0.94009,
+      "last_price": 0.93974,
       "qty": 106.68527987120423,
       "remaining_qty": 106.68527987120423,
       "notional": 100.0,
@@ -83,10 +83,10 @@
       "side": "LONG",
       "entry_time": "2026-11-24 00:04:05",
       "entry_candle_time": 1795471320000,
-      "last_processed_candle_time": 1795472700000,
+      "last_processed_candle_time": 1795472760000,
       "entry_price": 72.318,
       "entry_reference_price": 72.3862379,
-      "last_price": 72.199,
+      "last_price": 72.212,
       "qty": 1.3827816034735474,
       "remaining_qty": 1.3827816034735474,
       "notional": 100.0,
@@ -99,42 +99,6 @@
       "entry_slippage_source": "L2_ORDERBOOK_VWAP",
       "entry_book_status": "OK",
       "stop": 71.83005714285714,
-      "target": null,
-      "setup_score": 100.0,
-      "risk_reward_gross": null,
-      "reason_codes": [
-        "SCREEN1_DAILY_MACD_HISTOGRAM_RISING",
-        "SCREEN2_HOURLY_FORCE_INDEX_EMA2_NEGATIVE_RISING",
-        "SCREEN3_ONE_MINUTE_PREVIOUS_HIGH_BUY_STOP",
-        "CLOSED_CANDLES_ONLY"
-      ],
-      "daily_candle_time": 1795305600000,
-      "hourly_candle_time": 1795467600000
-    },
-    {
-      "position_id": "ELDER-HYPE-1795472400000",
-      "symbol": "HYPE",
-      "strategy_id": "ELDER_TRIPLE_SCREEN_LONG",
-      "strategy_version": "elder-triple-screen-crypto-1.0",
-      "side": "LONG",
-      "entry_time": "2026-11-24 00:21:52",
-      "entry_candle_time": 1795472400000,
-      "last_processed_candle_time": 1795472700000,
-      "entry_price": 63.848,
-      "entry_reference_price": 63.843383700000004,
-      "last_price": 63.689,
-      "qty": 1.5662197719584012,
-      "remaining_qty": 1.5662197719584012,
-      "notional": 100.0,
-      "margin": 100.0,
-      "leverage": 1.0,
-      "entry_fee": 0.045,
-      "entry_fee_rate": 0.00045,
-      "entry_fee_source": "HYPERLIQUID_USER_FEES_TAKER",
-      "entry_slippage_rate": 7.23066312038334e-05,
-      "entry_slippage_source": "L2_ORDERBOOK_VWAP",
-      "entry_book_status": "OK",
-      "stop": 63.733399999999996,
       "target": null,
       "setup_score": 100.0,
       "risk_reward_gross": null,
@@ -400,6 +364,42 @@
         "SCREEN3_ONE_MINUTE_PREVIOUS_HIGH_BUY_STOP",
         "CLOSED_CANDLES_ONLY"
       ]
+    },
+    {
+      "date": "2026-11-24 00:27:22",
+      "symbol": "HYPE",
+      "strategy_id": "ELDER_TRIPLE_SCREEN_LONG",
+      "side": "LONG",
+      "entry": 63.848,
+      "exit": 63.78,
+      "qty": 1.5662197719584012,
+      "notional": 100.0,
+      "leverage": 1.0,
+      "stop": 63.733399999999996,
+      "target": null,
+      "exit_reason": "ELDER_PAPER_STOP",
+      "entry_candle_time": 1795472400000,
+      "exit_candle_time": 1795472760000,
+      "gross_pnl": -0.10650294,
+      "fees": 0.08995207,
+      "entry_fee_rate": 0.00045,
+      "exit_fee_rate": 0.00045,
+      "entry_slippage_rate": 7.23066312038334e-05,
+      "exit_slippage_rate": 0.0007311707832942105,
+      "fee_source": "HYPERLIQUID_USER_FEES_TAKER",
+      "exit_slippage_source": "L2_ORDERBOOK_VWAP",
+      "exit_book_status": "OK",
+      "net_pnl": -0.19645502,
+      "pnl_pct": -0.19646,
+      "setup_score": 100.0,
+      "risk_reward_gross": null,
+      "regime": null,
+      "reason_codes": [
+        "SCREEN1_DAILY_MACD_HISTOGRAM_RISING",
+        "SCREEN2_HOURLY_FORCE_INDEX_EMA2_NEGATIVE_RISING",
+        "SCREEN3_ONE_MINUTE_PREVIOUS_HIGH_BUY_STOP",
+        "CLOSED_CANDLES_ONLY"
+      ]
     }
   ],
   "last_evaluated_candle_by_symbol": {
@@ -407,9 +407,9 @@
     "XRP": 1795468080000,
     "kSHIB": 1795464720000,
     "HYPE": 1795472400000,
-    "ZEC": 1795472700000
+    "ZEC": 1795472760000
   },
-  "updated_at": "2026-11-24 00:26:18",
+  "updated_at": "2026-11-24 00:27:23",
   "pending_entries": {},
   "last_screen_by_symbol": {
     "XRP": {
@@ -505,8 +505,8 @@
         "atr": 26.291428571428582,
         "invalidation_price": 768.9508571428572
       },
-      "minute_candle_time": 1795472700000,
-      "updated_at": "2026-11-24 00:26:18"
+      "minute_candle_time": 1795472760000,
+      "updated_at": "2026-11-24 00:27:23"
     },
     "SOL": {
       "status": "SETUP_READY",
