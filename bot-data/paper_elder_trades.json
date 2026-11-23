@@ -11,10 +11,10 @@
       "side": "LONG",
       "entry_time": "2026-11-23 16:30:41",
       "entry_candle_time": 1795443300000,
-      "last_processed_candle_time": 1795467780000,
+      "last_processed_candle_time": 1795467840000,
       "entry_price": 77.17,
       "entry_reference_price": 78.005,
-      "last_price": 72.753,
+      "last_price": 72.778,
       "qty": 1.2958403524685758,
       "remaining_qty": 1.2958403524685758,
       "notional": 100.0,
@@ -46,10 +46,10 @@
       "side": "LONG",
       "entry_time": "2026-11-23 22:13:26",
       "entry_candle_time": 1795464720000,
-      "last_processed_candle_time": 1795467780000,
+      "last_processed_candle_time": 1795467840000,
       "entry_price": 0.003649,
       "entry_reference_price": 0.003640364,
-      "last_price": 0.003637,
+      "last_price": 0.003639,
       "qty": 27404.768429706768,
       "remaining_qty": 27404.768429706768,
       "notional": 100.0,
@@ -73,6 +73,42 @@
       ],
       "daily_candle_time": 1795305600000,
       "hourly_candle_time": 1795460400000
+    },
+    {
+      "position_id": "ELDER-ZEC-1795467840000",
+      "symbol": "ZEC",
+      "strategy_id": "ELDER_TRIPLE_SCREEN_LONG",
+      "strategy_version": "elder-triple-screen-crypto-1.0",
+      "side": "LONG",
+      "entry_time": "2026-11-23 23:05:53",
+      "entry_candle_time": 1795467840000,
+      "last_processed_candle_time": 1795467840000,
+      "entry_price": 795.47,
+      "entry_reference_price": 794.729465,
+      "last_price": 794.729465,
+      "qty": 0.1257118433127585,
+      "remaining_qty": 0.1257118433127585,
+      "notional": 100.0,
+      "margin": 100.0,
+      "leverage": 1.0,
+      "entry_fee": 0.045000000000000005,
+      "entry_fee_rate": 0.00045,
+      "entry_fee_source": "HYPERLIQUID_USER_FEES_TAKER",
+      "entry_slippage_rate": 0.0009318076560809185,
+      "entry_slippage_source": "L2_ORDERBOOK_VWAP",
+      "entry_book_status": "OK",
+      "stop": 784.9375714285713,
+      "target": null,
+      "setup_score": 100.0,
+      "risk_reward_gross": null,
+      "reason_codes": [
+        "SCREEN1_DAILY_MACD_HISTOGRAM_RISING",
+        "SCREEN2_HOURLY_FORCE_INDEX_EMA2_NEGATIVE_RISING",
+        "SCREEN3_ONE_MINUTE_PREVIOUS_HIGH_BUY_STOP",
+        "CLOSED_CANDLES_ONLY"
+      ],
+      "daily_candle_time": 1795305600000,
+      "hourly_candle_time": 1795464000000
     }
   ],
   "trades": [
@@ -187,28 +223,22 @@
   ],
   "last_evaluated_candle_by_symbol": {
     "SOL": "1795443300000",
-    "XRP": 1795467780000,
+    "XRP": 1795467840000,
     "kSHIB": 1795464720000,
-    "HYPE": 1795467780000,
-    "ZEC": 1795467780000
+    "HYPE": 1795467840000,
+    "ZEC": 1795467840000
   },
-  "updated_at": "2026-11-23 23:04:47",
+  "updated_at": "2026-11-23 23:05:53",
   "pending_entries": {
     "XRP": {
-      "trigger_price": 0.936053596,
+      "trigger_price": 0.935663557,
       "stop": 0.9323845714285715,
       "hourly_candle_time": 1795464000000,
       "created_at_minute": 1795467660000
     },
     "HYPE": {
-      "trigger_price": 64.4514445,
+      "trigger_price": 64.4104404,
       "stop": 63.734964285714284,
-      "hourly_candle_time": 1795464000000,
-      "created_at_minute": 1795467660000
-    },
-    "ZEC": {
-      "trigger_price": 794.729465,
-      "stop": 784.9375714285713,
       "hourly_candle_time": 1795464000000,
       "created_at_minute": 1795467660000
     }
@@ -235,8 +265,8 @@
         "atr": 0.017454285714285724,
         "invalidation_price": 0.9323845714285715
       },
-      "minute_candle_time": 1795467780000,
-      "updated_at": "2026-11-23 23:04:45"
+      "minute_candle_time": 1795467840000,
+      "updated_at": "2026-11-23 23:05:50"
     },
     "kSHIB": {
       "status": "SETUP_READY",
@@ -283,8 +313,8 @@
         "atr": 1.3203571428571443,
         "invalidation_price": 63.734964285714284
       },
-      "minute_candle_time": 1795467780000,
-      "updated_at": "2026-11-23 23:04:47"
+      "minute_candle_time": 1795467840000,
+      "updated_at": "2026-11-23 23:05:52"
     },
     "ZEC": {
       "status": "SETUP_READY",
@@ -307,8 +337,8 @@
         "atr": 24.924285714285727,
         "invalidation_price": 784.9375714285713
       },
-      "minute_candle_time": 1795467780000,
-      "updated_at": "2026-11-23 23:04:47"
+      "minute_candle_time": 1795467840000,
+      "updated_at": "2026-11-23 23:05:53"
     }
   }
 }
