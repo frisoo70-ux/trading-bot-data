@@ -1,7 +1,7 @@
 {
   "engine_version": "2.1-paper",
   "initial_balance": 1000.0,
-  "realized_pnl": 0.0,
+  "realized_pnl": -0.4982458578075439,
   "positions": [
     {
       "position_id": "V2-SOL-ELDER_3_CANDLE_PAPER-1795443300000",
@@ -11,10 +11,10 @@
       "side": "LONG",
       "entry_time": "2026-11-23 16:30:41",
       "entry_candle_time": 1795443300000,
-      "last_processed_candle_time": 1795462260000,
+      "last_processed_candle_time": 1795462320000,
       "entry_price": 77.17,
       "entry_reference_price": 78.005,
-      "last_price": 72.943,
+      "last_price": 72.994,
       "qty": 1.2958403524685758,
       "remaining_qty": 1.2958403524685758,
       "notional": 100.0,
@@ -37,56 +37,57 @@
         "C3_CLOSE_ABOVE_C2_HIGH",
         "CLOSED_CANDLES_ONLY"
       ]
-    },
+    }
+  ],
+  "trades": [
     {
-      "position_id": "ELDER-XRP-1795461720000",
+      "date": "2026-11-23 21:33:25",
       "symbol": "XRP",
       "strategy_id": "ELDER_TRIPLE_SCREEN_LONG",
-      "strategy_version": "elder-triple-screen-crypto-1.0",
       "side": "LONG",
-      "entry_time": "2026-11-23 21:23:23",
-      "entry_candle_time": 1795461720000,
-      "last_processed_candle_time": 1795462260000,
-      "entry_price": 0.94998,
-      "entry_reference_price": 0.952525243,
-      "last_price": 0.94632,
+      "entry": 0.94998,
+      "exit": 0.9461,
       "qty": 105.26537400787385,
-      "remaining_qty": 105.26537400787385,
       "notional": 100.0,
-      "margin": 100.0,
       "leverage": 1.0,
-      "entry_fee": 0.045,
-      "entry_fee_rate": 0.00045,
-      "entry_fee_source": "HYPERLIQUID_USER_FEES_TAKER",
-      "entry_slippage_rate": 0.0026721003130412146,
-      "entry_slippage_source": "L2_ORDERBOOK_VWAP",
-      "entry_book_status": "OK",
       "stop": 0.9461084285714285,
       "target": null,
+      "exit_reason": "ELDER_PAPER_STOP",
+      "entry_candle_time": 1795461720000,
+      "exit_candle_time": 1795462320000,
+      "gross_pnl": -0.40842965,
+      "fees": 0.08981621,
+      "entry_fee_rate": 0.00045,
+      "exit_fee_rate": 0.00045,
+      "entry_slippage_rate": 0.0026721003130412146,
+      "exit_slippage_rate": 8.908673862384475e-06,
+      "fee_source": "HYPERLIQUID_USER_FEES_TAKER",
+      "exit_slippage_source": "L2_ORDERBOOK_VWAP",
+      "exit_book_status": "OK",
+      "net_pnl": -0.49824586,
+      "pnl_pct": -0.49825,
       "setup_score": 100.0,
       "risk_reward_gross": null,
+      "regime": null,
       "reason_codes": [
         "SCREEN1_DAILY_MACD_HISTOGRAM_RISING",
         "SCREEN2_HOURLY_FORCE_INDEX_EMA2_NEGATIVE_RISING",
         "SCREEN3_ONE_MINUTE_PREVIOUS_HIGH_BUY_STOP",
         "CLOSED_CANDLES_ONLY"
-      ],
-      "daily_candle_time": 1795305600000,
-      "hourly_candle_time": 1795456800000
+      ]
     }
   ],
-  "trades": [],
   "last_evaluated_candle_by_symbol": {
     "SOL": "1795443300000",
     "XRP": 1795461720000,
     "kSHIB": 1795462260000,
-    "HYPE": 1795462260000,
-    "ZEC": 1795462260000
+    "HYPE": 1795462320000,
+    "ZEC": 1795462320000
   },
-  "updated_at": "2026-11-23 21:32:20",
+  "updated_at": "2026-11-23 21:33:28",
   "pending_entries": {
     "ZEC": {
-      "trigger_price": 808.5108429999999,
+      "trigger_price": 808.440836,
       "stop": 807.033,
       "hourly_candle_time": 1795456800000,
       "created_at_minute": 1795461660000
@@ -162,8 +163,8 @@
         "atr": 1.2370714285714293,
         "invalidation_price": 64.70829285714285
       },
-      "minute_candle_time": 1795462260000,
-      "updated_at": "2026-11-23 21:32:19"
+      "minute_candle_time": 1795462320000,
+      "updated_at": "2026-11-23 21:33:27"
     },
     "ZEC": {
       "status": "SETUP_READY",
@@ -186,8 +187,8 @@
         "atr": 23.370000000000005,
         "invalidation_price": 807.033
       },
-      "minute_candle_time": 1795462260000,
-      "updated_at": "2026-11-23 21:32:20"
+      "minute_candle_time": 1795462320000,
+      "updated_at": "2026-11-23 21:33:28"
     }
   }
 }
