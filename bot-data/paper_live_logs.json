@@ -2,7 +2,7 @@
   "ok": true,
   "read_only": true,
   "order_submission_enabled": false,
-  "generated_at": "2026-11-24 10:22:02",
+  "generated_at": "2026-11-24 10:23:35",
   "engines": {
     "legacy_paper": {
       "mode": "PAPER",
@@ -30251,7 +30251,7 @@
           "pnl_pct": -1.0005
         }
       ],
-      "updated_at": "2026-11-24 10:20:06",
+      "updated_at": "2026-11-24 10:22:21",
       "fee_rate": 0.00045,
       "fee_source": "HYPERLIQUID_USER_FEES_TAKER",
       "fee_updated_at": "2026-11-24 10:22:02",
@@ -32120,9 +32120,9 @@
       "order_submission_enabled": false,
       "initial_balance": 1000.0,
       "balance": 981.8454,
-      "equity": 981.4375,
+      "equity": 981.3806,
       "realized_pnl": -18.154613,
-      "unrealized_pnl": -0.407878,
+      "unrealized_pnl": -0.464804,
       "closed_trades": 16,
       "wins": 0,
       "losses": 16,
@@ -32160,10 +32160,10 @@
           "side": "LONG",
           "entry_time": "2026-11-24 06:06:24",
           "entry_candle_time": 1795493100000,
-          "last_processed_candle_time": 1795508280000,
+          "last_processed_candle_time": 1795508460000,
           "entry_price": 0.003634,
           "entry_reference_price": 0.0036323631999999996,
-          "last_price": 0.003638,
+          "last_price": 0.003645,
           "qty": 27517.8866263071,
           "remaining_qty": 27517.8866263071,
           "notional": 100.0,
@@ -32187,9 +32187,9 @@
           ],
           "daily_candle_time": 1795392000000,
           "hourly_candle_time": 1795489200000,
-          "current_price": 0.003638,
-          "unrealized_pnl": 0.02002201,
-          "pnl_pct": 0.11007
+          "current_price": 0.003645,
+          "unrealized_pnl": 0.21256054,
+          "pnl_pct": 0.3027
         },
         {
           "position_id": "ELDER-ZEC-1795493100000",
@@ -32199,10 +32199,10 @@
           "side": "LONG",
           "entry_time": "2026-11-24 06:06:26",
           "entry_candle_time": 1795493100000,
-          "last_processed_candle_time": 1795508340000,
+          "last_processed_candle_time": 1795508520000,
           "entry_price": 757.28,
           "entry_reference_price": 758.37583,
-          "last_price": 754.72,
+          "last_price": 752.83,
           "qty": 0.13205155292626242,
           "remaining_qty": 0.13205155292626242,
           "notional": 100.0,
@@ -32226,9 +32226,9 @@
           ],
           "daily_candle_time": 1795392000000,
           "hourly_candle_time": 1795489200000,
-          "current_price": 754.72,
-          "unrealized_pnl": -0.42789985,
-          "pnl_pct": -0.33805
+          "current_price": 752.83,
+          "unrealized_pnl": -0.67736498,
+          "pnl_pct": -0.58763
         }
       ],
       "recent_trades": [
@@ -32809,7 +32809,7 @@
           ]
         }
       ],
-      "updated_at": "2026-11-24 10:20:03",
+      "updated_at": "2026-11-24 10:23:30",
       "funding_simulated": false,
       "fees_and_slippage": "ESTIMATED_FROM_L2_WITH_FALLBACK",
       "strategy": "PDL sweep -> 1H/30m setup -> 15m break -> OB retest (1m)",
@@ -32841,7 +32841,7 @@
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795508280000
+          "updated_at": 1795508520000
         },
         "XRP": {
           "direction": {
@@ -32870,7 +32870,7 @@
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795508280000
+          "updated_at": 1795508520000
         },
         "HYPE": {
           "direction": {
@@ -32899,13 +32899,24 @@
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795508280000
+          "updated_at": 1795508520000
         }
       }
     }
   },
   "runtime": {
-    "recent_logs": [],
+    "recent_logs": [
+      "[CANDLE CLOSE] 2026-11-24 10:22:19 SOL Close=71.41200 Current=71.54500 EMA20=71.64641 EMA50=71.97064 RSI=40.88 ATR=0.28936 VWAP=73.36563 OBV=-1234624.72 OBV_MA5=-1220000.66",
+      "[SIGNAL] SOL HOLD trend=False trend_score=0/8 trend_missing=ema20_above_ema50,close_above_ema20,ema20_rising,ema50_rising,higher_close,higher_low,obv_above_ma5 rsi=False vwap=False obv=False breakout=False green=False mode=None mode_a=False mode_b=False mode_c=False mode_d=False mode_e=False d1=False d2=False pattern_score=0 score=0.0",
+      "[CANDLE CLOSE] 2026-11-24 10:22:19 XRP Close=0.94356 Current=0.94587 EMA20=0.94742 EMA50=0.94789 RSI=34.60 ATR=0.00434 VWAP=0.95886 OBV=891405.00 OBV_MA5=202490.20",
+      "[SIGNAL] XRP HOLD trend=False trend_score=1/8 trend_missing=ema20_above_ema50,close_above_ema20,ema20_rising,ema50_rising,higher_low rsi=False vwap=False obv=True breakout=False green=True mode=None mode_a=False mode_b=False mode_c=False mode_d=False mode_e=False d1=False d2=False pattern_score=0 score=4.25",
+      "[CANDLE CLOSE] 2026-11-24 10:22:19 kSHIB Close=0.00364 Current=0.00364 EMA20=0.00366 EMA50=0.00366 RSI=35.05 ATR=0.00001 VWAP=0.00364 OBV=97751276.00 OBV_MA5=98473928.00",
+      "[SIGNAL] kSHIB HOLD trend=False trend_score=0/8 trend_missing=ema20_above_ema50,close_above_ema20,ema20_rising,ema50_rising,higher_close,higher_low,obv_above_ma5 rsi=False vwap=False obv=False breakout=False green=False mode=None mode_a=False mode_b=False mode_c=False mode_d=False mode_e=False d1=False d2=False pattern_score=0 score=0.0",
+      "[CANDLE CLOSE] 2026-11-24 10:22:19 HYPE Close=63.72400 Current=63.93100 EMA20=63.90536 EMA50=63.97588 RSI=49.86 ATR=0.34214 VWAP=64.41952 OBV=-925476.29 OBV_MA5=-705989.79",
+      "[SIGNAL] HYPE HOLD trend=False trend_score=0/8 trend_missing=ema20_above_ema50,close_above_ema20,ema20_rising,ema50_rising,higher_close,higher_low,obv_above_ma5 rsi=False vwap=False obv=False breakout=False green=False mode=None mode_a=False mode_b=False mode_c=False mode_d=False mode_e=False d1=False d2=False pattern_score=0 score=0.0",
+      "[CANDLE CLOSE] 2026-11-24 10:22:19 ZEC Close=752.77000 Current=754.48000 EMA20=763.49412 EMA50=773.78395 RSI=35.05 ATR=5.30286 VWAP=809.90174 OBV=-57982.06 OBV_MA5=-53699.42",
+      "[SIGNAL] ZEC HOLD trend=False trend_score=0/8 trend_missing=ema20_above_ema50,close_above_ema20,ema20_rising,ema50_rising,higher_close,higher_low,obv_above_ma5 rsi=False vwap=False obv=False breakout=False green=False mode=None mode_a=False mode_b=False mode_c=False mode_d=False mode_e=False d1=False d2=False pattern_score=0 score=0.0"
+    ],
     "last_evaluated_candles": {
       "strategy_v2_paper": {
         "SOL": "1795507200000",
@@ -32915,10 +32926,10 @@
         "ZEC": "1795507200000"
       },
       "elder_video_paper": {
-        "SOL": 1795508280000,
-        "XRP": 1795508280000,
+        "SOL": 1795508520000,
+        "XRP": 1795508520000,
         "kSHIB": 1795493100000,
-        "HYPE": 1795508280000,
+        "HYPE": 1795508520000,
         "ZEC": 1795493100000
       }
     },
@@ -32926,13 +32937,14 @@
       "enabled": true,
       "restored": true,
       "last_restore": "2026-11-24 10:21:56",
-      "last_backup": null,
-      "last_status": "RESTORE_OK",
+      "last_backup": "2026-11-24 10:22:32",
+      "last_status": "BACKUP_OK",
       "last_error": "",
-      "uploaded_files": 0,
+      "uploaded_files": 8,
       "downloaded_files": 8,
       "dirty": true,
-      "worker_running": true
+      "worker_running": true,
+      "last_live_logs_export": "2026-11-24 10:22:05"
     }
   }
 }
