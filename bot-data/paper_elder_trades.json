@@ -2,7 +2,80 @@
   "engine_version": "2.1-paper",
   "initial_balance": 1000.0,
   "realized_pnl": -18.154613187335983,
-  "positions": [],
+  "positions": [
+    {
+      "position_id": "ELDER-kSHIB-1795493100000",
+      "symbol": "kSHIB",
+      "strategy_id": "ELDER_TRIPLE_SCREEN_LONG",
+      "strategy_version": "elder-triple-screen-crypto-1.0",
+      "side": "LONG",
+      "entry_time": "2026-11-24 06:06:24",
+      "entry_candle_time": 1795493100000,
+      "last_processed_candle_time": 1795493100000,
+      "entry_price": 0.003634,
+      "entry_reference_price": 0.0036323631999999996,
+      "last_price": 0.0036323631999999996,
+      "qty": 27517.8866263071,
+      "remaining_qty": 27517.8866263071,
+      "notional": 100.0,
+      "margin": 100.0,
+      "leverage": 1.0,
+      "entry_fee": 0.045,
+      "entry_fee_rate": 0.00045,
+      "entry_fee_source": "HYPERLIQUID_USER_FEES_TAKER",
+      "entry_slippage_rate": 0.0004506157313786119,
+      "entry_slippage_source": "L2_ORDERBOOK_VWAP",
+      "entry_book_status": "OK",
+      "stop": 0.0035831500000000002,
+      "target": null,
+      "setup_score": 100.0,
+      "risk_reward_gross": null,
+      "reason_codes": [
+        "SCREEN1_DAILY_MACD_HISTOGRAM_RISING",
+        "SCREEN2_HOURLY_FORCE_INDEX_EMA2_NEGATIVE_RISING",
+        "SCREEN3_ONE_MINUTE_PREVIOUS_HIGH_BUY_STOP",
+        "CLOSED_CANDLES_ONLY"
+      ],
+      "daily_candle_time": 1795392000000,
+      "hourly_candle_time": 1795489200000
+    },
+    {
+      "position_id": "ELDER-ZEC-1795493100000",
+      "symbol": "ZEC",
+      "strategy_id": "ELDER_TRIPLE_SCREEN_LONG",
+      "strategy_version": "elder-triple-screen-crypto-1.0",
+      "side": "LONG",
+      "entry_time": "2026-11-24 06:06:26",
+      "entry_candle_time": 1795493100000,
+      "last_processed_candle_time": 1795493100000,
+      "entry_price": 757.28,
+      "entry_reference_price": 758.37583,
+      "last_price": 758.37583,
+      "qty": 0.13205155292626242,
+      "remaining_qty": 0.13205155292626242,
+      "notional": 100.0,
+      "margin": 100.0,
+      "leverage": 1.0,
+      "entry_fee": 0.045,
+      "entry_fee_rate": 0.00045,
+      "entry_fee_source": "HYPERLIQUID_USER_FEES_TAKER",
+      "entry_slippage_rate": 0.001444969573990762,
+      "entry_slippage_source": "L2_ORDERBOOK_VWAP",
+      "entry_book_status": "OK",
+      "stop": 739.9301428571429,
+      "target": null,
+      "setup_score": 100.0,
+      "risk_reward_gross": null,
+      "reason_codes": [
+        "SCREEN1_DAILY_MACD_HISTOGRAM_RISING",
+        "SCREEN2_HOURLY_FORCE_INDEX_EMA2_NEGATIVE_RISING",
+        "SCREEN3_ONE_MINUTE_PREVIOUS_HIGH_BUY_STOP",
+        "CLOSED_CANDLES_ONLY"
+      ],
+      "daily_candle_time": 1795392000000,
+      "hourly_candle_time": 1795489200000
+    }
+  ],
   "trades": [
     {
       "date": "2026-11-23 21:33:25",
@@ -582,27 +655,14 @@
     }
   ],
   "last_evaluated_candle_by_symbol": {
-    "SOL": 1795493040000,
-    "XRP": 1795493040000,
-    "kSHIB": 1795492980000,
-    "HYPE": 1795493040000,
-    "ZEC": 1795493040000
+    "SOL": 1795493100000,
+    "XRP": 1795493100000,
+    "kSHIB": 1795493100000,
+    "HYPE": 1795493100000,
+    "ZEC": 1795493100000
   },
-  "updated_at": "2026-11-24 06:05:20",
-  "pending_entries": {
-    "kSHIB": {
-      "trigger_price": 0.0036323631999999996,
-      "stop": 0.0035831500000000002,
-      "hourly_candle_time": 1795489200000,
-      "created_at_minute": 1795492980000
-    },
-    "ZEC": {
-      "trigger_price": 758.37583,
-      "stop": 739.9301428571429,
-      "hourly_candle_time": 1795489200000,
-      "created_at_minute": 1795493040000
-    }
-  },
+  "updated_at": "2026-11-24 06:06:26",
+  "pending_entries": {},
   "last_screen_by_symbol": {
     "XRP": {
       "status": "HOURLY_PULLBACK_NOT_READY",
@@ -625,8 +685,8 @@
         "atr": 0.016539285714285732,
         "invalidation_price": 0.9299660714285715
       },
-      "minute_candle_time": 1795493040000,
-      "updated_at": "2026-11-24 06:05:17"
+      "minute_candle_time": 1795493100000,
+      "updated_at": "2026-11-24 06:06:23"
     },
     "kSHIB": {
       "status": "SETUP_READY",
@@ -649,8 +709,8 @@
         "atr": 4.850000000000003e-05,
         "invalidation_price": 0.0035831500000000002
       },
-      "minute_candle_time": 1795492980000,
-      "updated_at": "2026-11-24 06:05:18"
+      "minute_candle_time": 1795493100000,
+      "updated_at": "2026-11-24 06:06:23"
     },
     "HYPE": {
       "status": "HOURLY_PULLBACK_NOT_READY",
@@ -673,8 +733,8 @@
         "atr": 1.2308571428571438,
         "invalidation_price": 61.904914285714284
       },
-      "minute_candle_time": 1795493040000,
-      "updated_at": "2026-11-24 06:05:19"
+      "minute_candle_time": 1795493100000,
+      "updated_at": "2026-11-24 06:06:25"
     },
     "ZEC": {
       "status": "SETUP_READY",
@@ -697,8 +757,8 @@
         "atr": 23.99857142857143,
         "invalidation_price": 739.9301428571429
       },
-      "minute_candle_time": 1795493040000,
-      "updated_at": "2026-11-24 06:05:20"
+      "minute_candle_time": 1795493100000,
+      "updated_at": "2026-11-24 06:06:26"
     },
     "SOL": {
       "status": "HOURLY_PULLBACK_NOT_READY",
@@ -721,8 +781,8 @@
         "atr": 1.258500000000001,
         "invalidation_price": 69.98415
       },
-      "minute_candle_time": 1795493040000,
-      "updated_at": "2026-11-24 06:05:15"
+      "minute_candle_time": 1795493100000,
+      "updated_at": "2026-11-24 06:06:22"
     }
   }
 }
