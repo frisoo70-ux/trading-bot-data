@@ -2,7 +2,7 @@
   "ok": true,
   "read_only": true,
   "order_submission_enabled": false,
-  "generated_at": "2026-11-24 12:50:05",
+  "generated_at": "2026-11-24 12:51:16",
   "engines": {
     "legacy_paper": {
       "mode": "PAPER",
@@ -32119,18 +32119,18 @@
       "safe": true,
       "order_submission_enabled": false,
       "initial_balance": 1000.0,
-      "balance": 979.7108,
-      "equity": 978.1905,
-      "realized_pnl": -20.289171,
-      "unrealized_pnl": -1.520286,
-      "closed_trades": 17,
+      "balance": 978.1425,
+      "equity": 978.1425,
+      "realized_pnl": -21.857544,
+      "unrealized_pnl": 0.0,
+      "closed_trades": 18,
       "wins": 0,
-      "losses": 17,
+      "losses": 18,
       "winrate": 0.0,
       "profit_factor": 0.0,
-      "max_drawdown_pct": 2.0289,
+      "max_drawdown_pct": 2.1858,
       "drawdown_basis": "CLOSED_TRADES_ONLY",
-      "open_positions": 1,
+      "open_positions": 0,
       "max_positions": 5,
       "position_notional": 100.0,
       "max_gross_exposure": 500.0,
@@ -32144,55 +32144,51 @@
           "profit_factor": 0.0
         },
         "ELDER_TRIPLE_SCREEN_LONG": {
-          "trades": 16,
+          "trades": 17,
           "wins": 0,
           "winrate": 0.0,
-          "net_pnl": -13.745065,
+          "net_pnl": -15.313438,
           "profit_factor": 0.0
         }
       },
-      "positions": [
+      "positions": [],
+      "recent_trades": [
         {
-          "position_id": "ELDER-kSHIB-1795493100000",
+          "date": "2026-11-24 12:51:07",
           "symbol": "kSHIB",
           "strategy_id": "ELDER_TRIPLE_SCREEN_LONG",
-          "strategy_version": "elder-triple-screen-crypto-1.0",
           "side": "LONG",
-          "entry_time": "2026-11-24 06:06:24",
-          "entry_candle_time": 1795493100000,
-          "last_processed_candle_time": 1795517280000,
-          "entry_price": 0.003634,
-          "entry_reference_price": 0.0036323631999999996,
-          "last_price": 0.003582,
+          "entry": 0.003634,
+          "exit": 0.0035802518,
           "qty": 27517.8866263071,
-          "remaining_qty": 27517.8866263071,
           "notional": 100.0,
-          "margin": 100.0,
           "leverage": 1.0,
-          "entry_fee": 0.045,
-          "entry_fee_rate": 0.00045,
-          "entry_fee_source": "HYPERLIQUID_USER_FEES_TAKER",
-          "entry_slippage_rate": 0.0004506157313786119,
-          "entry_slippage_source": "L2_ORDERBOOK_VWAP",
-          "entry_book_status": "OK",
           "stop": 0.0035831500000000002,
           "target": null,
+          "exit_reason": "ELDER_LEGACY_STOP",
+          "entry_candle_time": 1795493100000,
+          "exit_candle_time": 1795517340000,
+          "gross_pnl": -1.47903788,
+          "fees": 0.08933443,
+          "entry_fee_rate": 0.00045,
+          "exit_fee_rate": 0.00045,
+          "entry_slippage_rate": 0.0004506157313786119,
+          "exit_slippage_rate": 0.0007670210661456789,
+          "fee_source": "HYPERLIQUID_USER_FEES_TAKER",
+          "exit_slippage_source": "L2_ORDERBOOK_VWAP",
+          "exit_book_status": "OK",
+          "net_pnl": -1.56837231,
+          "pnl_pct": -1.56837,
           "setup_score": 100.0,
           "risk_reward_gross": null,
+          "regime": null,
           "reason_codes": [
             "SCREEN1_DAILY_MACD_HISTOGRAM_RISING",
             "SCREEN2_HOURLY_FORCE_INDEX_EMA2_NEGATIVE_RISING",
             "SCREEN3_ONE_MINUTE_PREVIOUS_HIGH_BUY_STOP",
             "CLOSED_CANDLES_ONLY"
-          ],
-          "daily_candle_time": 1795392000000,
-          "hourly_candle_time": 1795489200000,
-          "current_price": 0.003582,
-          "unrealized_pnl": -1.52028619,
-          "pnl_pct": -1.43093
-        }
-      ],
-      "recent_trades": [
+          ]
+        },
         {
           "date": "2026-11-24 11:23:58",
           "symbol": "ZEC",
@@ -32806,7 +32802,7 @@
           ]
         }
       ],
-      "updated_at": "2026-11-24 12:50:00",
+      "updated_at": "2026-11-24 12:51:11",
       "funding_simulated": false,
       "fees_and_slippage": "ESTIMATED_FROM_L2_WITH_FALLBACK",
       "strategy": "PDL sweep -> 1H/30m setup -> 15m break -> OB retest (1m)",
@@ -32838,7 +32834,7 @@
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795517280000
+          "updated_at": 1795517400000
         },
         "XRP": {
           "direction": {
@@ -32867,7 +32863,7 @@
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795517280000
+          "updated_at": 1795517400000
         },
         "HYPE": {
           "direction": {
@@ -32896,7 +32892,7 @@
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795517280000
+          "updated_at": 1795517400000
         },
         "ZEC": {
           "direction": {
@@ -32925,7 +32921,7 @@
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795517280000
+          "updated_at": 1795517400000
         }
       }
     }
@@ -33052,25 +33048,25 @@
         "ZEC": "1795516200000"
       },
       "elder_video_paper": {
-        "SOL": 1795517280000,
-        "XRP": 1795517280000,
+        "SOL": 1795517400000,
+        "XRP": 1795517400000,
         "kSHIB": 1795493100000,
-        "HYPE": 1795517280000,
-        "ZEC": 1795517280000
+        "HYPE": 1795517400000,
+        "ZEC": 1795517400000
       }
     },
     "github_sync": {
       "enabled": true,
       "restored": true,
       "last_restore": "2026-11-24 10:21:56",
-      "last_backup": "2026-11-24 12:49:21",
+      "last_backup": "2026-11-24 12:50:31",
       "last_status": "BACKUP_OK",
       "last_error": "",
       "uploaded_files": 8,
       "downloaded_files": 8,
       "dirty": true,
       "worker_running": true,
-      "last_live_logs_export": "2026-11-24 12:49:01"
+      "last_live_logs_export": "2026-11-24 12:50:08"
     }
   }
 }
