@@ -1,45 +1,8 @@
 {
   "engine_version": "2.1-paper",
   "initial_balance": 1000.0,
-  "realized_pnl": -20.289171276814116,
-  "positions": [
-    {
-      "position_id": "ELDER-kSHIB-1795493100000",
-      "symbol": "kSHIB",
-      "strategy_id": "ELDER_TRIPLE_SCREEN_LONG",
-      "strategy_version": "elder-triple-screen-crypto-1.0",
-      "side": "LONG",
-      "entry_time": "2026-11-24 06:06:24",
-      "entry_candle_time": 1795493100000,
-      "last_processed_candle_time": 1795517280000,
-      "entry_price": 0.003634,
-      "entry_reference_price": 0.0036323631999999996,
-      "last_price": 0.003582,
-      "qty": 27517.8866263071,
-      "remaining_qty": 27517.8866263071,
-      "notional": 100.0,
-      "margin": 100.0,
-      "leverage": 1.0,
-      "entry_fee": 0.045,
-      "entry_fee_rate": 0.00045,
-      "entry_fee_source": "HYPERLIQUID_USER_FEES_TAKER",
-      "entry_slippage_rate": 0.0004506157313786119,
-      "entry_slippage_source": "L2_ORDERBOOK_VWAP",
-      "entry_book_status": "OK",
-      "stop": 0.0035831500000000002,
-      "target": null,
-      "setup_score": 100.0,
-      "risk_reward_gross": null,
-      "reason_codes": [
-        "SCREEN1_DAILY_MACD_HISTOGRAM_RISING",
-        "SCREEN2_HOURLY_FORCE_INDEX_EMA2_NEGATIVE_RISING",
-        "SCREEN3_ONE_MINUTE_PREVIOUS_HIGH_BUY_STOP",
-        "CLOSED_CANDLES_ONLY"
-      ],
-      "daily_candle_time": 1795392000000,
-      "hourly_candle_time": 1795489200000
-    }
-  ],
+  "realized_pnl": -21.857543587589685,
+  "positions": [],
   "trades": [
     {
       "date": "2026-11-23 21:33:25",
@@ -652,16 +615,52 @@
         "SCREEN3_ONE_MINUTE_PREVIOUS_HIGH_BUY_STOP",
         "CLOSED_CANDLES_ONLY"
       ]
+    },
+    {
+      "date": "2026-11-24 12:51:07",
+      "symbol": "kSHIB",
+      "strategy_id": "ELDER_TRIPLE_SCREEN_LONG",
+      "side": "LONG",
+      "entry": 0.003634,
+      "exit": 0.0035802518,
+      "qty": 27517.8866263071,
+      "notional": 100.0,
+      "leverage": 1.0,
+      "stop": 0.0035831500000000002,
+      "target": null,
+      "exit_reason": "ELDER_LEGACY_STOP",
+      "entry_candle_time": 1795493100000,
+      "exit_candle_time": 1795517340000,
+      "gross_pnl": -1.47903788,
+      "fees": 0.08933443,
+      "entry_fee_rate": 0.00045,
+      "exit_fee_rate": 0.00045,
+      "entry_slippage_rate": 0.0004506157313786119,
+      "exit_slippage_rate": 0.0007670210661456789,
+      "fee_source": "HYPERLIQUID_USER_FEES_TAKER",
+      "exit_slippage_source": "L2_ORDERBOOK_VWAP",
+      "exit_book_status": "OK",
+      "net_pnl": -1.56837231,
+      "pnl_pct": -1.56837,
+      "setup_score": 100.0,
+      "risk_reward_gross": null,
+      "regime": null,
+      "reason_codes": [
+        "SCREEN1_DAILY_MACD_HISTOGRAM_RISING",
+        "SCREEN2_HOURLY_FORCE_INDEX_EMA2_NEGATIVE_RISING",
+        "SCREEN3_ONE_MINUTE_PREVIOUS_HIGH_BUY_STOP",
+        "CLOSED_CANDLES_ONLY"
+      ]
     }
   ],
   "last_evaluated_candle_by_symbol": {
-    "SOL": 1795517280000,
-    "XRP": 1795517280000,
+    "SOL": 1795517400000,
+    "XRP": 1795517400000,
     "kSHIB": 1795493100000,
-    "HYPE": 1795517280000,
-    "ZEC": 1795517280000
+    "HYPE": 1795517400000,
+    "ZEC": 1795517400000
   },
-  "updated_at": "2026-11-24 12:50:00",
+  "updated_at": "2026-11-24 12:51:11",
   "pending_entries": {},
   "last_screen_by_symbol": {
     "XRP": {
@@ -814,7 +813,7 @@
         "valid": false,
         "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
       },
-      "updated_at": 1795517280000
+      "updated_at": 1795517400000
     },
     "XRP": {
       "direction": {
@@ -843,7 +842,7 @@
         "valid": false,
         "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
       },
-      "updated_at": 1795517280000
+      "updated_at": 1795517400000
     },
     "HYPE": {
       "direction": {
@@ -872,7 +871,7 @@
         "valid": false,
         "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
       },
-      "updated_at": 1795517280000
+      "updated_at": 1795517400000
     },
     "ZEC": {
       "direction": {
@@ -901,7 +900,7 @@
         "valid": false,
         "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
       },
-      "updated_at": 1795517280000
+      "updated_at": 1795517400000
     }
   }
 }
