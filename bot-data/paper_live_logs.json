@@ -2,7 +2,7 @@
   "ok": true,
   "read_only": true,
   "order_submission_enabled": false,
-  "generated_at": "2026-11-24 14:30:42",
+  "generated_at": "2026-11-24 14:31:52",
   "engines": {
     "legacy_paper": {
       "mode": "PAPER",
@@ -30251,7 +30251,7 @@
           "pnl_pct": -1.0005
         }
       ],
-      "updated_at": "2026-11-24 14:30:14",
+      "updated_at": "2026-11-24 14:31:27",
       "fee_rate": 0.00045,
       "fee_source": "HYPERLIQUID_USER_FEES_TAKER",
       "fee_updated_at": "2026-11-24 14:24:53",
@@ -32109,7 +32109,7 @@
           ]
         }
       ],
-      "updated_at": "2026-11-24 14:30:11",
+      "updated_at": "2026-11-24 14:31:21",
       "funding_simulated": false,
       "fees_and_slippage": "ESTIMATED_FROM_L2_WITH_FALLBACK"
     },
@@ -32802,7 +32802,7 @@
           ]
         }
       ],
-      "updated_at": "2026-11-24 14:30:12",
+      "updated_at": "2026-11-24 14:31:25",
       "funding_simulated": false,
       "fees_and_slippage": "ESTIMATED_FROM_L2_WITH_FALLBACK",
       "strategy": "PDL sweep -> 1H/30m setup -> 15m break -> OB retest (1m)",
@@ -32827,14 +32827,14 @@
             "half_hour_level": 69.891,
             "reason": "SETUP_NOT_CONFIRMED",
             "hourly_time": 1795518000000,
-            "half_hour_time": 1795519800000
+            "half_hour_time": 1795521600000
           },
           "entry": {
             "ready": true,
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795523280000
+          "updated_at": 1795523400000
         },
         "XRP": {
           "direction": {
@@ -32856,14 +32856,14 @@
             "half_hour_level": 0.92392,
             "reason": "SETUP_NOT_CONFIRMED",
             "hourly_time": 1795518000000,
-            "half_hour_time": 1795519800000
+            "half_hour_time": 1795521600000
           },
           "entry": {
             "ready": true,
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795523280000
+          "updated_at": 1795523400000
         },
         "HYPE": {
           "direction": {
@@ -32885,14 +32885,14 @@
             "half_hour_level": 62.069,
             "reason": "SETUP_NOT_CONFIRMED",
             "hourly_time": 1795518000000,
-            "half_hour_time": 1795519800000
+            "half_hour_time": 1795521600000
           },
           "entry": {
             "ready": true,
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795523340000
+          "updated_at": 1795523400000
         },
         "ZEC": {
           "direction": {
@@ -32907,21 +32907,21 @@
           },
           "setup": {
             "ready": true,
-            "valid": true,
+            "valid": false,
             "hourly_sweep": true,
-            "half_hour_sweep": true,
+            "half_hour_sweep": false,
             "hourly_level": 733.96,
-            "half_hour_level": 731.93,
-            "reason": "1H_30M_SWEEP_RECLAIM",
+            "half_hour_level": 731.17,
+            "reason": "SETUP_NOT_CONFIRMED",
             "hourly_time": 1795518000000,
-            "half_hour_time": 1795519800000
+            "half_hour_time": 1795521600000
           },
           "entry": {
             "ready": true,
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795523340000
+          "updated_at": 1795523400000
         },
         "kSHIB": {
           "direction": {
@@ -32943,14 +32943,14 @@
             "half_hour_level": 0.003576,
             "reason": "SETUP_NOT_CONFIRMED",
             "hourly_time": 1795518000000,
-            "half_hour_time": 1795519800000
+            "half_hour_time": 1795521600000
           },
           "entry": {
             "ready": true,
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795523280000
+          "updated_at": 1795523400000
         }
       }
     }
@@ -33130,36 +33130,42 @@
       "[CANDLE CLOSE] 2026-11-24 14:30:12 HYPE Close=62.85100 Current=62.84000 EMA20=63.04830 EMA50=63.45740 RSI=41.25 ATR=0.55229 VWAP=64.41398 OBV=-1069215.73 OBV_MA5=-1112199.94",
       "[SIGNAL] HYPE HOLD trend=False trend_score=1/8 trend_missing=ema20_above_ema50,close_above_ema20,ema20_rising,ema50_rising,higher_low rsi=False vwap=False obv=True breakout=False green=True mode=None mode_a=False mode_b=False mode_c=False mode_d=False mode_e=False d1=False d2=False pattern_score=3.0 score=3.3273",
       "[CANDLE CLOSE] 2026-11-24 14:30:12 ZEC Close=737.57000 Current=737.58000 EMA20=744.46824 EMA50=757.87256 RSI=31.59 ATR=7.56714 VWAP=805.59971 OBV=-57310.04 OBV_MA5=-57436.26",
-      "[SIGNAL] ZEC HOLD trend=False trend_score=1/8 trend_missing=ema20_above_ema50,close_above_ema20,ema20_rising,ema50_rising,higher_low rsi=False vwap=False obv=True breakout=False green=True mode=None mode_a=False mode_b=False mode_c=False mode_d=False mode_e=False d1=False d2=False pattern_score=1.0 score=1.2544"
+      "[SIGNAL] ZEC HOLD trend=False trend_score=1/8 trend_missing=ema20_above_ema50,close_above_ema20,ema20_rising,ema50_rising,higher_low rsi=False vwap=False obv=True breakout=False green=True mode=None mode_a=False mode_b=False mode_c=False mode_d=False mode_e=False d1=False d2=False pattern_score=1.0 score=1.2544",
+      "[CANDLE CLOSE] 2026-11-24 14:31:25 SOL Close=70.50900 Current=70.56100 EMA20=70.79256 EMA50=71.32217 RSI=38.69 ATR=0.37243 VWAP=73.30814 OBV=-1186615.86 OBV_MA5=-1182036.84",
+      "[SIGNAL] SOL HOLD trend=False trend_score=0/8 trend_missing=ema20_above_ema50,close_above_ema20,ema20_rising,ema50_rising,higher_close,higher_low,obv_above_ma5 rsi=False vwap=False obv=False breakout=False green=False mode=None mode_a=False mode_b=False mode_c=False mode_d=False mode_e=False d1=False d2=False pattern_score=1.0 score=1.0",
+      "[CANDLE CLOSE] 2026-11-24 14:31:25 XRP Close=0.92874 Current=0.92860 EMA20=0.93417 EMA50=0.94011 RSI=35.14 ATR=0.00429 VWAP=0.95883 OBV=3072846.00 OBV_MA5=3265240.20",
+      "[SIGNAL] XRP HOLD trend=False trend_score=0/8 trend_missing=ema20_above_ema50,close_above_ema20,ema20_rising,ema50_rising,higher_close,higher_low,obv_above_ma5 rsi=False vwap=False obv=False breakout=False green=False mode=None mode_a=False mode_b=False mode_c=False mode_d=False mode_e=False d1=False d2=False pattern_score=0 score=0.0",
+      "[CANDLE CLOSE] 2026-11-24 14:31:25 kSHIB Close=0.00358 Current=0.00358 EMA20=0.00361 EMA50=0.00363 RSI=29.46 ATR=0.00001 VWAP=0.00364 OBV=105832601.00 OBV_MA5=105381601.40",
+      "[SIGNAL] kSHIB HOLD trend=False trend_score=1/8 trend_missing=ema20_above_ema50,close_above_ema20,ema20_rising,ema50_rising,higher_low rsi=False vwap=False obv=True breakout=False green=True mode=None mode_a=False mode_b=False mode_c=False mode_d=False mode_e=False d1=False d2=False pattern_score=0 score=0.2586"
     ],
     "last_evaluated_candles": {
       "strategy_v2_paper": {
-        "SOL": "1795521600000",
-        "XRP": "1795521600000",
-        "kSHIB": "1795521600000",
+        "SOL": "1795522500000",
+        "XRP": "1795522500000",
+        "kSHIB": "1795522500000",
         "HYPE": "1795522500000",
         "ZEC": "1795522500000"
       },
       "elder_video_paper": {
-        "SOL": 1795523280000,
-        "XRP": 1795523280000,
-        "kSHIB": 1795523280000,
-        "HYPE": 1795523340000,
-        "ZEC": 1795523340000
+        "SOL": 1795523400000,
+        "XRP": 1795523400000,
+        "kSHIB": 1795523400000,
+        "HYPE": 1795523400000,
+        "ZEC": 1795523400000
       }
     },
     "github_sync": {
       "enabled": true,
       "restored": true,
       "last_restore": "2026-11-24 10:21:56",
-      "last_backup": "2026-11-24 14:29:35",
+      "last_backup": "2026-11-24 14:30:45",
       "last_status": "BACKUP_OK",
       "last_error": "",
       "uploaded_files": 9,
       "downloaded_files": 8,
       "dirty": true,
       "worker_running": true,
-      "last_live_logs_export": "2026-11-24 14:29:35"
+      "last_live_logs_export": "2026-11-24 14:30:45"
     }
   }
 }
