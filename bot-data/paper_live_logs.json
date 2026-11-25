@@ -2,7 +2,7 @@
   "ok": true,
   "read_only": true,
   "order_submission_enabled": false,
-  "generated_at": "2026-11-25 16:24:05",
+  "generated_at": "2026-11-25 16:25:16",
   "engines": {
     "legacy_paper": {
       "mode": "PAPER",
@@ -42243,7 +42243,7 @@
           ]
         }
       ],
-      "updated_at": "2026-11-25 16:23:58",
+      "updated_at": "2026-11-25 16:25:08",
       "funding_simulated": false,
       "fees_and_slippage": "ESTIMATED_FROM_L2_WITH_FALLBACK",
       "strategy": "PDL sweep -> 1H/30m setup -> 15m break -> OB retest (1m)",
@@ -42275,7 +42275,7 @@
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795616520000
+          "updated_at": 1795616640000
         },
         "XRP": {
           "direction": {
@@ -42304,7 +42304,7 @@
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795616520000
+          "updated_at": 1795616640000
         },
         "HYPE": {
           "direction": {
@@ -42333,7 +42333,7 @@
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795616520000
+          "updated_at": 1795616640000
         },
         "ZEC": {
           "direction": {
@@ -42362,7 +42362,7 @@
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795616520000
+          "updated_at": 1795616640000
         },
         "kSHIB": {
           "direction": {
@@ -42391,7 +42391,7 @@
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795616520000
+          "updated_at": 1795616580000
         }
       }
     },
@@ -42425,7 +42425,7 @@
           "range_low": 66.635,
           "range_pct": 2.0129990714948782,
           "status": "WAIT",
-          "last_candle": "1795616100000",
+          "last_candle": "1795616400000",
           "volume_level": 67.3971875,
           "low_sweep_reclaim": true,
           "retest": false
@@ -42435,11 +42435,13 @@
           "range_high": 0.91179,
           "range_low": 0.8941,
           "range_pct": 1.9591447984096466,
-          "status": "WAIT",
-          "last_candle": "1795616100000",
+          "status": "SKIP_LOW_RR",
+          "last_candle": "1795616400000",
           "volume_level": 0.9025764583333333,
           "low_sweep_reclaim": true,
-          "retest": false
+          "retest": true,
+          "risk_pct": 1.1501639925538456,
+          "target_rr": 0.8969171483622438
         },
         "kSHIB": {
           "symbol": "kSHIB",
@@ -42455,24 +42457,24 @@
         "HYPE": {
           "symbol": "HYPE",
           "range_high": 58.192,
-          "range_low": 57.026,
-          "range_pct": 2.0239893072262958,
+          "range_low": 57.007,
+          "range_pct": 2.0573095252562994,
           "status": "WAIT",
-          "last_candle": "1795616100000",
-          "volume_level": 57.633291666666665,
+          "last_candle": "1795616400000",
+          "volume_level": 57.6241875,
           "low_sweep_reclaim": false,
           "retest": false
         },
         "ZEC": {
           "symbol": "ZEC",
-          "range_high": 722.02,
+          "range_high": 720.74,
           "range_low": 694.08,
-          "range_pct": 3.946049007838422,
+          "range_pct": 3.7686772875701458,
           "status": "NO_SETUP",
-          "last_candle": "1795616100000"
+          "last_candle": "1795616400000"
         }
       },
-      "updated_at": "2026-11-25 16:20:21"
+      "updated_at": "2026-11-25 16:25:11"
     }
   },
   "runtime": {
@@ -42517,25 +42519,25 @@
         "ZEC": "1795615200000"
       },
       "elder_video_paper": {
-        "SOL": 1795616520000,
-        "XRP": 1795616520000,
-        "kSHIB": 1795616520000,
-        "HYPE": 1795616520000,
-        "ZEC": 1795616520000
+        "SOL": 1795616640000,
+        "XRP": 1795616640000,
+        "kSHIB": 1795616580000,
+        "HYPE": 1795616640000,
+        "ZEC": 1795616640000
       }
     },
     "github_sync": {
       "enabled": true,
       "restored": true,
       "last_restore": "2026-11-25 15:59:10",
-      "last_backup": "2026-11-25 16:23:15",
+      "last_backup": "2026-11-25 16:24:28",
       "last_status": "BACKUP_OK",
       "last_error": "",
       "uploaded_files": 9,
       "downloaded_files": 9,
       "dirty": true,
       "worker_running": true,
-      "last_live_logs_export": "2026-11-25 16:22:54"
+      "last_live_logs_export": "2026-11-25 16:24:10"
     }
   }
 }
