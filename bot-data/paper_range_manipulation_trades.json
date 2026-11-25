@@ -17,11 +17,11 @@
       "manipulation_low": 751.51,
       "manipulation_high": 758.3,
       "target_basis": "OPPOSITE_RANGE_EXTREME",
-      "current_price": 763.18,
+      "current_price": 762.79,
       "entry_time": "2026-11-26T01:05:57.841403",
       "entry_candle_time": "1795647600000",
       "exit_reason": null,
-      "unrealized_pnl": 1.0397911057677311
+      "unrealized_pnl": 0.9881347880821941
     },
     {
       "symbol": "SOL",
@@ -37,11 +37,11 @@
       "manipulation_low": 70.216,
       "manipulation_high": 70.59,
       "target_basis": "OPPOSITE_RANGE_EXTREME",
-      "current_price": 70.356,
+      "current_price": 70.336,
       "entry_time": "2026-11-26T01:10:54.231670",
       "entry_candle_time": "1795647900000",
       "exit_reason": null,
-      "unrealized_pnl": -0.2658572644722041
+      "unrealized_pnl": -0.2942213393870679
     },
     {
       "symbol": "kSHIB",
@@ -57,11 +57,11 @@
       "manipulation_low": 0.003563,
       "manipulation_high": 0.003577,
       "target_basis": "OPPOSITE_RANGE_EXTREME",
-      "current_price": 0.003582,
+      "current_price": 0.003581,
       "entry_time": "2026-11-26T01:10:55.436750",
       "entry_candle_time": "1795647900000",
       "exit_reason": null,
-      "unrealized_pnl": 0.16177581863980767
+      "unrealized_pnl": 0.13380072767982634
     },
     {
       "symbol": "HYPE",
@@ -77,11 +77,30 @@
       "manipulation_low": 61.081,
       "manipulation_high": 61.592,
       "target_basis": "OPPOSITE_RANGE_EXTREME",
-      "current_price": 61.228,
+      "current_price": 61.196,
       "entry_time": "2026-11-26T01:10:56.249378",
       "entry_candle_time": "1795647900000",
       "exit_reason": null,
-      "unrealized_pnl": -0.25623854557312364
+      "unrealized_pnl": -0.3083918147725425
+    },
+    {
+      "symbol": "XRP",
+      "side": "LONG",
+      "entry_price": 0.93534,
+      "entry_reference": 0.93531,
+      "qty": 106.91299420531573,
+      "notional": 100.0,
+      "entry_fee": 0.045,
+      "fee_rate": 0.00045,
+      "stop": 0.9322,
+      "target": 0.94672,
+      "manipulation_low": 0.9322,
+      "manipulation_high": 0.93617,
+      "target_basis": "OPPOSITE_RANGE_EXTREME",
+      "current_price": 0.93531,
+      "entry_time": "2026-11-26T01:35:57.200386",
+      "entry_candle_time": "1795649400000",
+      "exit_reason": null
     }
   ],
   "trades": [
@@ -166,30 +185,27 @@
     "XRP": {
       "symbol": "XRP",
       "range_high": 0.94672,
-      "range_low": 0.93554,
-      "range_pct": 1.1879336542241739,
-      "status": "WAIT",
-      "last_candle": "1795649100000",
-      "rejection_reasons": [
-        "NO_SWEEP_RECLAIM",
-        "NO_VP_OR_RANGE_LOW_RETEST",
-        "NO_BULLISH_CONFIRMATION"
-      ],
-      "volume_level": 0.9376362500000001,
-      "vp_bin_step": 0.000465833333333332,
-      "vp_max_bin_volume": 533638.0,
-      "low_sweep_reclaim": false,
+      "range_low": 0.93277,
+      "range_pct": 1.4844452484450588,
+      "status": "OPEN",
+      "last_candle": "1795649400000",
+      "rejection_reasons": [],
+      "volume_level": 0.937710625,
+      "vp_bin_step": 0.0005812500000000007,
+      "vp_max_bin_volume": 554886.0,
+      "low_sweep_reclaim": true,
       "sweep_low": 0.9322,
-      "retest": false,
-      "vp_retest": false,
-      "range_low_retest": false,
-      "retest_distance": 0.003586250000000013,
-      "retest_tolerance": 0.00280287,
-      "bullish_candle": false,
-      "higher_close": false,
-      "wick_rejection": false,
-      "confirmation": false,
-      "confirmation_close": 0.93405
+      "retest": true,
+      "vp_retest": true,
+      "range_low_retest": true,
+      "retest_distance": 0.002180625000000047,
+      "retest_tolerance": 0.00280593,
+      "bullish_candle": true,
+      "higher_close": true,
+      "wick_rejection": true,
+      "confirmation": true,
+      "confirmation_close": 0.93553,
+      "side": "LONG"
     },
     "kSHIB": {
       "symbol": "kSHIB",
@@ -269,10 +285,10 @@
   },
   "last_evaluated_candle_by_symbol": {
     "SOL": "1795647900000",
-    "XRP": "1795649100000",
+    "XRP": "1795649400000",
     "kSHIB": "1795647900000",
     "HYPE": "1795647900000",
     "ZEC": "1795647600000"
   },
-  "updated_at": "2026-11-26 01:34:45"
+  "updated_at": "2026-11-26 01:35:58"
 }
