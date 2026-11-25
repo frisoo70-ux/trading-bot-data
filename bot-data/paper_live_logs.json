@@ -2,7 +2,7 @@
   "ok": true,
   "read_only": true,
   "order_submission_enabled": false,
-  "generated_at": "2026-11-25 21:00:29",
+  "generated_at": "2026-11-25 21:01:40",
   "engines": {
     "legacy_paper": {
       "mode": "PAPER",
@@ -40638,10 +40638,10 @@
           "pnl_pct": -1.0005
         }
       ],
-      "updated_at": "2026-11-25 20:45:42",
+      "updated_at": "2026-11-25 21:01:21",
       "fee_rate": 0.00045,
       "fee_source": "HYPERLIQUID_USER_FEES_TAKER",
-      "fee_updated_at": "2026-11-25 20:00:51",
+      "fee_updated_at": "2026-11-25 21:01:41",
       "slippage_source": "L2_ORDERBOOK_VWAP",
       "slippage_fallback_rate": 0.0002,
       "funding_simulated": false
@@ -40653,9 +40653,9 @@
       "order_submission_enabled": false,
       "initial_balance": 1000.0,
       "balance": 971.3983,
-      "equity": 971.7613,
+      "equity": 971.6197,
       "realized_pnl": -28.601741,
-      "unrealized_pnl": 0.363054,
+      "unrealized_pnl": 0.221475,
       "closed_trades": 59,
       "wins": 9,
       "losses": 50,
@@ -40700,10 +40700,10 @@
           "side": "LONG",
           "entry_time": "2026-11-25 20:30:53",
           "entry_candle_time": 1795630500000,
-          "last_processed_candle_time": 1795631400000,
+          "last_processed_candle_time": 1795632300000,
           "entry_price": 0.00353,
           "entry_reference_price": 0.003535,
-          "last_price": 0.003546,
+          "last_price": 0.003541,
           "qty": 28328.611898017,
           "remaining_qty": 28328.611898017,
           "notional": 100.0,
@@ -40727,9 +40727,9 @@
             "OBV_CONFIRMATION",
             "CLOSED_CANDLE"
           ],
-          "current_price": 0.003546,
-          "unrealized_pnl": 0.36305382,
-          "pnl_pct": 0.45326
+          "current_price": 0.003541,
+          "unrealized_pnl": 0.2214745,
+          "pnl_pct": 0.31161
         }
       ],
       "recent_trades": [
@@ -42538,7 +42538,7 @@
           ]
         }
       ],
-      "updated_at": "2026-11-25 20:59:53",
+      "updated_at": "2026-11-25 21:01:13",
       "funding_simulated": false,
       "fees_and_slippage": "ESTIMATED_FROM_L2_WITH_FALLBACK"
     },
@@ -43231,7 +43231,7 @@
           ]
         }
       ],
-      "updated_at": "2026-11-25 20:59:56",
+      "updated_at": "2026-11-25 21:01:14",
       "funding_simulated": false,
       "fees_and_slippage": "ESTIMATED_FROM_L2_WITH_FALLBACK",
       "strategy": "PDL sweep -> 1H/30m setup -> 15m break -> OB retest (1m)",
@@ -43253,17 +43253,17 @@
             "hourly_sweep": false,
             "half_hour_sweep": false,
             "hourly_level": 65.807,
-            "half_hour_level": 67.198,
+            "half_hour_level": 67.642,
             "reason": "SETUP_NOT_CONFIRMED",
             "hourly_time": 1795626000000,
-            "half_hour_time": 1795629600000
+            "half_hour_time": 1795631400000
           },
           "entry": {
             "ready": true,
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795633080000
+          "updated_at": 1795633200000
         },
         "XRP": {
           "direction": {
@@ -43282,17 +43282,17 @@
             "hourly_sweep": false,
             "half_hour_sweep": false,
             "hourly_level": 0.88851,
-            "half_hour_level": 0.89764,
+            "half_hour_level": 0.90416,
             "reason": "SETUP_NOT_CONFIRMED",
             "hourly_time": 1795626000000,
-            "half_hour_time": 1795629600000
+            "half_hour_time": 1795631400000
           },
           "entry": {
             "ready": true,
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795633080000
+          "updated_at": 1795633200000
         },
         "HYPE": {
           "direction": {
@@ -43311,17 +43311,17 @@
             "hourly_sweep": false,
             "half_hour_sweep": false,
             "hourly_level": 56.05,
-            "half_hour_level": 57.123,
+            "half_hour_level": 57.83,
             "reason": "SETUP_NOT_CONFIRMED",
             "hourly_time": 1795626000000,
-            "half_hour_time": 1795629600000
+            "half_hour_time": 1795631400000
           },
           "entry": {
             "ready": true,
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795633080000
+          "updated_at": 1795633200000
         },
         "ZEC": {
           "direction": {
@@ -43340,17 +43340,22 @@
             "hourly_sweep": false,
             "half_hour_sweep": false,
             "hourly_level": 674.39,
-            "half_hour_level": 682.48,
+            "half_hour_level": 692.24,
             "reason": "SETUP_NOT_CONFIRMED",
             "hourly_time": 1795626000000,
-            "half_hour_time": 1795629600000
+            "half_hour_time": 1795631400000
           },
           "entry": {
             "ready": true,
-            "valid": false,
-            "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
+            "valid": true,
+            "reason": "15M_BREAK_AND_BULLISH_ORDER_BLOCK",
+            "swing_high": 748.96,
+            "ob_low": 738.17,
+            "ob_high": 741.31,
+            "fifteen_time": 1795632300000,
+            "ob_time": 1795630500000
           },
-          "updated_at": 1795633080000
+          "updated_at": 1795633200000
         },
         "kSHIB": {
           "direction": {
@@ -43369,17 +43374,22 @@
             "hourly_sweep": false,
             "half_hour_sweep": false,
             "hourly_level": 0.003387,
-            "half_hour_level": 0.003419,
+            "half_hour_level": 0.003462,
             "reason": "SETUP_NOT_CONFIRMED",
             "hourly_time": 1795626000000,
-            "half_hour_time": 1795629600000
+            "half_hour_time": 1795631400000
           },
           "entry": {
             "ready": true,
-            "valid": false,
-            "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
+            "valid": true,
+            "reason": "15M_BREAK_AND_BULLISH_ORDER_BLOCK",
+            "swing_high": 0.003545,
+            "ob_low": 0.003505,
+            "ob_high": 0.003528,
+            "fifteen_time": 1795632300000,
+            "ob_time": 1795628700000
           },
-          "updated_at": 1795633080000
+          "updated_at": 1795633200000
         }
       }
     },
@@ -43410,48 +43420,51 @@
         "SOL": {
           "symbol": "SOL",
           "range_high": 70.157,
-          "range_low": 67.236,
-          "range_pct": 4.2520361299338285,
+          "range_low": 67.453,
+          "range_pct": 3.929946951529675,
           "status": "NO_SETUP",
-          "last_candle": "1795632600000"
+          "last_candle": "1795632900000"
         },
         "XRP": {
           "symbol": "XRP",
           "range_high": 0.9313,
-          "range_low": 0.89764,
-          "range_pct": 3.680820584600919,
-          "status": "NO_SETUP",
-          "last_candle": "1795632600000"
+          "range_low": 0.9013,
+          "range_pct": 3.2740368874822687,
+          "status": "WAIT",
+          "last_candle": "1795632900000",
+          "volume_level": 0.925675,
+          "low_sweep_reclaim": false,
+          "retest": false
         },
         "kSHIB": {
           "symbol": "kSHIB",
           "range_high": 0.00354,
-          "range_low": 0.003427,
-          "range_pct": 3.2438639299555114,
+          "range_low": 0.003437,
+          "range_pct": 2.952558406191779,
           "status": "WAIT",
-          "last_candle": "1795632600000",
-          "volume_level": 0.0035188125000000002,
+          "last_candle": "1795632900000",
+          "volume_level": 0.0034906458333333334,
           "low_sweep_reclaim": false,
           "retest": false
         },
         "HYPE": {
           "symbol": "HYPE",
           "range_high": 60.909,
-          "range_low": 57.149,
-          "range_pct": 6.369750461637497,
+          "range_low": 57.478,
+          "range_pct": 5.796244520090884,
           "status": "NO_SETUP",
-          "last_candle": "1795632600000"
+          "last_candle": "1795632900000"
         },
         "ZEC": {
           "symbol": "ZEC",
           "range_high": 748.23,
-          "range_low": 684.21,
-          "range_pct": 8.938594286671691,
+          "range_low": 688.6,
+          "range_pct": 8.300216448710007,
           "status": "NO_SETUP",
-          "last_candle": "1795632600000"
+          "last_candle": "1795632900000"
         }
       },
-      "updated_at": "2026-11-25 20:55:12"
+      "updated_at": "2026-11-25 21:01:16"
     }
   },
   "runtime": {
@@ -43665,36 +43678,46 @@
       "[CANDLE CLOSE] 2026-11-25 20:45:37 HYPE Close=60.43800 Current=60.49200 EMA20=58.69530 EMA50=58.43785 RSI=80.62 ATR=0.82179 VWAP=62.19399 OBV=-4340243.63 OBV_MA5=-4421563.78",
       "[SIGNAL] HYPE HOLD trend=True trend_score=7/8 trend_missing=higher_low rsi=False vwap=False obv=True breakout=False green=True mode=None mode_a=False mode_b=False mode_c=False mode_d=False mode_e=False d1=False d2=False pattern_score=1.0 score=2.7868",
       "[CANDLE CLOSE] 2026-11-25 20:45:37 ZEC Close=743.59000 Current=744.93000 EMA20=715.76920 EMA50=715.94370 RSI=83.55 ATR=13.96286 VWAP=762.91205 OBV=-119749.70 OBV_MA5=-129968.72",
-      "[SIGNAL] ZEC HOLD trend=False trend_score=5/8 trend_missing=ema20_above_ema50,higher_low rsi=False vwap=False obv=True breakout=False green=True mode=None mode_a=False mode_b=False mode_c=False mode_d=False mode_e=False d1=False d2=False pattern_score=1.0 score=2.4073"
+      "[SIGNAL] ZEC HOLD trend=False trend_score=5/8 trend_missing=ema20_above_ema50,higher_low rsi=False vwap=False obv=True breakout=False green=True mode=None mode_a=False mode_b=False mode_c=False mode_d=False mode_e=False d1=False d2=False pattern_score=1.0 score=2.4073",
+      "[CANDLE CLOSE] 2026-11-25 21:01:16 SOL Close=69.77200 Current=69.76500 EMA20=68.52160 EMA50=68.25018 RSI=82.71 ATR=0.71350 VWAP=71.42441 OBV=-1814215.31 OBV_MA5=-1850188.47",
+      "[SIGNAL] SOL HOLD trend=True trend_score=8/8 trend_missing= rsi=False vwap=False obv=True breakout=False green=True mode=None mode_a=False mode_b=False mode_c=False mode_d=False mode_e=False d1=False d2=False pattern_score=1.0 score=3.0389",
+      "[CANDLE CLOSE] 2026-11-25 21:01:16 XRP Close=0.92865 Current=0.92835 EMA20=0.91472 EMA50=0.91258 RSI=84.02 ATR=0.00828 VWAP=0.94752 OBV=-8622183.00 OBV_MA5=-9192133.20",
+      "[SIGNAL] XRP HOLD trend=True trend_score=8/8 trend_missing= rsi=False vwap=False obv=True breakout=False green=True mode=None mode_a=False mode_b=False mode_c=False mode_d=False mode_e=False d1=False d2=False pattern_score=3.0 score=5.124",
+      "[CANDLE CLOSE] 2026-11-25 21:01:16 kSHIB Close=0.00355 Current=0.00354 EMA20=0.00349 EMA50=0.00348 RSI=87.85 ATR=0.00003 VWAP=0.00360 OBV=-38979213.00 OBV_MA5=-39968445.60",
+      "[SIGNAL] kSHIB HOLD trend=True trend_score=8/8 trend_missing= rsi=False vwap=False obv=True breakout=True green=True mode=None mode_a=False mode_b=False mode_c=False mode_d=False mode_e=False d1=False d2=False pattern_score=3.0 score=5.0777",
+      "[CANDLE CLOSE] 2026-11-25 21:01:16 HYPE Close=60.41500 Current=60.41300 EMA20=58.85908 EMA50=58.51537 RSI=85.97 ATR=0.81443 VWAP=62.18832 OBV=-4384959.00 OBV_MA5=-4406323.88",
+      "[SIGNAL] HYPE HOLD trend=True trend_score=7/8 trend_missing=higher_close rsi=False vwap=False obv=True breakout=False green=False mode=None mode_a=False mode_b=False mode_c=False mode_d=False mode_e=False d1=False d2=False pattern_score=1.0 score=2.7597",
+      "[CANDLE CLOSE] 2026-11-25 21:01:16 ZEC Close=750.00000 Current=751.11000 EMA20=719.02928 EMA50=717.27879 RSI=88.91 ATR=13.97500 VWAP=762.81150 OBV=-112790.70 OBV_MA5=-123789.13",
+      "[SIGNAL] ZEC HOLD trend=True trend_score=8/8 trend_missing= rsi=False vwap=False obv=True breakout=True green=True mode=None mode_a=False mode_b=False mode_c=False mode_d=False mode_e=False d1=False d2=False pattern_score=1.0 score=3.3166"
     ],
     "last_evaluated_candles": {
       "strategy_v2_paper": {
-        "SOL": "1795631400000",
-        "XRP": "1795631400000",
+        "SOL": "1795632300000",
+        "XRP": "1795632300000",
         "kSHIB": "1795630500000",
-        "HYPE": "1795631400000",
-        "ZEC": "1795631400000"
+        "HYPE": "1795632300000",
+        "ZEC": "1795632300000"
       },
       "elder_video_paper": {
-        "SOL": 1795633080000,
-        "XRP": 1795633080000,
-        "kSHIB": 1795633080000,
-        "HYPE": 1795633080000,
-        "ZEC": 1795633080000
+        "SOL": 1795633200000,
+        "XRP": 1795633200000,
+        "kSHIB": 1795633200000,
+        "HYPE": 1795633200000,
+        "ZEC": 1795633200000
       }
     },
     "github_sync": {
       "enabled": true,
       "restored": true,
       "last_restore": "2026-11-25 15:59:10",
-      "last_backup": "2026-11-25 20:59:20",
+      "last_backup": "2026-11-25 21:00:32",
       "last_status": "BACKUP_OK",
       "last_error": "paper_range_manipulation_trades.json: 500 Server Error: Internal Server Error for url: https://api.github.com/repos/frisoo70-ux/trading-bot-data/contents/bot-data/paper_range_manipulation_trades.json",
       "uploaded_files": 10,
       "downloaded_files": 9,
       "dirty": true,
       "worker_running": true,
-      "last_live_logs_export": "2026-11-25 20:59:20",
+      "last_live_logs_export": "2026-11-25 21:00:32",
       "last_live_logs_error": "502 Server Error: Bad Gateway for url: https://api.github.com/repos/frisoo70-ux/trading-bot-data/contents/bot-data/paper_live_logs.json"
     }
   }
