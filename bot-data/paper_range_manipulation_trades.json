@@ -1,7 +1,7 @@
 {
   "engine_version": "range_manipulation_v1",
   "initial_balance": 1000.0,
-  "realized_pnl": 5.770727673839564,
+  "realized_pnl": 5.33571855628828,
   "positions": [
     {
       "symbol": "SOL",
@@ -17,31 +17,11 @@
       "manipulation_low": 70.925,
       "manipulation_high": 71.244,
       "target_basis": "OPPOSITE_RANGE_EXTREME",
-      "current_price": 71.159,
+      "current_price": 71.172,
       "entry_time": "2026-11-26T06:05:06.011658",
       "entry_candle_time": "1795665600000",
       "exit_reason": null,
-      "unrealized_pnl": -0.10404473857998695
-    },
-    {
-      "symbol": "ZEC",
-      "side": "LONG",
-      "entry_price": 767.75,
-      "entry_reference": 767.82,
-      "qty": 0.1302507326603712,
-      "notional": 100.0,
-      "entry_fee": 0.045,
-      "fee_rate": 0.00045,
-      "stop": 765.4,
-      "target": 780.43,
-      "manipulation_low": 765.4,
-      "manipulation_high": 772.94,
-      "target_basis": "OPPOSITE_RANGE_EXTREME",
-      "current_price": 766.53,
-      "entry_time": "2026-11-26T07:00:04.340759",
-      "entry_candle_time": "1795668900000",
-      "exit_reason": null,
-      "unrealized_pnl": -0.2488343861934259
+      "unrealized_pnl": -0.08578657842599993
     }
   ],
   "trades": [
@@ -251,6 +231,32 @@
       "net_pnl": -0.35667848822832154,
       "fees": 0.08987994065359137,
       "closed_at": "2026-11-26T06:57:20.385334"
+    },
+    {
+      "symbol": "ZEC",
+      "side": "LONG",
+      "entry_price": 767.75,
+      "entry_reference": 767.82,
+      "qty": 0.1302507326603712,
+      "notional": 100.0,
+      "entry_fee": 0.045,
+      "fee_rate": 0.00045,
+      "stop": 765.4,
+      "target": 780.43,
+      "manipulation_low": 765.4,
+      "manipulation_high": 772.94,
+      "target_basis": "OPPOSITE_RANGE_EXTREME",
+      "current_price": 765.1,
+      "entry_time": "2026-11-26T07:00:04.340759",
+      "entry_candle_time": "1795668900000",
+      "exit_reason": "STOP",
+      "unrealized_pnl": -0.2488343861934259,
+      "exit_price": 765.1,
+      "exit_fee": 0.04484467600130251,
+      "gross_pnl": -0.34516444154998077,
+      "net_pnl": -0.43500911755128324,
+      "fees": 0.0898446760013025,
+      "closed_at": "2026-11-26T07:31:36.131294"
     }
   ],
   "diagnostics": {
@@ -309,28 +315,29 @@
     "kSHIB": {
       "symbol": "kSHIB",
       "range_high": 0.003669,
-      "range_low": 0.003648,
-      "range_pct": 0.5740057400573938,
+      "range_low": 0.003644,
+      "range_pct": 0.6837139340899726,
       "status": "WAIT",
-      "last_candle": "1795670400000",
+      "last_candle": "1795670700000",
       "rejection_reasons": [
-        "NO_SWEEP_RECLAIM"
+        "NO_SWEEP_RECLAIM",
+        "NO_BULLISH_CONFIRMATION"
       ],
-      "volume_level": 0.0036528125000000002,
-      "vp_bin_step": 8.749999999999896e-07,
-      "vp_max_bin_volume": 1086797.0,
+      "volume_level": 0.0036528541666666667,
+      "vp_bin_step": 1.0416666666666604e-06,
+      "vp_max_bin_volume": 1141624.0,
       "low_sweep_reclaim": false,
-      "sweep_low": 0.003644,
+      "sweep_low": 0.003648,
       "retest": true,
       "vp_retest": true,
       "range_low_retest": true,
-      "retest_distance": 1.1874999999998866e-06,
-      "retest_tolerance": 1.0965e-05,
+      "retest_distance": 8.541666666667981e-07,
+      "retest_tolerance": 1.0947e-05,
       "bullish_candle": false,
-      "higher_close": true,
+      "higher_close": false,
       "wick_rejection": false,
-      "confirmation": true,
-      "confirmation_close": 0.003654
+      "confirmation": false,
+      "confirmation_close": 0.003652
     },
     "HYPE": {
       "symbol": "HYPE",
@@ -387,9 +394,9 @@
   "last_evaluated_candle_by_symbol": {
     "SOL": "1795665600000",
     "XRP": "1795670700000",
-    "kSHIB": "1795670400000",
+    "kSHIB": "1795670700000",
     "HYPE": "1795670700000",
     "ZEC": "1795668900000"
   },
-  "updated_at": "2026-11-26 07:30:19"
+  "updated_at": "2026-11-26 07:31:36"
 }
