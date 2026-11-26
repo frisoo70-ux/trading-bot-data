@@ -2,7 +2,7 @@
   "ok": true,
   "read_only": true,
   "order_submission_enabled": false,
-  "generated_at": "2026-11-26 22:44:22",
+  "generated_at": "2026-11-26 22:45:32",
   "engines": {
     "legacy_paper": {
       "mode": "PAPER",
@@ -56745,7 +56745,7 @@
           "pnl_pct": -1.0005
         }
       ],
-      "updated_at": "2026-11-26 22:30:49",
+      "updated_at": "2026-11-26 22:45:06",
       "fee_rate": 0.00045,
       "fee_source": "HYPERLIQUID_USER_FEES_TAKER",
       "fee_updated_at": "2026-11-26 22:06:04",
@@ -58629,7 +58629,7 @@
           ]
         }
       ],
-      "updated_at": "2026-11-26 22:30:40",
+      "updated_at": "2026-11-26 22:45:01",
       "funding_simulated": false,
       "fees_and_slippage": "ESTIMATED_FROM_L2_WITH_FALLBACK"
     },
@@ -59322,7 +59322,7 @@
           ]
         }
       ],
-      "updated_at": "2026-11-26 22:43:50",
+      "updated_at": "2026-11-26 22:45:03",
       "funding_simulated": false,
       "fees_and_slippage": "ESTIMATED_FROM_L2_WITH_FALLBACK",
       "strategy": "PDL sweep -> 1H/30m setup -> 15m break -> OB retest (1m)",
@@ -59354,7 +59354,7 @@
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795725720000
+          "updated_at": 1795725780000
         },
         "XRP": {
           "direction": {
@@ -59383,7 +59383,7 @@
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795725720000
+          "updated_at": 1795725780000
         },
         "HYPE": {
           "direction": {
@@ -59417,7 +59417,7 @@
             "fifteen_time": 1795724100000,
             "ob_time": 1795721400000
           },
-          "updated_at": 1795725720000
+          "updated_at": 1795725840000
         },
         "ZEC": {
           "direction": {
@@ -59446,7 +59446,7 @@
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795725720000
+          "updated_at": 1795725840000
         },
         "kSHIB": {
           "direction": {
@@ -59486,9 +59486,9 @@
       "order_submission_enabled": false,
       "initial_balance": 1000.0,
       "balance": 998.609035298673,
-      "equity": 999.5442686109544,
+      "equity": 999.3983465046404,
       "realized_pnl": -1.3909647013270119,
-      "unrealized_pnl": 0.9352333122814246,
+      "unrealized_pnl": 0.7893112059673122,
       "trades": 34,
       "closed_trades": 34,
       "wins": 9,
@@ -59510,11 +59510,11 @@
           "manipulation_low": 70.047,
           "manipulation_high": 70.606,
           "target_basis": "OPPOSITE_RANGE_EXTREME",
-          "current_price": 71.393,
+          "current_price": 71.347,
           "entry_time": "2026-11-26T17:35:38.429302",
           "entry_candle_time": "1795707000000",
           "exit_reason": null,
-          "unrealized_pnl": 0.9611898796885986
+          "unrealized_pnl": 0.8961094833687027
         },
         {
           "symbol": "XRP",
@@ -59530,7 +59530,7 @@
           "manipulation_low": 0.95113,
           "manipulation_high": 0.95346,
           "target_basis": "OPPOSITE_RANGE_EXTREME",
-          "current_price": 0.95266,
+          "current_price": 0.95189,
           "entry_time": "2026-11-26T22:25:49.100004",
           "entry_candle_time": "1795724400000",
           "exit_reason": null,
@@ -59831,7 +59831,7 @@
               "rejection_reasons": []
             }
           },
-          "unrealized_pnl": -0.025956567407174044
+          "unrealized_pnl": -0.10679827740139047
         }
       ],
       "open_positions": 2,
@@ -61294,30 +61294,31 @@
         },
         "HYPE": {
           "symbol": "HYPE",
-          "range_high": 62.832,
+          "range_high": 62.88,
           "range_low": 60.711,
-          "range_pct": 3.4336223015468335,
+          "range_pct": 3.5099643177901365,
           "status": "WAIT",
-          "last_candle": "1795725300000",
+          "last_candle": "1795725600000",
           "rejection_reasons": [
             "NO_SWEEP_RECLAIM",
-            "NO_VP_OR_RANGE_LOW_RETEST"
+            "NO_VP_OR_RANGE_LOW_RETEST",
+            "NO_BULLISH_CONFIRMATION"
           ],
-          "volume_level": 61.9040625,
-          "vp_bin_step": 0.08837500000000009,
-          "vp_max_bin_volume": 207275.78999999998,
+          "volume_level": 61.9310625,
+          "vp_bin_step": 0.09037500000000016,
+          "vp_max_bin_volume": 194051.65,
           "low_sweep_reclaim": false,
           "sweep_low": 62.49,
           "retest": false,
           "vp_retest": false,
           "range_low_retest": false,
-          "retest_distance": 1.4249374999999986,
-          "retest_tolerance": 0.22093750000000023,
-          "bullish_candle": true,
-          "higher_close": true,
+          "retest_distance": 1.0309375000000003,
+          "retest_tolerance": 0.2259375000000004,
+          "bullish_candle": false,
+          "higher_close": false,
           "wick_rejection": false,
-          "confirmation": true,
-          "confirmation_close": 63.329
+          "confirmation": false,
+          "confirmation_close": 62.962
         },
         "ZEC": {
           "symbol": "ZEC",
@@ -61325,10 +61326,11 @@
           "range_low": 705.06,
           "range_pct": 2.3519517835868085,
           "status": "WAIT",
-          "last_candle": "1795725300000",
+          "last_candle": "1795725600000",
           "rejection_reasons": [
             "NO_SWEEP_RECLAIM",
-            "NO_VP_OR_RANGE_LOW_RETEST"
+            "NO_VP_OR_RANGE_LOW_RETEST",
+            "NO_BULLISH_CONFIRMATION"
           ],
           "volume_level": 715.1979166666666,
           "vp_bin_step": 0.6991666666666703,
@@ -61338,16 +61340,16 @@
           "retest": false,
           "vp_retest": false,
           "range_low_retest": false,
-          "retest_distance": 5.852083333333326,
-          "retest_tolerance": 2.16117,
-          "bullish_candle": true,
-          "higher_close": true,
-          "wick_rejection": true,
-          "confirmation": true,
-          "confirmation_close": 721.05
+          "retest_distance": 2.842083333333335,
+          "retest_tolerance": 2.15412,
+          "bullish_candle": false,
+          "higher_close": false,
+          "wick_rejection": false,
+          "confirmation": false,
+          "confirmation_close": 718.04
         }
       },
-      "updated_at": "2026-11-26 22:43:51"
+      "updated_at": "2026-11-26 22:45:05"
     }
   },
   "runtime": {
@@ -61381,7 +61383,9 @@
       "[CANDLE CLOSE] 2026-11-26 22:30:44 HYPE Close=63.00100 Current=63.03100 EMA20=61.39653 EMA50=61.10629 RSI=83.73 ATR=0.51307 VWAP=59.88205 OBV=-1875794.41 OBV_MA5=-2136320.13",
       "[SIGNAL] HYPE HOLD trend=True trend_score=8/8 trend_missing= rsi=False vwap=True obv=True breakout=True green=True mode=None mode_a=False mode_b=False mode_c=False mode_d=False mode_e=False d1=False d2=False pattern_score=1.0 score=3.9572",
       "[CANDLE CLOSE] 2026-11-26 22:30:44 ZEC Close=720.58000 Current=720.31000 EMA20=712.70148 EMA50=720.45876 RSI=70.80 ATR=6.53214 VWAP=722.12428 OBV=-50386.18 OBV_MA5=-56416.09",
-      "[SIGNAL] ZEC HOLD trend=False trend_score=5/8 trend_missing=ema20_above_ema50,ema50_rising rsi=False vwap=False obv=True breakout=False green=True mode=None mode_a=False mode_b=False mode_c=False mode_d=False mode_e=False d1=False d2=False pattern_score=3.0 score=4.5837"
+      "[SIGNAL] ZEC HOLD trend=False trend_score=5/8 trend_missing=ema20_above_ema50,ema50_rising rsi=False vwap=False obv=True breakout=False green=True mode=None mode_a=False mode_b=False mode_c=False mode_d=False mode_e=False d1=False d2=False pattern_score=3.0 score=4.5837",
+      "[CANDLE CLOSE] 2026-11-26 22:45:05 ZEC Close=718.04000 Current=718.18000 EMA20=713.20991 EMA50=720.36417 RSI=65.87 ATR=6.41286 VWAP=722.10144 OBV=-60191.98 OBV_MA5=-63294.95",
+      "[SIGNAL] ZEC HOLD trend=False trend_score=4/8 trend_missing=ema20_above_ema50,ema50_rising,higher_close,higher_low rsi=True vwap=False obv=True breakout=False green=False mode=None mode_a=False mode_b=False mode_c=False mode_d=False mode_e=False d1=False d2=False pattern_score=1.0 score=2.7113"
     ],
     "last_evaluated_candles": {
       "strategy_v2_paper": {
@@ -61389,28 +61393,28 @@
         "XRP": "1795724100000",
         "kSHIB": "1795724100000",
         "HYPE": "1795724100000",
-        "ZEC": "1795724100000"
+        "ZEC": "1795725000000"
       },
       "elder_video_paper": {
-        "SOL": 1795725720000,
-        "XRP": 1795725720000,
+        "SOL": 1795725780000,
+        "XRP": 1795725780000,
         "kSHIB": 1795725660000,
-        "HYPE": 1795725720000,
-        "ZEC": 1795725720000
+        "HYPE": 1795725840000,
+        "ZEC": 1795725840000
       }
     },
     "github_sync": {
       "enabled": true,
       "restored": true,
       "last_restore": "2026-11-26 22:05:58",
-      "last_backup": "2026-11-26 22:43:14",
+      "last_backup": "2026-11-26 22:44:26",
       "last_status": "BACKUP_OK",
       "last_error": "",
       "uploaded_files": 10,
       "downloaded_files": 9,
       "dirty": true,
       "worker_running": true,
-      "last_live_logs_export": "2026-11-26 22:43:14"
+      "last_live_logs_export": "2026-11-26 22:44:26"
     }
   }
 }
