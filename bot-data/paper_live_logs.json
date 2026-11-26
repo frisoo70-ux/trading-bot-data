@@ -2,7 +2,7 @@
   "ok": true,
   "read_only": true,
   "order_submission_enabled": false,
-  "generated_at": "2026-11-27 01:05:16",
+  "generated_at": "2026-11-27 01:06:25",
   "engines": {
     "legacy_paper": {
       "mode": "PAPER",
@@ -59322,7 +59322,7 @@
           ]
         }
       ],
-      "updated_at": "2026-11-27 01:04:43",
+      "updated_at": "2026-11-27 01:05:56",
       "funding_simulated": false,
       "fees_and_slippage": "ESTIMATED_FROM_L2_WITH_FALLBACK",
       "strategy": "PDL sweep -> 1H/30m setup -> 15m break -> OB retest (1m)",
@@ -59354,7 +59354,7 @@
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795734180000
+          "updated_at": 1795734240000
         },
         "XRP": {
           "direction": {
@@ -59383,7 +59383,7 @@
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795734180000
+          "updated_at": 1795734240000
         },
         "HYPE": {
           "direction": {
@@ -59412,7 +59412,7 @@
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795734180000
+          "updated_at": 1795734240000
         },
         "ZEC": {
           "direction": {
@@ -59441,7 +59441,7 @@
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795734180000
+          "updated_at": 1795734240000
         },
         "kSHIB": {
           "direction": {
@@ -59470,7 +59470,7 @@
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795734180000
+          "updated_at": 1795734240000
         }
       }
     },
@@ -59481,19 +59481,638 @@
       "order_submission_enabled": false,
       "initial_balance": 1000.0,
       "balance": 997.8071775465786,
-      "equity": 997.8071775465786,
+      "equity": 997.6067054372787,
       "realized_pnl": -2.1928224534213676,
-      "unrealized_pnl": 0,
+      "unrealized_pnl": -0.2004721092998863,
       "trades": 43,
       "closed_trades": 43,
       "wins": 10,
       "losses": 33,
       "winrate": 23.25581395348837,
       "profit_factor": 0.8599997127346866,
-      "positions": [],
-      "open_positions": 0,
+      "positions": [
+        {
+          "symbol": "SOL",
+          "side": "LONG",
+          "entry_price": 71.115,
+          "entry_reference": 71.113,
+          "qty": 1.4061730999085988,
+          "notional": 100.0,
+          "entry_fee": 0.045,
+          "fee_rate": 0.00045,
+          "stop": 70.894,
+          "target": 71.81,
+          "manipulation_low": 70.894,
+          "manipulation_high": 71.288,
+          "target_basis": "OPPOSITE_RANGE_EXTREME",
+          "current_price": 71.113,
+          "entry_time": "2026-11-27T01:05:57.509740",
+          "entry_candle_time": "1795734000000",
+          "exit_reason": null,
+          "entry_audit": {
+            "audit_version": 1,
+            "strategy_version": "range_manipulation_v1",
+            "symbol": "SOL",
+            "evaluated_at": "2026-11-27T01:05:57.176790",
+            "evaluation_candle": {
+              "time": "1795734000000.0",
+              "open": 71.047,
+              "high": 71.172,
+              "low": 70.894,
+              "close": 71.153,
+              "volume": 3004.25
+            },
+            "range_window_candles": [
+              {
+                "time": "1795726500000.0",
+                "open": 71.279,
+                "high": 71.294,
+                "low": 71.24,
+                "close": 71.261,
+                "volume": 3968.53
+              },
+              {
+                "time": "1795726800000.0",
+                "open": 71.26,
+                "high": 71.402,
+                "low": 71.26,
+                "close": 71.389,
+                "volume": 5116.56
+              },
+              {
+                "time": "1795727100000.0",
+                "open": 71.388,
+                "high": 71.424,
+                "low": 71.368,
+                "close": 71.391,
+                "volume": 514.97
+              },
+              {
+                "time": "1795727400000.0",
+                "open": 71.388,
+                "high": 71.548,
+                "low": 71.359,
+                "close": 71.479,
+                "volume": 1175.51
+              },
+              {
+                "time": "1795727700000.0",
+                "open": 71.472,
+                "high": 71.591,
+                "low": 71.429,
+                "close": 71.554,
+                "volume": 5379.15
+              },
+              {
+                "time": "1795728000000.0",
+                "open": 71.554,
+                "high": 71.554,
+                "low": 71.458,
+                "close": 71.478,
+                "volume": 2093.89
+              },
+              {
+                "time": "1795728300000.0",
+                "open": 71.498,
+                "high": 71.55,
+                "low": 71.486,
+                "close": 71.515,
+                "volume": 444.0
+              },
+              {
+                "time": "1795728600000.0",
+                "open": 71.524,
+                "high": 71.769,
+                "low": 71.524,
+                "close": 71.769,
+                "volume": 18135.29
+              },
+              {
+                "time": "1795728900000.0",
+                "open": 71.768,
+                "high": 71.81,
+                "low": 71.639,
+                "close": 71.64,
+                "volume": 8779.52
+              },
+              {
+                "time": "1795729200000.0",
+                "open": 71.639,
+                "high": 71.71,
+                "low": 71.639,
+                "close": 71.679,
+                "volume": 3086.16
+              },
+              {
+                "time": "1795729500000.0",
+                "open": 71.69,
+                "high": 71.769,
+                "low": 71.659,
+                "close": 71.729,
+                "volume": 1410.28
+              },
+              {
+                "time": "1795729800000.0",
+                "open": 71.729,
+                "high": 71.77,
+                "low": 71.605,
+                "close": 71.636,
+                "volume": 53967.24
+              },
+              {
+                "time": "1795730100000.0",
+                "open": 71.644,
+                "high": 71.689,
+                "low": 71.603,
+                "close": 71.625,
+                "volume": 43430.02
+              },
+              {
+                "time": "1795730400000.0",
+                "open": 71.63,
+                "high": 71.63,
+                "low": 71.361,
+                "close": 71.409,
+                "volume": 7495.32
+              },
+              {
+                "time": "1795730700000.0",
+                "open": 71.41,
+                "high": 71.41,
+                "low": 71.171,
+                "close": 71.194,
+                "volume": 2907.62
+              },
+              {
+                "time": "1795731000000.0",
+                "open": 71.193,
+                "high": 71.193,
+                "low": 71.048,
+                "close": 71.108,
+                "volume": 2786.88
+              },
+              {
+                "time": "1795731300000.0",
+                "open": 71.109,
+                "high": 71.22,
+                "low": 71.108,
+                "close": 71.22,
+                "volume": 2590.85
+              },
+              {
+                "time": "1795731600000.0",
+                "open": 71.229,
+                "high": 71.279,
+                "low": 71.186,
+                "close": 71.273,
+                "volume": 533.24
+              },
+              {
+                "time": "1795731900000.0",
+                "open": 71.283,
+                "high": 71.301,
+                "low": 71.195,
+                "close": 71.197,
+                "volume": 1491.0
+              },
+              {
+                "time": "1795732200000.0",
+                "open": 71.193,
+                "high": 71.222,
+                "low": 71.11,
+                "close": 71.118,
+                "volume": 4346.74
+              }
+            ],
+            "confirmation_window_candles": [
+              {
+                "time": "1795732500000.0",
+                "open": 71.11,
+                "high": 71.18,
+                "low": 71.054,
+                "close": 71.161,
+                "volume": 4635.45
+              },
+              {
+                "time": "1795732800000.0",
+                "open": 71.161,
+                "high": 71.253,
+                "low": 71.161,
+                "close": 71.248,
+                "volume": 6524.76
+              },
+              {
+                "time": "1795733100000.0",
+                "open": 71.238,
+                "high": 71.288,
+                "low": 71.238,
+                "close": 71.244,
+                "volume": 1730.51
+              },
+              {
+                "time": "1795733400000.0",
+                "open": 71.243,
+                "high": 71.254,
+                "low": 71.024,
+                "close": 71.059,
+                "volume": 6303.95
+              },
+              {
+                "time": "1795733700000.0",
+                "open": 71.083,
+                "high": 71.096,
+                "low": 70.919,
+                "close": 71.047,
+                "volume": 4415.93
+              }
+            ],
+            "range": {
+              "high": 71.81,
+              "low": 71.048,
+              "width_pct": 1.0667935992384052
+            },
+            "volume_profile": {
+              "method": "24 bins; typical_price=(high+low+close)/3; volume summed over base window",
+              "bins": 24,
+              "bin_step": 0.03175000000000002,
+              "level": 71.667125,
+              "max_bin_volume": 57053.399999999994,
+              "bin_volumes": [
+                0.0,
+                0.0,
+                2786.88,
+                4346.74,
+                2590.85,
+                1491.0,
+                7409.389999999999,
+                0.0,
+                0.0,
+                5116.56,
+                514.97,
+                0.0,
+                0.0,
+                8670.83,
+                2537.89,
+                5379.15,
+                0.0,
+                0.0,
+                43430.02,
+                57053.399999999994,
+                26914.81,
+                1410.28,
+                0.0,
+                0.0
+              ]
+            },
+            "sweep": {
+              "detected": true,
+              "sweep_low": 70.894,
+              "range_low": 71.048,
+              "candidate_sweep_candles": [
+                {
+                  "time": "1795733400000.0",
+                  "open": 71.243,
+                  "high": 71.254,
+                  "low": 71.024,
+                  "close": 71.059,
+                  "volume": 6303.95
+                }
+              ]
+            },
+            "retest": {
+              "vp_retest": false,
+              "range_low_retest": true,
+              "any_retest": true,
+              "distance_close_to_vp": 0.5141249999999928,
+              "tolerance": 0.213339
+            },
+            "confirmation": {
+              "bullish_body": true,
+              "higher_close": true,
+              "wick_rejection": true,
+              "confirmation": true,
+              "close": 71.153
+            },
+            "decision": {
+              "setup": true,
+              "rejection_reasons": []
+            }
+          },
+          "unrealized_pnl": -0.09281108064402072
+        },
+        {
+          "symbol": "HYPE",
+          "side": "LONG",
+          "entry_price": 62.25599999999999,
+          "entry_reference": 62.245,
+          "qty": 1.60627088152146,
+          "notional": 100.0,
+          "entry_fee": 0.045,
+          "fee_rate": 0.00045,
+          "stop": 62.052,
+          "target": 63.525,
+          "manipulation_low": 62.052,
+          "manipulation_high": 62.489,
+          "target_basis": "OPPOSITE_RANGE_EXTREME",
+          "current_price": 62.245,
+          "entry_time": "2026-11-27T01:05:59.181776",
+          "entry_candle_time": "1795734000000",
+          "exit_reason": null,
+          "entry_audit": {
+            "audit_version": 1,
+            "strategy_version": "range_manipulation_v1",
+            "symbol": "HYPE",
+            "evaluated_at": "2026-11-27T01:05:58.838926",
+            "evaluation_candle": {
+              "time": "1795734000000.0",
+              "open": 62.209,
+              "high": 62.345,
+              "low": 62.052,
+              "close": 62.32,
+              "volume": 22562.36
+            },
+            "range_window_candles": [
+              {
+                "time": "1795726500000.0",
+                "open": 63.2,
+                "high": 63.305,
+                "low": 63.129,
+                "close": 63.129,
+                "volume": 28607.18
+              },
+              {
+                "time": "1795726800000.0",
+                "open": 63.13,
+                "high": 63.296,
+                "low": 63.093,
+                "close": 63.296,
+                "volume": 12768.77
+              },
+              {
+                "time": "1795727100000.0",
+                "open": 63.296,
+                "high": 63.509,
+                "low": 63.296,
+                "close": 63.444,
+                "volume": 41915.75
+              },
+              {
+                "time": "1795727400000.0",
+                "open": 63.445,
+                "high": 63.525,
+                "low": 63.284,
+                "close": 63.385,
+                "volume": 13267.26
+              },
+              {
+                "time": "1795727700000.0",
+                "open": 63.394,
+                "high": 63.5,
+                "low": 63.34,
+                "close": 63.361,
+                "volume": 20810.61
+              },
+              {
+                "time": "1795728000000.0",
+                "open": 63.355,
+                "high": 63.399,
+                "low": 63.25,
+                "close": 63.297,
+                "volume": 36242.91
+              },
+              {
+                "time": "1795728300000.0",
+                "open": 63.297,
+                "high": 63.424,
+                "low": 63.246,
+                "close": 63.344,
+                "volume": 10116.08
+              },
+              {
+                "time": "1795728600000.0",
+                "open": 63.344,
+                "high": 63.499,
+                "low": 63.34,
+                "close": 63.42,
+                "volume": 18418.6
+              },
+              {
+                "time": "1795728900000.0",
+                "open": 63.42,
+                "high": 63.473,
+                "low": 63.144,
+                "close": 63.144,
+                "volume": 13393.86
+              },
+              {
+                "time": "1795729200000.0",
+                "open": 63.154,
+                "high": 63.373,
+                "low": 63.143,
+                "close": 63.321,
+                "volume": 20859.05
+              },
+              {
+                "time": "1795729500000.0",
+                "open": 63.321,
+                "high": 63.392,
+                "low": 63.218,
+                "close": 63.255,
+                "volume": 10583.34
+              },
+              {
+                "time": "1795729800000.0",
+                "open": 63.255,
+                "high": 63.315,
+                "low": 63.073,
+                "close": 63.095,
+                "volume": 15045.74
+              },
+              {
+                "time": "1795730100000.0",
+                "open": 63.091,
+                "high": 63.153,
+                "low": 62.963,
+                "close": 62.985,
+                "volume": 44641.89
+              },
+              {
+                "time": "1795730400000.0",
+                "open": 62.984,
+                "high": 62.984,
+                "low": 62.589,
+                "close": 62.681,
+                "volume": 62959.73
+              },
+              {
+                "time": "1795730700000.0",
+                "open": 62.671,
+                "high": 62.715,
+                "low": 62.534,
+                "close": 62.596,
+                "volume": 19889.39
+              },
+              {
+                "time": "1795731000000.0",
+                "open": 62.594,
+                "high": 62.6,
+                "low": 62.466,
+                "close": 62.545,
+                "volume": 20640.74
+              },
+              {
+                "time": "1795731300000.0",
+                "open": 62.557,
+                "high": 62.655,
+                "low": 62.463,
+                "close": 62.515,
+                "volume": 11237.46
+              },
+              {
+                "time": "1795731600000.0",
+                "open": 62.515,
+                "high": 62.571,
+                "low": 62.405,
+                "close": 62.438,
+                "volume": 18672.21
+              },
+              {
+                "time": "1795731900000.0",
+                "open": 62.438,
+                "high": 62.52,
+                "low": 62.327,
+                "close": 62.401,
+                "volume": 21010.31
+              },
+              {
+                "time": "1795732200000.0",
+                "open": 62.401,
+                "high": 62.456,
+                "low": 62.308,
+                "close": 62.344,
+                "volume": 20164.81
+              }
+            ],
+            "confirmation_window_candles": [
+              {
+                "time": "1795732500000.0",
+                "open": 62.344,
+                "high": 62.461,
+                "low": 62.309,
+                "close": 62.405,
+                "volume": 9579.81
+              },
+              {
+                "time": "1795732800000.0",
+                "open": 62.405,
+                "high": 62.405,
+                "low": 62.3,
+                "close": 62.363,
+                "volume": 7604.84
+              },
+              {
+                "time": "1795733100000.0",
+                "open": 62.358,
+                "high": 62.489,
+                "low": 62.358,
+                "close": 62.444,
+                "volume": 9963.57
+              },
+              {
+                "time": "1795733400000.0",
+                "open": 62.443,
+                "high": 62.451,
+                "low": 62.224,
+                "close": 62.235,
+                "volume": 6621.64
+              },
+              {
+                "time": "1795733700000.0",
+                "open": 62.236,
+                "high": 62.276,
+                "low": 62.091,
+                "close": 62.221,
+                "volume": 24016.43
+              }
+            ],
+            "range": {
+              "high": 63.525,
+              "low": 62.308,
+              "width_pct": 1.934309759760951
+            },
+            "volume_profile": {
+              "method": "24 bins; typical_price=(high+low+close)/3; volume summed over base window",
+              "bins": 24,
+              "bin_step": 0.05070833333333328,
+              "level": 63.39822916666667,
+              "max_bin_volume": 94412.22,
+              "bin_volumes": [
+                0.0,
+                20164.81,
+                21010.31,
+                18672.21,
+                31878.2,
+                0.0,
+                19889.39,
+                0.0,
+                62959.73,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                44641.89,
+                0.0,
+                15045.74,
+                28607.18,
+                26162.63,
+                67685.3,
+                10116.08,
+                94412.22,
+                0.0,
+                0.0
+              ]
+            },
+            "sweep": {
+              "detected": true,
+              "sweep_low": 62.052,
+              "range_low": 62.308,
+              "candidate_sweep_candles": [
+                {
+                  "time": "1795732800000.0",
+                  "open": 62.405,
+                  "high": 62.405,
+                  "low": 62.3,
+                  "close": 62.363,
+                  "volume": 7604.84
+                }
+              ]
+            },
+            "retest": {
+              "vp_retest": false,
+              "range_low_retest": true,
+              "any_retest": true,
+              "distance_close_to_vp": 1.0782291666666666,
+              "tolerance": 0.18673499999999998
+            },
+            "confirmation": {
+              "bullish_body": true,
+              "higher_close": true,
+              "wick_rejection": true,
+              "confirmation": true,
+              "close": 62.32
+            },
+            "decision": {
+              "setup": true,
+              "rejection_reasons": []
+            }
+          },
+          "unrealized_pnl": -0.10766102865586558
+        }
+      ],
+      "open_positions": 2,
       "max_positions": 5,
-      "open_notional": 0,
+      "open_notional": 200.0,
       "max_gross_exposure": 500.0,
       "leverage": 1.0,
       "recent_trades": [
@@ -62885,135 +63504,709 @@
           "range_high": 71.81,
           "range_low": 71.048,
           "range_pct": 1.0667935992384052,
-          "status": "WAIT",
-          "last_candle": "1795733700000",
-          "rejection_reasons": [
-            "NO_VP_OR_RANGE_LOW_RETEST"
-          ],
+          "status": "OPEN",
+          "last_candle": "1795734000000",
+          "rejection_reasons": [],
           "volume_level": 71.667125,
           "vp_bin_step": 0.03175000000000002,
           "vp_max_bin_volume": 57053.399999999994,
           "low_sweep_reclaim": true,
-          "sweep_low": 71.024,
-          "retest": false,
+          "sweep_low": 70.894,
+          "retest": true,
           "vp_retest": false,
-          "range_low_retest": false,
-          "retest_distance": 0.6201250000000016,
-          "retest_tolerance": 0.21292200000000003,
-          "bullish_candle": false,
-          "higher_close": false,
+          "range_low_retest": true,
+          "retest_distance": 0.5141249999999928,
+          "retest_tolerance": 0.213339,
+          "bullish_candle": true,
+          "higher_close": true,
           "wick_rejection": true,
           "confirmation": true,
-          "confirmation_close": 71.047
+          "confirmation_close": 71.153,
+          "entry_audit_candidate": {
+            "audit_version": 1,
+            "strategy_version": "range_manipulation_v1",
+            "symbol": "SOL",
+            "evaluated_at": "2026-11-27T01:05:57.176790",
+            "evaluation_candle": {
+              "time": "1795734000000.0",
+              "open": 71.047,
+              "high": 71.172,
+              "low": 70.894,
+              "close": 71.153,
+              "volume": 3004.25
+            },
+            "range_window_candles": [
+              {
+                "time": "1795726500000.0",
+                "open": 71.279,
+                "high": 71.294,
+                "low": 71.24,
+                "close": 71.261,
+                "volume": 3968.53
+              },
+              {
+                "time": "1795726800000.0",
+                "open": 71.26,
+                "high": 71.402,
+                "low": 71.26,
+                "close": 71.389,
+                "volume": 5116.56
+              },
+              {
+                "time": "1795727100000.0",
+                "open": 71.388,
+                "high": 71.424,
+                "low": 71.368,
+                "close": 71.391,
+                "volume": 514.97
+              },
+              {
+                "time": "1795727400000.0",
+                "open": 71.388,
+                "high": 71.548,
+                "low": 71.359,
+                "close": 71.479,
+                "volume": 1175.51
+              },
+              {
+                "time": "1795727700000.0",
+                "open": 71.472,
+                "high": 71.591,
+                "low": 71.429,
+                "close": 71.554,
+                "volume": 5379.15
+              },
+              {
+                "time": "1795728000000.0",
+                "open": 71.554,
+                "high": 71.554,
+                "low": 71.458,
+                "close": 71.478,
+                "volume": 2093.89
+              },
+              {
+                "time": "1795728300000.0",
+                "open": 71.498,
+                "high": 71.55,
+                "low": 71.486,
+                "close": 71.515,
+                "volume": 444.0
+              },
+              {
+                "time": "1795728600000.0",
+                "open": 71.524,
+                "high": 71.769,
+                "low": 71.524,
+                "close": 71.769,
+                "volume": 18135.29
+              },
+              {
+                "time": "1795728900000.0",
+                "open": 71.768,
+                "high": 71.81,
+                "low": 71.639,
+                "close": 71.64,
+                "volume": 8779.52
+              },
+              {
+                "time": "1795729200000.0",
+                "open": 71.639,
+                "high": 71.71,
+                "low": 71.639,
+                "close": 71.679,
+                "volume": 3086.16
+              },
+              {
+                "time": "1795729500000.0",
+                "open": 71.69,
+                "high": 71.769,
+                "low": 71.659,
+                "close": 71.729,
+                "volume": 1410.28
+              },
+              {
+                "time": "1795729800000.0",
+                "open": 71.729,
+                "high": 71.77,
+                "low": 71.605,
+                "close": 71.636,
+                "volume": 53967.24
+              },
+              {
+                "time": "1795730100000.0",
+                "open": 71.644,
+                "high": 71.689,
+                "low": 71.603,
+                "close": 71.625,
+                "volume": 43430.02
+              },
+              {
+                "time": "1795730400000.0",
+                "open": 71.63,
+                "high": 71.63,
+                "low": 71.361,
+                "close": 71.409,
+                "volume": 7495.32
+              },
+              {
+                "time": "1795730700000.0",
+                "open": 71.41,
+                "high": 71.41,
+                "low": 71.171,
+                "close": 71.194,
+                "volume": 2907.62
+              },
+              {
+                "time": "1795731000000.0",
+                "open": 71.193,
+                "high": 71.193,
+                "low": 71.048,
+                "close": 71.108,
+                "volume": 2786.88
+              },
+              {
+                "time": "1795731300000.0",
+                "open": 71.109,
+                "high": 71.22,
+                "low": 71.108,
+                "close": 71.22,
+                "volume": 2590.85
+              },
+              {
+                "time": "1795731600000.0",
+                "open": 71.229,
+                "high": 71.279,
+                "low": 71.186,
+                "close": 71.273,
+                "volume": 533.24
+              },
+              {
+                "time": "1795731900000.0",
+                "open": 71.283,
+                "high": 71.301,
+                "low": 71.195,
+                "close": 71.197,
+                "volume": 1491.0
+              },
+              {
+                "time": "1795732200000.0",
+                "open": 71.193,
+                "high": 71.222,
+                "low": 71.11,
+                "close": 71.118,
+                "volume": 4346.74
+              }
+            ],
+            "confirmation_window_candles": [
+              {
+                "time": "1795732500000.0",
+                "open": 71.11,
+                "high": 71.18,
+                "low": 71.054,
+                "close": 71.161,
+                "volume": 4635.45
+              },
+              {
+                "time": "1795732800000.0",
+                "open": 71.161,
+                "high": 71.253,
+                "low": 71.161,
+                "close": 71.248,
+                "volume": 6524.76
+              },
+              {
+                "time": "1795733100000.0",
+                "open": 71.238,
+                "high": 71.288,
+                "low": 71.238,
+                "close": 71.244,
+                "volume": 1730.51
+              },
+              {
+                "time": "1795733400000.0",
+                "open": 71.243,
+                "high": 71.254,
+                "low": 71.024,
+                "close": 71.059,
+                "volume": 6303.95
+              },
+              {
+                "time": "1795733700000.0",
+                "open": 71.083,
+                "high": 71.096,
+                "low": 70.919,
+                "close": 71.047,
+                "volume": 4415.93
+              }
+            ],
+            "range": {
+              "high": 71.81,
+              "low": 71.048,
+              "width_pct": 1.0667935992384052
+            },
+            "volume_profile": {
+              "method": "24 bins; typical_price=(high+low+close)/3; volume summed over base window",
+              "bins": 24,
+              "bin_step": 0.03175000000000002,
+              "level": 71.667125,
+              "max_bin_volume": 57053.399999999994,
+              "bin_volumes": [
+                0.0,
+                0.0,
+                2786.88,
+                4346.74,
+                2590.85,
+                1491.0,
+                7409.389999999999,
+                0.0,
+                0.0,
+                5116.56,
+                514.97,
+                0.0,
+                0.0,
+                8670.83,
+                2537.89,
+                5379.15,
+                0.0,
+                0.0,
+                43430.02,
+                57053.399999999994,
+                26914.81,
+                1410.28,
+                0.0,
+                0.0
+              ]
+            },
+            "sweep": {
+              "detected": true,
+              "sweep_low": 70.894,
+              "range_low": 71.048,
+              "candidate_sweep_candles": [
+                {
+                  "time": "1795733400000.0",
+                  "open": 71.243,
+                  "high": 71.254,
+                  "low": 71.024,
+                  "close": 71.059,
+                  "volume": 6303.95
+                }
+              ]
+            },
+            "retest": {
+              "vp_retest": false,
+              "range_low_retest": true,
+              "any_retest": true,
+              "distance_close_to_vp": 0.5141249999999928,
+              "tolerance": 0.213339
+            },
+            "confirmation": {
+              "bullish_body": true,
+              "higher_close": true,
+              "wick_rejection": true,
+              "confirmation": true,
+              "close": 71.153
+            },
+            "decision": {
+              "setup": true,
+              "rejection_reasons": []
+            }
+          },
+          "side": "LONG"
         },
         "XRP": {
           "symbol": "XRP",
           "range_high": 0.95548,
-          "range_low": 0.94789,
-          "range_pct": 0.7975327970914732,
+          "range_low": 0.94736,
+          "range_pct": 0.853461142292575,
           "status": "WAIT",
-          "last_candle": "1795733700000",
-          "rejection_reasons": [
-            "NO_VP_OR_RANGE_LOW_RETEST"
-          ],
-          "volume_level": 0.954056875,
-          "vp_bin_step": 0.0003162499999999994,
-          "vp_max_bin_volume": 128027.0,
+          "last_candle": "1795734000000",
+          "rejection_reasons": [],
+          "volume_level": 0.9478675,
+          "vp_bin_step": 0.000338333333333334,
+          "vp_max_bin_volume": 293801.0,
           "low_sweep_reclaim": true,
           "sweep_low": 0.94708,
-          "retest": false,
-          "vp_retest": false,
+          "retest": true,
+          "vp_retest": true,
           "range_low_retest": false,
-          "retest_distance": 0.0071168750000000225,
-          "retest_tolerance": 0.00283698,
+          "retest_distance": 0.0019974999999999854,
+          "retest_tolerance": 0.0028341,
           "bullish_candle": false,
           "higher_close": false,
           "wick_rejection": true,
           "confirmation": true,
-          "confirmation_close": 0.94694
+          "confirmation_close": 0.94587
         },
         "kSHIB": {
           "symbol": "kSHIB",
           "range_high": 0.003651,
-          "range_low": 0.003637,
-          "range_pct": 0.3841931942919902,
+          "range_low": 0.003634,
+          "range_pct": 0.4667124227865502,
           "status": "WAIT",
-          "last_candle": "1795733700000",
+          "last_candle": "1795734000000",
           "rejection_reasons": [
             "NO_SWEEP_RECLAIM",
             "NO_VP_OR_RANGE_LOW_RETEST",
             "NO_BULLISH_CONFIRMATION"
           ],
-          "volume_level": 0.0036425416666666668,
-          "vp_bin_step": 5.833333333333385e-07,
-          "vp_max_bin_volume": 445372.0,
+          "volume_level": 0.0036421458333333336,
+          "vp_bin_step": 7.08333333333337e-07,
+          "vp_max_bin_volume": 824392.0,
           "low_sweep_reclaim": false,
-          "sweep_low": 0.003632,
+          "sweep_low": 0.003628,
           "retest": false,
           "vp_retest": false,
           "range_low_retest": false,
-          "retest_distance": 1.4541666666666609e-05,
-          "retest_tolerance": 1.0872e-05,
+          "retest_distance": 1.8145833333333555e-05,
+          "retest_tolerance": 1.0865999999999999e-05,
           "bullish_candle": false,
           "higher_close": false,
           "wick_rejection": false,
           "confirmation": false,
-          "confirmation_close": 0.003628
+          "confirmation_close": 0.003624
         },
         "HYPE": {
           "symbol": "HYPE",
           "range_high": 63.525,
-          "range_low": 62.327,
-          "range_pct": 1.903823538759814,
-          "status": "WAIT",
-          "last_candle": "1795733700000",
-          "rejection_reasons": [
-            "NO_VP_OR_RANGE_LOW_RETEST"
-          ],
-          "volume_level": 63.40020833333333,
-          "vp_bin_step": 0.049916666666666686,
+          "range_low": 62.308,
+          "range_pct": 1.934309759760951,
+          "status": "OPEN",
+          "last_candle": "1795734000000",
+          "rejection_reasons": [],
+          "volume_level": 63.39822916666667,
+          "vp_bin_step": 0.05070833333333328,
           "vp_max_bin_volume": 94412.22,
           "low_sweep_reclaim": true,
-          "sweep_low": 62.3,
-          "retest": false,
+          "sweep_low": 62.052,
+          "retest": true,
           "vp_retest": false,
-          "range_low_retest": false,
-          "retest_distance": 1.1792083333333352,
-          "retest_tolerance": 0.186621,
-          "bullish_candle": false,
-          "higher_close": false,
+          "range_low_retest": true,
+          "retest_distance": 1.0782291666666666,
+          "retest_tolerance": 0.18673499999999998,
+          "bullish_candle": true,
+          "higher_close": true,
           "wick_rejection": true,
           "confirmation": true,
-          "confirmation_close": 62.221
+          "confirmation_close": 62.32,
+          "entry_audit_candidate": {
+            "audit_version": 1,
+            "strategy_version": "range_manipulation_v1",
+            "symbol": "HYPE",
+            "evaluated_at": "2026-11-27T01:05:58.838926",
+            "evaluation_candle": {
+              "time": "1795734000000.0",
+              "open": 62.209,
+              "high": 62.345,
+              "low": 62.052,
+              "close": 62.32,
+              "volume": 22562.36
+            },
+            "range_window_candles": [
+              {
+                "time": "1795726500000.0",
+                "open": 63.2,
+                "high": 63.305,
+                "low": 63.129,
+                "close": 63.129,
+                "volume": 28607.18
+              },
+              {
+                "time": "1795726800000.0",
+                "open": 63.13,
+                "high": 63.296,
+                "low": 63.093,
+                "close": 63.296,
+                "volume": 12768.77
+              },
+              {
+                "time": "1795727100000.0",
+                "open": 63.296,
+                "high": 63.509,
+                "low": 63.296,
+                "close": 63.444,
+                "volume": 41915.75
+              },
+              {
+                "time": "1795727400000.0",
+                "open": 63.445,
+                "high": 63.525,
+                "low": 63.284,
+                "close": 63.385,
+                "volume": 13267.26
+              },
+              {
+                "time": "1795727700000.0",
+                "open": 63.394,
+                "high": 63.5,
+                "low": 63.34,
+                "close": 63.361,
+                "volume": 20810.61
+              },
+              {
+                "time": "1795728000000.0",
+                "open": 63.355,
+                "high": 63.399,
+                "low": 63.25,
+                "close": 63.297,
+                "volume": 36242.91
+              },
+              {
+                "time": "1795728300000.0",
+                "open": 63.297,
+                "high": 63.424,
+                "low": 63.246,
+                "close": 63.344,
+                "volume": 10116.08
+              },
+              {
+                "time": "1795728600000.0",
+                "open": 63.344,
+                "high": 63.499,
+                "low": 63.34,
+                "close": 63.42,
+                "volume": 18418.6
+              },
+              {
+                "time": "1795728900000.0",
+                "open": 63.42,
+                "high": 63.473,
+                "low": 63.144,
+                "close": 63.144,
+                "volume": 13393.86
+              },
+              {
+                "time": "1795729200000.0",
+                "open": 63.154,
+                "high": 63.373,
+                "low": 63.143,
+                "close": 63.321,
+                "volume": 20859.05
+              },
+              {
+                "time": "1795729500000.0",
+                "open": 63.321,
+                "high": 63.392,
+                "low": 63.218,
+                "close": 63.255,
+                "volume": 10583.34
+              },
+              {
+                "time": "1795729800000.0",
+                "open": 63.255,
+                "high": 63.315,
+                "low": 63.073,
+                "close": 63.095,
+                "volume": 15045.74
+              },
+              {
+                "time": "1795730100000.0",
+                "open": 63.091,
+                "high": 63.153,
+                "low": 62.963,
+                "close": 62.985,
+                "volume": 44641.89
+              },
+              {
+                "time": "1795730400000.0",
+                "open": 62.984,
+                "high": 62.984,
+                "low": 62.589,
+                "close": 62.681,
+                "volume": 62959.73
+              },
+              {
+                "time": "1795730700000.0",
+                "open": 62.671,
+                "high": 62.715,
+                "low": 62.534,
+                "close": 62.596,
+                "volume": 19889.39
+              },
+              {
+                "time": "1795731000000.0",
+                "open": 62.594,
+                "high": 62.6,
+                "low": 62.466,
+                "close": 62.545,
+                "volume": 20640.74
+              },
+              {
+                "time": "1795731300000.0",
+                "open": 62.557,
+                "high": 62.655,
+                "low": 62.463,
+                "close": 62.515,
+                "volume": 11237.46
+              },
+              {
+                "time": "1795731600000.0",
+                "open": 62.515,
+                "high": 62.571,
+                "low": 62.405,
+                "close": 62.438,
+                "volume": 18672.21
+              },
+              {
+                "time": "1795731900000.0",
+                "open": 62.438,
+                "high": 62.52,
+                "low": 62.327,
+                "close": 62.401,
+                "volume": 21010.31
+              },
+              {
+                "time": "1795732200000.0",
+                "open": 62.401,
+                "high": 62.456,
+                "low": 62.308,
+                "close": 62.344,
+                "volume": 20164.81
+              }
+            ],
+            "confirmation_window_candles": [
+              {
+                "time": "1795732500000.0",
+                "open": 62.344,
+                "high": 62.461,
+                "low": 62.309,
+                "close": 62.405,
+                "volume": 9579.81
+              },
+              {
+                "time": "1795732800000.0",
+                "open": 62.405,
+                "high": 62.405,
+                "low": 62.3,
+                "close": 62.363,
+                "volume": 7604.84
+              },
+              {
+                "time": "1795733100000.0",
+                "open": 62.358,
+                "high": 62.489,
+                "low": 62.358,
+                "close": 62.444,
+                "volume": 9963.57
+              },
+              {
+                "time": "1795733400000.0",
+                "open": 62.443,
+                "high": 62.451,
+                "low": 62.224,
+                "close": 62.235,
+                "volume": 6621.64
+              },
+              {
+                "time": "1795733700000.0",
+                "open": 62.236,
+                "high": 62.276,
+                "low": 62.091,
+                "close": 62.221,
+                "volume": 24016.43
+              }
+            ],
+            "range": {
+              "high": 63.525,
+              "low": 62.308,
+              "width_pct": 1.934309759760951
+            },
+            "volume_profile": {
+              "method": "24 bins; typical_price=(high+low+close)/3; volume summed over base window",
+              "bins": 24,
+              "bin_step": 0.05070833333333328,
+              "level": 63.39822916666667,
+              "max_bin_volume": 94412.22,
+              "bin_volumes": [
+                0.0,
+                20164.81,
+                21010.31,
+                18672.21,
+                31878.2,
+                0.0,
+                19889.39,
+                0.0,
+                62959.73,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                44641.89,
+                0.0,
+                15045.74,
+                28607.18,
+                26162.63,
+                67685.3,
+                10116.08,
+                94412.22,
+                0.0,
+                0.0
+              ]
+            },
+            "sweep": {
+              "detected": true,
+              "sweep_low": 62.052,
+              "range_low": 62.308,
+              "candidate_sweep_candles": [
+                {
+                  "time": "1795732800000.0",
+                  "open": 62.405,
+                  "high": 62.405,
+                  "low": 62.3,
+                  "close": 62.363,
+                  "volume": 7604.84
+                }
+              ]
+            },
+            "retest": {
+              "vp_retest": false,
+              "range_low_retest": true,
+              "any_retest": true,
+              "distance_close_to_vp": 1.0782291666666666,
+              "tolerance": 0.18673499999999998
+            },
+            "confirmation": {
+              "bullish_body": true,
+              "higher_close": true,
+              "wick_rejection": true,
+              "confirmation": true,
+              "close": 62.32
+            },
+            "decision": {
+              "setup": true,
+              "rejection_reasons": []
+            }
+          },
+          "side": "LONG"
         },
         "ZEC": {
           "symbol": "ZEC",
           "range_high": 723.83,
-          "range_low": 701.38,
-          "range_pct": 3.150412921604542,
+          "range_low": 700.3,
+          "range_pct": 3.304473608448679,
           "status": "WAIT",
-          "last_candle": "1795733700000",
+          "last_candle": "1795734000000",
           "rejection_reasons": [
             "NO_VP_OR_RANGE_LOW_RETEST"
           ],
-          "volume_level": 721.4914583333334,
-          "vp_bin_step": 0.9354166666666686,
-          "vp_max_bin_volume": 3790.1099999999997,
+          "volume_level": 710.594375,
+          "vp_bin_step": 0.9804166666666703,
+          "vp_max_bin_volume": 3490.35,
           "low_sweep_reclaim": true,
           "sweep_low": 700.26,
           "retest": false,
           "vp_retest": false,
           "range_low_retest": false,
-          "retest_distance": 25.541458333333367,
-          "retest_tolerance": 2.3385416666666714,
-          "bullish_candle": true,
+          "retest_distance": 15.584375000000023,
+          "retest_tolerance": 2.4510416666666757,
+          "bullish_candle": false,
           "higher_close": false,
           "wick_rejection": true,
           "confirmation": true,
-          "confirmation_close": 695.95
+          "confirmation_close": 695.01
         }
       },
-      "updated_at": "2026-11-27 01:01:05"
+      "updated_at": "2026-11-27 01:05:59"
     }
   },
   "runtime": {
@@ -63068,25 +64261,25 @@
         "ZEC": "1795733100000"
       },
       "elder_video_paper": {
-        "SOL": 1795734180000,
-        "XRP": 1795734180000,
-        "kSHIB": 1795734180000,
-        "HYPE": 1795734180000,
-        "ZEC": 1795734180000
+        "SOL": 1795734240000,
+        "XRP": 1795734240000,
+        "kSHIB": 1795734240000,
+        "HYPE": 1795734240000,
+        "ZEC": 1795734240000
       }
     },
     "github_sync": {
       "enabled": true,
       "restored": true,
       "last_restore": "2026-11-27 00:26:52",
-      "last_backup": "2026-11-27 01:04:08",
+      "last_backup": "2026-11-27 01:05:19",
       "last_status": "BACKUP_OK",
       "last_error": "",
       "uploaded_files": 10,
       "downloaded_files": 9,
       "dirty": true,
       "worker_running": true,
-      "last_live_logs_export": "2026-11-27 01:04:08"
+      "last_live_logs_export": "2026-11-27 01:05:19"
     }
   }
 }
