@@ -17,7 +17,7 @@
       "manipulation_low": 0.95113,
       "manipulation_high": 0.95346,
       "target_basis": "OPPOSITE_RANGE_EXTREME",
-      "current_price": 0.95295,
+      "current_price": 0.9534,
       "entry_time": "2026-11-26T22:25:49.100004",
       "entry_candle_time": "1795724400000",
       "exit_reason": null,
@@ -318,7 +318,7 @@
           "rejection_reasons": []
         }
       },
-      "unrealized_pnl": 0.004490310382859311
+      "unrealized_pnl": 0.05173546557429477
     }
   ],
   "trades": [
@@ -1854,28 +1854,29 @@
   "diagnostics": {
     "SOL": {
       "symbol": "SOL",
-      "range_high": 71.56,
-      "range_low": 70.207,
-      "range_pct": 1.9087657917569092,
-      "status": "OPEN",
-      "last_candle": "1795707000000",
-      "rejection_reasons": [],
-      "volume_level": 70.5734375,
-      "vp_bin_step": 0.05637500000000036,
-      "vp_max_bin_volume": 39377.95,
-      "low_sweep_reclaim": true,
-      "sweep_low": 70.047,
+      "range_high": 71.563,
+      "range_low": 71.197,
+      "range_pct": 0.5127486690949842,
+      "status": "WAIT",
+      "last_candle": "1795728300000",
+      "rejection_reasons": [
+        "NO_SWEEP_RECLAIM"
+      ],
+      "volume_level": 71.448625,
+      "vp_bin_step": 0.015249999999999986,
+      "vp_max_bin_volume": 9216.5,
+      "low_sweep_reclaim": false,
+      "sweep_low": 71.26,
       "retest": true,
       "vp_retest": true,
       "range_low_retest": false,
-      "retest_distance": 0.043562500000007276,
-      "retest_tolerance": 0.211959,
+      "retest_distance": 0.06637499999999363,
+      "retest_tolerance": 0.21486900000000003,
       "bullish_candle": true,
-      "higher_close": true,
-      "wick_rejection": true,
+      "higher_close": false,
+      "wick_rejection": false,
       "confirmation": true,
-      "confirmation_close": 70.617,
-      "side": "LONG"
+      "confirmation_close": 71.515
     },
     "XRP": {
       "symbol": "XRP",
@@ -2281,11 +2282,11 @@
     }
   },
   "last_evaluated_candle_by_symbol": {
-    "SOL": "1795707000000",
+    "SOL": "1795728300000",
     "XRP": "1795724400000",
     "kSHIB": "1795728300000",
     "HYPE": "1795728300000",
     "ZEC": "1795728300000"
   },
-  "updated_at": "2026-11-26 23:30:53"
+  "updated_at": "2026-11-26 23:32:08"
 }
