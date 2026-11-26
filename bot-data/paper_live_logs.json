@@ -2,7 +2,7 @@
   "ok": true,
   "read_only": true,
   "order_submission_enabled": false,
-  "generated_at": "2026-11-27 00:33:38",
+  "generated_at": "2026-11-27 00:34:49",
   "engines": {
     "legacy_paper": {
       "mode": "PAPER",
@@ -59322,7 +59322,7 @@
           ]
         }
       ],
-      "updated_at": "2026-11-27 00:33:30",
+      "updated_at": "2026-11-27 00:34:41",
       "funding_simulated": false,
       "fees_and_slippage": "ESTIMATED_FROM_L2_WITH_FALLBACK",
       "strategy": "PDL sweep -> 1H/30m setup -> 15m break -> OB retest (1m)",
@@ -59354,7 +59354,7 @@
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795732320000
+          "updated_at": 1795732380000
         },
         "XRP": {
           "direction": {
@@ -59383,7 +59383,7 @@
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795732320000
+          "updated_at": 1795732380000
         },
         "HYPE": {
           "direction": {
@@ -59412,7 +59412,7 @@
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795732320000
+          "updated_at": 1795732380000
         },
         "ZEC": {
           "direction": {
@@ -59441,7 +59441,7 @@
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795732320000
+          "updated_at": 1795732380000
         },
         "kSHIB": {
           "direction": {
@@ -59470,7 +59470,7 @@
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795732320000
+          "updated_at": 1795732380000
         }
       }
     },
@@ -62595,305 +62595,27 @@
           "range_high": 71.81,
           "range_low": 71.24,
           "range_pct": 0.796924152394278,
-          "status": "OPEN",
-          "last_candle": "1795731600000",
-          "rejection_reasons": [],
+          "status": "WAIT",
+          "last_candle": "1795731900000",
+          "rejection_reasons": [
+            "NO_VP_OR_RANGE_LOW_RETEST",
+            "NO_BULLISH_CONFIRMATION"
+          ],
           "volume_level": 71.67937500000001,
           "vp_bin_step": 0.02375000000000031,
           "vp_max_bin_volume": 75188.69,
           "low_sweep_reclaim": true,
           "sweep_low": 71.186,
-          "retest": true,
+          "retest": false,
           "vp_retest": false,
-          "range_low_retest": true,
-          "retest_distance": 0.40637500000001125,
-          "retest_tolerance": 0.21369900000000003,
-          "bullish_candle": true,
-          "higher_close": true,
-          "wick_rejection": true,
-          "confirmation": true,
-          "confirmation_close": 71.273,
-          "entry_audit_candidate": {
-            "audit_version": 1,
-            "strategy_version": "range_manipulation_v1",
-            "symbol": "SOL",
-            "evaluated_at": "2026-11-27T00:27:19.431352",
-            "evaluation_candle": {
-              "time": "1795731600000.0",
-              "open": 71.229,
-              "high": 71.279,
-              "low": 71.186,
-              "close": 71.273,
-              "volume": 533.24
-            },
-            "range_window_candles": [
-              {
-                "time": "1795724100000.0",
-                "open": 71.301,
-                "high": 71.319,
-                "low": 71.248,
-                "close": 71.313,
-                "volume": 2325.74
-              },
-              {
-                "time": "1795724400000.0",
-                "open": 71.331,
-                "high": 71.353,
-                "low": 71.273,
-                "close": 71.302,
-                "volume": 471.58
-              },
-              {
-                "time": "1795724700000.0",
-                "open": 71.306,
-                "high": 71.38,
-                "low": 71.282,
-                "close": 71.378,
-                "volume": 3579.47
-              },
-              {
-                "time": "1795725000000.0",
-                "open": 71.338,
-                "high": 71.439,
-                "low": 71.326,
-                "close": 71.366,
-                "volume": 6684.95
-              },
-              {
-                "time": "1795725300000.0",
-                "open": 71.368,
-                "high": 71.44,
-                "low": 71.368,
-                "close": 71.415,
-                "volume": 4392.67
-              },
-              {
-                "time": "1795725600000.0",
-                "open": 71.415,
-                "high": 71.419,
-                "low": 71.343,
-                "close": 71.343,
-                "volume": 1018.36
-              },
-              {
-                "time": "1795725900000.0",
-                "open": 71.347,
-                "high": 71.362,
-                "low": 71.289,
-                "close": 71.311,
-                "volume": 3129.2
-              },
-              {
-                "time": "1795726200000.0",
-                "open": 71.31,
-                "high": 71.325,
-                "low": 71.273,
-                "close": 71.28,
-                "volume": 404.45
-              },
-              {
-                "time": "1795726500000.0",
-                "open": 71.279,
-                "high": 71.294,
-                "low": 71.24,
-                "close": 71.261,
-                "volume": 3968.53
-              },
-              {
-                "time": "1795726800000.0",
-                "open": 71.26,
-                "high": 71.402,
-                "low": 71.26,
-                "close": 71.389,
-                "volume": 5116.56
-              },
-              {
-                "time": "1795727100000.0",
-                "open": 71.388,
-                "high": 71.424,
-                "low": 71.368,
-                "close": 71.391,
-                "volume": 514.97
-              },
-              {
-                "time": "1795727400000.0",
-                "open": 71.388,
-                "high": 71.548,
-                "low": 71.359,
-                "close": 71.479,
-                "volume": 1175.51
-              },
-              {
-                "time": "1795727700000.0",
-                "open": 71.472,
-                "high": 71.591,
-                "low": 71.429,
-                "close": 71.554,
-                "volume": 5379.15
-              },
-              {
-                "time": "1795728000000.0",
-                "open": 71.554,
-                "high": 71.554,
-                "low": 71.458,
-                "close": 71.478,
-                "volume": 2093.89
-              },
-              {
-                "time": "1795728300000.0",
-                "open": 71.498,
-                "high": 71.55,
-                "low": 71.486,
-                "close": 71.515,
-                "volume": 444.0
-              },
-              {
-                "time": "1795728600000.0",
-                "open": 71.524,
-                "high": 71.769,
-                "low": 71.524,
-                "close": 71.769,
-                "volume": 18135.29
-              },
-              {
-                "time": "1795728900000.0",
-                "open": 71.768,
-                "high": 71.81,
-                "low": 71.639,
-                "close": 71.64,
-                "volume": 8779.52
-              },
-              {
-                "time": "1795729200000.0",
-                "open": 71.639,
-                "high": 71.71,
-                "low": 71.639,
-                "close": 71.679,
-                "volume": 3086.16
-              },
-              {
-                "time": "1795729500000.0",
-                "open": 71.69,
-                "high": 71.769,
-                "low": 71.659,
-                "close": 71.729,
-                "volume": 1410.28
-              },
-              {
-                "time": "1795729800000.0",
-                "open": 71.729,
-                "high": 71.77,
-                "low": 71.605,
-                "close": 71.636,
-                "volume": 53967.24
-              }
-            ],
-            "confirmation_window_candles": [
-              {
-                "time": "1795730100000.0",
-                "open": 71.644,
-                "high": 71.689,
-                "low": 71.603,
-                "close": 71.625,
-                "volume": 43430.02
-              },
-              {
-                "time": "1795730400000.0",
-                "open": 71.63,
-                "high": 71.63,
-                "low": 71.361,
-                "close": 71.409,
-                "volume": 7495.32
-              },
-              {
-                "time": "1795730700000.0",
-                "open": 71.41,
-                "high": 71.41,
-                "low": 71.171,
-                "close": 71.194,
-                "volume": 2907.62
-              },
-              {
-                "time": "1795731000000.0",
-                "open": 71.193,
-                "high": 71.193,
-                "low": 71.048,
-                "close": 71.108,
-                "volume": 2786.88
-              },
-              {
-                "time": "1795731300000.0",
-                "open": 71.109,
-                "high": 71.22,
-                "low": 71.108,
-                "close": 71.22,
-                "volume": 2590.85
-              }
-            ],
-            "range": {
-              "high": 71.81,
-              "low": 71.24,
-              "width_pct": 0.796924152394278
-            },
-            "volume_profile": {
-              "method": "24 bins; typical_price=(high+low+close)/3; volume summed over base window",
-              "bins": 24,
-              "bin_step": 0.02375000000000031,
-              "level": 71.67937500000001,
-              "max_bin_volume": 75188.69,
-              "bin_volumes": [
-                0.0,
-                3968.53,
-                3201.7699999999995,
-                3129.2,
-                8696.03,
-                7703.3099999999995,
-                514.97,
-                4392.67,
-                0.0,
-                1175.51,
-                2093.89,
-                5823.15,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                75188.69,
-                8779.52,
-                1410.28,
-                0.0,
-                0.0,
-                0.0
-              ]
-            },
-            "sweep": {
-              "detected": true,
-              "sweep_low": 71.186,
-              "range_low": 71.24,
-              "candidate_sweep_candles": []
-            },
-            "retest": {
-              "vp_retest": false,
-              "range_low_retest": true,
-              "any_retest": true,
-              "distance_close_to_vp": 0.40637500000001125,
-              "tolerance": 0.21369900000000003
-            },
-            "confirmation": {
-              "bullish_body": true,
-              "higher_close": true,
-              "wick_rejection": true,
-              "confirmation": true,
-              "close": 71.273
-            },
-            "decision": {
-              "setup": true,
-              "rejection_reasons": []
-            }
-          },
-          "side": "LONG"
+          "range_low_retest": false,
+          "retest_distance": 0.48237500000000466,
+          "retest_tolerance": 0.21333300000000002,
+          "bullish_candle": false,
+          "higher_close": false,
+          "wick_rejection": false,
+          "confirmation": false,
+          "confirmation_close": 71.197
         },
         "XRP": {
           "symbol": "XRP",
@@ -63004,7 +62726,7 @@
           "confirmation_close": 702.04
         }
       },
-      "updated_at": "2026-11-27 00:33:31"
+      "updated_at": "2026-11-27 00:34:42"
     }
   },
   "runtime": {
@@ -63039,25 +62761,25 @@
         "ZEC": "1795731300000"
       },
       "elder_video_paper": {
-        "SOL": 1795732320000,
-        "XRP": 1795732320000,
-        "kSHIB": 1795732320000,
-        "HYPE": 1795732320000,
-        "ZEC": 1795732320000
+        "SOL": 1795732380000,
+        "XRP": 1795732380000,
+        "kSHIB": 1795732380000,
+        "HYPE": 1795732380000,
+        "ZEC": 1795732380000
       }
     },
     "github_sync": {
       "enabled": true,
       "restored": true,
       "last_restore": "2026-11-27 00:26:52",
-      "last_backup": "2026-11-27 00:32:50",
+      "last_backup": "2026-11-27 00:34:02",
       "last_status": "BACKUP_OK",
       "last_error": "",
       "uploaded_files": 9,
       "downloaded_files": 9,
       "dirty": true,
       "worker_running": true,
-      "last_live_logs_export": "2026-11-27 00:32:31"
+      "last_live_logs_export": "2026-11-27 00:33:41"
     }
   }
 }
