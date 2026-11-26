@@ -2,7 +2,7 @@
   "ok": true,
   "read_only": true,
   "order_submission_enabled": false,
-  "generated_at": "2026-11-27 00:32:27",
+  "generated_at": "2026-11-27 00:33:38",
   "engines": {
     "legacy_paper": {
       "mode": "PAPER",
@@ -59322,7 +59322,7 @@
           ]
         }
       ],
-      "updated_at": "2026-11-27 00:32:20",
+      "updated_at": "2026-11-27 00:33:30",
       "funding_simulated": false,
       "fees_and_slippage": "ESTIMATED_FROM_L2_WITH_FALLBACK",
       "strategy": "PDL sweep -> 1H/30m setup -> 15m break -> OB retest (1m)",
@@ -59354,7 +59354,7 @@
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795732260000
+          "updated_at": 1795732320000
         },
         "XRP": {
           "direction": {
@@ -59383,7 +59383,7 @@
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795732260000
+          "updated_at": 1795732320000
         },
         "HYPE": {
           "direction": {
@@ -59412,7 +59412,7 @@
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795732260000
+          "updated_at": 1795732320000
         },
         "ZEC": {
           "direction": {
@@ -59441,7 +59441,7 @@
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795732260000
+          "updated_at": 1795732320000
         },
         "kSHIB": {
           "direction": {
@@ -59470,7 +59470,7 @@
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795732260000
+          "updated_at": 1795732320000
         }
       }
     },
@@ -59480,17 +59480,23 @@
       "safe": true,
       "order_submission_enabled": false,
       "initial_balance": 1000.0,
-      "balance": 998.3599731583977,
-      "equity": 998.2376965638479,
-      "realized_pnl": -1.6400268416023465,
-      "unrealized_pnl": -0.1222765945498341,
-      "trades": 41,
-      "closed_trades": 41,
+      "balance": 998.1604686782731,
+      "equity": 998.1604686782731,
+      "realized_pnl": -1.8395313217269014,
+      "unrealized_pnl": 0,
+      "trades": 42,
+      "closed_trades": 42,
       "wins": 10,
-      "losses": 31,
-      "winrate": 24.390243902439025,
-      "profit_factor": 0.8914621943104741,
-      "positions": [
+      "losses": 32,
+      "winrate": 23.80952380952381,
+      "profit_factor": 0.8798453260258039,
+      "positions": [],
+      "open_positions": 0,
+      "max_positions": 5,
+      "open_notional": 0,
+      "max_gross_exposure": 500.0,
+      "leverage": 1.0,
+      "recent_trades": [
         {
           "symbol": "SOL",
           "side": "LONG",
@@ -59505,10 +59511,10 @@
           "manipulation_low": 71.186,
           "manipulation_high": 71.689,
           "target_basis": "OPPOSITE_RANGE_EXTREME",
-          "current_price": 71.204,
+          "current_price": 71.157,
           "entry_time": "2026-11-27T00:27:19.751558",
           "entry_candle_time": "1795731600000",
-          "exit_reason": null,
+          "exit_reason": "STOP",
           "entry_audit": {
             "audit_version": 1,
             "strategy_version": "range_manipulation_v1",
@@ -59789,15 +59795,15 @@
               "rejection_reasons": []
             }
           },
-          "unrealized_pnl": -0.1222765945498341
-        }
-      ],
-      "open_positions": 1,
-      "max_positions": 5,
-      "open_notional": 100.0,
-      "max_gross_exposure": 500.0,
-      "leverage": 1.0,
-      "recent_trades": [
+          "unrealized_pnl": -0.1222765945498341,
+          "exit_price": 71.14896812960001,
+          "exit_fee": 0.04495070079930363,
+          "gross_pnl": -0.10955377932525123,
+          "net_pnl": -0.19950448012455485,
+          "fees": 0.08995070079930363,
+          "closed_at": "2026-11-27T00:33:31.656856",
+          "exit_candle_time": "1795731900000"
+        },
         {
           "symbol": "kSHIB",
           "side": "LONG",
@@ -62581,32 +62587,6 @@
           "net_pnl": -0.5175124001886424,
           "fees": 0.08980753280967946,
           "closed_at": "2026-11-26T08:41:09.923117"
-        },
-        {
-          "symbol": "ZEC",
-          "side": "LONG",
-          "entry_price": 760.59,
-          "entry_reference": 760.58,
-          "qty": 0.1314768797906888,
-          "notional": 100.0,
-          "entry_fee": 0.045,
-          "fee_rate": 0.00045,
-          "stop": 757.09,
-          "target": 773.05,
-          "manipulation_low": 757.09,
-          "manipulation_high": 761.12,
-          "target_basis": "OPPOSITE_RANGE_EXTREME",
-          "current_price": 756.39,
-          "entry_time": "2026-11-26T08:31:06.385132",
-          "entry_candle_time": "1795674300000",
-          "exit_reason": "STOP",
-          "unrealized_pnl": -0.45534124824150807,
-          "exit_price": 756.38,
-          "exit_fee": 0.04475091705123654,
-          "gross_pnl": -0.5535176639188046,
-          "net_pnl": -0.6432685809700412,
-          "fees": 0.08975091705123653,
-          "closed_at": "2026-11-26T08:38:40.482072"
         }
       ],
       "diagnostics": {
@@ -63024,7 +63004,7 @@
           "confirmation_close": 702.04
         }
       },
-      "updated_at": "2026-11-27 00:32:21"
+      "updated_at": "2026-11-27 00:33:31"
     }
   },
   "runtime": {
@@ -63059,25 +63039,25 @@
         "ZEC": "1795731300000"
       },
       "elder_video_paper": {
-        "SOL": 1795732260000,
-        "XRP": 1795732260000,
-        "kSHIB": 1795732260000,
-        "HYPE": 1795732260000,
-        "ZEC": 1795732260000
+        "SOL": 1795732320000,
+        "XRP": 1795732320000,
+        "kSHIB": 1795732320000,
+        "HYPE": 1795732320000,
+        "ZEC": 1795732320000
       }
     },
     "github_sync": {
       "enabled": true,
       "restored": true,
       "last_restore": "2026-11-27 00:26:52",
-      "last_backup": "2026-11-27 00:31:34",
+      "last_backup": "2026-11-27 00:32:50",
       "last_status": "BACKUP_OK",
       "last_error": "",
       "uploaded_files": 9,
       "downloaded_files": 9,
       "dirty": true,
       "worker_running": true,
-      "last_live_logs_export": "2026-11-27 00:31:18"
+      "last_live_logs_export": "2026-11-27 00:32:31"
     }
   }
 }
