@@ -17,11 +17,11 @@
       "manipulation_low": 70.462,
       "manipulation_high": 70.618,
       "target_basis": "OPPOSITE_RANGE_EXTREME",
-      "current_price": 70.852,
+      "current_price": 70.806,
       "entry_time": "2026-11-26T13:15:50.774012",
       "entry_candle_time": "1795691400000",
       "exit_reason": null,
-      "unrealized_pnl": 0.288097116951208
+      "unrealized_pnl": 0.2229567896861991
     },
     {
       "symbol": "HYPE",
@@ -37,11 +37,11 @@
       "manipulation_low": 60.217,
       "manipulation_high": 60.76,
       "target_basis": "OPPOSITE_RANGE_EXTREME",
-      "current_price": 60.664,
+      "current_price": 60.611,
       "entry_time": "2026-11-26T13:20:52.901346",
       "entry_candle_time": "1795691700000",
       "exit_reason": null,
-      "unrealized_pnl": -0.06692712283593916
+      "unrealized_pnl": -0.15427444352844433
     }
   ],
   "trades": [
@@ -675,53 +675,53 @@
       "range_low": 0.94716,
       "range_pct": 0.7813855659261256,
       "status": "WAIT",
-      "last_candle": "1795693500000",
+      "last_candle": "1795693800000",
       "rejection_reasons": [
         "NO_SWEEP_RECLAIM",
-        "NO_VP_OR_RANGE_LOW_RETEST"
+        "NO_BULLISH_CONFIRMATION"
       ],
       "volume_level": 0.949481875,
       "vp_bin_step": 0.0003095833333333353,
       "vp_max_bin_volume": 406108.0,
       "low_sweep_reclaim": false,
       "sweep_low": 0.95114,
-      "retest": false,
-      "vp_retest": false,
+      "retest": true,
+      "vp_retest": true,
       "range_low_retest": false,
-      "retest_distance": 0.003688124999999931,
-      "retest_tolerance": 0.0028599000000000003,
+      "retest_distance": 0.0022381249999999797,
+      "retest_tolerance": 0.00285489,
       "bullish_candle": false,
-      "higher_close": true,
+      "higher_close": false,
       "wick_rejection": false,
-      "confirmation": true,
-      "confirmation_close": 0.95317
+      "confirmation": false,
+      "confirmation_close": 0.95172
     },
     "kSHIB": {
       "symbol": "kSHIB",
-      "range_high": 0.003657,
+      "range_high": 0.003659,
       "range_low": 0.003631,
-      "range_pct": 0.7135016465422607,
+      "range_pct": 0.7681755829903927,
       "status": "WAIT",
-      "last_candle": "1795693500000",
+      "last_candle": "1795693800000",
       "rejection_reasons": [
         "NO_SWEEP_RECLAIM",
         "NO_VP_OR_RANGE_LOW_RETEST"
       ],
-      "volume_level": 0.0036369583333333336,
-      "vp_bin_step": 1.0833333333333326e-06,
-      "vp_max_bin_volume": 1098953.0,
+      "volume_level": 0.00363625,
+      "vp_bin_step": 1.166666666666659e-06,
+      "vp_max_bin_volume": 1348476.0,
       "low_sweep_reclaim": false,
       "sweep_low": 0.003645,
       "retest": false,
       "vp_retest": false,
       "range_low_retest": false,
-      "retest_distance": 1.7041666666666507e-05,
-      "retest_tolerance": 1.0959e-05,
+      "retest_distance": 1.874999999999967e-05,
+      "retest_tolerance": 1.0956e-05,
       "bullish_candle": true,
       "higher_close": true,
-      "wick_rejection": true,
+      "wick_rejection": false,
       "confirmation": true,
-      "confirmation_close": 0.003654
+      "confirmation_close": 0.003655
     },
     "HYPE": {
       "symbol": "HYPE",
@@ -753,33 +753,35 @@
       "range_high": 750.8,
       "range_low": 728.88,
       "range_pct": 2.962802768166085,
-      "status": "OPEN",
-      "last_candle": "1795693500000",
-      "rejection_reasons": [],
+      "status": "WAIT",
+      "last_candle": "1795693800000",
+      "rejection_reasons": [
+        "NO_VP_OR_RANGE_LOW_RETEST",
+        "NO_BULLISH_CONFIRMATION"
+      ],
       "volume_level": 731.1633333333333,
       "vp_bin_step": 0.9133333333333317,
       "vp_max_bin_volume": 4081.14,
       "low_sweep_reclaim": true,
       "sweep_low": 727.5,
-      "retest": true,
-      "vp_retest": true,
-      "range_low_retest": true,
-      "retest_distance": 0.7033333333332621,
+      "retest": false,
+      "vp_retest": false,
+      "range_low_retest": false,
+      "retest_distance": 3.763333333333321,
       "retest_tolerance": 2.283333333333329,
-      "bullish_candle": true,
-      "higher_close": true,
-      "wick_rejection": true,
-      "confirmation": true,
-      "confirmation_close": 730.46,
-      "side": "LONG"
+      "bullish_candle": false,
+      "higher_close": false,
+      "wick_rejection": false,
+      "confirmation": false,
+      "confirmation_close": 727.4
     }
   },
   "last_evaluated_candle_by_symbol": {
     "SOL": "1795691400000",
-    "XRP": "1795693500000",
-    "kSHIB": "1795693500000",
+    "XRP": "1795693800000",
+    "kSHIB": "1795693800000",
     "HYPE": "1795691700000",
-    "ZEC": "1795693500000"
+    "ZEC": "1795693800000"
   },
-  "updated_at": "2026-11-26 13:54:22"
+  "updated_at": "2026-11-26 13:55:38"
 }
