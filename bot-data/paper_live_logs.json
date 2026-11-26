@@ -2,7 +2,7 @@
   "ok": true,
   "read_only": true,
   "order_submission_enabled": false,
-  "generated_at": "2026-11-26 22:16:32",
+  "generated_at": "2026-11-26 22:17:56",
   "engines": {
     "legacy_paper": {
       "mode": "PAPER",
@@ -58629,7 +58629,7 @@
           ]
         }
       ],
-      "updated_at": "2026-11-26 22:16:05",
+      "updated_at": "2026-11-26 22:17:19",
       "funding_simulated": false,
       "fees_and_slippage": "ESTIMATED_FROM_L2_WITH_FALLBACK"
     },
@@ -59322,7 +59322,7 @@
           ]
         }
       ],
-      "updated_at": "2026-11-26 22:16:07",
+      "updated_at": "2026-11-26 22:17:26",
       "funding_simulated": false,
       "fees_and_slippage": "ESTIMATED_FROM_L2_WITH_FALLBACK",
       "strategy": "PDL sweep -> 1H/30m setup -> 15m break -> OB retest (1m)",
@@ -59354,7 +59354,7 @@
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795724040000
+          "updated_at": 1795724160000
         },
         "XRP": {
           "direction": {
@@ -59383,7 +59383,7 @@
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795724040000
+          "updated_at": 1795724160000
         },
         "HYPE": {
           "direction": {
@@ -59417,7 +59417,7 @@
             "fifteen_time": 1795723200000,
             "ob_time": 1795721400000
           },
-          "updated_at": 1795724100000
+          "updated_at": 1795724160000
         },
         "ZEC": {
           "direction": {
@@ -59446,7 +59446,7 @@
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795724100000
+          "updated_at": 1795724160000
         },
         "kSHIB": {
           "direction": {
@@ -59475,7 +59475,7 @@
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795724100000
+          "updated_at": 1795724160000
         }
       }
     },
@@ -59485,16 +59485,16 @@
       "safe": true,
       "order_submission_enabled": false,
       "initial_balance": 1000.0,
-      "balance": 998.8072451894532,
-      "equity": 999.5597404003365,
-      "realized_pnl": -1.1927548105468526,
-      "unrealized_pnl": 0.7524952108833561,
-      "trades": 33,
-      "closed_trades": 33,
+      "balance": 998.609035298673,
+      "equity": 999.4131833524592,
+      "realized_pnl": -1.3909647013270119,
+      "unrealized_pnl": 0.8041480537862572,
+      "trades": 34,
+      "closed_trades": 34,
       "wins": 9,
-      "losses": 24,
-      "winrate": 27.272727272727273,
-      "profit_factor": 0.9112159218644006,
+      "losses": 25,
+      "winrate": 26.470588235294116,
+      "profit_factor": 0.897967328496032,
       "positions": [
         {
           "symbol": "SOL",
@@ -59510,12 +59510,19 @@
           "manipulation_low": 70.047,
           "manipulation_high": 70.606,
           "target_basis": "OPPOSITE_RANGE_EXTREME",
-          "current_price": 71.295,
+          "current_price": 71.282,
           "entry_time": "2026-11-26T17:35:38.429302",
           "entry_candle_time": "1795707000000",
           "exit_reason": null,
-          "unrealized_pnl": 0.8225403397027543
-        },
+          "unrealized_pnl": 0.8041480537862572
+        }
+      ],
+      "open_positions": 1,
+      "max_positions": 5,
+      "open_notional": 100.0,
+      "max_gross_exposure": 500.0,
+      "leverage": 1.0,
+      "recent_trades": [
         {
           "symbol": "XRP",
           "side": "LONG",
@@ -59530,10 +59537,10 @@
           "manipulation_low": 0.95132,
           "manipulation_high": 0.95467,
           "target_basis": "OPPOSITE_RANGE_EXTREME",
-          "current_price": 0.95191,
+          "current_price": 0.95073,
           "entry_time": "2026-11-26T22:16:08.532602",
           "entry_candle_time": "1795723800000",
-          "exit_reason": null,
+          "exit_reason": "STOP",
           "entry_audit": {
             "audit_version": 1,
             "strategy_version": "range_manipulation_v1",
@@ -59831,15 +59838,13 @@
               "rejection_reasons": []
             }
           },
-          "unrealized_pnl": -0.0700451288193982
-        }
-      ],
-      "open_positions": 2,
-      "max_positions": 5,
-      "open_notional": 200.0,
-      "max_gross_exposure": 500.0,
-      "leverage": 1.0,
-      "recent_trades": [
+          "exit_price": 0.9506896811839999,
+          "exit_fee": 0.04495128362678098,
+          "gross_pnl": -0.10825860715337819,
+          "net_pnl": -0.19820989078015916,
+          "fees": 0.08995128362678098,
+          "closed_at": "2026-11-26T22:17:27.519104"
+        },
         {
           "symbol": "HYPE",
           "side": "LONG",
@@ -60593,32 +60598,6 @@
           "net_pnl": 0.8375052497162263,
           "fees": 0.09041756526674233,
           "closed_at": "2026-11-26T02:14:43.630415"
-        },
-        {
-          "symbol": "kSHIB",
-          "side": "LONG",
-          "entry_price": 0.003573,
-          "entry_reference": 0.003572,
-          "qty": 27987.6854184159,
-          "notional": 100.0,
-          "entry_fee": 0.045,
-          "fee_rate": 0.00045,
-          "stop": 0.003563,
-          "target": 0.003591,
-          "manipulation_low": 0.003563,
-          "manipulation_high": 0.003577,
-          "target_basis": "OPPOSITE_RANGE_EXTREME",
-          "current_price": 0.003592,
-          "entry_time": "2026-11-26T01:10:55.436750",
-          "entry_candle_time": "1795647900000",
-          "exit_reason": "TARGET",
-          "unrealized_pnl": 0.35760145535965265,
-          "exit_price": 0.003591,
-          "exit_fee": 0.04522670025188917,
-          "gross_pnl": 0.5037783375314924,
-          "net_pnl": 0.4135516372796032,
-          "fees": 0.09022670025188917,
-          "closed_at": "2026-11-26T02:02:13.261044"
         }
       ],
       "diagnostics": {
@@ -61053,7 +61032,7 @@
           "confirmation_close": 718.52
         }
       },
-      "updated_at": "2026-11-26 22:16:09"
+      "updated_at": "2026-11-26 22:17:27"
     }
   },
   "runtime": {
@@ -61082,31 +61061,31 @@
     "last_evaluated_candles": {
       "strategy_v2_paper": {
         "SOL": "1795723200000",
-        "XRP": "1795716900000",
+        "XRP": "1795723200000",
         "kSHIB": "1795723200000",
         "HYPE": "1795723200000",
         "ZEC": "1795723200000"
       },
       "elder_video_paper": {
-        "SOL": 1795724040000,
-        "XRP": 1795724040000,
-        "kSHIB": 1795724100000,
-        "HYPE": 1795724100000,
-        "ZEC": 1795724100000
+        "SOL": 1795724160000,
+        "XRP": 1795724160000,
+        "kSHIB": 1795724160000,
+        "HYPE": 1795724160000,
+        "ZEC": 1795724160000
       }
     },
     "github_sync": {
       "enabled": true,
       "restored": true,
       "last_restore": "2026-11-26 22:05:58",
-      "last_backup": "2026-11-26 22:15:22",
+      "last_backup": "2026-11-26 22:16:36",
       "last_status": "BACKUP_OK",
       "last_error": "",
-      "uploaded_files": 9,
+      "uploaded_files": 10,
       "downloaded_files": 9,
       "dirty": true,
       "worker_running": true,
-      "last_live_logs_export": "2026-11-26 22:14:42"
+      "last_live_logs_export": "2026-11-26 22:16:36"
     }
   }
 }
