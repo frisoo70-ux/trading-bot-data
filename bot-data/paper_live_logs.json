@@ -2,7 +2,7 @@
   "ok": true,
   "read_only": true,
   "order_submission_enabled": false,
-  "generated_at": "2026-11-26 23:31:16",
+  "generated_at": "2026-11-26 23:32:39",
   "engines": {
     "legacy_paper": {
       "mode": "PAPER",
@@ -56760,9 +56760,9 @@
       "order_submission_enabled": false,
       "initial_balance": 1000.0,
       "balance": 966.3372,
-      "equity": 966.1749,
+      "equity": 966.2546,
       "realized_pnl": -33.66277,
-      "unrealized_pnl": -0.162345,
+      "unrealized_pnl": -0.082661,
       "closed_trades": 73,
       "wins": 13,
       "losses": 60,
@@ -56810,7 +56810,7 @@
           "last_processed_candle_time": 1795727700000,
           "entry_price": 0.95333,
           "entry_reference_price": 0.95264,
-          "last_price": 0.95264,
+          "last_price": 0.9534,
           "qty": 104.89547166248833,
           "remaining_qty": 104.89547166248833,
           "notional": 100.0,
@@ -56834,9 +56834,9 @@
             "OBV_CONFIRMATION",
             "CLOSED_CANDLE"
           ],
-          "current_price": 0.95264,
-          "unrealized_pnl": -0.16234531,
-          "pnl_pct": -0.07238
+          "current_price": 0.9534,
+          "unrealized_pnl": -0.08266062,
+          "pnl_pct": 0.00734
         }
       ],
       "recent_trades": [
@@ -58669,7 +58669,7 @@
           ]
         }
       ],
-      "updated_at": "2026-11-26 23:30:50",
+      "updated_at": "2026-11-26 23:32:02",
       "funding_simulated": false,
       "fees_and_slippage": "ESTIMATED_FROM_L2_WITH_FALLBACK"
     },
@@ -59362,7 +59362,7 @@
           ]
         }
       ],
-      "updated_at": "2026-11-26 23:30:51",
+      "updated_at": "2026-11-26 23:32:07",
       "funding_simulated": false,
       "fees_and_slippage": "ESTIMATED_FROM_L2_WITH_FALLBACK",
       "strategy": "PDL sweep -> 1H/30m setup -> 15m break -> OB retest (1m)",
@@ -59394,7 +59394,7 @@
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795728540000
+          "updated_at": 1795728660000
         },
         "XRP": {
           "direction": {
@@ -59423,7 +59423,7 @@
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795728540000
+          "updated_at": 1795728600000
         },
         "HYPE": {
           "direction": {
@@ -59452,7 +59452,7 @@
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795728540000
+          "updated_at": 1795728660000
         },
         "ZEC": {
           "direction": {
@@ -59481,7 +59481,7 @@
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795728540000
+          "updated_at": 1795728660000
         },
         "kSHIB": {
           "direction": {
@@ -59510,7 +59510,7 @@
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795728540000
+          "updated_at": 1795728600000
         }
       }
     },
@@ -59521,9 +59521,9 @@
       "order_submission_enabled": false,
       "initial_balance": 1000.0,
       "balance": 999.6105834288388,
-      "equity": 999.6150737392217,
+      "equity": 999.6623188944131,
       "realized_pnl": -0.389416571161203,
-      "unrealized_pnl": 0.004490310382859311,
+      "unrealized_pnl": 0.05173546557429477,
       "trades": 36,
       "closed_trades": 36,
       "wins": 10,
@@ -59545,7 +59545,7 @@
           "manipulation_low": 0.95113,
           "manipulation_high": 0.95346,
           "target_basis": "OPPOSITE_RANGE_EXTREME",
-          "current_price": 0.95295,
+          "current_price": 0.9534,
           "entry_time": "2026-11-26T22:25:49.100004",
           "entry_candle_time": "1795724400000",
           "exit_reason": null,
@@ -59846,7 +59846,7 @@
               "rejection_reasons": []
             }
           },
-          "unrealized_pnl": 0.004490310382859311
+          "unrealized_pnl": 0.05173546557429477
         }
       ],
       "open_positions": 1,
@@ -61232,28 +61232,29 @@
       "diagnostics": {
         "SOL": {
           "symbol": "SOL",
-          "range_high": 71.56,
-          "range_low": 70.207,
-          "range_pct": 1.9087657917569092,
-          "status": "OPEN",
-          "last_candle": "1795707000000",
-          "rejection_reasons": [],
-          "volume_level": 70.5734375,
-          "vp_bin_step": 0.05637500000000036,
-          "vp_max_bin_volume": 39377.95,
-          "low_sweep_reclaim": true,
-          "sweep_low": 70.047,
+          "range_high": 71.563,
+          "range_low": 71.197,
+          "range_pct": 0.5127486690949842,
+          "status": "WAIT",
+          "last_candle": "1795728300000",
+          "rejection_reasons": [
+            "NO_SWEEP_RECLAIM"
+          ],
+          "volume_level": 71.448625,
+          "vp_bin_step": 0.015249999999999986,
+          "vp_max_bin_volume": 9216.5,
+          "low_sweep_reclaim": false,
+          "sweep_low": 71.26,
           "retest": true,
           "vp_retest": true,
           "range_low_retest": false,
-          "retest_distance": 0.043562500000007276,
-          "retest_tolerance": 0.211959,
+          "retest_distance": 0.06637499999999363,
+          "retest_tolerance": 0.21486900000000003,
           "bullish_candle": true,
-          "higher_close": true,
-          "wick_rejection": true,
+          "higher_close": false,
+          "wick_rejection": false,
           "confirmation": true,
-          "confirmation_close": 70.617,
-          "side": "LONG"
+          "confirmation_close": 71.515
         },
         "XRP": {
           "symbol": "XRP",
@@ -61658,7 +61659,7 @@
           "confirmation_close": 719.12
         }
       },
-      "updated_at": "2026-11-26 23:30:53"
+      "updated_at": "2026-11-26 23:32:08"
     }
   },
   "runtime": {
@@ -61743,25 +61744,25 @@
         "ZEC": "1795727700000"
       },
       "elder_video_paper": {
-        "SOL": 1795728540000,
-        "XRP": 1795728540000,
-        "kSHIB": 1795728540000,
-        "HYPE": 1795728540000,
-        "ZEC": 1795728540000
+        "SOL": 1795728660000,
+        "XRP": 1795728600000,
+        "kSHIB": 1795728600000,
+        "HYPE": 1795728660000,
+        "ZEC": 1795728660000
       }
     },
     "github_sync": {
       "enabled": true,
       "restored": true,
       "last_restore": "2026-11-26 22:05:58",
-      "last_backup": "2026-11-26 23:30:09",
+      "last_backup": "2026-11-26 23:31:20",
       "last_status": "BACKUP_OK",
       "last_error": "",
       "uploaded_files": 10,
       "downloaded_files": 9,
       "dirty": true,
       "worker_running": true,
-      "last_live_logs_export": "2026-11-26 23:30:09"
+      "last_live_logs_export": "2026-11-26 23:31:20"
     }
   }
 }
