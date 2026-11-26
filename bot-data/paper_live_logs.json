@@ -2,7 +2,7 @@
   "ok": true,
   "read_only": true,
   "order_submission_enabled": false,
-  "generated_at": "2026-11-26 21:40:36",
+  "generated_at": "2026-11-26 21:41:46",
   "engines": {
     "legacy_paper": {
       "mode": "PAPER",
@@ -56760,9 +56760,9 @@
       "order_submission_enabled": false,
       "initial_balance": 1000.0,
       "balance": 966.8841,
-      "equity": 966.5651,
+      "equity": 966.5108,
       "realized_pnl": -33.115915,
-      "unrealized_pnl": -0.31895,
+      "unrealized_pnl": -0.373313,
       "closed_trades": 72,
       "wins": 13,
       "losses": 59,
@@ -56810,7 +56810,7 @@
           "last_processed_candle_time": 1795720500000,
           "entry_price": 0.95611,
           "entry_reference_price": 0.95608,
-          "last_price": 0.95392,
+          "last_price": 0.9534,
           "qty": 104.59047599125624,
           "remaining_qty": 104.59047599125624,
           "notional": 100.0,
@@ -56834,9 +56834,9 @@
             "OBV_CONFIRMATION",
             "CLOSED_CANDLE"
           ],
-          "current_price": 0.95392,
-          "unrealized_pnl": -0.31895007,
-          "pnl_pct": -0.22905
+          "current_price": 0.9534,
+          "unrealized_pnl": -0.37331264,
+          "pnl_pct": -0.28344
         }
       ],
       "recent_trades": [
@@ -58669,7 +58669,7 @@
           ]
         }
       ],
-      "updated_at": "2026-11-26 21:40:00",
+      "updated_at": "2026-11-26 21:41:10",
       "funding_simulated": false,
       "fees_and_slippage": "ESTIMATED_FROM_L2_WITH_FALLBACK"
     },
@@ -59362,7 +59362,7 @@
           ]
         }
       ],
-      "updated_at": "2026-11-26 21:40:05",
+      "updated_at": "2026-11-26 21:41:17",
       "funding_simulated": false,
       "fees_and_slippage": "ESTIMATED_FROM_L2_WITH_FALLBACK",
       "strategy": "PDL sweep -> 1H/30m setup -> 15m break -> OB retest (1m)",
@@ -59394,7 +59394,7 @@
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795721880000
+          "updated_at": 1795722000000
         },
         "XRP": {
           "direction": {
@@ -59423,7 +59423,7 @@
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795721880000
+          "updated_at": 1795722000000
         },
         "HYPE": {
           "direction": {
@@ -59452,7 +59452,7 @@
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795721940000
+          "updated_at": 1795722000000
         },
         "ZEC": {
           "direction": {
@@ -59481,7 +59481,7 @@
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795721880000
+          "updated_at": 1795722000000
         },
         "kSHIB": {
           "direction": {
@@ -59510,7 +59510,7 @@
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795721880000
+          "updated_at": 1795721940000
         }
       }
     },
@@ -59521,9 +59521,9 @@
       "order_submission_enabled": false,
       "initial_balance": 1000.0,
       "balance": 998.8072451894532,
-      "equity": 999.789656937507,
+      "equity": 999.7401392446549,
       "realized_pnl": -1.1927548105468526,
-      "unrealized_pnl": 0.98241174805378,
+      "unrealized_pnl": 0.9328940552016969,
       "trades": 33,
       "closed_trades": 33,
       "wins": 9,
@@ -59545,11 +59545,11 @@
           "manipulation_low": 70.047,
           "manipulation_high": 70.606,
           "target_basis": "OPPOSITE_RANGE_EXTREME",
-          "current_price": 71.408,
+          "current_price": 71.373,
           "entry_time": "2026-11-26T17:35:38.429302",
           "entry_candle_time": "1795707000000",
           "exit_reason": null,
-          "unrealized_pnl": 0.98241174805378
+          "unrealized_pnl": 0.9328940552016969
         }
       ],
       "open_positions": 1,
@@ -60371,25 +60371,26 @@
           "range_low": 0.9473,
           "range_pct": 1.0323298834821975,
           "status": "WAIT",
-          "last_candle": "1795721400000",
+          "last_candle": "1795721700000",
           "rejection_reasons": [
-            "NO_SWEEP_RECLAIM"
+            "NO_SWEEP_RECLAIM",
+            "NO_BULLISH_CONFIRMATION"
           ],
           "volume_level": 0.9528293750000001,
           "vp_bin_step": 0.0004095833333333336,
           "vp_max_bin_volume": 214588.0,
           "low_sweep_reclaim": false,
-          "sweep_low": 0.9528,
+          "sweep_low": 0.95317,
           "retest": true,
           "vp_retest": true,
           "range_low_retest": false,
-          "retest_distance": 0.002460624999999883,
-          "retest_tolerance": 0.00286278,
-          "bullish_candle": true,
+          "retest_distance": 0.0010906249999999007,
+          "retest_tolerance": 0.0028602000000000002,
+          "bullish_candle": false,
           "higher_close": false,
-          "wick_rejection": true,
-          "confirmation": true,
-          "confirmation_close": 0.95529
+          "wick_rejection": false,
+          "confirmation": false,
+          "confirmation_close": 0.95392
         },
         "kSHIB": {
           "symbol": "kSHIB",
@@ -60397,25 +60398,26 @@
           "range_low": 0.003637,
           "range_pct": 0.8759923350670656,
           "status": "WAIT",
-          "last_candle": "1795721400000",
+          "last_candle": "1795721700000",
           "rejection_reasons": [
-            "NO_SWEEP_RECLAIM"
+            "NO_SWEEP_RECLAIM",
+            "NO_BULLISH_CONFIRMATION"
           ],
           "volume_level": 0.003655,
           "vp_bin_step": 1.3333333333333296e-06,
-          "vp_max_bin_volume": 866827.0,
+          "vp_max_bin_volume": 921985.0,
           "low_sweep_reclaim": false,
-          "sweep_low": 0.003654,
+          "sweep_low": 0.003656,
           "retest": true,
           "vp_retest": true,
           "range_low_retest": false,
-          "retest_distance": 8.000000000000194e-06,
-          "retest_tolerance": 1.098e-05,
-          "bullish_candle": true,
+          "retest_distance": 4.000000000000097e-06,
+          "retest_tolerance": 1.0974e-05,
+          "bullish_candle": false,
           "higher_close": false,
-          "wick_rejection": true,
-          "confirmation": true,
-          "confirmation_close": 0.003663
+          "wick_rejection": false,
+          "confirmation": false,
+          "confirmation_close": 0.003659
         },
         "HYPE": {
           "symbol": "HYPE",
@@ -60471,7 +60473,7 @@
           "confirmation_close": 717.14
         }
       },
-      "updated_at": "2026-11-26 21:40:06"
+      "updated_at": "2026-11-26 21:41:18"
     }
   },
   "runtime": {
@@ -60736,25 +60738,25 @@
         "ZEC": "1795720500000"
       },
       "elder_video_paper": {
-        "SOL": 1795721880000,
-        "XRP": 1795721880000,
-        "kSHIB": 1795721880000,
-        "HYPE": 1795721940000,
-        "ZEC": 1795721880000
+        "SOL": 1795722000000,
+        "XRP": 1795722000000,
+        "kSHIB": 1795721940000,
+        "HYPE": 1795722000000,
+        "ZEC": 1795722000000
       }
     },
     "github_sync": {
       "enabled": true,
       "restored": true,
       "last_restore": "2026-11-26 06:58:21",
-      "last_backup": "2026-11-26 21:39:30",
+      "last_backup": "2026-11-26 21:40:40",
       "last_status": "BACKUP_OK",
       "last_error": "post_trade_analysis.csv: 422 Client Error: Unprocessable Entity for url: https://api.github.com/repos/frisoo70-ux/trading-bot-data/contents/bot-data/post_trade_analysis.csv",
       "uploaded_files": 10,
       "downloaded_files": 9,
       "dirty": true,
       "worker_running": true,
-      "last_live_logs_export": "2026-11-26 21:39:30"
+      "last_live_logs_export": "2026-11-26 21:40:40"
     }
   }
 }
