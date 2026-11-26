@@ -2,7 +2,7 @@
   "ok": true,
   "read_only": true,
   "order_submission_enabled": false,
-  "generated_at": "2026-11-27 00:31:14",
+  "generated_at": "2026-11-27 00:32:27",
   "engines": {
     "legacy_paper": {
       "mode": "PAPER",
@@ -59322,7 +59322,7 @@
           ]
         }
       ],
-      "updated_at": "2026-11-27 00:31:02",
+      "updated_at": "2026-11-27 00:32:20",
       "funding_simulated": false,
       "fees_and_slippage": "ESTIMATED_FROM_L2_WITH_FALLBACK",
       "strategy": "PDL sweep -> 1H/30m setup -> 15m break -> OB retest (1m)",
@@ -59344,17 +59344,17 @@
             "hourly_sweep": false,
             "half_hour_sweep": false,
             "hourly_level": 70.995,
-            "half_hour_level": 71.197,
+            "half_hour_level": 71.24,
             "reason": "SETUP_NOT_CONFIRMED",
             "hourly_time": 1795726800000,
-            "half_hour_time": 1795728600000
+            "half_hour_time": 1795730400000
           },
           "entry": {
             "ready": true,
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795732140000
+          "updated_at": 1795732260000
         },
         "XRP": {
           "direction": {
@@ -59373,17 +59373,17 @@
             "hourly_sweep": false,
             "half_hour_sweep": false,
             "hourly_level": 0.95055,
-            "half_hour_level": 0.95055,
+            "half_hour_level": 0.9512,
             "reason": "SETUP_NOT_CONFIRMED",
             "hourly_time": 1795726800000,
-            "half_hour_time": 1795728600000
+            "half_hour_time": 1795730400000
           },
           "entry": {
             "ready": true,
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795732140000
+          "updated_at": 1795732260000
         },
         "HYPE": {
           "direction": {
@@ -59402,17 +59402,17 @@
             "hourly_sweep": false,
             "half_hour_sweep": false,
             "hourly_level": 60.321,
-            "half_hour_level": 61.962,
+            "half_hour_level": 62.85,
             "reason": "SETUP_NOT_CONFIRMED",
             "hourly_time": 1795726800000,
-            "half_hour_time": 1795728600000
+            "half_hour_time": 1795730400000
           },
           "entry": {
             "ready": true,
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795732200000
+          "updated_at": 1795732260000
         },
         "ZEC": {
           "direction": {
@@ -59431,17 +59431,17 @@
             "hourly_sweep": false,
             "half_hour_sweep": false,
             "hourly_level": 699.14,
-            "half_hour_level": 717.22,
+            "half_hour_level": 715.02,
             "reason": "SETUP_NOT_CONFIRMED",
             "hourly_time": 1795726800000,
-            "half_hour_time": 1795728600000
+            "half_hour_time": 1795730400000
           },
           "entry": {
             "ready": true,
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795732200000
+          "updated_at": 1795732260000
         },
         "kSHIB": {
           "direction": {
@@ -59463,14 +59463,14 @@
             "half_hour_level": 0.00364,
             "reason": "SETUP_NOT_CONFIRMED",
             "hourly_time": 1795726800000,
-            "half_hour_time": 1795728600000
+            "half_hour_time": 1795730400000
           },
           "entry": {
             "ready": true,
             "valid": false,
             "reason": "15M_BULLISH_STRUCTURE_BREAK_MISSING"
           },
-          "updated_at": 1795732140000
+          "updated_at": 1795732260000
         }
       }
     },
@@ -59481,9 +59481,9 @@
       "order_submission_enabled": false,
       "initial_balance": 1000.0,
       "balance": 998.3599731583977,
-      "equity": 998.2531331960239,
+      "equity": 998.2376965638479,
       "realized_pnl": -1.6400268416023465,
-      "unrealized_pnl": -0.10683996237381954,
+      "unrealized_pnl": -0.1222765945498341,
       "trades": 41,
       "closed_trades": 41,
       "wins": 10,
@@ -59505,7 +59505,7 @@
           "manipulation_low": 71.186,
           "manipulation_high": 71.689,
           "target_basis": "OPPOSITE_RANGE_EXTREME",
-          "current_price": 71.215,
+          "current_price": 71.204,
           "entry_time": "2026-11-27T00:27:19.751558",
           "entry_candle_time": "1795731600000",
           "exit_reason": null,
@@ -59789,7 +59789,7 @@
               "rejection_reasons": []
             }
           },
-          "unrealized_pnl": -0.10683996237381954
+          "unrealized_pnl": -0.1222765945498341
         }
       ],
       "open_positions": 1,
@@ -62947,9 +62947,11 @@
           "range_high": 0.003651,
           "range_low": 0.00364,
           "range_pct": 0.30174187354272825,
-          "status": "OPEN",
-          "last_candle": "1795731600000",
-          "rejection_reasons": [],
+          "status": "WAIT",
+          "last_candle": "1795731900000",
+          "rejection_reasons": [
+            "NO_BULLISH_CONFIRMATION"
+          ],
           "volume_level": 0.0036429791666666668,
           "vp_bin_step": 4.5833333333333994e-07,
           "vp_max_bin_volume": 428075.0,
@@ -62957,304 +62959,14 @@
           "sweep_low": 0.003639,
           "retest": true,
           "vp_retest": true,
-          "range_low_retest": true,
-          "retest_distance": 9.791666666669231e-07,
-          "retest_tolerance": 1.092e-05,
+          "range_low_retest": false,
+          "retest_distance": 2.979166666666755e-06,
+          "retest_tolerance": 1.0905000000000001e-05,
           "bullish_candle": false,
-          "higher_close": true,
+          "higher_close": false,
           "wick_rejection": false,
-          "confirmation": true,
-          "confirmation_close": 0.003642,
-          "entry_audit_candidate": {
-            "audit_version": 1,
-            "strategy_version": "range_manipulation_v1",
-            "symbol": "kSHIB",
-            "evaluated_at": "2026-11-27T00:29:53.424070",
-            "evaluation_candle": {
-              "time": "1795731600000.0",
-              "open": 0.003644,
-              "high": 0.003644,
-              "low": 0.00364,
-              "close": 0.003642,
-              "volume": 430107.0
-            },
-            "range_window_candles": [
-              {
-                "time": "1795724100000.0",
-                "open": 0.003648,
-                "high": 0.003649,
-                "low": 0.003646,
-                "close": 0.003647,
-                "volume": 67454.0
-              },
-              {
-                "time": "1795724400000.0",
-                "open": 0.003648,
-                "high": 0.003648,
-                "low": 0.003644,
-                "close": 0.003644,
-                "volume": 60636.0
-              },
-              {
-                "time": "1795724700000.0",
-                "open": 0.003644,
-                "high": 0.003646,
-                "low": 0.003644,
-                "close": 0.003644,
-                "volume": 49699.0
-              },
-              {
-                "time": "1795725000000.0",
-                "open": 0.003643,
-                "high": 0.003648,
-                "low": 0.003643,
-                "close": 0.003648,
-                "volume": 97646.0
-              },
-              {
-                "time": "1795725300000.0",
-                "open": 0.003645,
-                "high": 0.003647,
-                "low": 0.003645,
-                "close": 0.003647,
-                "volume": 37753.0
-              },
-              {
-                "time": "1795725600000.0",
-                "open": 0.003646,
-                "high": 0.003648,
-                "low": 0.003643,
-                "close": 0.003648,
-                "volume": 28211.0
-              },
-              {
-                "time": "1795725900000.0",
-                "open": 0.003649,
-                "high": 0.003649,
-                "low": 0.003644,
-                "close": 0.003647,
-                "volume": 56160.0
-              },
-              {
-                "time": "1795726200000.0",
-                "open": 0.003644,
-                "high": 0.003648,
-                "low": 0.003644,
-                "close": 0.003645,
-                "volume": 182876.0
-              },
-              {
-                "time": "1795726500000.0",
-                "open": 0.003647,
-                "high": 0.003647,
-                "low": 0.003646,
-                "close": 0.003646,
-                "volume": 15345.0
-              },
-              {
-                "time": "1795726800000.0",
-                "open": 0.003647,
-                "high": 0.003648,
-                "low": 0.003645,
-                "close": 0.003645,
-                "volume": 35270.0
-              },
-              {
-                "time": "1795727100000.0",
-                "open": 0.003645,
-                "high": 0.003646,
-                "low": 0.003641,
-                "close": 0.003641,
-                "volume": 51087.0
-              },
-              {
-                "time": "1795727400000.0",
-                "open": 0.003642,
-                "high": 0.003644,
-                "low": 0.003642,
-                "close": 0.003643,
-                "volume": 79257.0
-              },
-              {
-                "time": "1795727700000.0",
-                "open": 0.003642,
-                "high": 0.003646,
-                "low": 0.00364,
-                "close": 0.003643,
-                "volume": 348818.0
-              },
-              {
-                "time": "1795728000000.0",
-                "open": 0.003643,
-                "high": 0.003646,
-                "low": 0.003643,
-                "close": 0.003645,
-                "volume": 52744.0
-              },
-              {
-                "time": "1795728300000.0",
-                "open": 0.003643,
-                "high": 0.003646,
-                "low": 0.003643,
-                "close": 0.003643,
-                "volume": 29563.0
-              },
-              {
-                "time": "1795728600000.0",
-                "open": 0.003643,
-                "high": 0.00365,
-                "low": 0.003643,
-                "close": 0.00365,
-                "volume": 296990.0
-              },
-              {
-                "time": "1795728900000.0",
-                "open": 0.00365,
-                "high": 0.003651,
-                "low": 0.003646,
-                "close": 0.003646,
-                "volume": 47103.0
-              },
-              {
-                "time": "1795729200000.0",
-                "open": 0.003647,
-                "high": 0.003651,
-                "low": 0.003647,
-                "close": 0.003649,
-                "volume": 389700.0
-              },
-              {
-                "time": "1795729500000.0",
-                "open": 0.003648,
-                "high": 0.003649,
-                "low": 0.003646,
-                "close": 0.003649,
-                "volume": 98270.0
-              },
-              {
-                "time": "1795729800000.0",
-                "open": 0.003647,
-                "high": 0.003649,
-                "low": 0.003646,
-                "close": 0.003646,
-                "volume": 36664.0
-              }
-            ],
-            "confirmation_window_candles": [
-              {
-                "time": "1795730100000.0",
-                "open": 0.003647,
-                "high": 0.003647,
-                "low": 0.003645,
-                "close": 0.003646,
-                "volume": 53389.0
-              },
-              {
-                "time": "1795730400000.0",
-                "open": 0.003645,
-                "high": 0.003646,
-                "low": 0.00364,
-                "close": 0.003641,
-                "volume": 394285.0
-              },
-              {
-                "time": "1795730700000.0",
-                "open": 0.00364,
-                "high": 0.003641,
-                "low": 0.003638,
-                "close": 0.00364,
-                "volume": 83421.0
-              },
-              {
-                "time": "1795731000000.0",
-                "open": 0.003639,
-                "high": 0.003639,
-                "low": 0.003637,
-                "close": 0.003637,
-                "volume": 414178.0
-              },
-              {
-                "time": "1795731300000.0",
-                "open": 0.003639,
-                "high": 0.003642,
-                "low": 0.003639,
-                "close": 0.003642,
-                "volume": 46695.0
-              }
-            ],
-            "range": {
-              "high": 0.003651,
-              "low": 0.00364,
-              "width_pct": 0.30174187354272825
-            },
-            "volume_profile": {
-              "method": "24 bins; typical_price=(high+low+close)/3; volume summed over base window",
-              "bins": 24,
-              "bin_step": 4.5833333333333994e-07,
-              "level": 0.0036429791666666668,
-              "max_bin_volume": 428075.0,
-              "bin_volumes": [
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                51087.0,
-                428075.0,
-                0.0,
-                29563.0,
-                0.0,
-                102443.0,
-                60636.0,
-                182876.0,
-                214225.0,
-                56160.0,
-                36664.0,
-                411547.0,
-                98270.0,
-                0.0,
-                389700.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0
-              ]
-            },
-            "sweep": {
-              "detected": true,
-              "sweep_low": 0.003639,
-              "range_low": 0.00364,
-              "candidate_sweep_candles": [
-                {
-                  "time": "1795731300000.0",
-                  "open": 0.003639,
-                  "high": 0.003642,
-                  "low": 0.003639,
-                  "close": 0.003642,
-                  "volume": 46695.0
-                }
-              ]
-            },
-            "retest": {
-              "vp_retest": true,
-              "range_low_retest": true,
-              "any_retest": true,
-              "distance_close_to_vp": 9.791666666669231e-07,
-              "tolerance": 1.092e-05
-            },
-            "confirmation": {
-              "bullish_body": false,
-              "higher_close": true,
-              "wick_rejection": false,
-              "confirmation": true,
-              "close": 0.003642
-            },
-            "decision": {
-              "setup": true,
-              "rejection_reasons": []
-            }
-          },
-          "side": "LONG"
+          "confirmation": false,
+          "confirmation_close": 0.00364
         },
         "HYPE": {
           "symbol": "HYPE",
@@ -63312,7 +63024,7 @@
           "confirmation_close": 702.04
         }
       },
-      "updated_at": "2026-11-27 00:31:05"
+      "updated_at": "2026-11-27 00:32:21"
     }
   },
   "runtime": {
@@ -63347,25 +63059,25 @@
         "ZEC": "1795731300000"
       },
       "elder_video_paper": {
-        "SOL": 1795732140000,
-        "XRP": 1795732140000,
-        "kSHIB": 1795732140000,
-        "HYPE": 1795732200000,
-        "ZEC": 1795732200000
+        "SOL": 1795732260000,
+        "XRP": 1795732260000,
+        "kSHIB": 1795732260000,
+        "HYPE": 1795732260000,
+        "ZEC": 1795732260000
       }
     },
     "github_sync": {
       "enabled": true,
       "restored": true,
       "last_restore": "2026-11-27 00:26:52",
-      "last_backup": "2026-11-27 00:30:23",
+      "last_backup": "2026-11-27 00:31:34",
       "last_status": "BACKUP_OK",
       "last_error": "",
       "uploaded_files": 9,
       "downloaded_files": 9,
       "dirty": true,
       "worker_running": true,
-      "last_live_logs_export": "2026-11-27 00:29:32"
+      "last_live_logs_export": "2026-11-27 00:31:18"
     }
   }
 }
