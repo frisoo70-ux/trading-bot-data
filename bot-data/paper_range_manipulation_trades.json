@@ -9725,65 +9725,63 @@
     "SOL": {
       "symbol": "SOL",
       "range_high": 72.458,
-      "range_low": 71.687,
-      "range_pct": 1.0697561483228706,
+      "range_low": 71.713,
+      "range_pct": 1.0334949469726986,
       "status": "NO_SETUP",
-      "last_candle": "1795811700000.0",
+      "last_candle": "1795812000000.0",
       "rejection_reasons": [
-        "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH"
+        "RANGE_CANDLE_OVERLAP_TOO_LOW"
       ],
       "range_quality": {
-        "normalized_close_drift": 0.47935890309431817,
-        "mean_candle_overlap": 0.3648643480889032,
+        "normalized_close_drift": 0.3800000000000074,
+        "mean_candle_overlap": 0.34929903323723727,
         "upper_boundary_touches": 4,
-        "lower_boundary_touches": 5,
+        "lower_boundary_touches": 4,
         "base_candles": 20,
         "quality_pass": false
       },
       "range_quality_reasons": [
-        "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH"
+        "RANGE_CANDLE_OVERLAP_TOO_LOW"
       ]
     },
     "XRP": {
       "symbol": "XRP",
       "range_high": 0.95402,
-      "range_low": 0.94499,
-      "range_pct": 0.9510218482261791,
+      "range_low": 0.94519,
+      "range_pct": 0.9298603103395626,
       "status": "NO_SETUP",
-      "last_candle": "1795811700000.0",
+      "last_candle": "1795812000000.0",
       "rejection_reasons": [
-        "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH",
         "RANGE_CANDLE_OVERLAP_TOO_LOW"
       ],
       "range_quality": {
-        "normalized_close_drift": 0.4053947160259437,
-        "mean_candle_overlap": 0.3388969598752767,
+        "normalized_close_drift": 0.23072318395081512,
+        "mean_candle_overlap": 0.3038092405770294,
         "upper_boundary_touches": 7,
         "lower_boundary_touches": 4,
         "base_candles": 20,
         "quality_pass": false
       },
       "range_quality_reasons": [
-        "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH",
         "RANGE_CANDLE_OVERLAP_TOO_LOW"
       ]
     },
     "kSHIB": {
       "symbol": "kSHIB",
       "range_high": 0.003695,
-      "range_low": 0.003649,
-      "range_pct": 1.252723311546842,
+      "range_low": 0.003651,
+      "range_pct": 1.1979308467192968,
       "status": "NO_SETUP",
-      "last_candle": "1795811700000.0",
+      "last_candle": "1795812000000.0",
       "rejection_reasons": [
         "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH",
         "RANGE_CANDLE_OVERLAP_TOO_LOW"
       ],
       "range_quality": {
-        "normalized_close_drift": 0.5403726708074507,
-        "mean_candle_overlap": 0.2920962078856886,
-        "upper_boundary_touches": 6,
-        "lower_boundary_touches": 4,
+        "normalized_close_drift": 0.4107142857142839,
+        "mean_candle_overlap": 0.2884412371254542,
+        "upper_boundary_touches": 5,
+        "lower_boundary_touches": 3,
         "base_candles": 20,
         "quality_pass": false
       },
@@ -9798,15 +9796,15 @@
       "range_low": 63.219,
       "range_pct": 1.6145355268422468,
       "status": "NO_SETUP",
-      "last_candle": "1795811700000.0",
+      "last_candle": "1795812000000.0",
       "rejection_reasons": [
         "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH"
       ],
       "range_quality": {
-        "normalized_close_drift": 0.6074829931972764,
-        "mean_candle_overlap": 0.4202108359219014,
+        "normalized_close_drift": 0.4776759683465218,
+        "mean_candle_overlap": 0.400233669514302,
         "upper_boundary_touches": 7,
-        "lower_boundary_touches": 4,
+        "lower_boundary_touches": 3,
         "base_candles": 20,
         "quality_pass": false
       },
@@ -9817,40 +9815,32 @@
     "ZEC": {
       "symbol": "ZEC",
       "range_high": 750.15,
-      "range_low": 741.43,
-      "range_pct": 1.1692299440861407,
-      "status": "WAIT",
-      "last_candle": "1795811700000.0",
+      "range_low": 738.95,
+      "range_pct": 1.5042643207306337,
+      "status": "NO_SETUP",
+      "last_candle": "1795812000000.0",
       "rejection_reasons": [
-        "WAITING_FOR_CLOSE_ABOVE_POC"
+        "INSUFFICIENT_LOWER_BOUNDARY_REACTIONS"
       ],
       "range_quality": {
-        "normalized_close_drift": 0.08097968545216366,
-        "mean_candle_overlap": 0.502566390777384,
-        "upper_boundary_touches": 8,
-        "lower_boundary_touches": 8,
+        "normalized_close_drift": 0.14507653061224435,
+        "mean_candle_overlap": 0.4834426285045928,
+        "upper_boundary_touches": 9,
+        "lower_boundary_touches": 1,
         "base_candles": 20,
-        "quality_pass": true
+        "quality_pass": false
       },
-      "range_quality_reasons": [],
-      "volume_level": 748.8783333333333,
-      "poc_frozen": true,
-      "setup_stage": "MANIPULATION",
-      "low_sweep_reclaim": true,
-      "sweep_low": 739.35,
-      "poc_crossed": false,
-      "poc_retested": false,
-      "confirmation": false,
-      "retest_tolerance": 1.113375,
-      "confirmation_close": 741.59
+      "range_quality_reasons": [
+        "INSUFFICIENT_LOWER_BOUNDARY_REACTIONS"
+      ]
     }
   },
   "last_evaluated_candle_by_symbol": {
-    "SOL": "1795811700000.0",
-    "XRP": "1795811700000.0",
-    "kSHIB": "1795811700000.0",
-    "HYPE": "1795811700000.0",
-    "ZEC": "1795811700000.0"
+    "SOL": "1795812000000.0",
+    "XRP": "1795812000000.0",
+    "kSHIB": "1795812000000.0",
+    "HYPE": "1795812000000.0",
+    "ZEC": "1795812000000.0"
   },
   "range_history": [
     {
@@ -10391,23 +10381,11 @@
       "low": 741.43,
       "last_seen_eval": 1795811700000,
       "samples": 4,
-      "status": "ACTIVE",
+      "status": "CLOSED",
       "validated": true
     }
   ],
-  "active_range_by_symbol": {
-    "ZEC": "ZEC:1795803300000:1795810800000"
-  },
-  "setup_by_symbol": {
-    "ZEC": {
-      "stage": "MANIPULATION",
-      "range_high": 750.15,
-      "range_low": 741.43,
-      "poc": 748.8783333333333,
-      "sweep_low": 739.35,
-      "sweep_time": "1795810500000.0",
-      "created_at": "1795810800000.0"
-    }
-  },
-  "updated_at": "2026-11-27 22:40:48"
+  "active_range_by_symbol": {},
+  "setup_by_symbol": {},
+  "updated_at": "2026-11-27 22:45:32"
 }
