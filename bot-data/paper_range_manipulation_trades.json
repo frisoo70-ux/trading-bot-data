@@ -17,7 +17,7 @@
       "manipulation_low": 741.99,
       "manipulation_high": 748.8,
       "target_basis": "OPPOSITE_RANGE_EXTREME",
-      "current_price": 763.74,
+      "current_price": 758.47,
       "entry_time": "2026-11-27T10:05:48.786504",
       "entry_candle_time": "1795766400000",
       "exit_reason": null,
@@ -301,7 +301,7 @@
           "rejection_reasons": []
         }
       },
-      "unrealized_pnl": 2.092528698723616
+      "unrealized_pnl": 1.3877538064274528
     },
     {
       "symbol": "SOL",
@@ -317,7 +317,7 @@
       "manipulation_low": 73.012,
       "manipulation_high": 73.399,
       "target_basis": "OPPOSITE_RANGE_EXTREME",
-      "current_price": 73.177,
+      "current_price": 73.081,
       "entry_time": "2026-11-27T14:00:41.667305",
       "entry_candle_time": "1795780500000.0",
       "exit_reason": null,
@@ -601,7 +601,7 @@
           "rejection_reasons": []
         }
       },
-      "unrealized_pnl": -0.0216565700767003
+      "unrealized_pnl": -0.15287595552941086
     },
     {
       "symbol": "HYPE",
@@ -617,7 +617,7 @@
       "manipulation_low": 65.482,
       "manipulation_high": 65.876,
       "target_basis": "OPPOSITE_RANGE_EXTREME",
-      "current_price": 65.92,
+      "current_price": 65.864,
       "entry_time": "2026-11-27T14:45:29.674695",
       "entry_candle_time": "1795783200000.0",
       "exit_reason": null,
@@ -910,7 +910,7 @@
           "rejection_reasons": []
         }
       },
-      "unrealized_pnl": 0.3975853658536698
+      "unrealized_pnl": 0.31225792682928355
     },
     {
       "symbol": "XRP",
@@ -926,7 +926,7 @@
       "manipulation_low": 0.97134,
       "manipulation_high": 0.97316,
       "target_basis": "OPPOSITE_RANGE_EXTREME",
-      "current_price": 0.97321,
+      "current_price": 0.97135,
       "entry_time": "2026-11-27T15:05:21.647238",
       "entry_candle_time": "1795784400000.0",
       "exit_reason": null,
@@ -1219,7 +1219,7 @@
           "rejection_reasons": []
         }
       },
-      "unrealized_pnl": -0.1064303399529406
+      "unrealized_pnl": -0.2974330419059464
     }
   ],
   "trades": [
@@ -9697,26 +9697,26 @@
       "range_low": 0.003701,
       "range_pct": 0.9144701452393809,
       "status": "WAIT",
-      "last_candle": "1795784400000.0",
+      "last_candle": "1795784700000.0",
       "rejection_reasons": [
         "NO_SWEEP_RECLAIM",
-        "NO_VP_OR_RANGE_LOW_RETEST"
+        "NO_BULLISH_CONFIRMATION"
       ],
       "volume_level": 0.003703125,
       "vp_bin_step": 1.416666666666674e-06,
       "vp_max_bin_volume": 1181746.0,
       "low_sweep_reclaim": false,
       "sweep_low": 0.00371,
-      "retest": false,
-      "vp_retest": false,
-      "range_low_retest": false,
-      "retest_distance": 1.3874999999999998e-05,
-      "retest_tolerance": 1.1151e-05,
+      "retest": true,
+      "vp_retest": true,
+      "range_low_retest": true,
+      "retest_distance": 7.87500000000007e-06,
+      "retest_tolerance": 1.1133e-05,
       "bullish_candle": false,
-      "higher_close": true,
+      "higher_close": false,
       "wick_rejection": false,
-      "confirmation": true,
-      "confirmation_close": 0.003717
+      "confirmation": false,
+      "confirmation_close": 0.003711
     },
     "HYPE": {
       "symbol": "HYPE",
@@ -10341,7 +10341,7 @@
   "last_evaluated_candle_by_symbol": {
     "SOL": "1795780500000.0",
     "XRP": "1795784400000.0",
-    "kSHIB": "1795784400000.0",
+    "kSHIB": "1795784700000.0",
     "HYPE": "1795783200000.0",
     "ZEC": "1795766400000"
   },
@@ -10537,11 +10537,11 @@
       "id": "kSHIB:1795774200000:1795781700000",
       "symbol": "kSHIB",
       "start": 1795774200000,
-      "end": 1795782900000,
+      "end": 1795783200000,
       "high": 0.003735,
       "low": 0.003701,
-      "last_seen_eval": 1795784400000,
-      "samples": 10,
+      "last_seen_eval": 1795784700000,
+      "samples": 11,
       "status": "ACTIVE"
     }
   ],
@@ -10552,5 +10552,5 @@
     "HYPE": "HYPE:1795745400000:1795752900000",
     "ZEC": "ZEC:1795757100000:1795764600000"
   },
-  "updated_at": "2026-11-27 15:09:58"
+  "updated_at": "2026-11-27 15:11:06"
 }
