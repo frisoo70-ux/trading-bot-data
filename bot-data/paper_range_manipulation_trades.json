@@ -9728,15 +9728,15 @@
       "range_low": 71.358,
       "range_pct": 0.9137133729973301,
       "status": "NO_SETUP",
-      "last_candle": "1795821600000.0",
+      "last_candle": "1795821900000.0",
       "rejection_reasons": [
         "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH"
       ],
       "range_quality": {
-        "normalized_close_drift": 0.87483097055615,
-        "mean_candle_overlap": 0.38811003136461425,
-        "upper_boundary_touches": 9,
-        "lower_boundary_touches": 8,
+        "normalized_close_drift": 0.8601526717557127,
+        "mean_candle_overlap": 0.4049108569580015,
+        "upper_boundary_touches": 8,
+        "lower_boundary_touches": 9,
         "base_candles": 20,
         "quality_pass": false
       },
@@ -9773,37 +9773,45 @@
       "range_high": 0.003688,
       "range_low": 0.003658,
       "range_pct": 0.8167710318540723,
-      "status": "NO_SETUP",
-      "last_candle": "1795821600000.0",
+      "status": "WAIT",
+      "last_candle": "1795821900000.0",
       "rejection_reasons": [
-        "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH"
+        "NO_SWEEP_RECLAIM"
       ],
       "range_quality": {
-        "normalized_close_drift": 0.5133333333333318,
-        "mean_candle_overlap": 0.35551948051947013,
+        "normalized_close_drift": 0.3528571428571433,
+        "mean_candle_overlap": 0.35551948051947296,
         "upper_boundary_touches": 8,
         "lower_boundary_touches": 4,
         "base_candles": 20,
-        "quality_pass": false
+        "quality_pass": true
       },
-      "range_quality_reasons": [
-        "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH"
-      ]
+      "range_quality_reasons": [],
+      "volume_level": 0.003662375,
+      "poc_frozen": false,
+      "setup_stage": "NO_MANIPULATION",
+      "low_sweep_reclaim": false,
+      "sweep_low": null,
+      "poc_crossed": false,
+      "poc_retested": false,
+      "confirmation": false,
+      "retest_tolerance": 5.5275e-06,
+      "confirmation_close": 0.003685
     },
     "HYPE": {
       "symbol": "HYPE",
-      "range_high": 64.165,
+      "range_high": 64.15,
       "range_low": 63.3,
-      "range_pct": 1.3572353194994846,
+      "range_pct": 1.3338564142801232,
       "status": "NO_SETUP",
-      "last_candle": "1795821600000.0",
+      "last_candle": "1795821900000.0",
       "rejection_reasons": [
         "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH"
       ],
       "range_quality": {
-        "normalized_close_drift": 0.7705862923203918,
-        "mean_candle_overlap": 0.45745553941755174,
-        "upper_boundary_touches": 8,
+        "normalized_close_drift": 0.6926890756302472,
+        "mean_candle_overlap": 0.44939817691015627,
+        "upper_boundary_touches": 7,
         "lower_boundary_touches": 5,
         "base_candles": 20,
         "quality_pass": false
@@ -9818,14 +9826,14 @@
       "range_low": 721.58,
       "range_pct": 2.543526594834947,
       "status": "NO_SETUP",
-      "last_candle": "1795821600000.0",
+      "last_candle": "1795821900000.0",
       "rejection_reasons": [
         "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH"
       ],
       "range_quality": {
-        "normalized_close_drift": 0.8070698532237051,
-        "mean_candle_overlap": 0.38132758743010053,
-        "upper_boundary_touches": 9,
+        "normalized_close_drift": 0.7457081380158348,
+        "mean_candle_overlap": 0.41026074882195235,
+        "upper_boundary_touches": 8,
         "lower_boundary_touches": 7,
         "base_candles": 20,
         "quality_pass": false
@@ -9836,11 +9844,11 @@
     }
   },
   "last_evaluated_candle_by_symbol": {
-    "SOL": "1795821600000.0",
+    "SOL": "1795821900000.0",
     "XRP": "1795821600000.0",
-    "kSHIB": "1795821600000.0",
-    "HYPE": "1795821600000.0",
-    "ZEC": "1795821600000.0"
+    "kSHIB": "1795821900000.0",
+    "HYPE": "1795821900000.0",
+    "ZEC": "1795821900000.0"
   },
   "range_history": [
     {
@@ -10479,9 +10487,23 @@
       "samples": 1,
       "status": "CLOSED",
       "validated": true
+    },
+    {
+      "id": "kSHIB:1795814400000:1795821900000",
+      "symbol": "kSHIB",
+      "start": 1795814400000,
+      "end": 1795820400000,
+      "high": 0.003688,
+      "low": 0.003658,
+      "last_seen_eval": 1795821900000,
+      "samples": 1,
+      "status": "ACTIVE",
+      "validated": true
     }
   ],
-  "active_range_by_symbol": {},
+  "active_range_by_symbol": {
+    "kSHIB": "kSHIB:1795814400000:1795821900000"
+  },
   "setup_by_symbol": {},
-  "updated_at": "2026-11-28 01:26:36"
+  "updated_at": "2026-11-28 01:30:09"
 }
