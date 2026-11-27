@@ -17,7 +17,7 @@
       "manipulation_low": 70.835,
       "manipulation_high": 70.994,
       "target_basis": "OPPOSITE_RANGE_EXTREME",
-      "current_price": 70.988,
+      "current_price": 71.073,
       "entry_time": "2026-11-27T01:40:38.523480",
       "entry_candle_time": "1795736100000",
       "exit_reason": null,
@@ -326,7 +326,7 @@
           "rejection_reasons": []
         }
       },
-      "unrealized_pnl": -0.05055890642614742
+      "unrealized_pnl": 0.0691729847801572
     },
     {
       "symbol": "HYPE",
@@ -342,7 +342,7 @@
       "manipulation_low": 61.813,
       "manipulation_high": 62.113,
       "target_basis": "OPPOSITE_RANGE_EXTREME",
-      "current_price": 62.496,
+      "current_price": 62.604,
       "entry_time": "2026-11-27T01:40:40.295780",
       "entry_candle_time": "1795736100000",
       "exit_reason": null,
@@ -651,7 +651,7 @@
           "rejection_reasons": []
         }
       },
-      "unrealized_pnl": 0.42443643849716983
+      "unrealized_pnl": 0.5980587364899596
     },
     {
       "symbol": "kSHIB",
@@ -667,7 +667,7 @@
       "manipulation_low": 0.003613,
       "manipulation_high": 0.003619,
       "target_basis": "OPPOSITE_RANGE_EXTREME",
-      "current_price": 0.003624,
+      "current_price": 0.003627,
       "entry_time": "2026-11-27T01:41:52.911693",
       "entry_candle_time": "1795736100000",
       "exit_reason": null,
@@ -968,7 +968,7 @@
           "rejection_reasons": []
         }
       },
-      "unrealized_pnl": 0.020447513812157384
+      "unrealized_pnl": 0.1032831491712724
     },
     {
       "symbol": "XRP",
@@ -984,7 +984,7 @@
       "manipulation_low": 0.94186,
       "manipulation_high": 0.94347,
       "target_basis": "OPPOSITE_RANGE_EXTREME",
-      "current_price": 0.94224,
+      "current_price": 0.94313,
       "entry_time": "2026-11-27T01:45:26.928900",
       "entry_candle_time": "1795736400000",
       "exit_reason": null,
@@ -1277,7 +1277,7 @@
           "rejection_reasons": []
         }
       },
-      "unrealized_pnl": -0.21607872338169373
+      "unrealized_pnl": -0.12178455211301908
     }
   ],
   "trades": [
@@ -6931,14 +6931,29 @@
     },
     "ZEC": {
       "symbol": "ZEC",
-      "range_high": 715.56,
+      "range_high": 711.05,
       "range_low": 677.15,
-      "range_pct": 5.515864752891839,
-      "status": "NO_SETUP",
-      "last_candle": "1795737900000",
+      "range_pct": 4.884022475147671,
+      "status": "WAIT",
+      "last_candle": "1795738200000",
       "rejection_reasons": [
-        "RANGE_OUTSIDE_0_15_TO_5_PERCENT"
-      ]
+        "NO_SWEEP_RECLAIM"
+      ],
+      "volume_level": 683.50625,
+      "vp_bin_step": 1.412499999999999,
+      "vp_max_bin_volume": 7965.5599999999995,
+      "low_sweep_reclaim": false,
+      "sweep_low": 680.89,
+      "retest": true,
+      "vp_retest": true,
+      "range_low_retest": false,
+      "retest_distance": 4.103749999999991,
+      "retest_tolerance": 3.5312499999999973,
+      "bullish_candle": true,
+      "higher_close": false,
+      "wick_rejection": true,
+      "confirmation": true,
+      "confirmation_close": 687.61
     }
   },
   "last_evaluated_candle_by_symbol": {
@@ -6946,7 +6961,7 @@
     "XRP": "1795736400000",
     "kSHIB": "1795736100000",
     "HYPE": "1795736100000",
-    "ZEC": "1795737900000"
+    "ZEC": "1795738200000"
   },
   "range_history": [
     {
@@ -7003,13 +7018,25 @@
       "last_seen_eval": 1795735800000,
       "samples": 14,
       "status": "CLOSED"
+    },
+    {
+      "id": "ZEC:1795730700000:1795738200000",
+      "symbol": "ZEC",
+      "start": 1795730700000,
+      "end": 1795736700000,
+      "high": 711.05,
+      "low": 677.15,
+      "last_seen_eval": 1795738200000,
+      "samples": 1,
+      "status": "ACTIVE"
     }
   ],
   "active_range_by_symbol": {
     "SOL": "SOL:1795724100000:1795731600000",
     "XRP": "XRP:1795724100000:1795731600000",
     "kSHIB": "kSHIB:1795724100000:1795731600000",
-    "HYPE": "HYPE:1795724400000:1795731900000"
+    "HYPE": "HYPE:1795724400000:1795731900000",
+    "ZEC": "ZEC:1795730700000:1795738200000"
   },
-  "updated_at": "2026-11-27 02:14:19"
+  "updated_at": "2026-11-27 02:15:36"
 }
