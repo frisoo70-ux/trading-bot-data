@@ -2,7 +2,7 @@
   "ok": true,
   "read_only": true,
   "order_submission_enabled": false,
-  "generated_at": "2026-11-27 11:45:50",
+  "generated_at": "2026-11-27 11:47:06",
   "engines": {
     "legacy_paper": {
       "mode": "PAPER",
@@ -60507,7 +60507,7 @@
           "pnl_pct": -1.0005
         }
       ],
-      "updated_at": "2026-11-27 11:45:27",
+      "updated_at": "2026-11-27 11:46:36",
       "fee_rate": 0.00045,
       "fee_source": "HYPERLIQUID_USER_FEES_TAKER",
       "fee_updated_at": "2026-11-27 11:28:35",
@@ -67203,26 +67203,27 @@
           "range_low": 0.00369,
           "range_pct": 1.2656523495354715,
           "status": "WAIT",
-          "last_candle": "1795772100000.0",
+          "last_candle": "1795772400000.0",
           "rejection_reasons": [
             "NO_SWEEP_RECLAIM",
-            "NO_VP_OR_RANGE_LOW_RETEST"
+            "NO_VP_OR_RANGE_LOW_RETEST",
+            "NO_BULLISH_CONFIRMATION"
           ],
           "volume_level": 0.0037281874999999997,
           "vp_bin_step": 1.9583333333333223e-06,
           "vp_max_bin_volume": 11334373.0,
           "low_sweep_reclaim": false,
-          "sweep_low": 0.003705,
+          "sweep_low": 0.003706,
           "retest": false,
           "vp_retest": false,
           "range_low_retest": false,
-          "retest_distance": 1.1187499999999913e-05,
-          "retest_tolerance": 1.1151e-05,
-          "bullish_candle": true,
-          "higher_close": true,
+          "retest_distance": 1.818749999999954e-05,
+          "retest_tolerance": 1.113e-05,
+          "bullish_candle": false,
+          "higher_close": false,
           "wick_rejection": false,
-          "confirmation": true,
-          "confirmation_close": 0.003717
+          "confirmation": false,
+          "confirmation_close": 0.00371
         },
         "HYPE": {
           "symbol": "HYPE",
@@ -67558,7 +67559,7 @@
           "side": "LONG"
         }
       },
-      "updated_at": "2026-11-27 11:45:18"
+      "updated_at": "2026-11-27 11:46:33"
     }
   },
   "runtime": {
@@ -67590,20 +67591,22 @@
       "[CANDLE CLOSE] 2026-11-27 11:45:18 HYPE Close=66.13600 Current=66.18900 EMA20=65.68291 EMA50=64.71861 RSI=47.33 ATR=0.44214 VWAP=60.94549 OBV=611031.21 OBV_MA5=482509.54",
       "[SIGNAL] HYPE BUY trend=True trend_score=8/8 trend_missing= rsi=False vwap=True obv=True breakout=True green=True mode=MODE_L_LIQUIDITY_SWEEP mode_a=False mode_b=True mode_c=False mode_d=False mode_e=False d1=False d2=False pattern_score=3.0 score=15.8482",
       "[CANDLE CLOSE] 2026-11-27 11:45:18 ZEC Close=755.59000 Current=757.47000 EMA20=749.61228 EMA50=739.70737 RSI=42.74 ATR=7.84214 VWAP=723.29085 OBV=727.18 OBV_MA5=-2827.63",
-      "[SIGNAL] ZEC HOLD trend=True trend_score=8/8 trend_missing= rsi=False vwap=True obv=True breakout=False green=True mode=None mode_a=False mode_b=False mode_c=False mode_d=False mode_e=False d1=False d2=False pattern_score=1.0 score=5.9609"
+      "[SIGNAL] ZEC HOLD trend=True trend_score=8/8 trend_missing= rsi=False vwap=True obv=True breakout=False green=True mode=None mode_a=False mode_b=False mode_c=False mode_d=False mode_e=False d1=False d2=False pattern_score=1.0 score=5.9609",
+      "[CANDLE CLOSE] 2026-11-27 11:46:33 kSHIB Close=0.00371 Current=0.00371 EMA20=0.00370 EMA50=0.00368 RSI=64.41 ATR=0.00001 VWAP=0.00361 OBV=421029359.00 OBV_MA5=421004791.60",
+      "[SIGNAL] kSHIB HOLD trend=True trend_score=8/8 trend_missing= rsi=True vwap=True obv=True breakout=False green=True mode=None mode_a=False mode_b=False mode_c=False mode_d=False mode_e=False d1=False d2=False pattern_score=0 score=3.0279"
     ],
     "github_sync": {
       "enabled": true,
       "restored": true,
       "last_restore": "2026-11-27 11:28:28",
-      "last_backup": "2026-11-27 11:44:49",
+      "last_backup": "2026-11-27 11:45:53",
       "last_status": "BACKUP_OK",
       "last_error": "",
       "uploaded_files": 8,
       "downloaded_files": 7,
       "dirty": true,
       "worker_running": true,
-      "last_live_logs_export": "2026-11-27 11:44:49"
+      "last_live_logs_export": "2026-11-27 11:45:53"
     }
   }
 }
