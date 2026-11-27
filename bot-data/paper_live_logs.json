@@ -2,7 +2,7 @@
   "ok": true,
   "read_only": true,
   "order_submission_enabled": false,
-  "generated_at": "2026-11-27 16:34:38",
+  "generated_at": "2026-11-27 16:35:42",
   "engines": {
     "legacy_paper": {
       "mode": "PAPER",
@@ -61986,17 +61986,23 @@
       "safe": true,
       "order_submission_enabled": false,
       "initial_balance": 1000.0,
-      "balance": 1000.8368391220855,
-      "equity": 1001.3406153121795,
-      "realized_pnl": 0.8368391220855235,
-      "unrealized_pnl": 0.5037761900939304,
-      "trades": 61,
-      "closed_trades": 61,
+      "balance": 999.4991067226314,
+      "equity": 999.4991067226314,
+      "realized_pnl": -0.5008932773685889,
+      "unrealized_pnl": 0,
+      "trades": 62,
+      "closed_trades": 62,
       "wins": 18,
-      "losses": 43,
-      "winrate": 29.508196721311474,
-      "profit_factor": 1.0399336434228463,
-      "positions": [
+      "losses": 44,
+      "winrate": 29.032258064516128,
+      "profit_factor": 0.9775318430806685,
+      "positions": [],
+      "open_positions": 0,
+      "max_positions": 5,
+      "open_notional": 0,
+      "max_gross_exposure": 500.0,
+      "leverage": 1.0,
+      "recent_trades": [
         {
           "symbol": "ZEC",
           "side": "LONG",
@@ -62011,10 +62017,10 @@
           "manipulation_low": 741.99,
           "manipulation_high": 748.8,
           "target_basis": "OPPOSITE_RANGE_EXTREME",
-          "current_price": 751.86,
+          "current_price": 740.07,
           "entry_time": "2026-11-27T10:05:48.786504",
           "entry_candle_time": "1795766400000",
-          "exit_reason": null,
+          "exit_reason": "STOP",
           "entry_audit": {
             "audit_version": 1,
             "strategy_version": "range_manipulation_v1",
@@ -62295,15 +62301,15 @@
               "rejection_reasons": []
             }
           },
-          "unrealized_pnl": 0.5037761900939304
-        }
-      ],
-      "open_positions": 1,
-      "max_positions": 5,
-      "open_notional": 100.0,
-      "max_gross_exposure": 500.0,
-      "leverage": 1.0,
-      "recent_trades": [
+          "unrealized_pnl": 0.5037761900939304,
+          "exit_price": 738.09,
+          "exit_fee": 0.044438267640683954,
+          "gross_pnl": -1.2482941318134284,
+          "net_pnl": -1.3377323994541124,
+          "fees": 0.08943826764068394,
+          "closed_at": "2026-11-27T16:35:10.784219",
+          "exit_candle_time": "1795789800000.0"
+        },
         {
           "symbol": "kSHIB",
           "side": "LONG",
@@ -70881,32 +70887,6 @@
           "net_pnl": 2.5202252124881492,
           "fees": 0.09117513015418904,
           "closed_at": "2026-11-26T20:58:26.342545"
-        },
-        {
-          "symbol": "kSHIB",
-          "side": "LONG",
-          "entry_price": 0.003621,
-          "entry_reference": 0.003621,
-          "qty": 27616.680475006902,
-          "notional": 100.0,
-          "entry_fee": 0.045,
-          "fee_rate": 0.00045,
-          "stop": 0.003607,
-          "target": 0.003664,
-          "manipulation_low": 0.003607,
-          "manipulation_high": 0.003622,
-          "target_basis": "OPPOSITE_RANGE_EXTREME",
-          "current_price": 0.003668,
-          "entry_time": "2026-11-26T17:35:40.109491",
-          "entry_candle_time": "1795707000000",
-          "exit_reason": "TARGET",
-          "unrealized_pnl": 0.9313573598453385,
-          "exit_price": 0.003662,
-          "exit_fee": 0.04550952775476387,
-          "gross_pnl": 1.1322838994752775,
-          "net_pnl": 1.0417743717205137,
-          "fees": 0.09050952775476387,
-          "closed_at": "2026-11-26T20:27:47.180375"
         }
       ],
       "diagnostics": {
@@ -70916,13 +70896,13 @@
           "range_low": 72.964,
           "range_pct": 0.7441644535170328,
           "status": "NO_SETUP",
-          "last_candle": "1795789500000.0",
+          "last_candle": "1795789800000.0",
           "rejection_reasons": [
             "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH"
           ],
           "range_quality": {
-            "normalized_close_drift": 0.7498820445609481,
-            "mean_candle_overlap": 0.4996312528199445,
+            "normalized_close_drift": 0.7559108781127123,
+            "mean_candle_overlap": 0.4997214286316811,
             "upper_boundary_touches": 3,
             "lower_boundary_touches": 9,
             "base_candles": 20,
@@ -70934,19 +70914,19 @@
         },
         "XRP": {
           "symbol": "XRP",
-          "range_high": 0.97526,
-          "range_low": 0.968,
-          "range_pct": 0.7471980074719846,
+          "range_high": 0.97494,
+          "range_low": 0.96719,
+          "range_pct": 0.7980928156199671,
           "status": "NO_SETUP",
-          "last_candle": "1795789500000.0",
+          "last_candle": "1795789800000.0",
           "rejection_reasons": [
             "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH"
           ],
           "range_quality": {
-            "normalized_close_drift": 0.44980322707595105,
-            "mean_candle_overlap": 0.3996020514837831,
-            "upper_boundary_touches": 4,
-            "lower_boundary_touches": 5,
+            "normalized_close_drift": 0.4338248847926247,
+            "mean_candle_overlap": 0.3809656952793668,
+            "upper_boundary_touches": 3,
+            "lower_boundary_touches": 2,
             "base_candles": 20,
             "quality_pass": false
           },
@@ -70956,26 +70936,24 @@
         },
         "kSHIB": {
           "symbol": "kSHIB",
-          "range_high": 0.003735,
+          "range_high": 0.003728,
           "range_low": 0.003701,
-          "range_pct": 0.9144701452393809,
+          "range_pct": 0.7268811414726104,
           "status": "NO_SETUP",
-          "last_candle": "1795789500000.0",
+          "last_candle": "1795789800000.0",
           "rejection_reasons": [
-            "RANGE_CANDLE_OVERLAP_TOO_LOW",
-            "INSUFFICIENT_UPPER_BOUNDARY_REACTIONS"
+            "RANGE_CANDLE_OVERLAP_TOO_LOW"
           ],
           "range_quality": {
-            "normalized_close_drift": 0.18907563025210583,
-            "mean_candle_overlap": 0.3049764562922393,
-            "upper_boundary_touches": 1,
+            "normalized_close_drift": 0.08359788359788929,
+            "mean_candle_overlap": 0.3339238247132956,
+            "upper_boundary_touches": 5,
             "lower_boundary_touches": 2,
             "base_candles": 20,
             "quality_pass": false
           },
           "range_quality_reasons": [
-            "RANGE_CANDLE_OVERLAP_TOO_LOW",
-            "INSUFFICIENT_UPPER_BOUNDARY_REACTIONS"
+            "RANGE_CANDLE_OVERLAP_TOO_LOW"
           ]
         },
         "HYPE": {
@@ -70984,15 +70962,15 @@
           "range_low": 65.482,
           "range_pct": 1.5757098269749494,
           "status": "NO_SETUP",
-          "last_candle": "1795789500000.0",
+          "last_candle": "1795789800000.0",
           "rejection_reasons": [
             "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH"
           ],
           "range_quality": {
-            "normalized_close_drift": 0.7049587912087883,
-            "mean_candle_overlap": 0.42151239204538216,
+            "normalized_close_drift": 0.6850824175824173,
+            "mean_candle_overlap": 0.41917194374922867,
             "upper_boundary_touches": 3,
-            "lower_boundary_touches": 8,
+            "lower_boundary_touches": 7,
             "base_candles": 20,
             "quality_pass": false
           },
@@ -71306,7 +71284,7 @@
           "side": "LONG"
         }
       },
-      "updated_at": "2026-11-27 16:34:03"
+      "updated_at": "2026-11-27 16:35:10"
     }
   },
   "runtime": {
@@ -71342,14 +71320,14 @@
       "enabled": true,
       "restored": true,
       "last_restore": "2026-11-27 16:04:35",
-      "last_backup": "2026-11-27 16:33:35",
+      "last_backup": "2026-11-27 16:34:42",
       "last_status": "BACKUP_OK",
       "last_error": "",
       "uploaded_files": 8,
       "downloaded_files": 7,
       "dirty": true,
       "worker_running": true,
-      "last_live_logs_export": "2026-11-27 16:33:35"
+      "last_live_logs_export": "2026-11-27 16:34:42"
     }
   }
 }
