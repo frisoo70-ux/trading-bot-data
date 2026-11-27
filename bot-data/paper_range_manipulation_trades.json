@@ -9725,46 +9725,54 @@
     "SOL": {
       "symbol": "SOL",
       "range_high": 72.615,
-      "range_low": 70.603,
-      "range_pct": 2.8097026910025287,
+      "range_low": 71.056,
+      "range_pct": 2.170236164570439,
       "status": "NO_SETUP",
-      "last_candle": "1795799700000.0",
+      "last_candle": "1795800000000.0",
       "rejection_reasons": [
-        "INSUFFICIENT_LOWER_BOUNDARY_REACTIONS"
+        "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH"
       ],
       "range_quality": {
-        "normalized_close_drift": 0.3709528543027532,
-        "mean_candle_overlap": 0.48093812765906846,
-        "upper_boundary_touches": 9,
-        "lower_boundary_touches": 1,
+        "normalized_close_drift": 0.4231375423806455,
+        "mean_candle_overlap": 0.4899875620812835,
+        "upper_boundary_touches": 4,
+        "lower_boundary_touches": 2,
         "base_candles": 20,
         "quality_pass": false
       },
       "range_quality_reasons": [
-        "INSUFFICIENT_LOWER_BOUNDARY_REACTIONS"
+        "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH"
       ]
     },
     "XRP": {
       "symbol": "XRP",
       "range_high": 0.9536,
-      "range_low": 0.93592,
-      "range_pct": 1.8713747406748835,
-      "status": "NO_SETUP",
-      "last_candle": "1795799700000.0",
+      "range_low": 0.94049,
+      "range_pct": 1.3843059199932375,
+      "status": "WAIT",
+      "last_candle": "1795800000000.0",
       "rejection_reasons": [
-        "INSUFFICIENT_LOWER_BOUNDARY_REACTIONS"
+        "NO_SWEEP_RECLAIM"
       ],
       "range_quality": {
-        "normalized_close_drift": 0.20711861667744172,
-        "mean_candle_overlap": 0.46909678192300924,
-        "upper_boundary_touches": 12,
-        "lower_boundary_touches": 1,
+        "normalized_close_drift": 0.2149068322981389,
+        "mean_candle_overlap": 0.4809700629435035,
+        "upper_boundary_touches": 11,
+        "lower_boundary_touches": 3,
         "base_candles": 20,
-        "quality_pass": false
+        "quality_pass": true
       },
-      "range_quality_reasons": [
-        "INSUFFICIENT_LOWER_BOUNDARY_REACTIONS"
-      ]
+      "range_quality_reasons": [],
+      "volume_level": 0.950049375,
+      "poc_frozen": false,
+      "setup_stage": "NO_MANIPULATION",
+      "low_sweep_reclaim": false,
+      "sweep_low": null,
+      "poc_crossed": false,
+      "poc_retested": false,
+      "confirmation": false,
+      "retest_tolerance": 0.00142455,
+      "confirmation_close": 0.95059
     },
     "kSHIB": {
       "symbol": "kSHIB",
@@ -9791,18 +9799,18 @@
     "HYPE": {
       "symbol": "HYPE",
       "range_high": 65.0,
-      "range_low": 63.201,
-      "range_pct": 2.8065303702779225,
+      "range_low": 63.432,
+      "range_pct": 2.441759063161825,
       "status": "NO_SETUP",
-      "last_candle": "1795799700000.0",
+      "last_candle": "1795800000000.0",
       "rejection_reasons": [
         "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH"
       ],
       "range_quality": {
-        "normalized_close_drift": 0.41584213451917496,
-        "mean_candle_overlap": 0.4842937499215188,
+        "normalized_close_drift": 0.46168002915451667,
+        "mean_candle_overlap": 0.4978298722190327,
         "upper_boundary_touches": 8,
-        "lower_boundary_touches": 3,
+        "lower_boundary_touches": 2,
         "base_candles": 20,
         "quality_pass": false
       },
@@ -9813,17 +9821,17 @@
     "ZEC": {
       "symbol": "ZEC",
       "range_high": 760.56,
-      "range_low": 719.13,
-      "range_pct": 5.599821584250749,
+      "range_low": 724.59,
+      "range_pct": 4.8439551560448315,
       "status": "NO_SETUP",
-      "last_candle": "1795799700000.0",
+      "last_candle": "1795800000000.0",
       "rejection_reasons": [
-        "RANGE_OUTSIDE_0_15_TO_5_PERCENT"
+        "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH"
       ],
       "range_quality": {
-        "normalized_close_drift": 0.5145857039412427,
-        "mean_candle_overlap": 0.4931721355719758,
-        "upper_boundary_touches": 4,
+        "normalized_close_drift": 0.5710830453949719,
+        "mean_candle_overlap": 0.49545676582628795,
+        "upper_boundary_touches": 5,
         "lower_boundary_touches": 3,
         "base_candles": 20,
         "quality_pass": false
@@ -9834,11 +9842,11 @@
     }
   },
   "last_evaluated_candle_by_symbol": {
-    "SOL": "1795799700000.0",
-    "XRP": "1795799700000.0",
+    "SOL": "1795800000000.0",
+    "XRP": "1795800000000.0",
     "kSHIB": "1795799700000.0",
-    "HYPE": "1795799700000.0",
-    "ZEC": "1795799700000.0"
+    "HYPE": "1795800000000.0",
+    "ZEC": "1795800000000.0"
   },
   "range_history": [
     {
@@ -10153,9 +10161,23 @@
       "samples": 1,
       "status": "CLOSED",
       "validated": true
+    },
+    {
+      "id": "XRP:1795792500000:1795800000000",
+      "symbol": "XRP",
+      "start": 1795792500000,
+      "end": 1795798500000,
+      "high": 0.9536,
+      "low": 0.94049,
+      "last_seen_eval": 1795800000000,
+      "samples": 1,
+      "status": "ACTIVE",
+      "validated": true
     }
   ],
-  "active_range_by_symbol": {},
+  "active_range_by_symbol": {
+    "XRP": "XRP:1795792500000:1795800000000"
+  },
   "setup_by_symbol": {},
-  "updated_at": "2026-11-27 19:21:07"
+  "updated_at": "2026-11-27 19:25:36"
 }
