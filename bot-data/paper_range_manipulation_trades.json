@@ -9728,42 +9728,44 @@
       "range_low": 71.211,
       "range_pct": 1.0865921787709578,
       "status": "NO_SETUP",
-      "last_candle": "1795823100000.0",
+      "last_candle": "1795823400000.0",
       "rejection_reasons": [
-        "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH"
+        "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH",
+        "RANGE_CANDLE_OVERLAP_TOO_LOW"
       ],
       "range_quality": {
-        "normalized_close_drift": 0.6068857877341032,
-        "mean_candle_overlap": 0.3758476330052865,
-        "upper_boundary_touches": 5,
-        "lower_boundary_touches": 3,
+        "normalized_close_drift": 0.5383217040029272,
+        "mean_candle_overlap": 0.34640086888911636,
+        "upper_boundary_touches": 4,
+        "lower_boundary_touches": 4,
         "base_candles": 20,
         "quality_pass": false
       },
       "range_quality_reasons": [
-        "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH"
+        "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH",
+        "RANGE_CANDLE_OVERLAP_TOO_LOW"
       ]
     },
     "XRP": {
       "symbol": "XRP",
-      "range_high": 0.94996,
+      "range_high": 0.94918,
       "range_low": 0.94144,
-      "range_pct": 0.9009199534736145,
+      "range_pct": 0.8187790248701451,
       "status": "WAIT",
-      "last_candle": "1795823100000.0",
+      "last_candle": "1795823400000.0",
       "rejection_reasons": [
         "NO_SWEEP_RECLAIM"
       ],
       "range_quality": {
-        "normalized_close_drift": 0.28125419181757544,
-        "mean_candle_overlap": 0.3831284115254014,
+        "normalized_close_drift": 0.15789959394610667,
+        "mean_candle_overlap": 0.38209926861982957,
         "upper_boundary_touches": 4,
-        "lower_boundary_touches": 8,
+        "lower_boundary_touches": 7,
         "base_candles": 20,
         "quality_pass": true
       },
       "range_quality_reasons": [],
-      "volume_level": 0.9433925000000001,
+      "volume_level": 0.9435362500000001,
       "poc_frozen": false,
       "setup_stage": "NO_MANIPULATION",
       "low_sweep_reclaim": false,
@@ -9771,8 +9773,8 @@
       "poc_crossed": false,
       "poc_retested": false,
       "confirmation": false,
-      "retest_tolerance": 0.001421385,
-      "confirmation_close": 0.94772
+      "retest_tolerance": 0.0014226,
+      "confirmation_close": 0.9481
     },
     "kSHIB": {
       "symbol": "kSHIB",
@@ -9780,14 +9782,14 @@
       "range_low": 0.003658,
       "range_pct": 0.8709853021230359,
       "status": "NO_SETUP",
-      "last_candle": "1795823100000.0",
+      "last_candle": "1795823400000.0",
       "rejection_reasons": [
         "RANGE_CANDLE_OVERLAP_TOO_LOW"
       ],
       "range_quality": {
-        "normalized_close_drift": 0.20937499999999687,
-        "mean_candle_overlap": 0.34133819396976617,
-        "upper_boundary_touches": 2,
+        "normalized_close_drift": 0.36071428571427955,
+        "mean_candle_overlap": 0.33782942203993754,
+        "upper_boundary_touches": 3,
         "lower_boundary_touches": 4,
         "base_candles": 20,
         "quality_pass": false
@@ -9801,43 +9803,21 @@
       "range_high": 64.05,
       "range_low": 62.768,
       "range_pct": 2.0217950133261784,
-      "status": "NO_SETUP",
-      "last_candle": "1795823100000.0",
-      "rejection_reasons": [
-        "INSUFFICIENT_LOWER_BOUNDARY_REACTIONS"
-      ],
-      "range_quality": {
-        "normalized_close_drift": 0.34963227100512845,
-        "mean_candle_overlap": 0.3915646642471114,
-        "upper_boundary_touches": 8,
-        "lower_boundary_touches": 1,
-        "base_candles": 20,
-        "quality_pass": false
-      },
-      "range_quality_reasons": [
-        "INSUFFICIENT_LOWER_BOUNDARY_REACTIONS"
-      ]
-    },
-    "ZEC": {
-      "symbol": "ZEC",
-      "range_high": 739.3,
-      "range_low": 721.58,
-      "range_pct": 2.4259350528448484,
       "status": "WAIT",
-      "last_candle": "1795823100000.0",
+      "last_candle": "1795823400000.0",
       "rejection_reasons": [
         "NO_SWEEP_RECLAIM"
       ],
       "range_quality": {
-        "normalized_close_drift": 0.3660593356981636,
-        "mean_candle_overlap": 0.37559254679470877,
-        "upper_boundary_touches": 5,
-        "lower_boundary_touches": 7,
+        "normalized_close_drift": 0.3830510363271695,
+        "mean_candle_overlap": 0.3945459395581132,
+        "upper_boundary_touches": 7,
+        "lower_boundary_touches": 2,
         "base_candles": 20,
         "quality_pass": true
       },
       "range_quality_reasons": [],
-      "volume_level": 725.6408333333334,
+      "volume_level": 63.061791666666664,
       "poc_frozen": false,
       "setup_stage": "NO_MANIPULATION",
       "low_sweep_reclaim": false,
@@ -9845,16 +9825,46 @@
       "poc_crossed": false,
       "poc_retested": false,
       "confirmation": false,
-      "retest_tolerance": 1.098705,
-      "confirmation_close": 732.76
+      "retest_tolerance": 0.0951105,
+      "confirmation_close": 63.413
+    },
+    "ZEC": {
+      "symbol": "ZEC",
+      "range_high": 737.98,
+      "range_low": 721.58,
+      "range_pct": 2.247252596672967,
+      "status": "WAIT",
+      "last_candle": "1795823400000.0",
+      "rejection_reasons": [
+        "NO_SWEEP_RECLAIM"
+      ],
+      "range_quality": {
+        "normalized_close_drift": 0.3029094076655063,
+        "mean_candle_overlap": 0.38078211751967195,
+        "upper_boundary_touches": 4,
+        "lower_boundary_touches": 7,
+        "base_candles": 20,
+        "quality_pass": true
+      },
+      "range_quality_reasons": [],
+      "volume_level": 725.3383333333334,
+      "poc_frozen": false,
+      "setup_stage": "NO_MANIPULATION",
+      "low_sweep_reclaim": false,
+      "sweep_low": null,
+      "poc_crossed": false,
+      "poc_retested": false,
+      "confirmation": false,
+      "retest_tolerance": 1.101225,
+      "confirmation_close": 733.76
     }
   },
   "last_evaluated_candle_by_symbol": {
-    "SOL": "1795823100000.0",
-    "XRP": "1795823100000.0",
-    "kSHIB": "1795823100000.0",
-    "HYPE": "1795823100000.0",
-    "ZEC": "1795823100000.0"
+    "SOL": "1795823400000.0",
+    "XRP": "1795823400000.0",
+    "kSHIB": "1795823400000.0",
+    "HYPE": "1795823400000.0",
+    "ZEC": "1795823400000.0"
   },
   "range_history": [
     {
@@ -10510,11 +10520,11 @@
       "id": "XRP:1795815600000:1795823100000",
       "symbol": "XRP",
       "start": 1795815600000,
-      "end": 1795821600000,
+      "end": 1795821900000,
       "high": 0.94996,
       "low": 0.94144,
-      "last_seen_eval": 1795823100000,
-      "samples": 1,
+      "last_seen_eval": 1795823400000,
+      "samples": 2,
       "status": "ACTIVE",
       "validated": true
     },
@@ -10522,10 +10532,22 @@
       "id": "ZEC:1795815600000:1795823100000",
       "symbol": "ZEC",
       "start": 1795815600000,
-      "end": 1795821600000,
+      "end": 1795821900000,
       "high": 739.3,
       "low": 721.58,
-      "last_seen_eval": 1795823100000,
+      "last_seen_eval": 1795823400000,
+      "samples": 2,
+      "status": "ACTIVE",
+      "validated": true
+    },
+    {
+      "id": "HYPE:1795815900000:1795823400000",
+      "symbol": "HYPE",
+      "start": 1795815900000,
+      "end": 1795821900000,
+      "high": 64.05,
+      "low": 62.768,
+      "last_seen_eval": 1795823400000,
       "samples": 1,
       "status": "ACTIVE",
       "validated": true
@@ -10533,8 +10555,9 @@
   ],
   "active_range_by_symbol": {
     "XRP": "XRP:1795815600000:1795823100000",
-    "ZEC": "ZEC:1795815600000:1795823100000"
+    "ZEC": "ZEC:1795815600000:1795823100000",
+    "HYPE": "HYPE:1795815900000:1795823400000"
   },
   "setup_by_symbol": {},
-  "updated_at": "2026-11-28 01:51:11"
+  "updated_at": "2026-11-28 01:55:50"
 }
