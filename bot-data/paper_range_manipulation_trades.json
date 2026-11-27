@@ -9728,13 +9728,13 @@
       "range_low": 71.668,
       "range_pct": 1.09626299210412,
       "status": "NO_SETUP",
-      "last_candle": "1795810500000.0",
+      "last_candle": "1795810800000.0",
       "rejection_reasons": [
         "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH"
       ],
       "range_quality": {
-        "normalized_close_drift": 0.8044303797468407,
-        "mean_candle_overlap": 0.37129743555210565,
+        "normalized_close_drift": 0.785388788426771,
+        "mean_candle_overlap": 0.3533081533744175,
         "upper_boundary_touches": 4,
         "lower_boundary_touches": 8,
         "base_candles": 20,
@@ -9750,14 +9750,14 @@
       "range_low": 0.94488,
       "range_pct": 0.9626625941334378,
       "status": "NO_SETUP",
-      "last_candle": "1795810500000.0",
+      "last_candle": "1795810800000.0",
       "rejection_reasons": [
         "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH",
         "RANGE_CANDLE_OVERLAP_TOO_LOW"
       ],
       "range_quality": {
-        "normalized_close_drift": 0.7466864645201682,
-        "mean_candle_overlap": 0.2891097790507474,
+        "normalized_close_drift": 0.692919662394503,
+        "mean_candle_overlap": 0.2732805932239012,
         "upper_boundary_touches": 7,
         "lower_boundary_touches": 6,
         "base_candles": 20,
@@ -9798,15 +9798,15 @@
       "range_low": 63.219,
       "range_pct": 1.6145355268422468,
       "status": "NO_SETUP",
-      "last_candle": "1795810500000.0",
+      "last_candle": "1795810800000.0",
       "rejection_reasons": [
         "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH"
       ],
       "range_quality": {
-        "normalized_close_drift": 0.8026377898097996,
-        "mean_candle_overlap": 0.4128539804552678,
+        "normalized_close_drift": 0.8094821602110214,
+        "mean_candle_overlap": 0.4127480705057483,
         "upper_boundary_touches": 7,
-        "lower_boundary_touches": 7,
+        "lower_boundary_touches": 6,
         "base_candles": 20,
         "quality_pass": false
       },
@@ -9816,33 +9816,41 @@
     },
     "ZEC": {
       "symbol": "ZEC",
-      "range_high": 753.42,
+      "range_high": 750.15,
       "range_low": 741.43,
-      "range_pct": 1.6041743318727646,
-      "status": "NO_SETUP",
-      "last_candle": "1795810500000.0",
+      "range_pct": 1.1692299440861407,
+      "status": "WAIT",
+      "last_candle": "1795810800000.0",
       "rejection_reasons": [
-        "INSUFFICIENT_UPPER_BOUNDARY_REACTIONS"
+        "WAITING_FOR_CLOSE_ABOVE_POC"
       ],
       "range_quality": {
-        "normalized_close_drift": 0.23321815798879936,
-        "mean_candle_overlap": 0.4327164030031065,
-        "upper_boundary_touches": 1,
+        "normalized_close_drift": 0.32652359108780904,
+        "mean_candle_overlap": 0.4480897281435476,
+        "upper_boundary_touches": 9,
         "lower_boundary_touches": 6,
         "base_candles": 20,
-        "quality_pass": false
+        "quality_pass": true
       },
-      "range_quality_reasons": [
-        "INSUFFICIENT_UPPER_BOUNDARY_REACTIONS"
-      ]
+      "range_quality_reasons": [],
+      "volume_level": 748.8783333333333,
+      "poc_frozen": true,
+      "setup_stage": "MANIPULATION",
+      "low_sweep_reclaim": true,
+      "sweep_low": 739.35,
+      "poc_crossed": false,
+      "poc_retested": false,
+      "confirmation": false,
+      "retest_tolerance": 1.110675,
+      "confirmation_close": 740.47
     }
   },
   "last_evaluated_candle_by_symbol": {
-    "SOL": "1795810500000.0",
-    "XRP": "1795810500000.0",
+    "SOL": "1795810800000.0",
+    "XRP": "1795810800000.0",
     "kSHIB": "1795810500000.0",
-    "HYPE": "1795810500000.0",
-    "ZEC": "1795810500000.0"
+    "HYPE": "1795810800000.0",
+    "ZEC": "1795810800000.0"
   },
   "range_history": [
     {
@@ -10373,9 +10381,33 @@
       "samples": 3,
       "status": "CLOSED",
       "validated": true
+    },
+    {
+      "id": "ZEC:1795803300000:1795810800000",
+      "symbol": "ZEC",
+      "start": 1795803300000,
+      "end": 1795809300000,
+      "high": 750.15,
+      "low": 741.43,
+      "last_seen_eval": 1795810800000,
+      "samples": 1,
+      "status": "ACTIVE",
+      "validated": true
     }
   ],
-  "active_range_by_symbol": {},
-  "setup_by_symbol": {},
-  "updated_at": "2026-11-27 22:20:35"
+  "active_range_by_symbol": {
+    "ZEC": "ZEC:1795803300000:1795810800000"
+  },
+  "setup_by_symbol": {
+    "ZEC": {
+      "stage": "MANIPULATION",
+      "range_high": 750.15,
+      "range_low": 741.43,
+      "poc": 748.8783333333333,
+      "sweep_low": 739.35,
+      "sweep_time": "1795810500000.0",
+      "created_at": "1795810800000.0"
+    }
+  },
+  "updated_at": "2026-11-27 22:25:17"
 }
