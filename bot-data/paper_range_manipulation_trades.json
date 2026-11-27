@@ -9724,25 +9724,33 @@
   "diagnostics": {
     "SOL": {
       "symbol": "SOL",
-      "range_high": 72.481,
+      "range_high": 72.419,
       "range_low": 71.312,
-      "range_pct": 1.6259484119532894,
-      "status": "NO_SETUP",
-      "last_candle": "1795804800000.0",
+      "range_pct": 1.5403775107666395,
+      "status": "WAIT",
+      "last_candle": "1795805100000.0",
       "rejection_reasons": [
-        "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH"
+        "NO_SWEEP_RECLAIM"
       ],
       "range_quality": {
-        "normalized_close_drift": 0.4080288402786241,
-        "mean_candle_overlap": 0.4380542228258378,
+        "normalized_close_drift": 0.37682281584720234,
+        "mean_candle_overlap": 0.4540650339315127,
         "upper_boundary_touches": 4,
         "lower_boundary_touches": 4,
         "base_candles": 20,
-        "quality_pass": false
+        "quality_pass": true
       },
-      "range_quality_reasons": [
-        "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH"
-      ]
+      "range_quality_reasons": [],
+      "volume_level": 72.0269375,
+      "poc_frozen": false,
+      "setup_stage": "NO_MANIPULATION",
+      "low_sweep_reclaim": false,
+      "sweep_low": null,
+      "poc_crossed": false,
+      "poc_retested": false,
+      "confirmation": false,
+      "retest_tolerance": 0.10785900000000001,
+      "confirmation_close": 71.789
     },
     "XRP": {
       "symbol": "XRP",
@@ -9780,13 +9788,13 @@
       "range_low": 0.003627,
       "range_pct": 1.1240575736805978,
       "status": "NO_SETUP",
-      "last_candle": "1795804800000.0",
+      "last_candle": "1795805100000.0",
       "rejection_reasons": [
         "RANGE_CANDLE_OVERLAP_TOO_LOW"
       ],
       "range_quality": {
-        "normalized_close_drift": 0.06411149825784083,
-        "mean_candle_overlap": 0.2850522771575352,
+        "normalized_close_drift": 0.08606271777003595,
+        "mean_candle_overlap": 0.2850522771575353,
         "upper_boundary_touches": 3,
         "lower_boundary_touches": 4,
         "base_candles": 20,
@@ -9850,9 +9858,9 @@
     }
   },
   "last_evaluated_candle_by_symbol": {
-    "SOL": "1795804800000.0",
+    "SOL": "1795805100000.0",
     "XRP": "1795805100000.0",
-    "kSHIB": "1795804800000.0",
+    "kSHIB": "1795805100000.0",
     "HYPE": "1795805100000.0",
     "ZEC": "1795805100000.0"
   },
@@ -10277,12 +10285,25 @@
       "samples": 2,
       "status": "ACTIVE",
       "validated": true
+    },
+    {
+      "id": "SOL:1795797600000:1795805100000",
+      "symbol": "SOL",
+      "start": 1795797600000,
+      "end": 1795803600000,
+      "high": 72.419,
+      "low": 71.312,
+      "last_seen_eval": 1795805100000,
+      "samples": 1,
+      "status": "ACTIVE",
+      "validated": true
     }
   ],
   "active_range_by_symbol": {
     "XRP": "XRP:1795797300000:1795804800000",
-    "ZEC": "ZEC:1795797300000:1795804800000"
+    "ZEC": "ZEC:1795797300000:1795804800000",
+    "SOL": "SOL:1795797600000:1795805100000"
   },
   "setup_by_symbol": {},
-  "updated_at": "2026-11-27 20:50:07"
+  "updated_at": "2026-11-27 20:51:15"
 }
