@@ -2,7 +2,7 @@
   "ok": true,
   "read_only": true,
   "order_submission_enabled": false,
-  "generated_at": "2026-11-28 15:10:04",
+  "generated_at": "2026-11-28 15:11:10",
   "engines": {
     "legacy_paper": {
       "mode": "PAPER",
@@ -85540,20 +85540,22 @@
           "range_low": 70.567,
           "range_pct": 0.7988708539167291,
           "status": "NO_SETUP",
-          "last_candle": "1795870800000.0",
+          "last_candle": "1795871100000.0",
           "rejection_reasons": [
-            "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH"
+            "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH",
+            "RANGE_CANDLE_OVERLAP_TOO_LOW"
           ],
           "range_quality": {
-            "normalized_close_drift": 0.4941948510852978,
-            "mean_candle_overlap": 0.35881005496499974,
+            "normalized_close_drift": 0.42685512367490164,
+            "mean_candle_overlap": 0.34299903134295046,
             "upper_boundary_touches": 4,
-            "lower_boundary_touches": 6,
+            "lower_boundary_touches": 5,
             "base_candles": 20,
             "quality_pass": false
           },
           "range_quality_reasons": [
-            "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH"
+            "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH",
+            "RANGE_CANDLE_OVERLAP_TOO_LOW"
           ]
         },
         "XRP": {
@@ -85562,16 +85564,16 @@
           "range_low": 0.93555,
           "range_pct": 0.7708934484704605,
           "status": "NO_SETUP",
-          "last_candle": "1795870800000.0",
+          "last_candle": "1795871100000.0",
           "rejection_reasons": [
             "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH",
             "RANGE_CANDLE_OVERLAP_TOO_LOW"
           ],
           "range_quality": {
-            "normalized_close_drift": 0.6098460931333831,
-            "mean_candle_overlap": 0.34279418790727234,
+            "normalized_close_drift": 0.6091752170481411,
+            "mean_candle_overlap": 0.34833532775661463,
             "upper_boundary_touches": 5,
-            "lower_boundary_touches": 3,
+            "lower_boundary_touches": 2,
             "base_candles": 20,
             "quality_pass": false
           },
@@ -85583,23 +85585,25 @@
         "kSHIB": {
           "symbol": "kSHIB",
           "range_high": 0.003619,
-          "range_low": 0.003608,
-          "range_pct": 0.3044140030441324,
+          "range_low": 0.003603,
+          "range_pct": 0.44309055663251057,
           "status": "NO_SETUP",
-          "last_candle": "1795870800000.0",
+          "last_candle": "1795871100000.0",
           "rejection_reasons": [
-            "RANGE_CANDLE_OVERLAP_TOO_LOW"
+            "RANGE_CANDLE_OVERLAP_TOO_LOW",
+            "INSUFFICIENT_LOWER_BOUNDARY_REACTIONS"
           ],
           "range_quality": {
-            "normalized_close_drift": 0.08961038961039924,
-            "mean_candle_overlap": 0.3322681704260743,
-            "upper_boundary_touches": 2,
-            "lower_boundary_touches": 4,
+            "normalized_close_drift": 0.19910714285714776,
+            "mean_candle_overlap": 0.30770676691729865,
+            "upper_boundary_touches": 6,
+            "lower_boundary_touches": 1,
             "base_candles": 20,
             "quality_pass": false
           },
           "range_quality_reasons": [
-            "RANGE_CANDLE_OVERLAP_TOO_LOW"
+            "RANGE_CANDLE_OVERLAP_TOO_LOW",
+            "INSUFFICIENT_LOWER_BOUNDARY_REACTIONS"
           ]
         },
         "HYPE": {
@@ -85608,14 +85612,14 @@
           "range_low": 62.203,
           "range_pct": 1.2493210211841335,
           "status": "NO_SETUP",
-          "last_candle": "1795870800000.0",
+          "last_candle": "1795871100000.0",
           "rejection_reasons": [
             "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH"
           ],
           "range_quality": {
-            "normalized_close_drift": 0.5725246620387318,
-            "mean_candle_overlap": 0.4190060860511735,
-            "upper_boundary_touches": 4,
+            "normalized_close_drift": 0.6462550237486329,
+            "mean_candle_overlap": 0.4158487197438376,
+            "upper_boundary_touches": 5,
             "lower_boundary_touches": 3,
             "base_candles": 20,
             "quality_pass": false
@@ -85630,15 +85634,15 @@
           "range_low": 716.89,
           "range_pct": 1.304055599054867,
           "status": "WAIT",
-          "last_candle": "1795870800000.0",
+          "last_candle": "1795871100000.0",
           "rejection_reasons": [
             "NO_SWEEP_RECLAIM"
           ],
           "range_quality": {
-            "normalized_close_drift": 0.3833004402611238,
-            "mean_candle_overlap": 0.42969108241315296,
-            "upper_boundary_touches": 8,
-            "lower_boundary_touches": 2,
+            "normalized_close_drift": 0.3966904508881163,
+            "mean_candle_overlap": 0.43375899174422,
+            "upper_boundary_touches": 7,
+            "lower_boundary_touches": 3,
             "base_candles": 20,
             "quality_pass": true
           },
@@ -85651,11 +85655,11 @@
           "poc_crossed": false,
           "poc_retested": false,
           "confirmation": false,
-          "retest_tolerance": 1.077345,
-          "confirmation_close": 718.22
+          "retest_tolerance": 1.0789950000000001,
+          "confirmation_close": 719.37
         }
       },
-      "updated_at": "2026-11-28 15:05:33"
+      "updated_at": "2026-11-28 15:11:03"
     }
   },
   "runtime": {
@@ -85796,9 +85800,9 @@
       "last_error": "",
       "uploaded_files": 7,
       "downloaded_files": 7,
-      "dirty": false,
-      "worker_running": false,
-      "last_live_logs_export": "2026-11-28 15:09:03"
+      "dirty": true,
+      "worker_running": true,
+      "last_live_logs_export": "2026-11-28 15:10:08"
     }
   }
 }
