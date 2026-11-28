@@ -2,7 +2,7 @@
   "ok": true,
   "read_only": true,
   "order_submission_enabled": false,
-  "generated_at": "2026-11-28 18:55:17",
+  "generated_at": "2026-11-28 18:56:26",
   "engines": {
     "legacy_paper": {
       "mode": "PAPER",
@@ -85540,22 +85540,22 @@
           "range_low": 70.381,
           "range_pct": 0.5087832427491227,
           "status": "WAIT",
-          "last_candle": "1795884300000.0",
+          "last_candle": "1795884600000.0",
           "rejection_reasons": [
-            "WAITING_FOR_POC_RETEST"
+            "WAITING_FOR_POST_RETEST_BULLISH_CONFIRMATION"
           ],
           "adaptive_range": {
             "candles": 19,
             "min": 12,
             "max": 36,
             "reference": 24,
-            "short_volatility_pct": 0.21421782122034708,
+            "short_volatility_pct": 0.220330068657694,
             "baseline_volatility_pct": 0.1713994932140488,
-            "volatility_ratio": 1.2498159545479255
+            "volatility_ratio": 1.2854767801590827
           },
           "range_quality": {
-            "normalized_close_drift": 0.16765870107021733,
-            "mean_candle_overlap": 0.3988789952746595,
+            "normalized_close_drift": 0.03377803841080449,
+            "mean_candle_overlap": 0.3863361661018713,
             "upper_boundary_touches": 7,
             "lower_boundary_touches": 6,
             "base_candles": 19,
@@ -85563,14 +85563,6 @@
           },
           "range_quality_reasons": [],
           "range_window_candles": [
-            {
-              "time": "1795877100000.0",
-              "open": 70.558,
-              "high": 70.558,
-              "low": 70.404,
-              "close": 70.422,
-              "volume": 4762.33
-            },
             {
               "time": "1795877400000.0",
               "open": 70.45,
@@ -85714,18 +85706,26 @@
               "low": 70.489,
               "close": 70.489,
               "volume": 4303.87
+            },
+            {
+              "time": "1795882800000.0",
+              "open": 70.49,
+              "high": 70.529,
+              "low": 70.435,
+              "close": 70.458,
+              "volume": 13935.58
             }
           ],
           "volume_level": 70.5665,
           "poc_frozen": true,
-          "setup_stage": "ABOVE_POC",
+          "setup_stage": "POC_RETEST",
           "low_sweep_reclaim": true,
           "sweep_low": 70.331,
           "poc_crossed": true,
-          "poc_retested": false,
+          "poc_retested": true,
           "confirmation": false,
-          "retest_tolerance": 0.10577850000000001,
-          "confirmation_close": 70.719
+          "retest_tolerance": 0.1059105,
+          "confirmation_close": 70.542
         },
         "XRP": {
           "symbol": "XRP",
@@ -85939,29 +85939,29 @@
         "kSHIB": {
           "symbol": "kSHIB",
           "range_high": 0.003596,
-          "range_low": 0.003569,
-          "range_pct": 0.7536636427075976,
+          "range_low": 0.003565,
+          "range_pct": 0.8658008658008596,
           "status": "NO_SETUP",
-          "last_candle": "1795884300000.0",
+          "last_candle": "1795884600000.0",
           "rejection_reasons": [
             "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH",
             "RANGE_CANDLE_OVERLAP_TOO_LOW"
           ],
           "adaptive_range": {
-            "candles": 18,
+            "candles": 15,
             "min": 12,
             "max": 36,
             "reference": 24,
-            "short_volatility_pct": 0.1681614349775765,
+            "short_volatility_pct": 0.1959137979289009,
             "baseline_volatility_pct": 0.12577311288552545,
-            "volatility_ratio": 1.3370221275403393
+            "volatility_ratio": 1.55767630643932
           },
           "range_quality": {
-            "normalized_close_drift": 0.6569200779727189,
-            "mean_candle_overlap": 0.2269607843137289,
-            "upper_boundary_touches": 9,
+            "normalized_close_drift": 0.6983870967742003,
+            "mean_candle_overlap": 0.22851731601731898,
+            "upper_boundary_touches": 5,
             "lower_boundary_touches": 2,
-            "base_candles": 18,
+            "base_candles": 15,
             "quality_pass": false
           },
           "range_quality_reasons": [
@@ -86340,7 +86340,7 @@
           "confirmation_close": 722.67
         }
       },
-      "updated_at": "2026-11-28 18:55:10"
+      "updated_at": "2026-11-28 18:56:19"
     }
   },
   "runtime": {
@@ -86410,14 +86410,14 @@
       "enabled": true,
       "restored": true,
       "last_restore": "2026-11-28 17:33:14",
-      "last_backup": "2026-11-28 18:51:20",
+      "last_backup": "2026-11-28 18:55:43",
       "last_status": "BACKUP_OK",
       "last_error": "",
       "uploaded_files": 7,
       "downloaded_files": 7,
       "dirty": true,
       "worker_running": true,
-      "last_live_logs_export": "2026-11-28 18:54:15"
+      "last_live_logs_export": "2026-11-28 18:55:21"
     }
   }
 }
