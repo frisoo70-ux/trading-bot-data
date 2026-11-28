@@ -9724,25 +9724,33 @@
   "diagnostics": {
     "SOL": {
       "symbol": "SOL",
-      "range_high": 71.309,
-      "range_low": 70.718,
-      "range_pct": 0.8322361241172369,
-      "status": "NO_SETUP",
-      "last_candle": "1795857000000.0",
+      "range_high": 71.275,
+      "range_low": 70.901,
+      "range_pct": 0.526108485257722,
+      "status": "WAIT",
+      "last_candle": "1795857300000.0",
       "rejection_reasons": [
-        "INSUFFICIENT_LOWER_BOUNDARY_REACTIONS"
+        "WAITING_FOR_CLOSE_ABOVE_POC"
       ],
       "range_quality": {
-        "normalized_close_drift": 0.12791878172588966,
-        "mean_candle_overlap": 0.43539155206162145,
-        "upper_boundary_touches": 12,
-        "lower_boundary_touches": 1,
+        "normalized_close_drift": 0.36944232238349484,
+        "mean_candle_overlap": 0.4112576131534369,
+        "upper_boundary_touches": 10,
+        "lower_boundary_touches": 4,
         "base_candles": 20,
-        "quality_pass": false
+        "quality_pass": true
       },
-      "range_quality_reasons": [
-        "INSUFFICIENT_LOWER_BOUNDARY_REACTIONS"
-      ]
+      "range_quality_reasons": [],
+      "volume_level": 71.22045833333334,
+      "poc_frozen": true,
+      "setup_stage": "MANIPULATION",
+      "low_sweep_reclaim": true,
+      "sweep_low": 70.898,
+      "poc_crossed": false,
+      "poc_retested": false,
+      "confirmation": false,
+      "retest_tolerance": 0.10639050000000001,
+      "confirmation_close": 70.927
     },
     "XRP": {
       "symbol": "XRP",
@@ -9796,13 +9804,13 @@
       "range_low": 63.0,
       "range_pct": 1.6107319146926087,
       "status": "NO_SETUP",
-      "last_candle": "1795857000000.0",
+      "last_candle": "1795857300000.0",
       "rejection_reasons": [
         "INSUFFICIENT_LOWER_BOUNDARY_REACTIONS"
       ],
       "range_quality": {
-        "normalized_close_drift": 0.24559419075548095,
-        "mean_candle_overlap": 0.37420616793591377,
+        "normalized_close_drift": 0.3540566959921801,
+        "mean_candle_overlap": 0.4016095694879227,
         "upper_boundary_touches": 11,
         "lower_boundary_touches": 1,
         "base_candles": 20,
@@ -9836,10 +9844,10 @@
     }
   },
   "last_evaluated_candle_by_symbol": {
-    "SOL": "1795857000000.0",
+    "SOL": "1795857300000.0",
     "XRP": "1795857000000.0",
     "kSHIB": "1795857000000.0",
-    "HYPE": "1795857000000.0",
+    "HYPE": "1795857300000.0",
     "ZEC": "1795857000000.0"
   },
   "range_history": [
@@ -10743,9 +10751,33 @@
       "samples": 4,
       "status": "CLOSED",
       "validated": true
+    },
+    {
+      "id": "SOL:1795849800000:1795857300000",
+      "symbol": "SOL",
+      "start": 1795849800000,
+      "end": 1795855800000,
+      "high": 71.275,
+      "low": 70.901,
+      "last_seen_eval": 1795857300000,
+      "samples": 1,
+      "status": "ACTIVE",
+      "validated": true
     }
   ],
-  "active_range_by_symbol": {},
-  "setup_by_symbol": {},
-  "updated_at": "2026-11-28 11:16:39"
+  "active_range_by_symbol": {
+    "SOL": "SOL:1795849800000:1795857300000"
+  },
+  "setup_by_symbol": {
+    "SOL": {
+      "stage": "MANIPULATION",
+      "range_high": 71.275,
+      "range_low": 70.901,
+      "poc": 71.22045833333334,
+      "sweep_low": 70.898,
+      "sweep_time": "1795855800000.0",
+      "created_at": "1795857300000.0"
+    }
+  },
+  "updated_at": "2026-11-28 11:20:05"
 }
