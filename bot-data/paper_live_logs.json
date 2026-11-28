@@ -2,7 +2,7 @@
   "ok": true,
   "read_only": true,
   "order_submission_enabled": false,
-  "generated_at": "2026-11-28 15:54:21",
+  "generated_at": "2026-11-28 15:55:27",
   "engines": {
     "legacy_paper": {
       "mode": "PAPER",
@@ -85537,32 +85537,24 @@
         "SOL": {
           "symbol": "SOL",
           "range_high": 71.133,
-          "range_low": 70.644,
-          "range_pct": 0.6898156964810797,
-          "status": "WAIT",
-          "last_candle": "1795873500000.0",
+          "range_low": 70.591,
+          "range_pct": 0.7648669244446976,
+          "status": "NO_SETUP",
+          "last_candle": "1795873800000.0",
           "rejection_reasons": [
-            "WAITING_FOR_CLOSE_ABOVE_POC"
+            "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH"
           ],
           "range_quality": {
-            "normalized_close_drift": 0.36853637160385855,
-            "mean_candle_overlap": 0.3758474965957829,
+            "normalized_close_drift": 0.4688191881918747,
+            "mean_candle_overlap": 0.3646487250189511,
             "upper_boundary_touches": 4,
-            "lower_boundary_touches": 3,
+            "lower_boundary_touches": 2,
             "base_candles": 20,
-            "quality_pass": true
+            "quality_pass": false
           },
-          "range_quality_reasons": [],
-          "volume_level": 70.9190625,
-          "poc_frozen": true,
-          "setup_stage": "MANIPULATION",
-          "low_sweep_reclaim": true,
-          "sweep_low": 70.598,
-          "poc_crossed": false,
-          "poc_retested": false,
-          "confirmation": false,
-          "retest_tolerance": 0.105249,
-          "confirmation_close": 70.102
+          "range_quality_reasons": [
+            "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH"
+          ]
         },
         "XRP": {
           "symbol": "XRP",
@@ -85570,13 +85562,13 @@
           "range_low": 0.93732,
           "range_pct": 0.5818808473972241,
           "status": "WAIT",
-          "last_candle": "1795873500000.0",
+          "last_candle": "1795873800000.0",
           "rejection_reasons": [
             "NO_SWEEP_RECLAIM"
           ],
           "range_quality": {
-            "normalized_close_drift": 0.07646905197179216,
-            "mean_candle_overlap": 0.368523429093663,
+            "normalized_close_drift": 0.30955863149647345,
+            "mean_candle_overlap": 0.3903097583592178,
             "upper_boundary_touches": 5,
             "lower_boundary_touches": 5,
             "base_candles": 20,
@@ -85591,8 +85583,8 @@
           "poc_crossed": false,
           "poc_retested": false,
           "confirmation": false,
-          "retest_tolerance": 0.001400625,
-          "confirmation_close": 0.93283
+          "retest_tolerance": 0.001402365,
+          "confirmation_close": 0.93444
         },
         "kSHIB": {
           "symbol": "kSHIB",
@@ -85624,15 +85616,15 @@
           "range_low": 62.412,
           "range_pct": 0.913897461661763,
           "status": "WAIT",
-          "last_candle": "1795873500000.0",
+          "last_candle": "1795873800000.0",
           "rejection_reasons": [
             "NO_SWEEP_RECLAIM"
           ],
           "range_quality": {
-            "normalized_close_drift": 0.23178758414360165,
-            "mean_candle_overlap": 0.46720214846279373,
+            "normalized_close_drift": 0.1414111194215869,
+            "mean_candle_overlap": 0.44633833735130435,
             "upper_boundary_touches": 6,
-            "lower_boundary_touches": 4,
+            "lower_boundary_touches": 3,
             "base_candles": 20,
             "quality_pass": true
           },
@@ -85645,8 +85637,8 @@
           "poc_crossed": false,
           "poc_retested": false,
           "confirmation": false,
-          "retest_tolerance": 0.0934995,
-          "confirmation_close": 62.334
+          "retest_tolerance": 0.0936105,
+          "confirmation_close": 62.352
         },
         "ZEC": {
           "symbol": "ZEC",
@@ -85654,15 +85646,15 @@
           "range_low": 716.89,
           "range_pct": 1.2255479613481073,
           "status": "WAIT",
-          "last_candle": "1795873500000.0",
+          "last_candle": "1795873800000.0",
           "rejection_reasons": [
             "NO_SWEEP_RECLAIM"
           ],
           "range_quality": {
-            "normalized_close_drift": 0.32260827407886006,
-            "mean_candle_overlap": 0.4950462939530788,
-            "upper_boundary_touches": 3,
-            "lower_boundary_touches": 11,
+            "normalized_close_drift": 0.2580316742081409,
+            "mean_candle_overlap": 0.49508881542642263,
+            "upper_boundary_touches": 2,
+            "lower_boundary_touches": 12,
             "base_candles": 20,
             "quality_pass": true
           },
@@ -85675,11 +85667,11 @@
           "poc_crossed": false,
           "poc_retested": false,
           "confirmation": false,
-          "retest_tolerance": 1.067505,
-          "confirmation_close": 710.77
+          "retest_tolerance": 1.0695000000000001,
+          "confirmation_close": 712.7
         }
       },
-      "updated_at": "2026-11-28 15:50:57"
+      "updated_at": "2026-11-28 15:55:19"
     }
   },
   "runtime": {
@@ -85850,9 +85842,9 @@
       "last_error": "",
       "uploaded_files": 7,
       "downloaded_files": 7,
-      "dirty": false,
-      "worker_running": false,
-      "last_live_logs_export": "2026-11-28 15:53:19"
+      "dirty": true,
+      "worker_running": true,
+      "last_live_logs_export": "2026-11-28 15:54:25"
     }
   }
 }
