@@ -2,7 +2,7 @@
   "ok": true,
   "read_only": true,
   "order_submission_enabled": false,
-  "generated_at": "2026-11-28 14:44:24",
+  "generated_at": "2026-11-28 14:45:41",
   "engines": {
     "legacy_paper": {
       "mode": "PAPER",
@@ -76616,7 +76616,7 @@
           "pnl_pct": 1.5191
         }
       ],
-      "updated_at": "2026-11-28 14:31:10",
+      "updated_at": "2026-11-28 14:45:34",
       "fee_rate": 0.00045,
       "fee_source": "HYPERLIQUID_USER_FEES_TAKER",
       "fee_updated_at": "2026-11-28 14:04:37",
@@ -85539,30 +85539,22 @@
           "range_high": 71.133,
           "range_low": 70.469,
           "range_pct": 0.9378398610189144,
-          "status": "WAIT",
-          "last_candle": "1795869300000.0",
+          "status": "NO_SETUP",
+          "last_candle": "1795869600000.0",
           "rejection_reasons": [
-            "NO_SWEEP_RECLAIM"
+            "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH"
           ],
           "range_quality": {
-            "normalized_close_drift": 0.34750430292598555,
-            "mean_candle_overlap": 0.3735434853658665,
+            "normalized_close_drift": 0.4830895008605754,
+            "mean_candle_overlap": 0.37096766726273417,
             "upper_boundary_touches": 3,
             "lower_boundary_touches": 4,
             "base_candles": 20,
-            "quality_pass": true
+            "quality_pass": false
           },
-          "range_quality_reasons": [],
-          "volume_level": 70.75949999999999,
-          "poc_frozen": false,
-          "setup_stage": "NO_MANIPULATION",
-          "low_sweep_reclaim": false,
-          "sweep_low": null,
-          "poc_crossed": false,
-          "poc_retested": false,
-          "confirmation": false,
-          "retest_tolerance": 0.10629,
-          "confirmation_close": 70.837
+          "range_quality_reasons": [
+            "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH"
+          ]
         },
         "XRP": {
           "symbol": "XRP",
@@ -85570,13 +85562,13 @@
           "range_low": 0.93555,
           "range_pct": 0.7082945013979545,
           "status": "NO_SETUP",
-          "last_candle": "1795869300000.0",
+          "last_candle": "1795869600000.0",
           "rejection_reasons": [
             "RANGE_CANDLE_OVERLAP_TOO_LOW"
           ],
           "range_quality": {
-            "normalized_close_drift": 0.18754027926959596,
-            "mean_candle_overlap": 0.30807491512886664,
+            "normalized_close_drift": 0.39862513426422136,
+            "mean_candle_overlap": 0.31484655133234646,
             "upper_boundary_touches": 4,
             "lower_boundary_touches": 5,
             "base_candles": 20,
@@ -85610,24 +85602,24 @@
         },
         "HYPE": {
           "symbol": "HYPE",
-          "range_high": 62.929,
+          "range_high": 62.772,
           "range_low": 62.067,
-          "range_pct": 1.3792441358123488,
+          "range_pct": 1.1294547377021578,
           "status": "WAIT",
-          "last_candle": "1795869300000.0",
+          "last_candle": "1795869600000.0",
           "rejection_reasons": [
             "NO_SWEEP_RECLAIM"
           ],
           "range_quality": {
-            "normalized_close_drift": 0.16305933046072302,
-            "mean_candle_overlap": 0.41041032298881586,
-            "upper_boundary_touches": 3,
+            "normalized_close_drift": 0.3780952380952407,
+            "mean_candle_overlap": 0.4355518358903822,
+            "upper_boundary_touches": 6,
             "lower_boundary_touches": 3,
             "base_candles": 20,
             "quality_pass": true
           },
           "range_quality_reasons": [],
-          "volume_level": 62.480041666666665,
+          "volume_level": 62.4635625,
           "poc_frozen": false,
           "setup_stage": "NO_MANIPULATION",
           "low_sweep_reclaim": false,
@@ -85635,22 +85627,22 @@
           "poc_crossed": false,
           "poc_retested": false,
           "confirmation": false,
-          "retest_tolerance": 0.094314,
-          "confirmation_close": 62.786
+          "retest_tolerance": 0.0941085,
+          "confirmation_close": 62.74
         },
         "ZEC": {
           "symbol": "ZEC",
-          "range_high": 731.51,
+          "range_high": 730.18,
           "range_low": 716.89,
-          "range_pct": 2.0187793427230054,
+          "range_pct": 1.8368150815095283,
           "status": "NO_SETUP",
-          "last_candle": "1795869300000.0",
+          "last_candle": "1795869600000.0",
           "rejection_reasons": [
             "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH"
           ],
           "range_quality": {
-            "normalized_close_drift": 0.4857924565174941,
-            "mean_candle_overlap": 0.3846452102801713,
+            "normalized_close_drift": 0.4063097925400445,
+            "mean_candle_overlap": 0.4086153062699596,
             "upper_boundary_touches": 3,
             "lower_boundary_touches": 5,
             "base_candles": 20,
@@ -85661,7 +85653,7 @@
           ]
         }
       },
-      "updated_at": "2026-11-28 14:41:00"
+      "updated_at": "2026-11-28 14:45:23"
     }
   },
   "runtime": {
@@ -85771,6 +85763,14 @@
       "[CANDLE CLOSE] 2026-11-28 14:30:58 HYPE Close=62.79400 Current=62.90800 EMA20=62.96561 EMA50=63.39911 RSI=34.01 ATR=0.33779 VWAP=63.48794 OBV=-621073.44 OBV_MA5=-666297.69",
       "[SIGNAL] HYPE HOLD trend=False trend_score=2/8 trend_missing=ema20_above_ema50,close_above_ema20,ema20_rising,ema50_rising rsi=False vwap=False obv=True breakout=True green=True mode=None mode_a=False mode_b=False mode_c=False mode_d=False mode_e=False d1=False d2=False pattern_score=3.0 score=3.6708",
       "[CANDLE CLOSE] 2026-11-28 14:30:58 ZEC Close=720.25000 Current=721.90000 EMA20=728.60500 EMA50=735.00124 RSI=22.68 ATR=5.07929 VWAP=727.01530 OBV=5404.05 OBV_MA5=9302.43",
+      "[SIGNAL] ZEC HOLD trend=False trend_score=0/8 trend_missing=ema20_above_ema50,close_above_ema20,ema20_rising,ema50_rising,higher_close,higher_low,obv_above_ma5 rsi=False vwap=False obv=False breakout=False green=False mode=None mode_a=False mode_b=False mode_c=False mode_d=False mode_e=False d1=False d2=False pattern_score=0 score=0.0",
+      "[CANDLE CLOSE] 2026-11-28 14:45:23 SOL Close=70.79700 Current=70.78400 EMA20=70.95775 EMA50=71.25066 RSI=40.63 ATR=0.20979 VWAP=71.78028 OBV=-317840.80 OBV_MA5=-302394.21",
+      "[SIGNAL] SOL HOLD trend=False trend_score=0/8 trend_missing=ema20_above_ema50,close_above_ema20,ema20_rising,ema50_rising,higher_close,higher_low,obv_above_ma5 rsi=False vwap=False obv=False breakout=False green=False mode=None mode_a=False mode_b=False mode_c=False mode_d=False mode_e=False d1=False d2=False pattern_score=0 score=0.0",
+      "[CANDLE CLOSE] 2026-11-28 14:45:23 XRP Close=0.94031 Current=0.94038 EMA20=0.94073 EMA50=0.94406 RSI=48.93 ATR=0.00216 VWAP=0.95311 OBV=6136433.00 OBV_MA5=5857085.80",
+      "[SIGNAL] XRP BUY trend=False trend_score=1/8 trend_missing=ema20_above_ema50,close_above_ema20,ema20_rising,ema50_rising,higher_close,higher_low rsi=False vwap=False obv=True breakout=False green=False mode=MODE_L_LIQUIDITY_SWEEP mode_a=False mode_b=False mode_c=False mode_d=False mode_e=False d1=False d2=False pattern_score=3.0 score=3.3454",
+      "[CANDLE CLOSE] 2026-11-28 14:45:23 HYPE Close=62.74000 Current=62.73800 EMA20=62.94413 EMA50=63.37323 RSI=37.45 ATR=0.32157 VWAP=63.48709 OBV=-658317.79 OBV_MA5=-623303.01",
+      "[SIGNAL] HYPE HOLD trend=False trend_score=0/8 trend_missing=ema20_above_ema50,close_above_ema20,ema20_rising,ema50_rising,higher_close,higher_low,obv_above_ma5 rsi=False vwap=False obv=False breakout=False green=False mode=None mode_a=False mode_b=False mode_c=False mode_d=False mode_e=False d1=False d2=False pattern_score=3.0 score=3.0",
+      "[CANDLE CLOSE] 2026-11-28 14:45:23 ZEC Close=718.45000 Current=719.06000 EMA20=727.63785 EMA50=734.35173 RSI=22.14 ATR=5.12143 VWAP=726.94559 OBV=6622.21 OBV_MA5=9075.53",
       "[SIGNAL] ZEC HOLD trend=False trend_score=0/8 trend_missing=ema20_above_ema50,close_above_ema20,ema20_rising,ema50_rising,higher_close,higher_low,obv_above_ma5 rsi=False vwap=False obv=False breakout=False green=False mode=None mode_a=False mode_b=False mode_c=False mode_d=False mode_e=False d1=False d2=False pattern_score=0 score=0.0"
     ],
     "github_sync": {
@@ -85782,9 +85782,9 @@
       "last_error": "",
       "uploaded_files": 7,
       "downloaded_files": 7,
-      "dirty": false,
-      "worker_running": false,
-      "last_live_logs_export": "2026-11-28 14:43:22"
+      "dirty": true,
+      "worker_running": true,
+      "last_live_logs_export": "2026-11-28 14:44:28"
     }
   }
 }
