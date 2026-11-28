@@ -9725,24 +9725,32 @@
     "SOL": {
       "symbol": "SOL",
       "range_high": 71.133,
-      "range_low": 70.575,
-      "range_pct": 0.7875349309848317,
-      "status": "NO_SETUP",
-      "last_candle": "1795871700000.0",
+      "range_low": 70.61,
+      "range_pct": 0.7379553134899024,
+      "status": "WAIT",
+      "last_candle": "1795872000000.0",
       "rejection_reasons": [
-        "RANGE_CANDLE_OVERLAP_TOO_LOW"
+        "WAITING_FOR_CLOSE_ABOVE_POC"
       ],
       "range_quality": {
-        "normalized_close_drift": 0.1507936507936455,
-        "mean_candle_overlap": 0.34301516073888677,
+        "normalized_close_drift": 0.08096148593279183,
+        "mean_candle_overlap": 0.3561730554757332,
         "upper_boundary_touches": 4,
-        "lower_boundary_touches": 3,
+        "lower_boundary_touches": 2,
         "base_candles": 20,
-        "quality_pass": false
+        "quality_pass": true
       },
-      "range_quality_reasons": [
-        "RANGE_CANDLE_OVERLAP_TOO_LOW"
-      ]
+      "range_quality_reasons": [],
+      "volume_level": 70.92597916666666,
+      "poc_frozen": true,
+      "setup_stage": "MANIPULATION",
+      "low_sweep_reclaim": true,
+      "sweep_low": 70.591,
+      "poc_crossed": false,
+      "poc_retested": false,
+      "confirmation": false,
+      "retest_tolerance": 0.1059045,
+      "confirmation_close": 70.625
     },
     "XRP": {
       "symbol": "XRP",
@@ -9750,14 +9758,14 @@
       "range_low": 0.93555,
       "range_pct": 0.7708934484704605,
       "status": "NO_SETUP",
-      "last_candle": "1795871700000.0",
+      "last_candle": "1795872000000.0",
       "rejection_reasons": [
         "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH",
         "INSUFFICIENT_LOWER_BOUNDARY_REACTIONS"
       ],
       "range_quality": {
-        "normalized_close_drift": 0.5120955011838924,
-        "mean_candle_overlap": 0.379464546404209,
+        "normalized_close_drift": 0.4871349644830263,
+        "mean_candle_overlap": 0.3758857263959332,
         "upper_boundary_touches": 5,
         "lower_boundary_touches": 1,
         "base_candles": 20,
@@ -9800,15 +9808,15 @@
       "range_low": 62.203,
       "range_pct": 1.2493210211841335,
       "status": "NO_SETUP",
-      "last_candle": "1795871700000.0",
+      "last_candle": "1795872000000.0",
       "rejection_reasons": [
         "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH"
       ],
       "range_quality": {
-        "normalized_close_drift": 0.5929850200949978,
-        "mean_candle_overlap": 0.4340539301338038,
+        "normalized_close_drift": 0.5595359883083688,
+        "mean_candle_overlap": 0.4231710303535338,
         "upper_boundary_touches": 6,
-        "lower_boundary_touches": 3,
+        "lower_boundary_touches": 2,
         "base_candles": 20,
         "quality_pass": false
       },
@@ -9822,15 +9830,15 @@
       "range_low": 716.89,
       "range_pct": 1.304055599054867,
       "status": "NO_SETUP",
-      "last_candle": "1795871700000.0",
+      "last_candle": "1795872000000.0",
       "rejection_reasons": [
         "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH"
       ],
       "range_quality": {
-        "normalized_close_drift": 0.5810839532412347,
-        "mean_candle_overlap": 0.4589540139317228,
-        "upper_boundary_touches": 7,
-        "lower_boundary_touches": 5,
+        "normalized_close_drift": 0.5781691209959023,
+        "mean_candle_overlap": 0.4640968073594212,
+        "upper_boundary_touches": 6,
+        "lower_boundary_touches": 6,
         "base_candles": 20,
         "quality_pass": false
       },
@@ -9840,11 +9848,11 @@
     }
   },
   "last_evaluated_candle_by_symbol": {
-    "SOL": "1795871700000.0",
-    "XRP": "1795871700000.0",
+    "SOL": "1795872000000.0",
+    "XRP": "1795872000000.0",
     "kSHIB": "1795871700000.0",
-    "HYPE": "1795871700000.0",
-    "ZEC": "1795871700000.0"
+    "HYPE": "1795872000000.0",
+    "ZEC": "1795872000000.0"
   },
   "range_history": [
     {
@@ -10915,9 +10923,33 @@
       "samples": 1,
       "status": "CLOSED",
       "validated": true
+    },
+    {
+      "id": "SOL:1795864500000:1795872000000",
+      "symbol": "SOL",
+      "start": 1795864500000,
+      "end": 1795870500000,
+      "high": 71.133,
+      "low": 70.61,
+      "last_seen_eval": 1795872000000,
+      "samples": 1,
+      "status": "ACTIVE",
+      "validated": true
     }
   ],
-  "active_range_by_symbol": {},
-  "setup_by_symbol": {},
-  "updated_at": "2026-11-28 15:21:04"
+  "active_range_by_symbol": {
+    "SOL": "SOL:1795864500000:1795872000000"
+  },
+  "setup_by_symbol": {
+    "SOL": {
+      "stage": "MANIPULATION",
+      "range_high": 71.133,
+      "range_low": 70.61,
+      "poc": 70.92597916666666,
+      "sweep_low": 70.591,
+      "sweep_time": "1795872000000.0",
+      "created_at": "1795872000000.0"
+    }
+  },
+  "updated_at": "2026-11-28 15:25:25"
 }
