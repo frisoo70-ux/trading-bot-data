@@ -9724,26 +9724,24 @@
   "diagnostics": {
     "SOL": {
       "symbol": "SOL",
-      "range_high": 71.133,
-      "range_low": 70.301,
-      "range_pct": 1.176520497193028,
+      "range_high": 71.077,
+      "range_low": 70.168,
+      "range_pct": 1.287125207971952,
       "status": "NO_SETUP",
-      "last_candle": "1795874700000.0",
+      "last_candle": "1795875000000.0",
       "rejection_reasons": [
-        "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH",
-        "INSUFFICIENT_LOWER_BOUNDARY_REACTIONS"
+        "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH"
       ],
       "range_quality": {
-        "normalized_close_drift": 0.512173763736263,
-        "mean_candle_overlap": 0.382466087755402,
-        "upper_boundary_touches": 5,
-        "lower_boundary_touches": 1,
+        "normalized_close_drift": 0.593006443501491,
+        "mean_candle_overlap": 0.36796174594119885,
+        "upper_boundary_touches": 8,
+        "lower_boundary_touches": 2,
         "base_candles": 20,
         "quality_pass": false
       },
       "range_quality_reasons": [
-        "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH",
-        "INSUFFICIENT_LOWER_BOUNDARY_REACTIONS"
+        "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH"
       ]
     },
     "XRP": {
@@ -9795,54 +9793,62 @@
     "HYPE": {
       "symbol": "HYPE",
       "range_high": 62.989,
-      "range_low": 62.322,
-      "range_pct": 1.0645513961264286,
-      "status": "NO_SETUP",
-      "last_candle": "1795874700000.0",
+      "range_low": 62.17,
+      "range_pct": 1.3087352887127504,
+      "status": "WAIT",
+      "last_candle": "1795875000000.0",
       "rejection_reasons": [
-        "INSUFFICIENT_LOWER_BOUNDARY_REACTIONS"
+        "NO_SWEEP_RECLAIM"
       ],
       "range_quality": {
-        "normalized_close_drift": 0.21432855001071338,
-        "mean_candle_overlap": 0.4431989664257208,
-        "upper_boundary_touches": 8,
-        "lower_boundary_touches": 1,
+        "normalized_close_drift": 0.35370661084946964,
+        "mean_candle_overlap": 0.4228434558004177,
+        "upper_boundary_touches": 9,
+        "lower_boundary_touches": 2,
         "base_candles": 20,
-        "quality_pass": false
+        "quality_pass": true
       },
-      "range_quality_reasons": [
-        "INSUFFICIENT_LOWER_BOUNDARY_REACTIONS"
-      ]
+      "range_quality_reasons": [],
+      "volume_level": 62.4941875,
+      "poc_frozen": false,
+      "setup_stage": "NO_MANIPULATION",
+      "low_sweep_reclaim": false,
+      "sweep_low": null,
+      "poc_crossed": false,
+      "poc_retested": false,
+      "confirmation": false,
+      "retest_tolerance": 0.0937965,
+      "confirmation_close": 62.54
     },
     "ZEC": {
       "symbol": "ZEC",
       "range_high": 725.73,
-      "range_low": 713.12,
-      "range_pct": 1.752788685408488,
+      "range_low": 711.05,
+      "range_pct": 2.043458288673292,
       "status": "NO_SETUP",
-      "last_candle": "1795874700000.0",
+      "last_candle": "1795875000000.0",
       "rejection_reasons": [
-        "INSUFFICIENT_LOWER_BOUNDARY_REACTIONS"
+        "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH"
       ],
       "range_quality": {
-        "normalized_close_drift": 0.3740455420867776,
-        "mean_candle_overlap": 0.5121261243256187,
+        "normalized_close_drift": 0.41893732970026987,
+        "mean_candle_overlap": 0.4965447176427326,
         "upper_boundary_touches": 3,
-        "lower_boundary_touches": 1,
+        "lower_boundary_touches": 2,
         "base_candles": 20,
         "quality_pass": false
       },
       "range_quality_reasons": [
-        "INSUFFICIENT_LOWER_BOUNDARY_REACTIONS"
+        "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH"
       ]
     }
   },
   "last_evaluated_candle_by_symbol": {
-    "SOL": "1795874700000.0",
+    "SOL": "1795875000000.0",
     "XRP": "1795874700000.0",
     "kSHIB": "1795874700000.0",
-    "HYPE": "1795874700000.0",
-    "ZEC": "1795874700000.0"
+    "HYPE": "1795875000000.0",
+    "ZEC": "1795875000000.0"
   },
   "range_history": [
     {
@@ -10973,9 +10979,23 @@
       "samples": 4,
       "status": "CLOSED",
       "validated": true
+    },
+    {
+      "id": "HYPE:1795867500000:1795875000000",
+      "symbol": "HYPE",
+      "start": 1795867500000,
+      "end": 1795873500000,
+      "high": 62.989,
+      "low": 62.17,
+      "last_seen_eval": 1795875000000,
+      "samples": 1,
+      "status": "ACTIVE",
+      "validated": true
     }
   ],
-  "active_range_by_symbol": {},
+  "active_range_by_symbol": {
+    "HYPE": "HYPE:1795867500000:1795875000000"
+  },
   "setup_by_symbol": {},
-  "updated_at": "2026-11-28 16:10:47"
+  "updated_at": "2026-11-28 16:15:09"
 }
