@@ -2,7 +2,7 @@
   "ok": true,
   "read_only": true,
   "order_submission_enabled": false,
-  "generated_at": "2026-11-28 12:45:48",
+  "generated_at": "2026-11-28 12:46:56",
   "engines": {
     "legacy_paper": {
       "mode": "PAPER",
@@ -76616,7 +76616,7 @@
           "pnl_pct": 1.5191
         }
       ],
-      "updated_at": "2026-11-28 12:45:42",
+      "updated_at": "2026-11-28 12:46:49",
       "fee_rate": 0.00045,
       "fee_source": "HYPERLIQUID_USER_FEES_TAKER",
       "fee_updated_at": "2026-11-28 12:02:06",
@@ -85600,19 +85600,21 @@
           "range_low": 0.00361,
           "range_pct": 0.6075669704501487,
           "status": "NO_SETUP",
-          "last_candle": "1795862100000.0",
+          "last_candle": "1795862400000.0",
           "rejection_reasons": [
+            "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH",
             "RANGE_CANDLE_OVERLAP_TOO_LOW"
           ],
           "range_quality": {
-            "normalized_close_drift": 0.378571428571427,
-            "mean_candle_overlap": 0.24904306220092948,
-            "upper_boundary_touches": 5,
-            "lower_boundary_touches": 2,
+            "normalized_close_drift": 0.5311688311688295,
+            "mean_candle_overlap": 0.2570175438596248,
+            "upper_boundary_touches": 4,
+            "lower_boundary_touches": 3,
             "base_candles": 20,
             "quality_pass": false
           },
           "range_quality_reasons": [
+            "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH",
             "RANGE_CANDLE_OVERLAP_TOO_LOW"
           ]
         },
@@ -85669,7 +85671,7 @@
           "confirmation_close": 728.23
         }
       },
-      "updated_at": "2026-11-28 12:45:31"
+      "updated_at": "2026-11-28 12:46:46"
     }
   },
   "runtime": {
@@ -85707,20 +85709,22 @@
       "[CANDLE CLOSE] 2026-11-28 12:45:31 HYPE Close=62.39800 Current=62.43000 EMA20=63.34571 EMA50=63.66408 RSI=22.84 ATR=0.34214 VWAP=63.49333 OBV=-774961.52 OBV_MA5=-578583.35",
       "[SIGNAL] HYPE HOLD trend=False trend_score=0/8 trend_missing=ema20_above_ema50,close_above_ema20,ema20_rising,ema50_rising,higher_close,higher_low,obv_above_ma5 rsi=False vwap=False obv=False breakout=False green=False mode=None mode_a=False mode_b=False mode_c=False mode_d=False mode_e=False d1=False d2=False pattern_score=0 score=0.0",
       "[CANDLE CLOSE] 2026-11-28 12:45:31 ZEC Close=728.23000 Current=728.61000 EMA20=735.34513 EMA50=739.16369 RSI=25.15 ATR=4.48071 VWAP=727.58708 OBV=20951.30 OBV_MA5=22438.66",
-      "[SIGNAL] ZEC HOLD trend=False trend_score=0/8 trend_missing=ema20_above_ema50,close_above_ema20,ema20_rising,ema50_rising,higher_close,higher_low,obv_above_ma5 rsi=False vwap=True obv=False breakout=False green=False mode=None mode_a=False mode_b=False mode_c=False mode_d=False mode_e=False d1=False d2=False pattern_score=0 score=0.0088"
+      "[SIGNAL] ZEC HOLD trend=False trend_score=0/8 trend_missing=ema20_above_ema50,close_above_ema20,ema20_rising,ema50_rising,higher_close,higher_low,obv_above_ma5 rsi=False vwap=True obv=False breakout=False green=False mode=None mode_a=False mode_b=False mode_c=False mode_d=False mode_e=False d1=False d2=False pattern_score=0 score=0.0088",
+      "[CANDLE CLOSE] 2026-11-28 12:46:47 kSHIB Close=0.00361 Current=0.00361 EMA20=0.00363 EMA50=0.00364 RSI=26.98 ATR=0.00001 VWAP=0.00365 OBV=59264194.00 OBV_MA5=59258386.20",
+      "[SIGNAL] kSHIB HOLD trend=False trend_score=2/8 trend_missing=ema20_above_ema50,close_above_ema20,ema20_rising,ema50_rising rsi=False vwap=False obv=True breakout=False green=True mode=None mode_a=False mode_b=False mode_c=False mode_d=False mode_e=False d1=False d2=False pattern_score=0 score=0.5002"
     ],
     "github_sync": {
       "enabled": true,
       "restored": true,
       "last_restore": "2026-11-28 12:01:59",
-      "last_backup": "2026-11-28 12:41:41",
+      "last_backup": "2026-11-28 12:46:06",
       "last_status": "BACKUP_OK",
       "last_error": "",
       "uploaded_files": 7,
       "downloaded_files": 7,
       "dirty": true,
       "worker_running": true,
-      "last_live_logs_export": "2026-11-28 12:44:36"
+      "last_live_logs_export": "2026-11-28 12:45:53"
     }
   }
 }
