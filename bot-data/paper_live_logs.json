@@ -2,7 +2,7 @@
   "ok": true,
   "read_only": true,
   "order_submission_enabled": false,
-  "generated_at": "2026-11-28 17:09:47",
+  "generated_at": "2026-11-28 17:10:53",
   "engines": {
     "legacy_paper": {
       "mode": "PAPER",
@@ -85539,38 +85539,46 @@
           "range_high": 70.947,
           "range_low": 70.093,
           "range_pct": 1.21100397050482,
-          "status": "NO_SETUP",
-          "last_candle": "1795878000000.0",
+          "status": "WAIT",
+          "last_candle": "1795878300000.0",
           "rejection_reasons": [
-            "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH"
+            "NO_SWEEP_RECLAIM"
           ],
           "range_quality": {
-            "normalized_close_drift": 0.5031281365005047,
-            "mean_candle_overlap": 0.4163644418212892,
+            "normalized_close_drift": 0.2816995650719312,
+            "mean_candle_overlap": 0.3906509503461214,
             "upper_boundary_touches": 5,
             "lower_boundary_touches": 6,
             "base_candles": 20,
-            "quality_pass": false
+            "quality_pass": true
           },
-          "range_quality_reasons": [
-            "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH"
-          ]
+          "range_quality_reasons": [],
+          "volume_level": 70.253125,
+          "poc_frozen": false,
+          "setup_stage": "NO_MANIPULATION",
+          "low_sweep_reclaim": false,
+          "sweep_low": null,
+          "poc_crossed": false,
+          "poc_retested": false,
+          "confirmation": false,
+          "retest_tolerance": 0.1058655,
+          "confirmation_close": 70.548
         },
         "XRP": {
           "symbol": "XRP",
-          "range_high": 0.94109,
+          "range_high": 0.9421,
           "range_low": 0.93238,
-          "range_pct": 0.9298254041964906,
+          "range_pct": 1.0370876189663332,
           "status": "NO_SETUP",
-          "last_candle": "1795878000000.0",
+          "last_candle": "1795878300000.0",
           "rejection_reasons": [
             "RANGE_CANDLE_OVERLAP_TOO_LOW"
           ],
           "range_quality": {
-            "normalized_close_drift": 0.14979498113826503,
-            "mean_candle_overlap": 0.28771661940029264,
-            "upper_boundary_touches": 6,
-            "lower_boundary_touches": 4,
+            "normalized_close_drift": 0.08680188124632564,
+            "mean_candle_overlap": 0.2980443254578886,
+            "upper_boundary_touches": 4,
+            "lower_boundary_touches": 5,
             "base_candles": 20,
             "quality_pass": false
           },
@@ -85584,13 +85592,13 @@
           "range_low": 0.003572,
           "range_pct": 0.6696428571428492,
           "status": "NO_SETUP",
-          "last_candle": "1795878000000.0",
+          "last_candle": "1795878300000.0",
           "rejection_reasons": [
             "RANGE_CANDLE_OVERLAP_TOO_LOW"
           ],
           "range_quality": {
-            "normalized_close_drift": 0.36904761904762673,
-            "mean_candle_overlap": 0.2534252297410217,
+            "normalized_close_drift": 0.12678571428572127,
+            "mean_candle_overlap": 0.2594402673350029,
             "upper_boundary_touches": 7,
             "lower_boundary_touches": 5,
             "base_candles": 20,
@@ -85606,13 +85614,13 @@
           "range_low": 62.17,
           "range_pct": 1.3087352887127504,
           "status": "WAIT",
-          "last_candle": "1795878000000.0",
+          "last_candle": "1795878300000.0",
           "rejection_reasons": [
             "NO_SWEEP_RECLAIM"
           ],
           "range_quality": {
-            "normalized_close_drift": 0.1515611372754242,
-            "mean_candle_overlap": 0.45458962788089924,
+            "normalized_close_drift": 0.0434502005930576,
+            "mean_candle_overlap": 0.44984871155066597,
             "upper_boundary_touches": 4,
             "lower_boundary_touches": 6,
             "base_candles": 20,
@@ -85627,8 +85635,8 @@
           "poc_crossed": false,
           "poc_retested": false,
           "confirmation": false,
-          "retest_tolerance": 0.09413700000000001,
-          "confirmation_close": 62.784
+          "retest_tolerance": 0.09414,
+          "confirmation_close": 62.728
         },
         "ZEC": {
           "symbol": "ZEC",
@@ -85636,14 +85644,14 @@
           "range_low": 709.79,
           "range_pct": 2.738850405408227,
           "status": "WAIT",
-          "last_candle": "1795878000000.0",
+          "last_candle": "1795878300000.0",
           "rejection_reasons": [
             "NO_SWEEP_RECLAIM"
           ],
           "range_quality": {
-            "normalized_close_drift": 0.1785388127853852,
-            "mean_candle_overlap": 0.42579849380150275,
-            "upper_boundary_touches": 3,
+            "normalized_close_drift": 0.3240269623831239,
+            "mean_candle_overlap": 0.40595785021352293,
+            "upper_boundary_touches": 4,
             "lower_boundary_touches": 5,
             "base_candles": 20,
             "quality_pass": true
@@ -85657,11 +85665,11 @@
           "poc_crossed": false,
           "poc_retested": false,
           "confirmation": false,
-          "retest_tolerance": 1.08423,
-          "confirmation_close": 723.8
+          "retest_tolerance": 1.087395,
+          "confirmation_close": 723.56
         }
       },
-      "updated_at": "2026-11-28 17:06:24"
+      "updated_at": "2026-11-28 17:10:46"
     }
   },
   "runtime": {
@@ -85877,14 +85885,14 @@
       "enabled": true,
       "restored": true,
       "last_restore": "2026-11-28 12:01:59",
-      "last_backup": "2026-11-28 17:07:01",
+      "last_backup": "2026-11-28 17:09:51",
       "last_status": "BACKUP_OK",
       "last_error": "",
       "uploaded_files": 8,
       "downloaded_files": 7,
       "dirty": true,
       "worker_running": true,
-      "last_live_logs_export": "2026-11-28 17:08:46"
+      "last_live_logs_export": "2026-11-28 17:09:51"
     }
   }
 }
