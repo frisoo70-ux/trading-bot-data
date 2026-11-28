@@ -9728,15 +9728,15 @@
       "range_low": 71.56,
       "range_pct": 0.9692873582399893,
       "status": "NO_SETUP",
-      "last_candle": "1795836300000.0",
+      "last_candle": "1795836600000.0",
       "rejection_reasons": [
         "RANGE_DIRECTIONAL_DRIFT_TOO_HIGH"
       ],
       "range_quality": {
-        "normalized_close_drift": 0.6766140602582444,
-        "mean_candle_overlap": 0.3869767138911871,
-        "upper_boundary_touches": 11,
-        "lower_boundary_touches": 5,
+        "normalized_close_drift": 0.7298831727813047,
+        "mean_candle_overlap": 0.41224091325068807,
+        "upper_boundary_touches": 10,
+        "lower_boundary_touches": 6,
         "base_candles": 20,
         "quality_pass": false
       },
@@ -9794,15 +9794,15 @@
       "range_low": 64.084,
       "range_pct": 0.9736402810668043,
       "status": "WAIT",
-      "last_candle": "1795836300000.0",
+      "last_candle": "1795836600000.0",
       "rejection_reasons": [
         "WAITING_FOR_CLOSE_ABOVE_POC"
       ],
       "range_quality": {
-        "normalized_close_drift": 0.05559352927773693,
-        "mean_candle_overlap": 0.49420716525620745,
+        "normalized_close_drift": 0.04768740031898035,
+        "mean_candle_overlap": 0.4842710375406131,
         "upper_boundary_touches": 6,
-        "lower_boundary_touches": 6,
+        "lower_boundary_touches": 5,
         "base_candles": 20,
         "quality_pass": true
       },
@@ -9815,8 +9815,8 @@
       "poc_crossed": false,
       "poc_retested": false,
       "confirmation": false,
-      "retest_tolerance": 0.0960015,
-      "confirmation_close": 64.025
+      "retest_tolerance": 0.0963105,
+      "confirmation_close": 64.206
     },
     "ZEC": {
       "symbol": "ZEC",
@@ -9824,13 +9824,13 @@
       "range_low": 747.59,
       "range_pct": 1.9091276439298044,
       "status": "WAIT",
-      "last_candle": "1795836300000.0",
+      "last_candle": "1795836600000.0",
       "rejection_reasons": [
-        "NO_SWEEP_RECLAIM"
+        "WAITING_FOR_CLOSE_ABOVE_POC"
       ],
       "range_quality": {
-        "normalized_close_drift": 0.27409537027857667,
-        "mean_candle_overlap": 0.4294967383950404,
+        "normalized_close_drift": 0.39688708238326625,
+        "mean_candle_overlap": 0.4234532936211669,
         "upper_boundary_touches": 8,
         "lower_boundary_touches": 5,
         "base_candles": 20,
@@ -9838,23 +9838,23 @@
       },
       "range_quality_reasons": [],
       "volume_level": 755.6956250000001,
-      "poc_frozen": false,
-      "setup_stage": "NO_MANIPULATION",
-      "low_sweep_reclaim": false,
-      "sweep_low": null,
+      "poc_frozen": true,
+      "setup_stage": "MANIPULATION",
+      "low_sweep_reclaim": true,
+      "sweep_low": 743.96,
       "poc_crossed": false,
       "poc_retested": false,
       "confirmation": false,
-      "retest_tolerance": 1.11633,
-      "confirmation_close": 746.43
+      "retest_tolerance": 1.1221050000000001,
+      "confirmation_close": 747.97
     }
   },
   "last_evaluated_candle_by_symbol": {
-    "SOL": "1795836300000.0",
+    "SOL": "1795836600000.0",
     "XRP": "1795836300000.0",
     "kSHIB": "1795836300000.0",
-    "HYPE": "1795836300000.0",
-    "ZEC": "1795836300000.0"
+    "HYPE": "1795836600000.0",
+    "ZEC": "1795836600000.0"
   },
   "range_history": [
     {
@@ -10606,11 +10606,11 @@
       "id": "HYPE:1795827900000:1795835400000",
       "symbol": "HYPE",
       "start": 1795827900000,
-      "end": 1795834800000,
+      "end": 1795835100000,
       "high": 64.711,
       "low": 63.807,
-      "last_seen_eval": 1795836300000,
-      "samples": 4,
+      "last_seen_eval": 1795836600000,
+      "samples": 5,
       "status": "ACTIVE",
       "validated": true
     },
@@ -10630,11 +10630,11 @@
       "id": "ZEC:1795828800000:1795836300000",
       "symbol": "ZEC",
       "start": 1795828800000,
-      "end": 1795834800000,
+      "end": 1795835100000,
       "high": 762.0,
       "low": 747.59,
-      "last_seen_eval": 1795836300000,
-      "samples": 1,
+      "last_seen_eval": 1795836600000,
+      "samples": 2,
       "status": "ACTIVE",
       "validated": true
     }
@@ -10652,7 +10652,16 @@
       "sweep_low": 64.07,
       "sweep_time": "1795836000000.0",
       "created_at": "1795836300000.0"
+    },
+    "ZEC": {
+      "stage": "MANIPULATION",
+      "range_high": 762.0,
+      "range_low": 747.59,
+      "poc": 755.6956250000001,
+      "sweep_low": 743.96,
+      "sweep_time": "1795836600000.0",
+      "created_at": "1795836600000.0"
     }
   },
-  "updated_at": "2026-11-28 05:30:31"
+  "updated_at": "2026-11-28 05:35:23"
 }
